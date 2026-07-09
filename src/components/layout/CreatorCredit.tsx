@@ -41,11 +41,11 @@ export default function CreatorCredit() {
 
   return (
     <>
-      <div className="pointer-events-none absolute bottom-2 start-3 z-10 flex flex-wrap items-center gap-x-2.5 gap-y-1 pe-3">
-        <span className="text-[11px] text-muted/70">
+      <div className="pointer-events-none absolute bottom-2 start-2 z-10 flex max-w-[calc(100vw-5.5rem)] flex-wrap items-center gap-x-1.5 gap-y-1 pe-2 sm:start-3 sm:max-w-none sm:gap-x-2.5 sm:pe-3">
+        <span className="hidden text-[11px] text-muted/70 sm:inline">
           {t("common.createdBy")} · {t("common.creator")}
         </span>
-        <span className="text-[11px] text-muted/50" title={t("common.poweredByTip")}>
+        <span className="hidden text-[11px] text-muted/50 md:inline" title={t("common.poweredByTip")}>
           · {t("common.poweredBy")} {MODEL_CREDIT}
         </span>
 

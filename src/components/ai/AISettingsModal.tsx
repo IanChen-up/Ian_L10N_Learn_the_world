@@ -46,7 +46,7 @@ export default function AISettingsModal() {
   return (
     <AnimatePresence>
       {open && (
-        <div className="fixed inset-0 z-[70] flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-[70] flex items-center justify-center p-2 sm:p-4">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -59,9 +59,9 @@ export default function AISettingsModal() {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 12 }}
             transition={{ type: "spring", damping: 26, stiffness: 320 }}
-            className="relative z-10 flex max-h-[88vh] w-full max-w-lg flex-col overflow-hidden rounded-2xl border border-border bg-base shadow-lg"
+            className="relative z-10 flex max-h-[94dvh] w-full max-w-lg flex-col overflow-hidden rounded-2xl border border-border bg-base shadow-lg sm:max-h-[88vh]"
           >
-            <div className="flex items-center justify-between border-b border-border px-6 py-4">
+            <div className="flex items-center justify-between border-b border-border px-4 py-3 sm:px-6 sm:py-4">
               <h2 className="font-display text-lg font-semibold text-primary">
                 ✨ {t("ai.settings.title")}
               </h2>
@@ -73,7 +73,7 @@ export default function AISettingsModal() {
               </button>
             </div>
 
-            <div className="space-y-4 overflow-y-auto p-6">
+            <div className="space-y-4 overflow-y-auto overscroll-contain p-4 pb-[max(1rem,env(safe-area-inset-bottom))] sm:p-6">
               <p className="text-sm leading-relaxed text-secondary">
                 {t("ai.settings.desc")}
               </p>
@@ -95,7 +95,7 @@ export default function AISettingsModal() {
                 <span className="mb-1.5 block text-xs font-medium text-muted">
                   {t("ai.settings.presets")}
                 </span>
-                <div className="grid grid-cols-2 gap-2">
+                <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
                   {MODEL_PRESETS.map((p) => (
                     <div
                       key={p.id}

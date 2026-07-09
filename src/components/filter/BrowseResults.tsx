@@ -48,7 +48,7 @@ export default function BrowseResults() {
           animate={{ x: 0 }}
           exit={{ x: enterX }}
           transition={{ type: "spring", damping: 30, stiffness: 280 }}
-          className="pointer-events-auto absolute end-3 top-3 z-20 flex max-h-[calc(100%-1.5rem)] w-[min(18rem,calc(100vw-1.5rem))] flex-col overflow-hidden rounded-2xl border border-border bg-glass shadow-md backdrop-blur-md md:end-4 md:top-4"
+          className="pointer-events-auto absolute inset-x-2 bottom-2 z-20 flex max-h-[46dvh] flex-col overflow-hidden rounded-2xl border border-border bg-glass shadow-md backdrop-blur-md sm:inset-x-auto sm:bottom-auto sm:end-3 sm:top-3 sm:max-h-[calc(100%-1.5rem)] sm:w-[min(18rem,calc(100vw-1.5rem))] md:end-4 md:top-4"
         >
           <div className="flex items-start justify-between gap-2 border-b border-border px-4 py-3">
             <div className="min-w-0">
@@ -73,7 +73,7 @@ export default function BrowseResults() {
 
           {isInsight && values && <MapLegend filter={activeFilter} />}
 
-          <div className="min-h-0 flex-1 overflow-y-auto p-2">
+          <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain p-2">
             {countries.length === 0 ? (
               <p className="p-4 text-center text-sm text-muted">{t("browse.empty")}</p>
             ) : (

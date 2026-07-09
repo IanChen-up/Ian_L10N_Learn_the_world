@@ -66,10 +66,10 @@ export default function AIChatPanel() {
             animate={{ x: 0 }}
             exit={{ x: enterX }}
             transition={{ type: "spring", damping: 30, stiffness: 300 }}
-            className="fixed end-0 top-0 z-[56] flex h-full w-full max-w-md flex-col border-s border-border bg-base shadow-lg"
+            className="fixed end-0 top-0 z-[56] flex h-[100dvh] w-full max-w-md flex-col border-s border-border bg-base shadow-lg"
           >
             {/* Header */}
-            <div className="flex items-center justify-between border-b border-border px-5 py-4">
+            <div className="flex items-center justify-between border-b border-border px-4 py-3 sm:px-5 sm:py-4">
               <h2 className="flex items-center gap-2 font-display text-lg font-semibold text-primary">
                 <Sparkles size={18} className="text-accent" />
                 {t("ai.panelTitle")}
@@ -100,7 +100,7 @@ export default function AIChatPanel() {
             )}
 
             {/* Messages */}
-            <div ref={scrollRef} className="flex-1 space-y-3 overflow-y-auto p-5">
+            <div ref={scrollRef} className="flex-1 space-y-3 overflow-y-auto overscroll-contain p-4 sm:p-5">
               {!canUse ? (
                 <div className="flex h-full flex-col items-center justify-center gap-3 text-center">
                   <p className="text-sm text-muted">{t("ai.needConfig")}</p>
@@ -123,7 +123,7 @@ export default function AIChatPanel() {
             </div>
 
             {/* Input */}
-            <div className="border-t border-border p-4">
+            <div className="border-t border-border p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] sm:p-4">
               <div className="flex items-end gap-2 rounded-xl border border-border bg-elevated p-2 focus-within:border-accent">
                 <textarea
                   value={input}

@@ -193,10 +193,10 @@ export default function CountryPanel() {
             animate={{ x: 0 }}
             exit={{ x: enterX }}
             transition={{ type: "spring", damping: 30, stiffness: 300 }}
-            className="fixed end-0 top-0 z-50 flex h-full w-full max-w-md flex-col border-s border-border bg-base shadow-lg"
+            className="fixed end-0 top-0 z-50 flex h-[100dvh] w-full max-w-md flex-col border-s border-border bg-base shadow-lg"
           >
             {/* Header */}
-            <div className="relative border-b border-border p-6 pb-5">
+            <div className="relative border-b border-border p-4 pb-4 sm:p-6 sm:pb-5">
               <button
                 onClick={() => selectCountry(null)}
                 aria-label={t("panel.close")}
@@ -221,11 +221,11 @@ export default function CountryPanel() {
                     onError={(e) => {
                       e.currentTarget.closest("a")?.classList.add("hidden");
                     }}
-                    className="h-40 w-full bg-sunken object-cover"
+                    className="h-32 w-full bg-sunken object-cover sm:h-40"
                   />
                 </a>
               )}
-              <h2 className="mt-3 flex items-center gap-2.5 font-display text-3xl font-bold text-primary">
+              <h2 className="mt-3 flex items-center gap-2.5 font-display text-2xl font-bold text-primary sm:text-3xl">
                 <FlagIcon
                   iso={country.iso}
                   emoji={country.flag}
@@ -255,7 +255,7 @@ export default function CountryPanel() {
             </div>
 
             {/* Cards */}
-            <div className="flex-1 space-y-3 overflow-y-auto p-5">
+            <div className="flex-1 space-y-3 overflow-y-auto overscroll-contain p-4 pb-[max(1rem,env(safe-area-inset-bottom))] sm:p-5">
               <OverviewGrid country={country} />
 
               <GeoFactsCard country={country} />

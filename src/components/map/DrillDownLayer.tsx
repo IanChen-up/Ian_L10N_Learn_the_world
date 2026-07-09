@@ -83,15 +83,15 @@ export default function DrillDownLayer() {
       className="absolute inset-0 z-30 bg-base"
     >
       {/* Sub header */}
-      <div className="absolute inset-x-0 top-0 z-10 flex items-center gap-3 border-b border-border bg-glass px-4 py-3 backdrop-blur-md">
+      <div className="absolute inset-x-0 top-0 z-10 flex items-center gap-2 border-b border-border bg-glass px-2.5 py-2 backdrop-blur-md sm:gap-3 sm:px-4 sm:py-3">
         <button
           onClick={() => setDrillIso(null)}
-          className="flex items-center gap-2 rounded-lg border border-border px-3 py-1.5 text-sm text-secondary transition hover:border-accent hover:text-accent"
+          className="flex h-9 items-center gap-1.5 rounded-lg border border-border px-2 text-sm text-secondary transition hover:border-accent hover:text-accent sm:gap-2 sm:px-3"
         >
           <ArrowLeft size={16} />
           <span className="hidden sm:inline">{t("province.backToWorld")}</span>
         </button>
-        <div className="flex items-center gap-2">
+        <div className="flex min-w-0 items-center gap-2">
           {country ? (
             <FlagIcon
               iso={country.iso}
@@ -103,7 +103,7 @@ export default function DrillDownLayer() {
             <span className="text-xl leading-none">🗺️</span>
           )}
           <div className="leading-tight">
-            <h2 className="font-display text-base font-semibold text-primary">
+            <h2 className="truncate font-display text-sm font-semibold text-primary sm:text-base">
               {t("province.title", { country: countryName })}
             </h2>
             <p className="hidden text-xs text-muted sm:block">{t("province.subtitle")}</p>
@@ -111,7 +111,7 @@ export default function DrillDownLayer() {
         </div>
       </div>
 
-      <div className="absolute inset-0 top-[57px]">
+      <div className="absolute inset-0 top-[50px] sm:top-[57px]">
         {status === "loading" && (
           <div className="flex h-full items-center justify-center gap-2 text-sm text-muted">
             <Loader2 className="animate-spin text-accent" size={22} />
@@ -132,7 +132,7 @@ export default function DrillDownLayer() {
               locale={locale}
             />
             {!selectedProvince && (
-              <div className="pointer-events-none absolute bottom-6 left-1/2 -translate-x-1/2 rounded-full border border-border bg-glass px-4 py-1.5 text-xs text-muted backdrop-blur">
+              <div className="pointer-events-none absolute bottom-4 left-1/2 hidden -translate-x-1/2 rounded-full border border-border bg-glass px-4 py-1.5 text-xs text-muted backdrop-blur sm:block">
                 {t("province.pickHint")}
               </div>
             )}

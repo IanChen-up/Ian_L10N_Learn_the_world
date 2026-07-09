@@ -30,15 +30,19 @@ export default function FilterPanel() {
     setExpandedDim((cur) => (cur === dim ? null : dim));
 
   return (
-    <div className="pointer-events-none absolute start-0 top-0 z-20 flex h-full max-h-full flex-col p-3 md:p-4">
+    <div className="pointer-events-none absolute start-0 top-0 z-20 flex h-full max-h-full flex-col p-2.5 sm:p-3 md:p-4">
       <motion.div
         layout
-        className="pointer-events-auto flex max-h-full w-[min(18rem,calc(100vw-1.5rem))] flex-col overflow-hidden rounded-2xl border border-border bg-glass shadow-md backdrop-blur-md"
+        className={`pointer-events-auto flex max-h-[calc(100dvh-9rem)] flex-col overflow-hidden rounded-2xl border border-border bg-glass shadow-md backdrop-blur-md transition-[width] sm:max-h-full ${
+          collapsed
+            ? "w-fit max-w-[calc(100vw-1.25rem)]"
+            : "w-[min(18rem,calc(100vw-1.25rem))]"
+        }`}
       >
         {/* Header */}
         <button
           onClick={() => setCollapsed((c) => !c)}
-          className="flex items-center justify-between border-b border-border px-4 py-3"
+          className="flex items-center justify-between gap-3 border-b border-border px-3 py-2.5 sm:px-4 sm:py-3"
         >
           <span className="flex items-center gap-2 font-display text-sm font-semibold text-primary">
             <SlidersHorizontal size={16} className="text-accent" />
@@ -77,9 +81,9 @@ export default function FilterPanel() {
                 </div>
               )}
 
-              <p className="px-4 pt-3 text-xs text-muted">{t("dimensions.subtitle")}</p>
+              <p className="px-4 pt-3 text-xs text-muted hidden sm:block">{t("dimensions.subtitle")}</p>
 
-              <div className="min-h-0 flex-1 space-y-1 overflow-y-auto p-3">
+              <div className="min-h-0 flex-1 space-y-1 overflow-y-auto overscroll-contain p-2.5 sm:p-3">
                 {FILTER_DIMENSIONS.map((dim) => {
                   const meta = FILTER_DIMENSION_META[dim];
                   const index = indexes[dim];
@@ -117,7 +121,7 @@ export default function FilterPanel() {
                             transition={{ duration: 0.2 }}
                             className="overflow-hidden"
                           >
-                            <div className="max-h-64 overflow-y-auto px-2 pb-2">
+                            <div className="max-h-44 overflow-y-auto overscroll-contain px-2 pb-2 sm:max-h-64">
                               <DimensionValueList
                                 dimension={dim}
                                 index={index}

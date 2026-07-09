@@ -132,7 +132,7 @@ export default function SearchBox() {
   const showDropdown = open && (results.length > 0 || query.trim().length > 0);
 
   return (
-    <div ref={boxRef} className="relative w-full max-w-sm">
+    <div ref={boxRef} className="relative w-full sm:max-w-sm">
       <div className="flex items-center gap-2 rounded-xl border border-border bg-elevated/60 px-3 py-2 transition focus-within:border-accent">
         <Search size={16} className="shrink-0 text-muted" />
         <input
@@ -144,7 +144,7 @@ export default function SearchBox() {
           onFocus={() => setOpen(true)}
           onKeyDown={onKeyDown}
           placeholder={t("nav.searchPlaceholder")}
-          className="w-full bg-transparent text-sm text-primary outline-none placeholder:text-muted"
+          className="w-full min-w-0 bg-transparent text-sm text-primary outline-none placeholder:text-muted"
         />
         {query && (
           <button
@@ -158,7 +158,7 @@ export default function SearchBox() {
       </div>
 
       {showDropdown && (
-        <div className="absolute z-50 mt-2 max-h-[70vh] w-full overflow-y-auto rounded-xl border border-border bg-elevated shadow-lg">
+        <div className="absolute z-50 mt-2 max-h-[min(70dvh,28rem)] w-full overflow-y-auto overscroll-contain rounded-xl border border-border bg-elevated shadow-lg">
           {/* AI 智能搜索入口：始终置顶，可对整句提问 */}
           <button
             onClick={runAISearch}

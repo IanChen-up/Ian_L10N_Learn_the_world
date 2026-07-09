@@ -300,7 +300,7 @@ export default function WorldMap() {
 
       {/* Zoom controls (globe 模式仅保留重置；terrain 用 Leaflet 自带控件) */}
       {!isTerrain && (
-        <div className="absolute bottom-6 end-6 flex flex-col gap-1.5">
+        <div className="absolute bottom-4 end-3 flex flex-col gap-1.5 sm:bottom-6 sm:end-6">
           {!isGlobe && (
             <>
               <MapButton onClick={zoomIn} label={t("map.zoomIn")}>
@@ -341,7 +341,7 @@ function MapButton({
       onClick={onClick}
       aria-label={label}
       title={label}
-      className="flex h-10 w-10 items-center justify-center rounded-lg border border-border bg-glass text-secondary shadow-sm backdrop-blur transition hover:border-accent hover:text-accent hover:shadow-md"
+      className="flex h-9 w-9 items-center justify-center rounded-lg border border-border bg-glass text-secondary shadow-sm backdrop-blur transition hover:border-accent hover:text-accent hover:shadow-md sm:h-10 sm:w-10"
     >
       {children}
     </button>

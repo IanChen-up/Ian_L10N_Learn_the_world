@@ -16,14 +16,14 @@ export default function MapViewToggle() {
   const toggleAdmin = useExploreStore((s) => s.toggleAdmin);
 
   return (
-    <div className="absolute end-6 top-4 z-20 flex items-center gap-1.5">
+    <div className="absolute end-2 top-2 z-20 flex items-center gap-1 sm:end-6 sm:top-4 sm:gap-1.5">
       <div className="flex items-center gap-0.5 rounded-xl border border-border bg-glass p-1 shadow-sm backdrop-blur">
         {VIEWS.map((v) => (
           <button
             key={v.key}
             onClick={() => setMapView(v.key)}
             title={t(v.labelKey)}
-            className={`flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-medium transition ${
+            className={`flex h-8 w-8 items-center justify-center rounded-lg text-xs font-medium transition sm:h-auto sm:w-auto sm:gap-1.5 sm:px-2.5 sm:py-1.5 ${
               mapView === v.key
                 ? "bg-accent text-accent-contrast"
                 : "text-secondary hover:text-accent"
@@ -38,7 +38,7 @@ export default function MapViewToggle() {
       <button
         onClick={toggleAdmin}
         title={t("map.toggleAdmin")}
-        className={`flex items-center gap-1.5 rounded-xl border border-border p-1 px-2.5 py-2 text-xs font-medium shadow-sm backdrop-blur transition ${
+        className={`flex h-9 w-9 items-center justify-center rounded-xl border border-border text-xs font-medium shadow-sm backdrop-blur transition sm:h-auto sm:w-auto sm:gap-1.5 sm:px-2.5 sm:py-2 ${
           showAdmin
             ? "border-accent bg-accent text-accent-contrast"
             : "bg-glass text-secondary hover:text-accent"

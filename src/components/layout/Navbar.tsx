@@ -12,10 +12,10 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-30 border-b border-border bg-glass backdrop-blur-md">
-      <div className="flex h-16 items-center gap-3 px-4 md:px-6">
+      <div className="flex min-h-16 flex-wrap items-center gap-2 px-3 py-2 sm:flex-nowrap sm:gap-3 sm:px-4 sm:py-0 md:px-6">
         <Link to="/" className="flex items-center gap-2.5 shrink-0">
-          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-accent/15 text-accent">
-            <Globe2 size={20} />
+          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-accent/15 text-accent sm:h-9 sm:w-9">
+            <Globe2 size={19} />
           </span>
           <span className="hidden sm:flex flex-col leading-none">
             <span className="font-display text-lg font-semibold text-primary">
@@ -25,11 +25,11 @@ export default function Navbar() {
           </span>
         </Link>
 
-        <div className="flex flex-1 justify-center px-2">
+        <div className="order-2 flex w-full flex-1 justify-center sm:order-none sm:w-auto sm:px-2">
           <SearchBox />
         </div>
 
-        <nav className="flex items-center gap-2 shrink-0">
+        <nav className="ms-auto flex shrink-0 items-center gap-1.5 sm:gap-2">
           <button
             onClick={() => setSettingsOpen(true)}
             className="hidden items-center gap-1.5 rounded-lg border border-border px-3 py-2 text-xs font-medium text-secondary transition hover:border-accent hover:text-accent sm:flex"

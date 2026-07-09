@@ -55,7 +55,7 @@ export default function GdpHistoryModal({
 
   return (
     <AnimatePresence>
-      <div className="fixed inset-0 z-[80] flex items-center justify-center p-4">
+      <div className="fixed inset-0 z-[80] flex items-center justify-center p-2 sm:p-4">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -70,8 +70,8 @@ export default function GdpHistoryModal({
           transition={{ type: "spring", damping: 26, stiffness: 320 }}
           className="relative z-10 w-full max-w-2xl overflow-hidden rounded-2xl border border-border bg-base shadow-lg"
         >
-          <div className="flex items-center justify-between border-b border-border px-6 py-4">
-            <h2 className="font-display text-lg font-semibold text-primary">
+          <div className="flex items-center justify-between gap-3 border-b border-border px-4 py-3 sm:px-6 sm:py-4">
+            <h2 className="min-w-0 truncate font-display text-base font-semibold text-primary sm:text-lg">
               📈 {countryName} · {t("gdpChart.title")}
             </h2>
             <button
@@ -81,7 +81,7 @@ export default function GdpHistoryModal({
               <X size={18} />
             </button>
           </div>
-          <div className="p-6">
+          <div className="p-4 sm:p-6">
             {points === null ? (
               <div className="flex h-64 items-center justify-center text-muted">
                 <Loader2 className="animate-spin" size={24} />

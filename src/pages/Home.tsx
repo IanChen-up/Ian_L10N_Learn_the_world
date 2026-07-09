@@ -17,7 +17,7 @@ export default function Home() {
   useRouteSync();
 
   return (
-    <div className="flex h-screen flex-col">
+    <div className="flex h-[100dvh] min-h-0 flex-col">
       <Navbar />
       <main className="relative flex-1 overflow-hidden">
         {status === "loading" && (
