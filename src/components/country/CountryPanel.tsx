@@ -15,7 +15,110 @@ import GeoFactsCard from "./GeoFactsCard";
 import LanguageCard from "./LanguageCard";
 import ProfileSection from "./ProfileSection";
 import RecentNews from "./RecentNews";
-import type { FilterDimension } from "@/types/country";
+import type { FilterDimension, HolidayInfo } from "@/types/country";
+
+function holidayDate(date: HolidayInfo["date"], locale: string): string {
+  if (!date) return "";
+  return typeof date === "string" ? localizeDateString(date, locale) : localized(date, locale);
+}
+
+function localizeDateString(date: string, locale: string): string {
+  if (locale !== "ar") return date;
+  const exact: Record<string, string> = {
+    "农历正月初一": "اليوم الأول من الشهر القمري الأول",
+    "农历正月十五": "اليوم الخامس عشر من الشهر القمري الأول",
+    "农历三月初十": "اليوم العاشر من الشهر القمري الثالث",
+    "农历四月十五前后": "حوالي اليوم الخامس عشر من الشهر القمري الرابع",
+    "农历五月初五": "اليوم الخامس من الشهر القمري الخامس",
+    "农历七月十五": "اليوم الخامس عشر من الشهر القمري السابع",
+    "农历八月十五": "اليوم الخامس عشر من الشهر القمري الثامن",
+    "全年": "على مدار العام",
+    "各州不同": "يختلف حسب الولاية",
+    "每周日": "كل يوم أحد",
+    "斋月结束（移动）": "نهاية رمضان (موعد متغير)",
+    "移动（伊斯兰历）": "موعد متغير حسب التقويم الهجري",
+    "伊斯兰历斋月结束": "نهاية رمضان حسب التقويم الهجري",
+    "伊斯兰历十二月": "الشهر الثاني عشر من التقويم الهجري",
+    "复活节次日": "اليوم التالي لعيد الفصح",
+    "东正教复活节次日": "اليوم التالي لعيد الفصح الأرثوذكسي",
+    "复活节前一周（移动）": "الأسبوع السابق لعيد الفصح (موعد متغير)",
+    "大斋期首日（移动）": "اليوم الأول من الصوم الكبير (موعد متغير)",
+    "将临期（12月前）": "زمن المجيء، قبل ديسمبر",
+    "犹太历提斯利月（秋季）": "شهر تشري حسب التقويم العبري (الخريف)",
+    "波斯历正月十三": "اليوم الثالث عشر من الشهر الأول في التقويم الفارسي",
+    "诺鲁孜前的周三夜": "ليلة الأربعاء السابقة للنوروز",
+  };
+  if (exact[date]) return exact[date];
+
+  const month: Record<string, string> = {
+    "1": "يناير",
+    "2": "فبراير",
+    "3": "مارس",
+    "4": "أبريل",
+    "5": "مايو",
+    "6": "يونيو",
+    "7": "يوليو",
+    "8": "أغسطس",
+    "9": "سبتمبر",
+    "10": "أكتوبر",
+    "11": "نوفمبر",
+    "12": "ديسمبر",
+  };
+  const ordinal: Record<string, string> = {
+    一: "الأول",
+    二: "الثاني",
+    三: "الثالث",
+    四: "الرابع",
+    五: "الخامس",
+  };
+  const weekday: Record<string, string> = {
+    一: "الاثنين",
+    二: "الثلاثاء",
+    三: "الأربعاء",
+    四: "الخميس",
+    五: "الجمعة",
+    六: "السبت",
+    日: "الأحد",
+  };
+
+  let s = date.trim();
+  s = s.replace(/^(\d{1,2})\s*月底至\s*(\d{1,2})\s*月初$/, (_, a, b) => `من أواخر ${month[a] || a} إلى أوائل ${month[b] || b}`);
+  s = s.replace(/^(\d{1,2})\s*月至\s*(\d{1,2})\s*月初$/, (_, a, b) => `من ${month[a] || a} إلى أوائل ${month[b] || b}`);
+  s = s.replace(/^(\d{1,2})\s*月至\s*(\d{1,2})\s*月$/, (_, a, b) => `من ${month[a] || a} إلى ${month[b] || b}`);
+  s = s.replace(/^(\d{1,2})月第([一二三四五])个周([一二三四五六日])$/, (_, m, n, d) => `${weekday[d]} ${ordinal[n]} من ${month[m] || m}`);
+  s = s.replace(/^(\d{1,2})月(\d{1,2})日前的周([一二三四五六日])$/, (_, m, day, d) => `${weekday[d]} السابق لـ ${day} ${month[m] || m}`);
+  s = s.replace(/^(\d{1,2})\s*月或\s*(\d{1,2})\s*月（移动）$/, (_, a, b) => `${month[a] || a} أو ${month[b] || b} (موعد متغير)`);
+  s = s.replace(/^(\d{1,2})月或(\d{1,2})月（移动）$/, (_, a, b) => `${month[a] || a} أو ${month[b] || b} (موعد متغير)`);
+  s = s.replace(/^(\d{1,2})月中旬$/, (_, m) => `منتصف ${month[m] || m}`);
+  s = s.replace(/^(\d{1,2})\s*月$/, (_, m) => month[m] || m);
+  s = s.replace(/^(\d{1,2})月$/, (_, m) => month[m] || m);
+  s = s.replace(/^(\d{2}-\d{2}) 前后$/, (_, d) => `حوالي ${d}`);
+
+  const replacements: Record<string, string> = {
+    "前后": "حوالي",
+    "移动": "موعد متغير",
+    "伊斯兰历": "التقويم الهجري",
+    "斋月结束": "نهاية رمضان",
+    "四旬期前": "قبل الصوم الكبير",
+    "四旬斋前": "قبل الصوم الكبير",
+    "四旬期末": "نهاية الصوم الكبير",
+    "复活节后第四个周五": "الجمعة الرابعة بعد عيد الفصح",
+    "复活节后14周": "بعد 14 أسبوعًا من عيد الفصح",
+    "圣体节": "عيد الجسد",
+    "冬末": "نهاية الشتاء",
+    "春季": "الربيع",
+    "夏季": "الصيف",
+    "秋季": "الخريف",
+    "双年": "كل سنتين",
+    "多数州": "في معظم الولايات",
+    "圣卡塔利娜岛": "جزيرة سانتا كاتالينا",
+  };
+  for (const [from, to] of Object.entries(replacements)) s = s.split(from).join(to);
+  s = s.replace(/(\d{1,2})\s*月/g, (_, m) => month[m] || m);
+  s = s.replace(/[（）]/g, (ch) => (ch === "（" ? "(" : ")"));
+
+  return /[\u3400-\u9fff]/.test(s) ? "تاريخ تقليدي متغير" : s;
+}
 
 export default function CountryPanel() {
   const { t } = useTranslation();
@@ -186,7 +289,7 @@ export default function CountryPanel() {
                         <div className="flex items-baseline justify-between gap-2">
                           <span className="font-medium">{localized(h.name, locale)}</span>
                           {h.date && (
-                            <span className="shrink-0 text-xs text-muted">{h.date}</span>
+                            <span className="shrink-0 text-xs text-muted">{holidayDate(h.date, locale)}</span>
                           )}
                         </div>
                         {h.note && (

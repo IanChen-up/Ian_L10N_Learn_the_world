@@ -57,13 +57,14 @@ const LOCALE_FALLBACKS: Record<string, string[]> = {
   "zh-Hant": ["zh-Hant", "zh", "en"],
   zh: ["zh", "en"],
   en: ["en"],
-  // 长尾数据（如节日说明）仍有部分只覆盖中英；非英文界面优先回退中文，避免直接露出英文文案。
+  // 长尾数据（如节日说明）仍有部分只覆盖中英；CJK 界面保留中文兜底，
+  // 其它语种优先英文，避免在阿语/欧洲语界面直接露出中文段落。
   ja: ["ja", "zh", "en"],
   ko: ["ko", "zh", "en"],
-  ar: ["ar", "zh", "en"],
-  fr: ["fr", "zh", "en"],
-  ru: ["ru", "zh", "en"],
-  es: ["es", "zh", "en"],
+  ar: ["ar", "en", "zh"],
+  fr: ["fr", "en", "zh"],
+  ru: ["ru", "en", "zh"],
+  es: ["es", "en", "zh"],
 };
 
 /** 取本地化文本，按 locale 的回退链选择第一个非空值。 */

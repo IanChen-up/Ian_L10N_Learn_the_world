@@ -75,8 +75,8 @@ export interface ReligionInfo {
 
 export interface HolidayInfo {
   name: LocalizedText;
-  /** 展示用日期字符串，如 "2 月中旬" 或 "07-04" */
-  date?: string;
+  /** 展示用日期，如 "2 月中旬"、"07-04"，或按 UI 语言本地化的日期文本 */
+  date?: string | LocalizedText;
   note?: LocalizedText;
 }
 

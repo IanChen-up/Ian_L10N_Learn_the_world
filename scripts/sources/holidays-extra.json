@@ -1,12 +1,12 @@
 {
   "CHN": [
-    { "name": { "zh": "春节", "en": "Spring Festival" }, "date": "农历正月初一", "note": { "zh": "农历新年，阖家团圆、贴春联、放鞭炮", "en": "Lunar New Year, the biggest family reunion of the year" } },
-    { "name": { "zh": "元宵节", "en": "Lantern Festival" }, "date": "农历正月十五", "note": { "zh": "赏花灯、猜灯谜、吃元宵，春节的收尾", "en": "Lanterns and sweet rice balls close the New Year season" } },
-    { "name": { "zh": "清明节", "en": "Qingming Festival" }, "date": "4/4-4/6", "note": { "zh": "扫墓祭祖、踏青,慎终追远", "en": "Tomb-sweeping day to honor ancestors" } },
-    { "name": { "zh": "端午节", "en": "Dragon Boat Festival" }, "date": "农历五月初五", "note": { "zh": "赛龙舟、吃粽子，纪念屈原", "en": "Dragon-boat races and rice dumplings honor poet Qu Yuan" } },
-    { "name": { "zh": "中秋节", "en": "Mid-Autumn Festival" }, "date": "农历八月十五", "note": { "zh": "赏月、吃月饼，象征团圆", "en": "Mooncakes and moon-gazing symbolize reunion" } },
-    { "name": { "zh": "劳动节", "en": "Labour Day" }, "date": "5/1", "note": { "zh": "国际劳动节，全国放假", "en": "International Workers' Day, a national holiday" } },
-    { "name": { "zh": "国庆节", "en": "National Day" }, "date": "10/1", "note": { "zh": "庆祝中华人民共和国成立", "en": "Celebrates the founding of the People's Republic of China" } }
+    { "name": { "zh": "春节", "en": "Spring Festival", "ar": "عيد الربيع" }, "date": { "zh": "农历正月初一", "en": "First day of the first lunar month", "ar": "اليوم الأول من الشهر القمري الأول" }, "note": { "zh": "农历新年，阖家团圆、贴春联、放鞭炮", "en": "Lunar New Year, the biggest family reunion of the year", "ar": "رأس السنة القمرية وأكبر مناسبة سنوية لاجتماع العائلة" } },
+    { "name": { "zh": "元宵节", "en": "Lantern Festival", "ar": "عيد الفوانيس" }, "date": { "zh": "农历正月十五", "en": "15th day of the first lunar month", "ar": "اليوم الخامس عشر من الشهر القمري الأول" }, "note": { "zh": "赏花灯、猜灯谜、吃元宵，春节的收尾", "en": "Lanterns and sweet rice balls close the New Year season", "ar": "الفوانيس وألغازها وكرات الأرز الحلوة في ختام موسم عيد الربيع" } },
+    { "name": { "zh": "清明节", "en": "Qingming Festival", "ar": "عيد تشينغمينغ" }, "date": "4/4-4/6", "note": { "zh": "扫墓祭祖、踏青,慎终追远", "en": "Tomb-sweeping day to honor ancestors", "ar": "زيارة القبور وتكريم الأسلاف والخروج الربيعي لاستذكار الجذور" } },
+    { "name": { "zh": "端午节", "en": "Dragon Boat Festival", "ar": "عيد قوارب التنين" }, "date": { "zh": "农历五月初五", "en": "Fifth day of the fifth lunar month", "ar": "اليوم الخامس من الشهر القمري الخامس" }, "note": { "zh": "赛龙舟、吃粽子，纪念屈原", "en": "Dragon-boat races and rice dumplings honor poet Qu Yuan", "ar": "سباقات قوارب التنين وتناول الزونغتسي إحياء لذكرى الشاعر تشيو يوان" } },
+    { "name": { "zh": "中秋节", "en": "Mid-Autumn Festival", "ar": "عيد منتصف الخريف" }, "date": { "zh": "农历八月十五", "en": "15th day of the eighth lunar month", "ar": "اليوم الخامس عشر من الشهر القمري الثامن" }, "note": { "zh": "赏月、吃月饼，象征团圆", "en": "Mooncakes and moon-gazing symbolize reunion", "ar": "مشاهدة القمر وتناول كعك القمر رمزًا لاجتماع العائلة" } },
+    { "name": { "zh": "劳动节", "en": "Labour Day", "ar": "عيد العمال" }, "date": "5/1", "note": { "zh": "国际劳动节，全国放假", "en": "International Workers' Day, a national holiday", "ar": "اليوم العالمي للعمال، وهو عطلة عامة على مستوى البلاد" } },
+    { "name": { "zh": "国庆节", "en": "National Day", "ar": "اليوم الوطني" }, "date": "10/1", "note": { "zh": "庆祝中华人民共和国成立", "en": "Celebrates the founding of the People's Republic of China", "ar": "احتفال بتأسيس جمهورية الصين الشعبية" } }
   ],
   "USA": [
     { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "7/4", "note": { "zh": "纪念1776年《独立宣言》，烟花与烧烤", "en": "Marks the 1776 Declaration with fireworks and barbecues" } },

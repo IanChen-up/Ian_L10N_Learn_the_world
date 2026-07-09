@@ -84,9 +84,9 @@
     "religions": [{ "key": "secular", "share": 52 }, { "key": "folk", "share": 22 }, { "key": "buddhism", "share": 18 }],
     "government": "one_party_state",
     "holidays": [
-      { "name": { "zh": "春节", "en": "Spring Festival" }, "date": "农历正月初一", "note": { "zh": "农历新年，最重要的传统团圆节日", "en": "Lunar new year, the most important family reunion" } },
-      { "name": { "zh": "中秋节", "en": "Mid-Autumn Festival" }, "date": "农历八月十五", "note": { "zh": "赏月吃月饼的团圆节", "en": "Moon-gazing festival with mooncakes" } },
-      { "name": { "zh": "端午节", "en": "Dragon Boat Festival" }, "date": "农历五月初五", "note": { "zh": "赛龙舟、吃粽子，纪念屈原", "en": "Boat races and rice dumplings honouring Qu Yuan" } }
+      { "name": { "zh": "春节", "en": "Spring Festival", "ar": "عيد الربيع" }, "date": { "zh": "农历正月初一", "en": "First day of the first lunar month", "ar": "اليوم الأول من الشهر القمري الأول" }, "note": { "zh": "农历新年，最重要的传统团圆节日", "en": "Lunar new year, the most important family reunion", "ar": "رأس السنة القمرية وأهم عيد تقليدي لاجتماع العائلة" } },
+      { "name": { "zh": "中秋节", "en": "Mid-Autumn Festival", "ar": "عيد منتصف الخريف" }, "date": { "zh": "农历八月十五", "en": "15th day of the eighth lunar month", "ar": "اليوم الخامس عشر من الشهر القمري الثامن" }, "note": { "zh": "赏月吃月饼的团圆节", "en": "Moon-gazing festival with mooncakes", "ar": "عيد للاجتماع العائلي ومشاهدة القمر وتناول كعك القمر" } },
+      { "name": { "zh": "端午节", "en": "Dragon Boat Festival", "ar": "عيد قوارب التنين" }, "date": { "zh": "农历五月初五", "en": "Fifth day of the fifth lunar month", "ar": "اليوم الخامس من الشهر القمري الخامس" }, "note": { "zh": "赛龙舟、吃粽子，纪念屈原", "en": "Boat races and rice dumplings honouring Qu Yuan", "ar": "سباقات قوارب التنين وتناول الزونغتسي إحياء لذكرى تشيو يوان" } }
     ]
   },
   "GEO": {
