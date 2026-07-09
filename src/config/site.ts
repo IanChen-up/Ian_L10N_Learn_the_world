@@ -20,7 +20,7 @@ export const COFFEE_URL = "";
 export const CONTACT_EMAIL = "ianchenxiaotong@163.com";
 
 /** 本站 AI 能力所用模型署名（展示在创建人一栏）。 */
-export const MODEL_CREDIT = "Openrouter-3o";
+export const MODEL_CREDIT = "百炼 Qwen 3.7 Plus / Kimi";
 
 /**
  * 点赞 / 浏览量计数后端地址（可选）：
@@ -46,6 +46,7 @@ export const TRIAL_LIMIT = 3;
  * - 留空：普通模型（如 DeepSeek Chat）不会被要求编造近期新闻；只有带联网能力的模型会继续尝试。
  * - 填后端/Serverless 地址（如 Cloudflare Worker / Vercel Function）：
  *   前端请求 `${NEWS_SEARCH_PROXY_URL}?country=中国&locale=zh`，
- *   代理返回近期新闻搜索结果，再交给模型做整理。搜索 API Key 必须放在代理端，不能打包进前端。
+ *   代理返回国内官方媒体近期新闻搜索结果，再交给模型做整理。
+ *   推荐部署 server/news-search-worker.js：可选 Tavily；没有搜索 API Key 时也会用搜索引擎 RSS 兜底。
  */
 export const NEWS_SEARCH_PROXY_URL = "";

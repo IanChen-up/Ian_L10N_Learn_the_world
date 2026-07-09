@@ -5,6 +5,11 @@ import { TRIAL_PROXY_URL, TRIAL_LIMIT } from "@/config/site";
 
 const STORAGE_KEY = "atlas-ai-config";
 const TRIAL_KEY = "atlas-ai-trial-used";
+const DEFAULT_AI_CONFIG: AIProviderConfig = {
+  baseURL: "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  apiKey: "",
+  model: "qwen3.7-plus",
+};
 
 function loadTrialUsed(): number {
   if (typeof window === "undefined") return 0;
@@ -20,10 +25,17 @@ export interface ChatItem {
 
 function loadConfig(): AIProviderConfig {
   if (typeof window === "undefined")
-    return { baseURL: "https://api.openai.com/v1", apiKey: "", model: "gpt-4o-mini" };
+    return DEFAULT_AI_CONFIG;
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    if (raw) return { ...defaultConfig(), ...JSON.parse(raw) };
+    if (raw) {
+      const parsed = { ...defaultConfig(), ...JSON.parse(raw) } as AIProviderConfig;
+      // 旧版本默认值是 OpenAI。若用户没有填 Key，自动迁移到国内默认配置。
+      if (!parsed.apiKey && parsed.baseURL === "https://api.openai.com/v1" && parsed.model === "gpt-4o-mini") {
+        return DEFAULT_AI_CONFIG;
+      }
+      return parsed;
+    }
   } catch {
     // ignore
   }
@@ -31,7 +43,7 @@ function loadConfig(): AIProviderConfig {
 }
 
 function defaultConfig(): AIProviderConfig {
-  return { baseURL: "https://api.openai.com/v1", apiKey: "", model: "gpt-4o-mini" };
+  return DEFAULT_AI_CONFIG;
 }
 
 interface AIState {

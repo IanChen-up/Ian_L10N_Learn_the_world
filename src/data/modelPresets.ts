@@ -15,14 +15,25 @@ export interface ModelPreset {
 export const MODEL_PRESETS: ModelPreset[] = [
   {
     id: "qwen",
-    label: "通义千问 Qwen",
+    label: "通义千问 Qwen 3.7 Plus",
     baseURL: "https://dashscope.aliyuncs.com/compatible-mode/v1",
-    model: "qwen-plus",
+    model: "qwen3.7-plus",
     site: "https://bailian.console.aliyun.com",
     recommended: true,
     note: {
-      zh: "国内用户优先推荐：百炼稳定、便宜，近期要闻会自动尝试启用联网搜索。",
-      en: "Recommended for China: stable, affordable, and recent-news requests can enable web search.",
+      zh: "默认推荐：百炼国内访问稳定，模型更新到 Qwen 3.7 Plus；近期要闻优先走官方媒体搜索结果再总结。",
+      en: "Default recommendation: stable in China, updated to Qwen 3.7 Plus; news is summarized from official-media search results first.",
+    },
+  },
+  {
+    id: "qwen-max",
+    label: "通义千问 Qwen Max",
+    baseURL: "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    model: "qwen3-max",
+    site: "https://bailian.console.aliyun.com",
+    note: {
+      zh: "更强但成本更高，适合复杂总结与高质量输出；普通使用优先 Qwen 3.7 Plus。",
+      en: "Stronger but more expensive; useful for high-quality summaries. Qwen 3.7 Plus remains the daily default.",
     },
   },
   {
@@ -32,8 +43,8 @@ export const MODEL_PRESETS: ModelPreset[] = [
     model: "Moonshot-Kimi-K2-Instruct",
     site: "https://bailian.console.aliyun.com",
     note: {
-      zh: "想优先用 Kimi 又要联网新闻，建议走百炼里的 Kimi，并在近期要闻自动启用搜索。",
-      en: "Use Kimi through Bailian when you want Kimi plus web-enabled recent-news requests.",
+      zh: "想优先用 Kimi，建议走百炼里的 Kimi；近期新闻由搜索代理提供官方媒体上下文。",
+      en: "Use Kimi through Bailian when you prefer Kimi; recent news uses official-media search context.",
     },
   },
   {
@@ -43,8 +54,8 @@ export const MODEL_PRESETS: ModelPreset[] = [
     model: "deepseek-chat",
     site: "https://platform.deepseek.com",
     note: {
-      zh: "便宜、中文强，适合普通问答；官方普通 API 不适合直接获取近期新闻。",
-      en: "Affordable and strong in Chinese; the standard API is not ideal for recent news.",
+      zh: "便宜、中文强，适合普通问答；近期新闻必须依赖本站搜索代理提供上下文。",
+      en: "Affordable and strong in Chinese; recent news needs this site's search proxy for context.",
     },
   },
   {
@@ -54,8 +65,8 @@ export const MODEL_PRESETS: ModelPreset[] = [
     model: "moonshot-v1-8k",
     site: "https://platform.moonshot.cn",
     note: {
-      zh: "官方接口适合长上下文普通问答；联网搜索需工具链，本站近期新闻更推荐百炼 Kimi。",
-      en: "Good for long-context chat; web search needs tools, so Bailian Kimi is preferred for news.",
+      zh: "官方接口适合长上下文普通问答；近期新闻必须依赖本站搜索代理提供上下文。",
+      en: "Good for long-context chat; recent news needs this site's search proxy for context.",
     },
   },
   {

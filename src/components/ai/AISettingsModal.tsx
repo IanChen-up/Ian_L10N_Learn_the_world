@@ -137,7 +137,7 @@ export default function AISettingsModal() {
                 <input
                   value={baseURL}
                   onChange={(e) => setBaseURL(e.target.value)}
-                  placeholder="https://api.deepseek.com/v1"
+                  placeholder="https://dashscope.aliyuncs.com/compatible-mode/v1"
                   className="input"
                 />
               </Field>
@@ -156,7 +156,7 @@ export default function AISettingsModal() {
                 <input
                   value={model}
                   onChange={(e) => setModel(e.target.value)}
-                  placeholder="deepseek-chat"
+                  placeholder="qwen3.7-plus"
                   className="input"
                 />
               </Field>

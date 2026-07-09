@@ -35,7 +35,7 @@ function shouldPassEnableSearch(baseURL: string, model: string): boolean {
 
 function noLiveSearchMessage(locale: string): string {
   if (locale === "zh" || locale === "zh-Hant") {
-    return "当前模型没有联网检索能力，不能可靠获取最近新闻。请配置新闻搜索代理，或换用带联网搜索能力的模型（如 Perplexity Sonar / OpenRouter 的 online 模型）。";
+    return "当前模型没有联网检索能力，不能可靠获取最近新闻。请配置本站新闻搜索代理：它会先搜索国内官方媒体近期报道，再交给 AI 总结；不要让普通模型直接编近期新闻。";
   }
   if (locale === "ja") {
     return "現在のモデルにはウェブ検索機能がないため、最近のニュースを確実に取得できません。ニュース検索プロキシを設定するか、検索対応モデルを使用してください。";
@@ -115,9 +115,10 @@ export function useCountryNews() {
           ? [
               "你是严谨的时事整理助手，服务于面向中国大陆用户的学习网站。",
               searchContext
-                ? "你必须只依据下方【联网检索结果】整理，不得补充检索结果之外的具体新闻、日期或数字。"
-                : "当前模型具备联网/检索能力时，请只依据可验证的公开报道作答；若无法检索到近期事实，请如实说明。",
+                ? "你必须只依据下方【国内官方媒体搜索结果】整理，不得补充检索结果之外的具体新闻、日期或数字。"
+                : "当前模型具备联网/检索能力时，请只搜索并依据中国大陆官方媒体/央媒/权威媒体公开报道作答；若无法检索到近期事实，请如实说明。",
               "任务：列出指定国家/地区最近约 2-3 个月内约 5 条重大事件，可涵盖经济、科技、社会、文化、体育、自然与灾害、外交合作等领域。",
+              "来源要求：必须来自国内官方媒体或中央级权威媒体，例如人民日报、人民日报海外版、人民网、新华社、央视、央广网、中国日报、中国新闻网、国际在线、光明网、中国经济网、中国网、中国青年报、科技日报、法治日报、环球网等；不要使用自媒体、论坛、百科或未经确认的聚合站。",
               "严格规避：任何敏感或有争议的政治议题、领土争端、地区冲突、涉及中国核心利益的敏感表述。若某国近期主要为敏感事件，则改为介绍该国近期中性的经济/文化/科技/体育动态。",
               "如无法确证或不掌握近期确切事件，请如实说明，不要编造具体日期或数字。",
               "输出格式：markdown 无序列表，每条一行，尽量含大致时间（如 2024 年 X 月），简洁客观，中文。",
@@ -125,9 +126,10 @@ export function useCountryNews() {
           : [
               "You are a rigorous current-affairs summarizer for a learning site aimed at mainland-China users.",
               searchContext
-                ? "Use only the [Live search results] below. Do not add concrete news, dates, or numbers that are not present in those results."
-                : "If the model/provider has live web search, rely only on verifiable public reports. If you cannot retrieve recent facts, say so honestly.",
+                ? "Use only the [Chinese official-media search results] below. Do not add concrete news, dates, or numbers that are not present in those results."
+                : "If the model/provider has live web search, search and rely only on Chinese mainland official or central authoritative media. If you cannot retrieve recent facts, say so honestly.",
               "Task: list about 5 major events from the specified country/region in roughly the last 2-3 months, across economy, technology, society, culture, sports, nature/disasters, diplomacy/cooperation, etc.",
+              "Source requirement: items must come from Chinese official or central authoritative media, such as People's Daily, People's Daily Overseas Edition, People.cn, Xinhua, CCTV, CNR, China Daily, China News Service, CRI, Guangming Daily, China Economic Net, China.org.cn, China Youth Daily, Science and Technology Daily, Legal Daily, Global Times/Huanqiu, etc. Do not use social media, forums, encyclopedias, or unverified aggregators.",
               "Strictly avoid any sensitive or disputed political topics, territorial disputes, regional conflicts, or anything touching China's core interests. If a country's recent news is mainly sensitive, substitute neutral economic/cultural/tech/sports updates.",
               "If you cannot verify recent specific events, say so honestly; do not fabricate exact dates or numbers.",
               "Output: a markdown bullet list, one item per line, include approximate timing when possible, concise and objective, in English.",
@@ -144,7 +146,7 @@ export function useCountryNews() {
           ? [
               {
                 role: "system" as const,
-                content: `[Live search results]\n${searchContext}`,
+                content: `[Chinese official-media search results]\n${searchContext}`,
               },
             ]
           : []),
