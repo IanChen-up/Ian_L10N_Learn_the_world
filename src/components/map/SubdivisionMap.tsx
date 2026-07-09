@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { Plus, Minus, Locate } from "lucide-react";
 import { getProvinceGeoUrl } from "@/services/subdivisions";
 import { localized } from "@/services/countryData";
+import { localizedProvinceName } from "@/lib/provinceName";
 import type { ProvinceMap } from "@/types/province";
 
 interface TooltipState {
@@ -73,11 +74,7 @@ export default function SubdivisionMap({
                 const clickable = Boolean(name && name.trim());
                 const isSelected = clickable && name === selectedName;
                 const province = provinces?.[name];
-                const label = province
-                  ? locale === "zh"
-                    ? province.name
-                    : province.nameEn || localized(province.capital, locale)
-                  : name;
+                const label = localizedProvinceName(province, locale, name || localized(province?.capital, locale));
                 return (
                   <Geography
                     key={geo.rsmKey}

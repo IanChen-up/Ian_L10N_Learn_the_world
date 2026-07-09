@@ -3,6 +3,7 @@ import { ComposableMap, Geographies, Geography, ZoomableGroup } from "react-simp
 import { useTranslation } from "react-i18next";
 import { Plus, Minus, Locate } from "lucide-react";
 import { getProvinceGeoUrl } from "@/services/subdivisions";
+import { localizedProvinceName } from "@/lib/provinceName";
 import type { ProvinceMap } from "@/types/province";
 
 interface TooltipState {
@@ -58,11 +59,7 @@ export default function ChinaMap({ selectedName, onSelect, provinces, locale = "
                 const clickable = Boolean(name && name.trim());
                 const isSelected = clickable && name === selectedName;
                 const province = provinces?.[name];
-                const label = province
-                  ? locale === "zh"
-                    ? province.name
-                    : province.nameEn
-                  : name;
+                const label = localizedProvinceName(province, locale, name);
                 return (
                   <Geography
                     key={geo.rsmKey}

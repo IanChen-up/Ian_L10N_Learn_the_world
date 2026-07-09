@@ -9,6 +9,7 @@ import { useDimensionIndexes } from "@/hooks/useDimensionIndexes";
 import { searchAll, type SearchResult } from "@/services/search";
 import { aiResolveCountry, matchByName } from "@/services/aiSearch";
 import { getCountryByIso, localized } from "@/services/countryData";
+import FlagIcon from "@/components/common/FlagIcon";
 
 export default function SearchBox() {
   const { t } = useTranslation();
@@ -189,7 +190,14 @@ export default function SearchBox() {
                   onClick={gotoAICountry}
                   className="mt-2 inline-flex items-center gap-1.5 rounded-lg bg-accent px-3 py-1.5 text-xs font-semibold text-accent-contrast transition hover:brightness-105"
                 >
-                  {getCountryByIso(aiAnswer.iso)?.flag}
+                  {getCountryByIso(aiAnswer.iso) && (
+                    <FlagIcon
+                      iso={aiAnswer.iso}
+                      emoji={getCountryByIso(aiAnswer.iso)!.flag}
+                      name={localized(getCountryByIso(aiAnswer.iso)?.name, locale)}
+                      className="h-4 w-6"
+                    />
+                  )}
                   {t("aiSearch.openCountry", {
                     name: localized(getCountryByIso(aiAnswer.iso)?.name, locale),
                   })}
@@ -220,9 +228,11 @@ export default function SearchBox() {
                         i === activeIdx ? "bg-accent/12 text-primary" : "text-secondary"
                       }`}
                     >
-                      <span className="text-lg leading-none">
-                        {r.kind === "country" ? r.flag : r.emoji}
-                      </span>
+                      {r.kind === "country" ? (
+                        <FlagIcon iso={r.iso} emoji={r.flag} name={r.label} className="h-5 w-7" />
+                      ) : (
+                        <span className="text-lg leading-none">{r.emoji}</span>
+                      )}
                       <span className="flex-1 truncate font-medium">{r.label}</span>
                       <span className="shrink-0 text-xs text-muted">
                         {r.kind === "country" ? r.sub : `${r.sub} · ${r.count}`}

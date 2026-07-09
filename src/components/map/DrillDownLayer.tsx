@@ -11,6 +11,7 @@ import { useLocaleStore } from "@/stores/useLocaleStore";
 import { hasSubdivisions, loadProvinces } from "@/services/subdivisions";
 import { getCountryByIso, localized } from "@/services/countryData";
 import type { ProvinceMap } from "@/types/province";
+import FlagIcon from "@/components/common/FlagIcon";
 
 const MAP_BY_ISO: Record<string, ComponentType<{
   selectedName: string | null;
@@ -91,7 +92,16 @@ export default function DrillDownLayer() {
           <span className="hidden sm:inline">{t("province.backToWorld")}</span>
         </button>
         <div className="flex items-center gap-2">
-          <span className="text-xl leading-none">{country?.flag ?? "🗺️"}</span>
+          {country ? (
+            <FlagIcon
+              iso={country.iso}
+              emoji={country.flag}
+              name={countryName}
+              className="h-5 w-7"
+            />
+          ) : (
+            <span className="text-xl leading-none">🗺️</span>
+          )}
           <div className="leading-tight">
             <h2 className="font-display text-base font-semibold text-primary">
               {t("province.title", { country: countryName })}

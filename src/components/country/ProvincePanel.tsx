@@ -8,6 +8,7 @@ import { localized } from "@/services/countryData";
 import { formatPopulation, formatArea, formatGdpCNY } from "@/lib/format";
 import type { Province } from "@/types/province";
 import { formatGDP } from "@/lib/format";
+import { localizedProvinceName } from "@/lib/provinceName";
 import ProvinceGdpHistoryModal from "./ProvinceGdpHistoryModal";
 
 interface ProvincePanelProps {
@@ -21,11 +22,7 @@ export default function ProvincePanel({ province, onClose }: ProvincePanelProps)
   const enterX = localeDir(locale) === "rtl" ? "-100%" : "100%";
   const [gdpOpen, setGdpOpen] = useState(false);
 
-  const provinceName = province
-    ? locale === "zh"
-      ? province.name
-      : province.nameEn || province.name
-    : "";
+  const provinceName = localizedProvinceName(province || undefined, locale);
   const gdpValue = province?.gdpUSD != null
     ? formatGDP(province.gdpUSD, locale)
     : formatGdpCNY(province?.gdpCNY, locale);

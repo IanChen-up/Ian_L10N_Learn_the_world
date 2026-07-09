@@ -9,6 +9,7 @@ import { localeDir } from "@/i18n";
 import { getCountryByIso, localized } from "@/services/countryData";
 import type { Country } from "@/types/country";
 import MapLegend from "@/components/map/MapLegend";
+import FlagIcon from "@/components/common/FlagIcon";
 
 export default function BrowseResults() {
   const { t } = useTranslation();
@@ -89,7 +90,12 @@ export default function BrowseResults() {
                           : "text-secondary hover:bg-sunken"
                       }`}
                     >
-                      <span className="text-lg leading-none">{c.flag}</span>
+                      <FlagIcon
+                        iso={c.iso}
+                        emoji={c.flag}
+                        name={localized(c.name, locale)}
+                        className="h-5 w-7"
+                      />
                       <span className="flex min-w-0 flex-1 flex-col">
                         <span className="truncate font-medium">{localized(c.name, locale)}</span>
                         {years && years[c.iso]?.length ? (

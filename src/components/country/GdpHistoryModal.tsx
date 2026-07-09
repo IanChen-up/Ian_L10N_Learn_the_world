@@ -4,26 +4,23 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, Loader2 } from "lucide-react";
 import { formatGDP } from "@/lib/format";
 import { useLocaleStore } from "@/stores/useLocaleStore";
+import { assetUrl } from "@/lib/assets";
 
 interface Point {
   year: number;
   value: number;
 }
 
-const BASE = import.meta.env.BASE_URL || "/";
 const cache = new Map<string, Point[]>();
 
 async function loadHistory(iso: string): Promise<Point[]> {
   if (cache.has(iso)) return cache.get(iso)!;
-  try {
-    const res = await fetch(`${BASE}data/gdp-history.json`);
-    const all = res.ok ? await res.json() : {};
-    const pts: Point[] = all[iso] ?? [];
-    cache.set(iso, pts);
-    return pts;
-  } catch {
-    return [];
-  }
+  const res = await fetch(assetUrl("data/gdp-history.json"));
+  if (!res.ok) throw new Error(`GDP history failed: ${res.status}`);
+  const all = await res.json();
+  const pts: Point[] = all[iso] ?? [];
+  cache.set(iso, pts);
+  return pts;
 }
 
 export default function GdpHistoryModal({
@@ -38,10 +35,19 @@ export default function GdpHistoryModal({
   const { t } = useTranslation();
   const { locale } = useLocaleStore();
   const [points, setPoints] = useState<Point[] | null>(null);
+  const [error, setError] = useState(false);
 
   useEffect(() => {
     let alive = true;
-    loadHistory(iso).then((p) => alive && setPoints(p));
+    setPoints(null);
+    setError(false);
+    loadHistory(iso)
+      .then((p) => alive && setPoints(p))
+      .catch(() => {
+        if (!alive) return;
+        setError(true);
+        setPoints([]);
+      });
     return () => {
       alive = false;
     };
@@ -80,6 +86,12 @@ export default function GdpHistoryModal({
               <div className="flex h-64 items-center justify-center text-muted">
                 <Loader2 className="animate-spin" size={24} />
               </div>
+            ) : error ? (
+              <p className="py-16 text-center text-sm text-muted">
+                {locale === "zh" || locale === "zh-Hant"
+                  ? "GDP 历史数据加载失败，请稍后重试。"
+                  : "Failed to load GDP history. Please try again later."}
+              </p>
             ) : points.length < 2 ? (
               <p className="py-16 text-center text-sm text-muted">{t("gdpChart.noData")}</p>
             ) : (

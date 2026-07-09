@@ -9,27 +9,21 @@ import { useExploreStore } from "@/stores/useExploreStore";
 import { useLocaleStore } from "@/stores/useLocaleStore";
 import { getCountryByGeoId, localized } from "@/services/countryData";
 import { POLAR_STATIONS } from "@/data/polarStations";
-import { TIANDITU_KEY } from "@/config/site";
 import AdminCapitalMarkers from "./AdminCapitalMarkers";
 import "leaflet/dist/leaflet.css";
 
 const ATLAS_URL = `${import.meta.env.BASE_URL || "/"}data/world-atlas.json`;
 
-// 天地图（Tianditu）：国产中文高清底图，含真实河流/山川与中文注记（需 key）。
-// ter = 地形晕渲底图，cta = 中文地形注记。子域 t0-t7 负载均衡。
-const TDT = (layer: string) =>
-  `https://t{s}.tianditu.gov.cn/${layer}_w/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=${layer}&STYLE=default&TILEMATRIXSET=w&FORMAT=tiles&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&tk=${TIANDITU_KEY}`;
-const TDT_SUBDOMAINS = ["0", "1", "2", "3", "4", "5", "6", "7"];
-const TDT_ATTR = "底图 &copy; 天地图 (Tianditu)";
-
-// Esri 地形底图（免费、无需 key）——天地图 key 缺失时回退。
+// Esri 地形底图（免费、无需 key）+ 高德中文注记。这样 GitHub Pages 上不依赖天地图 key/域名白名单。
 const PHYSICAL =
   "https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}";
 const TERRAIN_SHADED =
   "https://server.arcgisonline.com/ArcGIS/rest/services/World_Hillshade/MapServer/tile/{z}/{y}/{x}";
-const REFERENCE =
-  "https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}";
 const ESRI_ATTR = "Tiles &copy; Esri — Source: USGS, Esri, TANA, DeLorme, and NPS";
+const GAODE_LABELS =
+  "https://webrd0{s}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}";
+const GAODE_SUBDOMAINS = ["1", "2", "3", "4"];
+const GAODE_ATTR = "中文注记 &copy; 高德地图";
 
 function FixInvalidateSize() {
   const map = useMap();
@@ -53,7 +47,6 @@ export default function TerrainMap() {
   const [geo, setGeo] = useState<GeoJsonObject | null>(null);
 
   const highlightSet = activeFilter?.countries ?? null;
-  const useTianditu = Boolean(TIANDITU_KEY);
 
   useEffect(() => {
     let alive = true;
@@ -125,31 +118,15 @@ export default function TerrainMap() {
         attributionControl
       >
         <FixInvalidateSize />
-        {useTianditu ? (
-          <>
-            {/* 天地图地形晕渲底图（含真实河流/山川）+ 中文地形注记，最高清到 z12+ */}
-            <TileLayer
-              url={TDT("ter")}
-              subdomains={TDT_SUBDOMAINS}
-              attribution={TDT_ATTR}
-              maxZoom={12}
-              noWrap
-            />
-            <TileLayer
-              url={TDT("cta")}
-              subdomains={TDT_SUBDOMAINS}
-              maxZoom={12}
-              noWrap
-            />
-          </>
-        ) : (
-          <>
-            {/* 回退：Esri 物理底图（英文），含河流/地貌配色 */}
-            <TileLayer url={PHYSICAL} attribution={ESRI_ATTR} noWrap />
-            <TileLayer url={TERRAIN_SHADED} opacity={0.35} noWrap />
-            <TileLayer url={REFERENCE} opacity={theme === "dark" ? 0.45 : 0.6} noWrap />
-          </>
-        )}
+        <TileLayer url={PHYSICAL} attribution={ESRI_ATTR} noWrap />
+        <TileLayer url={TERRAIN_SHADED} opacity={theme === "dark" ? 0.5 : 0.35} noWrap />
+        <TileLayer
+          url={GAODE_LABELS}
+          subdomains={GAODE_SUBDOMAINS}
+          attribution={GAODE_ATTR}
+          opacity={theme === "dark" ? 0.8 : 0.95}
+          noWrap
+        />
         {geo && (
           <GeoJSON
             key={`${selectedIso}-${highlightSet ? "f" : "n"}`}

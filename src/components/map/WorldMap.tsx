@@ -21,6 +21,7 @@ import AdminCapitalSvgMarkers from "./AdminCapitalSvgMarkers";
 import MapViewToggle from "./MapViewToggle";
 import TerrainMap from "./TerrainMap";
 import { buildScale, fillForValue } from "@/lib/insightColor";
+import FlagIcon from "@/components/common/FlagIcon";
 
 const GEO_URL = `${import.meta.env.BASE_URL || "/"}data/world-atlas.json`;
 
@@ -29,6 +30,7 @@ interface TooltipState {
   y: number;
   label: string;
   flag: string;
+  iso?: string;
 }
 
 // 以约 150°E 为中心：亚太居中，美洲完整显示在右侧，大洋洲在下方。
@@ -99,7 +101,7 @@ export default function WorldMap() {
 
   const enterCountry = (c: Country, x: number, y: number) => {
     setHovered(c.iso);
-    setTooltip({ x, y, label: localized(c.name, locale), flag: c.flag });
+    setTooltip({ x, y, label: localized(c.name, locale), flag: c.flag, iso: c.iso });
   };
   const leave = () => {
     setHovered(null);
@@ -285,7 +287,10 @@ export default function WorldMap() {
           className="pointer-events-none fixed z-40 flex max-w-xs items-center gap-2 rounded-lg border border-border bg-elevated px-3 py-1.5 text-sm font-medium text-primary shadow-md"
           style={{ left: tooltip.x + 14, top: tooltip.y + 14 }}
         >
-          {tooltip.flag && <span className="text-base leading-none">{tooltip.flag}</span>}
+          {tooltip.flag && tooltip.iso && (
+            <FlagIcon iso={tooltip.iso} emoji={tooltip.flag} name={tooltip.label} className="h-4 w-6" />
+          )}
+          {tooltip.flag && !tooltip.iso && <span className="text-base leading-none">{tooltip.flag}</span>}
           {tooltip.label}
         </div>
       )}

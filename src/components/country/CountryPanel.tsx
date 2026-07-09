@@ -15,11 +15,49 @@ import GeoFactsCard from "./GeoFactsCard";
 import LanguageCard from "./LanguageCard";
 import ProfileSection from "./ProfileSection";
 import RecentNews from "./RecentNews";
+import FlagIcon from "@/components/common/FlagIcon";
 import type { FilterDimension, HolidayInfo } from "@/types/country";
 
 function holidayDate(date: HolidayInfo["date"], locale: string): string {
   if (!date) return "";
   return typeof date === "string" ? localizeDateString(date, locale) : localized(date, locale);
+}
+
+function holidayText(text: HolidayInfo["name"], locale: string): string {
+  const value = localized(text, locale);
+  if (locale !== "ar") return value;
+  const ar: Record<string, string> = {
+    "Independence Day": "عيد الاستقلال",
+    "National Day": "اليوم الوطني",
+    "Constitution Day": "يوم الدستور",
+    "Republic Day": "يوم الجمهورية",
+    "Unity Day": "يوم الوحدة",
+    "Labour Day": "عيد العمال",
+    "Labor Day": "عيد العمال",
+    "Thanksgiving": "عيد الشكر",
+    "Carnival": "الكرنفال",
+    "Christmas": "عيد الميلاد",
+    "New Year": "رأس السنة",
+    "Eid al-Fitr": "عيد الفطر",
+    "Eid al-Adha": "عيد الأضحى",
+    "Diwali": "ديوالي",
+    "Holi": "هولي",
+    "Nowruz": "نوروز",
+    "Novruz": "نوروز",
+    "Heroes' Day": "يوم الأبطال",
+    "Liberation Day": "يوم التحرير",
+    "Memorial Day": "يوم الذكرى",
+    "Flag Day": "يوم العلم",
+    "Children's Day": "يوم الطفل",
+    "All Saints' Day": "عيد جميع القديسين",
+    "Easter Monday": "إثنين الفصح",
+    "Spring Festival": "عيد الربيع",
+    "Lantern Festival": "عيد الفوانيس",
+    "Mid-Autumn Festival": "عيد منتصف الخريف",
+    "Dragon Boat Festival": "عيد قوارب التنين",
+    "Qingming Festival": "عيد تشينغمينغ",
+  };
+  return ar[value] || value;
 }
 
 function localizeDateString(date: string, locale: string): string {
@@ -179,12 +217,21 @@ export default function CountryPanel() {
                     src={image.src}
                     alt={localized(country.name, locale)}
                     loading="lazy"
+                    referrerPolicy="no-referrer"
+                    onError={(e) => {
+                      e.currentTarget.closest("a")?.classList.add("hidden");
+                    }}
                     className="h-40 w-full bg-sunken object-cover"
                   />
                 </a>
               )}
               <h2 className="mt-3 flex items-center gap-2.5 font-display text-3xl font-bold text-primary">
-                <span className="text-4xl leading-none">{country.flag}</span>
+                <FlagIcon
+                  iso={country.iso}
+                  emoji={country.flag}
+                  name={localized(country.name, locale)}
+                  className="h-8 w-11"
+                />
                 {localized(country.name, locale)}
               </h2>
               <p className="mt-1 flex items-center gap-1.5 text-sm text-muted">
@@ -287,7 +334,7 @@ export default function CountryPanel() {
                     {country.holidays.map((h, i) => (
                       <li key={i}>
                         <div className="flex items-baseline justify-between gap-2">
-                          <span className="font-medium">{localized(h.name, locale)}</span>
+                          <span className="font-medium">{holidayText(h.name, locale)}</span>
                           {h.date && (
                             <span className="shrink-0 text-xs text-muted">{holidayDate(h.date, locale)}</span>
                           )}

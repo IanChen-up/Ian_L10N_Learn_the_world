@@ -38,6 +38,29 @@ async function fetchMediaImage(lang: string, title: string): Promise<WikiImage |
   };
 }
 
+async function fetchPageImage(lang: string, title: string): Promise<WikiImage | null> {
+  const url = new URL(`https://${lang}.wikipedia.org/w/api.php`);
+  url.searchParams.set("action", "query");
+  url.searchParams.set("prop", "pageimages");
+  url.searchParams.set("piprop", "thumbnail|original");
+  url.searchParams.set("pithumbsize", "900");
+  url.searchParams.set("redirects", "1");
+  url.searchParams.set("format", "json");
+  url.searchParams.set("origin", "*");
+  url.searchParams.set("titles", title);
+
+  const res = await fetch(url.toString(), { headers: { Accept: "application/json" } });
+  if (!res.ok) return null;
+  const json = await res.json();
+  const page = Object.values(json?.query?.pages || {})[0] as any;
+  const src = page?.thumbnail?.source || page?.original?.source;
+  if (!src) return null;
+  return {
+    src,
+    pageUrl: `https://${lang}.wikipedia.org/wiki/${encodeURIComponent(page?.title || title)}`,
+  };
+}
+
 /**
  * 关联维基百科页面的代表图（跳过国旗，取"第二张/真实"图片，避免与国旗 emoji 重复）。
  * 优先当前语言，无图则另一语言兜底；结果缓存，失败静默降级。
@@ -71,7 +94,9 @@ export function useCountryImage(
       let result: WikiImage | null = null;
       try {
         if (primary) result = await fetchMediaImage(primaryLang, primary);
+        if (!result && primary) result = await fetchPageImage(primaryLang, primary);
         if (!result && fallback) result = await fetchMediaImage(fallbackLang, fallback);
+        if (!result && fallback) result = await fetchPageImage(fallbackLang, fallback);
       } catch {
         result = null;
       }

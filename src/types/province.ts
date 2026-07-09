@@ -27,6 +27,8 @@ export interface Province {
   /** 与地图要素 name 一致的中文名，如 广东省 */
   name: string;
   nameEn: string;
+  /** 省/州名多语言显示；地图要素仍使用 name/nameEn 做匹配。 */
+  nameLocal?: LocalizedText;
   /** 简称，如 粤 */
   abbr?: string;
   capital: LocalizedText;
