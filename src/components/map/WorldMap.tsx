@@ -300,7 +300,7 @@ export default function WorldMap() {
 
       {/* Zoom controls (globe 模式仅保留重置；terrain 用 Leaflet 自带控件) */}
       {!isTerrain && (
-        <div className="absolute bottom-4 end-3 flex flex-col gap-1.5 sm:bottom-6 sm:end-6">
+        <div className={`absolute bottom-4 end-3 flex-col gap-1.5 sm:bottom-6 sm:end-6 ${activeFilter && !selectedIso ? "hidden sm:flex" : "flex"}`}>
           {!isGlobe && (
             <>
               <MapButton onClick={zoomIn} label={t("map.zoomIn")}>

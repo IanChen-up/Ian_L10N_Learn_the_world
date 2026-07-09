@@ -49,7 +49,7 @@ export default function Navbar() {
             to="/resources"
             aria-label={t("nav.resources")}
             title={t("nav.resources")}
-            className="flex h-9 w-9 items-center justify-center rounded-lg border border-border text-secondary transition hover:border-accent hover:text-accent"
+            className="hidden h-9 w-9 items-center justify-center rounded-lg border border-border text-secondary transition hover:border-accent hover:text-accent sm:flex"
           >
             <BookOpen size={18} />
           </Link>
@@ -57,7 +57,7 @@ export default function Navbar() {
             to="/about"
             aria-label={t("nav.about")}
             title={t("nav.about")}
-            className="flex h-9 w-9 items-center justify-center rounded-lg border border-border text-secondary transition hover:border-accent hover:text-accent"
+            className="hidden h-9 w-9 items-center justify-center rounded-lg border border-border text-secondary transition hover:border-accent hover:text-accent sm:flex"
           >
             <Info size={18} />
           </Link>

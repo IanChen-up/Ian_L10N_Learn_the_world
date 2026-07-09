@@ -14,9 +14,11 @@ export default function MapViewToggle() {
   const setMapView = useExploreStore((s) => s.setMapView);
   const showAdmin = useExploreStore((s) => s.showAdmin);
   const toggleAdmin = useExploreStore((s) => s.toggleAdmin);
+  const activeFilter = useExploreStore((s) => s.activeFilter);
+  const selectedIso = useExploreStore((s) => s.selectedIso);
 
   return (
-    <div className="absolute end-2 top-2 z-20 flex items-center gap-1 sm:end-6 sm:top-4 sm:gap-1.5">
+    <div className={`absolute end-2 top-2 z-20 items-center gap-1 sm:end-6 sm:top-4 sm:gap-1.5 ${activeFilter && !selectedIso ? "hidden sm:flex" : "flex"}`}>
       <div className="flex items-center gap-0.5 rounded-xl border border-border bg-glass p-1 shadow-sm backdrop-blur">
         {VIEWS.map((v) => (
           <button

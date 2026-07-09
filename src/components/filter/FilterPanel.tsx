@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
@@ -28,6 +28,13 @@ export default function FilterPanel() {
 
   const toggleDim = (dim: FilterDimension) =>
     setExpandedDim((cur) => (cur === dim ? null : dim));
+
+  useEffect(() => {
+    if (!activeFilter) return;
+    if (typeof window !== "undefined" && window.innerWidth < 640) {
+      setCollapsed(true);
+    }
+  }, [activeFilter]);
 
   return (
     <div className="pointer-events-none absolute start-0 top-0 z-20 flex h-full max-h-full flex-col p-2.5 sm:p-3 md:p-4">

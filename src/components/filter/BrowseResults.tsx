@@ -39,18 +39,22 @@ export default function BrowseResults() {
   const unit = activeFilter?.unit ? localized(activeFilter.unit, locale) : "";
   const isInsight = activeFilter?.dimension === "insight";
   const enterX = localeDir(locale) === "rtl" ? "-110%" : "110%";
+  const isMobile = typeof window !== "undefined" ? window.innerWidth < 640 : false;
 
   return (
     <AnimatePresence>
       {activeFilter && !selectedIso && (
         <motion.aside
-          initial={{ x: enterX }}
-          animate={{ x: 0 }}
-          exit={{ x: enterX }}
+          initial={isMobile ? { y: "110%" } : { x: enterX }}
+          animate={isMobile ? { y: 0 } : { x: 0 }}
+          exit={isMobile ? { y: "110%" } : { x: enterX }}
           transition={{ type: "spring", damping: 30, stiffness: 280 }}
-          className="pointer-events-auto absolute inset-x-2 bottom-2 z-20 flex max-h-[46dvh] flex-col overflow-hidden rounded-2xl border border-border bg-glass shadow-md backdrop-blur-md sm:inset-x-auto sm:bottom-auto sm:end-3 sm:top-3 sm:max-h-[calc(100%-1.5rem)] sm:w-[min(18rem,calc(100vw-1.5rem))] md:end-4 md:top-4"
+          className="pointer-events-auto absolute inset-x-2 bottom-2 z-20 flex max-h-[42dvh] flex-col overflow-hidden rounded-2xl border border-border bg-glass pb-[env(safe-area-inset-bottom)] shadow-md backdrop-blur-md sm:inset-x-auto sm:bottom-auto sm:end-3 sm:top-3 sm:max-h-[calc(100%-1.5rem)] sm:w-[min(18rem,calc(100vw-1.5rem))] sm:pb-0 md:end-4 md:top-4"
         >
-          <div className="flex items-start justify-between gap-2 border-b border-border px-4 py-3">
+          <div className="flex justify-center pt-2 sm:hidden">
+            <span className="h-1 w-10 rounded-full bg-border-strong/70" />
+          </div>
+          <div className="flex items-start justify-between gap-2 border-b border-border px-4 py-2.5 sm:py-3">
             <div className="min-w-0">
               <p className="truncate font-display text-sm font-semibold text-primary">
                 {isInsight
