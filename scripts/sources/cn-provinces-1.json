@@ -1,0 +1,429 @@
+{
+  "北京市": {
+    "nameEn": "Beijing",
+    "capital": { "zh": "北京", "en": "Beijing" },
+    "capitalNote": { "zh": "直辖市，既是省级行政中心也是国家首都", "en": "Municipality and national capital" },
+    "population": 21843000,
+    "gdpCNY": 41610.9,
+    "areaKm2": 16410,
+    "abbr": "京",
+    "dialects": [
+      { "name": { "zh": "北京官话", "en": "Beijing Mandarin" }, "family": { "zh": "官话·北京官话", "en": "Mandarin · Beijing group" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 95 },
+      { "name": { "zh": "满族", "en": "Manchu" } },
+      { "name": { "zh": "回族", "en": "Hui" } }
+    ],
+    "religions": ["buddhism", "taoism", "islam", "christianity", "catholicism", "folk"],
+    "highlights": [
+      { "name": { "zh": "京剧", "en": "Peking Opera" }, "note": { "zh": "国粹戏曲，形成于北京", "en": "Quintessential Chinese opera formed in Beijing" } },
+      { "name": { "zh": "故宫", "en": "The Forbidden City" }, "note": { "zh": "明清两代皇宫", "en": "Imperial palace of the Ming and Qing dynasties" } },
+      { "name": { "zh": "北京烤鸭", "en": "Peking Duck" }, "note": { "zh": "北京最具代表性的名菜", "en": "Beijing's signature roast duck dish" } },
+      { "name": { "zh": "胡同与四合院", "en": "Hutong & Siheyuan" }, "note": { "zh": "老北京特色街巷与合院民居", "en": "Traditional alleys and courtyard houses of old Beijing" } }
+    ]
+  },
+  "天津市": {
+    "nameEn": "Tianjin",
+    "capital": { "zh": "天津", "en": "Tianjin" },
+    "capitalNote": { "zh": "直辖市，北方重要港口城市", "en": "Municipality and major northern port city" },
+    "population": 13630000,
+    "gdpCNY": 16311.3,
+    "areaKm2": 11966,
+    "abbr": "津",
+    "dialects": [
+      { "name": { "zh": "天津话", "en": "Tianjin dialect" }, "family": { "zh": "官话·冀鲁官话", "en": "Mandarin · Ji-Lu group" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 97 },
+      { "name": { "zh": "回族", "en": "Hui" } },
+      { "name": { "zh": "满族", "en": "Manchu" } }
+    ],
+    "religions": ["buddhism", "taoism", "islam", "christianity", "folk"],
+    "highlights": [
+      { "name": { "zh": "天津相声", "en": "Tianjin Xiangsheng" }, "note": { "zh": "天津是相声重要发祥地之一", "en": "Tianjin is a major cradle of crosstalk comedy" } },
+      { "name": { "zh": "狗不理包子", "en": "Goubuli Baozi" }, "note": { "zh": "天津老字号灌汤包", "en": "Time-honored Tianjin steamed buns" } },
+      { "name": { "zh": "杨柳青年画", "en": "Yangliuqing New Year Prints" }, "note": { "zh": "著名民间木版年画", "en": "Famous folk woodblock New Year paintings" } },
+      { "name": { "zh": "泥人张", "en": "Clay Figurine Zhang" }, "note": { "zh": "国家级非遗彩塑技艺", "en": "Nationally recognized painted clay sculpture craft" } }
+    ]
+  },
+  "河北省": {
+    "nameEn": "Hebei",
+    "capital": { "zh": "石家庄", "en": "Shijiazhuang" },
+    "population": 74200000,
+    "gdpCNY": 42370.4,
+    "areaKm2": 188800,
+    "abbr": "冀",
+    "dialects": [
+      { "name": { "zh": "冀鲁官话", "en": "Ji-Lu Mandarin" }, "family": { "zh": "官话·冀鲁官话", "en": "Mandarin · Ji-Lu group" } },
+      { "name": { "zh": "晋语", "en": "Jin Chinese" }, "family": { "zh": "晋语（张家口等西部）", "en": "Jin (western areas such as Zhangjiakou)" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 96 },
+      { "name": { "zh": "满族", "en": "Manchu" } },
+      { "name": { "zh": "回族", "en": "Hui" } },
+      { "name": { "zh": "蒙古族", "en": "Mongol" } }
+    ],
+    "religions": ["buddhism", "taoism", "islam", "christianity", "catholicism", "folk"],
+    "highlights": [
+      { "name": { "zh": "河北梆子", "en": "Hebei Bangzi" }, "note": { "zh": "高亢激越的地方梆子戏", "en": "High-pitched local clapper opera" } },
+      { "name": { "zh": "吴桥杂技", "en": "Wuqiao Acrobatics" }, "note": { "zh": "被誉为中国杂技之乡", "en": "Hailed as China's home of acrobatics" } },
+      { "name": { "zh": "承德避暑山庄", "en": "Chengde Mountain Resort" }, "note": { "zh": "清代皇家园林，世界遗产", "en": "Qing imperial resort and World Heritage Site" } },
+      { "name": { "zh": "驴肉火烧", "en": "Donkey Meat Sandwich" }, "note": { "zh": "河北经典街头小吃", "en": "Classic Hebei street snack" } }
+    ]
+  },
+  "山西省": {
+    "nameEn": "Shanxi",
+    "capital": { "zh": "太原", "en": "Taiyuan" },
+    "population": 34810000,
+    "gdpCNY": 25642.6,
+    "areaKm2": 156700,
+    "abbr": "晋",
+    "dialects": [
+      { "name": { "zh": "晋语", "en": "Jin Chinese" }, "family": { "zh": "晋语（保留入声，独立于官话）", "en": "Jin (retains the entering tone, distinct from Mandarin)" } },
+      { "name": { "zh": "中原官话", "en": "Central Plains Mandarin" }, "family": { "zh": "官话·中原官话（南部）", "en": "Mandarin · Central Plains group (south)" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 99 },
+      { "name": { "zh": "回族", "en": "Hui" } },
+      { "name": { "zh": "满族", "en": "Manchu" } }
+    ],
+    "religions": ["buddhism", "taoism", "islam", "christianity", "folk"],
+    "highlights": [
+      { "name": { "zh": "山西面食", "en": "Shanxi Noodles" }, "note": { "zh": "刀削面等面食种类繁多", "en": "Rich variety including knife-cut noodles" } },
+      { "name": { "zh": "山西老陈醋", "en": "Shanxi Aged Vinegar" }, "note": { "zh": "中国四大名醋之一", "en": "One of China's four famous vinegars" } },
+      { "name": { "zh": "晋剧", "en": "Jin Opera" }, "note": { "zh": "又称山西梆子", "en": "Also known as Shanxi Bangzi opera" } },
+      { "name": { "zh": "平遥古城", "en": "Pingyao Ancient City" }, "note": { "zh": "保存完好的明清县城，世界遗产", "en": "Well-preserved Ming-Qing county town and World Heritage Site" } },
+      { "name": { "zh": "云冈石窟", "en": "Yungang Grottoes" }, "note": { "zh": "北魏皇家佛教石窟", "en": "Northern Wei imperial Buddhist grottoes" } }
+    ]
+  },
+  "内蒙古自治区": {
+    "nameEn": "Inner Mongolia",
+    "capital": { "zh": "呼和浩特", "en": "Hohhot" },
+    "capitalNote": { "zh": "自治区首府", "en": "Capital of the autonomous region" },
+    "population": 24012000,
+    "gdpCNY": 23158.7,
+    "areaKm2": 1183000,
+    "abbr": "内蒙古",
+    "dialects": [
+      { "name": { "zh": "蒙古语", "en": "Mongolian" }, "family": { "zh": "蒙古语族", "en": "Mongolic" } },
+      { "name": { "zh": "晋语", "en": "Jin Chinese" }, "family": { "zh": "晋语（呼和浩特及西部）", "en": "Jin (Hohhot and western areas)" } },
+      { "name": { "zh": "东北官话", "en": "Northeastern Mandarin" }, "family": { "zh": "官话·东北官话（东部）", "en": "Mandarin · Northeastern group (east)" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 79 },
+      { "name": { "zh": "蒙古族", "en": "Mongol" }, "share": 17 },
+      { "name": { "zh": "满族", "en": "Manchu" } },
+      { "name": { "zh": "回族", "en": "Hui" } },
+      { "name": { "zh": "达斡尔族", "en": "Daur" } }
+    ],
+    "religions": ["tibetan_buddhism", "buddhism", "shamanism", "islam", "folk"],
+    "highlights": [
+      { "name": { "zh": "那达慕", "en": "Naadam" }, "note": { "zh": "蒙古族传统竞技盛会", "en": "Traditional Mongolian games festival" } },
+      { "name": { "zh": "蒙古族长调", "en": "Mongolian Long Song" }, "note": { "zh": "人类非遗，草原歌唱艺术", "en": "Grassland singing art on the UNESCO heritage list" } },
+      { "name": { "zh": "马头琴", "en": "Morin Khuur" }, "note": { "zh": "蒙古族标志性弓弦乐器", "en": "Iconic Mongolian horsehead fiddle" } },
+      { "name": { "zh": "手把肉与烤全羊", "en": "Hand-held Mutton & Roast Whole Lamb" }, "note": { "zh": "草原特色饮食", "en": "Signature grassland cuisine" } }
+    ]
+  },
+  "辽宁省": {
+    "nameEn": "Liaoning",
+    "capital": { "zh": "沈阳", "en": "Shenyang" },
+    "population": 41970000,
+    "gdpCNY": 28975.1,
+    "areaKm2": 148600,
+    "abbr": "辽",
+    "dialects": [
+      { "name": { "zh": "东北官话", "en": "Northeastern Mandarin" }, "family": { "zh": "官话·东北官话", "en": "Mandarin · Northeastern group" } },
+      { "name": { "zh": "胶辽官话", "en": "Jiao-Liao Mandarin" }, "family": { "zh": "官话·胶辽官话（大连、丹东等）", "en": "Mandarin · Jiao-Liao group (Dalian, Dandong)" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 84 },
+      { "name": { "zh": "满族", "en": "Manchu" }, "share": 13 },
+      { "name": { "zh": "蒙古族", "en": "Mongol" } },
+      { "name": { "zh": "回族", "en": "Hui" } },
+      { "name": { "zh": "朝鲜族", "en": "Korean" } }
+    ],
+    "religions": ["buddhism", "taoism", "islam", "christianity", "shamanism", "folk"],
+    "highlights": [
+      { "name": { "zh": "二人转", "en": "Errenzhuan" }, "note": { "zh": "东北民间说唱歌舞", "en": "Northeastern folk song-and-dance duet" } },
+      { "name": { "zh": "沈阳故宫", "en": "Mukden Palace" }, "note": { "zh": "清朝早期皇宫", "en": "Palace of the early Qing dynasty" } },
+      { "name": { "zh": "满族剪纸", "en": "Manchu Paper-cutting" }, "note": { "zh": "满族民间传统手工艺", "en": "Traditional Manchu folk craft" } },
+      { "name": { "zh": "大连海鲜", "en": "Dalian Seafood" }, "note": { "zh": "滨海城市特色饮食", "en": "Coastal city's signature cuisine" } }
+    ]
+  },
+  "吉林省": {
+    "nameEn": "Jilin",
+    "capital": { "zh": "长春", "en": "Changchun" },
+    "population": 23477000,
+    "gdpCNY": 13070.2,
+    "areaKm2": 187400,
+    "abbr": "吉",
+    "dialects": [
+      { "name": { "zh": "东北官话", "en": "Northeastern Mandarin" }, "family": { "zh": "官话·东北官话", "en": "Mandarin · Northeastern group" } },
+      { "name": { "zh": "朝鲜语", "en": "Korean" }, "family": { "zh": "朝鲜语（延边朝鲜族自治州）", "en": "Koreanic (Yanbian Korean Autonomous Prefecture)" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 91 },
+      { "name": { "zh": "朝鲜族", "en": "Korean" }, "share": 4 },
+      { "name": { "zh": "满族", "en": "Manchu" } },
+      { "name": { "zh": "蒙古族", "en": "Mongol" } },
+      { "name": { "zh": "回族", "en": "Hui" } }
+    ],
+    "religions": ["buddhism", "taoism", "christianity", "shamanism", "folk"],
+    "highlights": [
+      { "name": { "zh": "长白山", "en": "Changbai Mountain" }, "note": { "zh": "天池所在的界山，满族与朝鲜族圣山", "en": "Border mountain with Heaven Lake, sacred to Manchu and Korean peoples" } },
+      { "name": { "zh": "朝鲜族歌舞", "en": "Korean Ethnic Song and Dance" }, "note": { "zh": "延边地区代表性民族艺术", "en": "Signature ethnic art of the Yanbian region" } },
+      { "name": { "zh": "吉林雾凇", "en": "Jilin Rime Ice" }, "note": { "zh": "松花江畔著名冬季奇观", "en": "Famous winter spectacle along the Songhua River" } },
+      { "name": { "zh": "二人转", "en": "Errenzhuan" }, "note": { "zh": "流行于东北的民间曲艺", "en": "Popular folk performing art of the Northeast" } }
+    ]
+  },
+  "黑龙江省": {
+    "nameEn": "Heilongjiang",
+    "capital": { "zh": "哈尔滨", "en": "Harbin" },
+    "population": 30990000,
+    "gdpCNY": 15901.0,
+    "areaKm2": 473000,
+    "abbr": "黑",
+    "dialects": [
+      { "name": { "zh": "东北官话", "en": "Northeastern Mandarin" }, "family": { "zh": "官话·东北官话", "en": "Mandarin · Northeastern group" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 95 },
+      { "name": { "zh": "满族", "en": "Manchu" } },
+      { "name": { "zh": "朝鲜族", "en": "Korean" } },
+      { "name": { "zh": "蒙古族", "en": "Mongol" } },
+      { "name": { "zh": "达斡尔族", "en": "Daur" } },
+      { "name": { "zh": "赫哲族", "en": "Hezhen" } }
+    ],
+    "religions": ["buddhism", "taoism", "christianity", "shamanism", "islam", "folk"],
+    "highlights": [
+      { "name": { "zh": "哈尔滨冰雪节", "en": "Harbin Ice and Snow Festival" }, "note": { "zh": "世界知名的冰雕灯光盛会", "en": "World-renowned ice sculpture and light festival" } },
+      { "name": { "zh": "圣索菲亚教堂", "en": "Saint Sophia Cathedral" }, "note": { "zh": "哈尔滨标志性拜占庭式建筑", "en": "Harbin's iconic Byzantine-style landmark" } },
+      { "name": { "zh": "赫哲族鱼皮文化", "en": "Hezhen Fish-skin Culture" }, "note": { "zh": "以鱼皮制衣的独特民族技艺", "en": "Unique ethnic craft of making clothing from fish skin" } },
+      { "name": { "zh": "东北二人转", "en": "Errenzhuan" }, "note": { "zh": "深受喜爱的民间说唱歌舞", "en": "Beloved folk song-and-dance performance" } }
+    ]
+  },
+  "上海市": {
+    "nameEn": "Shanghai",
+    "capital": { "zh": "上海", "en": "Shanghai" },
+    "capitalNote": { "zh": "直辖市，国际经济与金融中心", "en": "Municipality and international economic and financial center" },
+    "population": 24759000,
+    "gdpCNY": 44652.8,
+    "areaKm2": 6340,
+    "abbr": "沪",
+    "dialects": [
+      { "name": { "zh": "上海话（沪语）", "en": "Shanghainese" }, "family": { "zh": "吴语·太湖片", "en": "Wu · Taihu group" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 99 },
+      { "name": { "zh": "回族", "en": "Hui" } },
+      { "name": { "zh": "满族", "en": "Manchu" } }
+    ],
+    "religions": ["buddhism", "taoism", "christianity", "catholicism", "islam", "folk"],
+    "highlights": [
+      { "name": { "zh": "沪剧", "en": "Shanghai Opera" }, "note": { "zh": "用上海方言演唱的地方戏", "en": "Local opera sung in the Shanghai dialect" } },
+      { "name": { "zh": "本帮菜", "en": "Benbang Cuisine" }, "note": { "zh": "浓油赤酱的上海本地菜", "en": "Local Shanghai cuisine known for rich soy-braised flavors" } },
+      { "name": { "zh": "外滩", "en": "The Bund" }, "note": { "zh": "汇集万国建筑的滨江地标", "en": "Riverfront landmark of international-style architecture" } },
+      { "name": { "zh": "石库门", "en": "Shikumen" }, "note": { "zh": "中西合璧的里弄民居", "en": "East-meets-West lane house architecture" } }
+    ]
+  },
+  "江苏省": {
+    "nameEn": "Jiangsu",
+    "capital": { "zh": "南京", "en": "Nanjing" },
+    "population": 85150000,
+    "gdpCNY": 122875.6,
+    "areaKm2": 107200,
+    "abbr": "苏",
+    "dialects": [
+      { "name": { "zh": "江淮官话", "en": "Jianghuai Mandarin" }, "family": { "zh": "官话·江淮官话（南京及中北部）", "en": "Mandarin · Jianghuai (Lower Yangtze) group (Nanjing and central-north)" } },
+      { "name": { "zh": "吴语", "en": "Wu Chinese" }, "family": { "zh": "吴语（苏州、无锡等苏南）", "en": "Wu (southern Jiangsu: Suzhou, Wuxi)" } },
+      { "name": { "zh": "中原官话", "en": "Central Plains Mandarin" }, "family": { "zh": "官话·中原官话（徐州等）", "en": "Mandarin · Central Plains group (Xuzhou)" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 99 },
+      { "name": { "zh": "回族", "en": "Hui" } },
+      { "name": { "zh": "满族", "en": "Manchu" } }
+    ],
+    "religions": ["buddhism", "taoism", "christianity", "catholicism", "islam", "folk"],
+    "highlights": [
+      { "name": { "zh": "昆曲", "en": "Kunqu Opera" }, "note": { "zh": "发源于昆山，被誉为百戏之祖", "en": "Originating in Kunshan, revered as the ancestor of Chinese opera" } },
+      { "name": { "zh": "苏州评弹", "en": "Suzhou Pingtan" }, "note": { "zh": "吴语说唱曲艺", "en": "Storytelling and ballad art in the Wu dialect" } },
+      { "name": { "zh": "苏州古典园林", "en": "Classical Gardens of Suzhou" }, "note": { "zh": "写意山水园林，世界遗产", "en": "Freehand landscape gardens and World Heritage Site" } },
+      { "name": { "zh": "淮扬菜", "en": "Huaiyang Cuisine" }, "note": { "zh": "中国四大菜系之一", "en": "One of China's four great culinary traditions" } }
+    ]
+  },
+  "浙江省": {
+    "nameEn": "Zhejiang",
+    "capital": { "zh": "杭州", "en": "Hangzhou" },
+    "population": 65770000,
+    "gdpCNY": 77715.4,
+    "areaKm2": 105500,
+    "abbr": "浙",
+    "dialects": [
+      { "name": { "zh": "吴语", "en": "Wu Chinese" }, "family": { "zh": "吴语（含杭州、宁波及温州瓯江片）", "en": "Wu (including Hangzhou, Ningbo and Wenzhou Oujiang subgroup)" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 99 },
+      { "name": { "zh": "畲族", "en": "She" } },
+      { "name": { "zh": "回族", "en": "Hui" } }
+    ],
+    "religions": ["buddhism", "taoism", "christianity", "catholicism", "folk"],
+    "highlights": [
+      { "name": { "zh": "越剧", "en": "Yue Opera" }, "note": { "zh": "发源于嵊州的第二大剧种", "en": "China's second-largest opera form, originating in Shengzhou" } },
+      { "name": { "zh": "西湖", "en": "West Lake" }, "note": { "zh": "杭州著名文化景观，世界遗产", "en": "Hangzhou's famous cultural landscape and World Heritage Site" } },
+      { "name": { "zh": "西湖龙井茶", "en": "Longjing Tea" }, "note": { "zh": "中国十大名茶之首", "en": "Foremost among China's ten famous teas" } },
+      { "name": { "zh": "浙菜", "en": "Zhejiang Cuisine" }, "note": { "zh": "以清鲜著称的八大菜系之一", "en": "One of the eight cuisines, known for fresh and light flavors" } }
+    ]
+  },
+  "安徽省": {
+    "nameEn": "Anhui",
+    "capital": { "zh": "合肥", "en": "Hefei" },
+    "population": 61270000,
+    "gdpCNY": 45045.0,
+    "areaKm2": 140100,
+    "abbr": "皖",
+    "dialects": [
+      { "name": { "zh": "江淮官话", "en": "Jianghuai Mandarin" }, "family": { "zh": "官话·江淮官话（中部）", "en": "Mandarin · Jianghuai (Lower Yangtze) group (central)" } },
+      { "name": { "zh": "中原官话", "en": "Central Plains Mandarin" }, "family": { "zh": "官话·中原官话（北部）", "en": "Mandarin · Central Plains group (north)" } },
+      { "name": { "zh": "徽语", "en": "Hui Chinese" }, "family": { "zh": "徽语（徽州及南部）", "en": "Hui (Huizhou and the south)" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 99 },
+      { "name": { "zh": "回族", "en": "Hui" } },
+      { "name": { "zh": "畲族", "en": "She" } }
+    ],
+    "religions": ["buddhism", "taoism", "christianity", "islam", "folk"],
+    "highlights": [
+      { "name": { "zh": "黄梅戏", "en": "Huangmei Opera" }, "note": { "zh": "唱腔婉转的著名地方戏", "en": "Famous local opera with lyrical melodies" } },
+      { "name": { "zh": "徽菜", "en": "Hui Cuisine" }, "note": { "zh": "八大菜系之一，善用山珍", "en": "One of the eight cuisines, noted for mountain delicacies" } },
+      { "name": { "zh": "黄山", "en": "Mount Huangshan" }, "note": { "zh": "以奇松怪石云海著称，世界遗产", "en": "Famed for pines, rocks and seas of clouds, a World Heritage Site" } },
+      { "name": { "zh": "徽派建筑", "en": "Huizhou Architecture" }, "note": { "zh": "粉墙黛瓦马头墙的古村落风格", "en": "Ancient village style of white walls, gray tiles and horse-head gables" } }
+    ]
+  },
+  "福建省": {
+    "nameEn": "Fujian",
+    "capital": { "zh": "福州", "en": "Fuzhou" },
+    "population": 41880000,
+    "gdpCNY": 53109.9,
+    "areaKm2": 124000,
+    "abbr": "闽",
+    "dialects": [
+      { "name": { "zh": "闽东语", "en": "Eastern Min" }, "family": { "zh": "闽语（福州话）", "en": "Min (Fuzhou dialect)" } },
+      { "name": { "zh": "闽南语", "en": "Southern Min (Hokkien)" }, "family": { "zh": "闽语（厦门、泉州、漳州）", "en": "Min (Xiamen, Quanzhou, Zhangzhou)" } },
+      { "name": { "zh": "客家话", "en": "Hakka" }, "family": { "zh": "客家话（西部龙岩等）", "en": "Hakka (western areas such as Longyan)" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 98 },
+      { "name": { "zh": "畲族", "en": "She" } },
+      { "name": { "zh": "回族", "en": "Hui" } }
+    ],
+    "religions": ["buddhism", "taoism", "folk", "christianity", "catholicism", "islam"],
+    "highlights": [
+      { "name": { "zh": "妈祖信俗", "en": "Mazu Belief and Customs" }, "note": { "zh": "源于湄洲的海神信仰，人类非遗", "en": "Sea-goddess belief from Meizhou, on the UNESCO heritage list" } },
+      { "name": { "zh": "福建土楼", "en": "Fujian Tulou" }, "note": { "zh": "客家与闽南的大型夯土围楼，世界遗产", "en": "Large earthen roundhouses of Hakka and Hokkien, a World Heritage Site" } },
+      { "name": { "zh": "南音", "en": "Nanyin Music" }, "note": { "zh": "被称为中国音乐活化石", "en": "Called a living fossil of Chinese music" } },
+      { "name": { "zh": "佛跳墙", "en": "Buddha Jumps Over the Wall" }, "note": { "zh": "闽菜代表性名肴", "en": "Signature dish of Fujian cuisine" } }
+    ]
+  },
+  "江西省": {
+    "nameEn": "Jiangxi",
+    "capital": { "zh": "南昌", "en": "Nanchang" },
+    "population": 45280000,
+    "gdpCNY": 32074.7,
+    "areaKm2": 166900,
+    "abbr": "赣",
+    "dialects": [
+      { "name": { "zh": "赣语", "en": "Gan Chinese" }, "family": { "zh": "赣语（南昌话等）", "en": "Gan (Nanchang dialect, etc.)" } },
+      { "name": { "zh": "客家话", "en": "Hakka" }, "family": { "zh": "客家话（赣南）", "en": "Hakka (southern Jiangxi)" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 99 },
+      { "name": { "zh": "畲族", "en": "She" } },
+      { "name": { "zh": "回族", "en": "Hui" } }
+    ],
+    "religions": ["buddhism", "taoism", "christianity", "folk"],
+    "highlights": [
+      { "name": { "zh": "景德镇陶瓷", "en": "Jingdezhen Porcelain" }, "note": { "zh": "享誉世界的瓷都", "en": "World-renowned porcelain capital" } },
+      { "name": { "zh": "赣剧", "en": "Gan Opera" }, "note": { "zh": "江西代表性地方戏曲", "en": "Representative local opera of Jiangxi" } },
+      { "name": { "zh": "庐山", "en": "Mount Lu" }, "note": { "zh": "名山胜景，世界文化景观遗产", "en": "Famous scenic mountain and World Cultural Landscape" } },
+      { "name": { "zh": "龙虎山道教文化", "en": "Longhu Mountain Taoism" }, "note": { "zh": "道教正一派祖庭所在地", "en": "Ancestral home of the Zhengyi school of Taoism" } }
+    ]
+  },
+  "山东省": {
+    "nameEn": "Shandong",
+    "capital": { "zh": "济南", "en": "Jinan" },
+    "population": 101628000,
+    "gdpCNY": 87435.1,
+    "areaKm2": 155800,
+    "abbr": "鲁",
+    "dialects": [
+      { "name": { "zh": "冀鲁官话", "en": "Ji-Lu Mandarin" }, "family": { "zh": "官话·冀鲁官话（西北部）", "en": "Mandarin · Ji-Lu group (northwest)" } },
+      { "name": { "zh": "中原官话", "en": "Central Plains Mandarin" }, "family": { "zh": "官话·中原官话（西南部）", "en": "Mandarin · Central Plains group (southwest)" } },
+      { "name": { "zh": "胶辽官话", "en": "Jiao-Liao Mandarin" }, "family": { "zh": "官话·胶辽官话（胶东半岛）", "en": "Mandarin · Jiao-Liao group (Jiaodong Peninsula)" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 99 },
+      { "name": { "zh": "回族", "en": "Hui" } },
+      { "name": { "zh": "满族", "en": "Manchu" } }
+    ],
+    "religions": ["buddhism", "taoism", "islam", "christianity", "folk"],
+    "highlights": [
+      { "name": { "zh": "孔子与儒家文化", "en": "Confucius and Confucian Culture" }, "note": { "zh": "曲阜是孔子故里与儒学发源地", "en": "Qufu is Confucius's hometown and the birthplace of Confucianism" } },
+      { "name": { "zh": "泰山", "en": "Mount Tai" }, "note": { "zh": "五岳之首，世界文化与自然遗产", "en": "Foremost of the Five Great Mountains, a mixed World Heritage Site" } },
+      { "name": { "zh": "吕剧", "en": "Lü Opera" }, "note": { "zh": "山东代表性地方戏曲", "en": "Representative local opera of Shandong" } },
+      { "name": { "zh": "鲁菜", "en": "Shandong Cuisine" }, "note": { "zh": "八大菜系之首，影响北方菜系", "en": "Foremost of the eight cuisines, shaping northern cooking" } }
+    ]
+  },
+  "河南省": {
+    "nameEn": "Henan",
+    "capital": { "zh": "郑州", "en": "Zhengzhou" },
+    "population": 98720000,
+    "gdpCNY": 61345.1,
+    "areaKm2": 167000,
+    "abbr": "豫",
+    "dialects": [
+      { "name": { "zh": "中原官话", "en": "Central Plains Mandarin" }, "family": { "zh": "官话·中原官话（郑州、洛阳等）", "en": "Mandarin · Central Plains group (Zhengzhou, Luoyang)" } },
+      { "name": { "zh": "晋语", "en": "Jin Chinese" }, "family": { "zh": "晋语（北部安阳等）", "en": "Jin (northern areas such as Anyang)" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 98 },
+      { "name": { "zh": "回族", "en": "Hui" } },
+      { "name": { "zh": "蒙古族", "en": "Mongol" } },
+      { "name": { "zh": "满族", "en": "Manchu" } }
+    ],
+    "religions": ["buddhism", "taoism", "islam", "christianity", "folk"],
+    "highlights": [
+      { "name": { "zh": "豫剧", "en": "Yu Opera (Henan Opera)" }, "note": { "zh": "中国最大的地方剧种之一", "en": "One of China's largest regional opera forms" } },
+      { "name": { "zh": "少林功夫", "en": "Shaolin Kung Fu" }, "note": { "zh": "嵩山少林寺武术，闻名世界", "en": "Martial arts of Songshan Shaolin Temple, world-famous" } },
+      { "name": { "zh": "龙门石窟", "en": "Longmen Grottoes" }, "note": { "zh": "洛阳佛教石刻艺术，世界遗产", "en": "Buddhist rock carvings in Luoyang, a World Heritage Site" } },
+      { "name": { "zh": "甲骨文与殷墟", "en": "Oracle Bones and Yin Ruins" }, "note": { "zh": "安阳商代都城与最早成熟汉字", "en": "Shang capital at Anyang and earliest mature Chinese script" } }
+    ]
+  },
+  "湖北省": {
+    "nameEn": "Hubei",
+    "capital": { "zh": "武汉", "en": "Wuhan" },
+    "population": 58440000,
+    "gdpCNY": 53734.9,
+    "areaKm2": 185900,
+    "abbr": "鄂",
+    "dialects": [
+      { "name": { "zh": "西南官话", "en": "Southwestern Mandarin" }, "family": { "zh": "官话·西南官话（武汉等大部）", "en": "Mandarin · Southwestern group (Wuhan and most areas)" } },
+      { "name": { "zh": "江淮官话", "en": "Jianghuai Mandarin" }, "family": { "zh": "官话·江淮官话（东部黄冈、黄石等）", "en": "Mandarin · Jianghuai group (eastern areas: Huanggang, Huangshi)" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 95 },
+      { "name": { "zh": "土家族", "en": "Tujia" }, "share": 4 },
+      { "name": { "zh": "苗族", "en": "Miao" } },
+      { "name": { "zh": "回族", "en": "Hui" } },
+      { "name": { "zh": "侗族", "en": "Dong" } }
+    ],
+    "religions": ["buddhism", "taoism", "islam", "christianity", "folk"],
+    "highlights": [
+      { "name": { "zh": "热干面", "en": "Hot Dry Noodles" }, "note": { "zh": "武汉标志性早餐", "en": "Wuhan's iconic breakfast noodles" } },
+      { "name": { "zh": "汉剧与楚剧", "en": "Han Opera and Chu Opera" }, "note": { "zh": "湖北代表性地方戏曲", "en": "Representative local operas of Hubei" } },
+      { "name": { "zh": "武当山", "en": "Wudang Mountain" }, "note": { "zh": "道教名山与武当武术发源地", "en": "Sacred Taoist mountain and birthplace of Wudang martial arts" } },
+      { "name": { "zh": "黄鹤楼", "en": "Yellow Crane Tower" }, "note": { "zh": "武汉江南名楼地标", "en": "Wuhan's landmark tower celebrated in classical poetry" } },
+      { "name": { "zh": "曾侯乙编钟", "en": "Bianzhong of Marquis Yi of Zeng" }, "note": { "zh": "战国大型青铜编钟，音乐考古瑰宝", "en": "Warring States bronze chime bells, a treasure of music archaeology" } }
+    ]
+  }
+}

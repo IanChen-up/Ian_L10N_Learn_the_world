@@ -1,0 +1,45 @@
+ALB | Albania | 阿尔巴尼亚 | cap:Tirana
+AND | Andorra | 安道尔 | cap:Andorra la Vella
+AUT | Austria | 奥地利 | cap:Vienna
+BLR | Belarus | 白俄罗斯 | cap:Minsk
+BEL | Belgium | 比利时 | cap:Brussels
+BIH | Bosnia and Herzegovina | 波斯尼亚和黑塞哥维那 | cap:Sarajevo
+BGR | Bulgaria | 保加利亚 | cap:Sofia
+HRV | Croatia | 克罗地亚 | cap:Zagreb
+CYP | Cyprus | 塞浦路斯 | cap:Nicosia
+CZE | Czechia | 捷克 | cap:Prague
+DNK | Denmark | 丹麦 | cap:Copenhagen
+EST | Estonia | 爱沙尼亚 | cap:Tallinn
+FIN | Finland | 芬兰 | cap:Helsinki
+FRA | France | 法国 | cap:Paris
+DEU | Germany | 德国 | cap:Berlin
+GRC | Greece | 希腊 | cap:Athens
+HUN | Hungary | 匈牙利 | cap:Budapest
+ISL | Iceland | 冰岛 | cap:Reykjavik
+IRL | Ireland | 爱尔兰 | cap:Dublin
+ITA | Italy | 意大利 | cap:Rome
+LVA | Latvia | 拉脱维亚 | cap:Riga
+LIE | Liechtenstein | 列支敦士登 | cap:Vaduz
+LTU | Lithuania | 立陶宛 | cap:Vilnius
+LUX | Luxembourg | 卢森堡 | cap:Luxembourg
+MLT | Malta | 马耳他 | cap:Valletta
+MDA | Moldova | 摩尔多瓦 | cap:Chișinău
+MCO | Monaco | 摩纳哥 | cap:Monaco
+MNE | Montenegro | 黑山 | cap:Podgorica
+NLD | Netherlands | 荷兰 | cap:Amsterdam
+MKD | North Macedonia | 北馬其頓 | cap:Skopje
+NOR | Norway | 挪威 | cap:Oslo
+POL | Poland | 波兰 | cap:Warsaw
+PRT | Portugal | 葡萄牙 | cap:Lisbon
+ROU | Romania | 罗马尼亚 | cap:Bucharest
+RUS | Russia | 俄罗斯 | cap:Moscow
+SMR | San Marino | 圣马力诺 | cap:City of San Marino
+SRB | Serbia | 塞尔维亚 | cap:Belgrade
+SVK | Slovakia | 斯洛伐克 | cap:Bratislava
+SVN | Slovenia | 斯洛文尼亚 | cap:Ljubljana
+ESP | Spain | 西班牙 | cap:Madrid
+SWE | Sweden | 瑞典 | cap:Stockholm
+CHE | Switzerland | 瑞士 | cap:Bern
+UKR | Ukraine | 乌克兰 | cap:Kyiv
+GBR | United Kingdom | 英国 | cap:London
+VAT | Vatican City | 梵蒂冈 | cap:Vatican City

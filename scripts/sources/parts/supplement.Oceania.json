@@ -1,0 +1,176 @@
+{
+  "AUS": {
+    "capitalZh": "堪培拉",
+    "religions": [
+      { "key": "christianity", "share": 44 },
+      { "key": "secular", "share": 39 },
+      { "key": "islam", "share": 3 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "澳大利亚国庆日", "en": "Australia Day" }, "date": "01-26", "note": { "zh": "纪念 1788 年首批英国船队抵达悉尼湾", "en": "Marks the 1788 arrival of the First Fleet at Sydney Cove" } },
+      { "name": { "zh": "澳新军团日", "en": "Anzac Day" }, "date": "04-25", "note": { "zh": "缅怀阵亡将士，纪念澳新军团在加里波利登陆", "en": "Honours the war dead, marking the Gallipoli landing" } }
+    ]
+  },
+  "FJI": {
+    "capitalZh": "苏瓦",
+    "religions": [
+      { "key": "christianity", "share": 64 },
+      { "key": "hinduism", "share": 28 },
+      { "key": "islam", "share": 6 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "斐济日", "en": "Fiji Day" }, "date": "10-10", "note": { "zh": "纪念 1970 年脱离英国独立", "en": "Marks independence from Britain in 1970" } },
+      { "name": { "zh": "排灯节", "en": "Diwali" }, "date": "10 月或 11 月", "note": { "zh": "印度教光明节，因印度裔人口众多而列为法定假日", "en": "Hindu festival of lights, a public holiday reflecting the large Indo-Fijian community" } }
+    ]
+  },
+  "KIR": {
+    "capitalZh": "南塔拉瓦",
+    "religions": [
+      { "key": "catholicism", "share": 58 },
+      { "key": "protestantism", "share": 31 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "07-12", "note": { "zh": "纪念 1979 年脱离英国独立", "en": "Marks independence from Britain in 1979" } },
+      { "name": { "zh": "福音日", "en": "Gospel Day" }, "note": { "zh": "纪念基督教传入吉尔伯特群岛", "en": "Commemorates the arrival of Christianity to the Gilbert Islands" } }
+    ]
+  },
+  "MHL": {
+    "capitalZh": "马朱罗",
+    "religions": [
+      { "key": "protestantism", "share": 65 },
+      { "key": "catholicism", "share": 8 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "核受害者纪念日", "en": "Nuclear Victims Remembrance Day" }, "date": "03-01", "note": { "zh": "缅怀美国核试验受害者，纪念 1954 年\"喝彩城堡\"氢弹试验", "en": "Remembers victims of US nuclear testing, marking the 1954 Castle Bravo test" } },
+      { "name": { "zh": "传统文化日", "en": "Manit (Custom) Day" }, "date": "9 月最后一个周五", "note": { "zh": "展示马绍尔传统歌舞与编织等民俗文化", "en": "Celebrates Marshallese customs, dance and weaving" } },
+      { "name": { "zh": "宪法日", "en": "Constitution Day" }, "date": "05-01", "note": { "zh": "纪念 1979 年宪法生效", "en": "Marks the 1979 constitution" } }
+    ]
+  },
+  "FSM": {
+    "capitalZh": "帕利基尔",
+    "religions": [
+      { "key": "catholicism", "share": 53 },
+      { "key": "protestantism", "share": 42 }
+    ],
+    "government": "federal_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "11-03", "note": { "zh": "纪念 1986 年《自由联系条约》生效", "en": "Marks the 1986 Compact of Free Association with the US" } },
+      { "name": { "zh": "宪法日", "en": "Constitution Day" }, "date": "05-10", "note": { "zh": "纪念 1979 年联邦宪法通过", "en": "Commemorates the 1979 federal constitution" } }
+    ]
+  },
+  "NRU": {
+    "capitalZh": "亚伦",
+    "religions": [
+      { "key": "protestantism", "share": 60 },
+      { "key": "catholicism", "share": 33 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "安加姆日", "en": "Angam Day" }, "date": "10-26", "note": { "zh": "\"安加姆\"意为回家，纪念瑙鲁人口在灾难后恢复到 1500 人", "en": "'Angam' means homecoming; marks the population recovering to 1,500 after disasters" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "01-31", "note": { "zh": "纪念 1968 年成为世界最小的独立共和国", "en": "Marks becoming the world's smallest independent republic in 1968" } }
+    ]
+  },
+  "NZL": {
+    "capitalZh": "惠灵顿",
+    "religions": [
+      { "key": "secular", "share": 51 },
+      { "key": "christianity", "share": 32 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "怀唐伊日", "en": "Waitangi Day" }, "date": "02-06", "note": { "zh": "纪念 1840 年毛利人与英国签署《怀唐伊条约》", "en": "Marks the 1840 Treaty of Waitangi between Māori and the British Crown" } },
+      { "name": { "zh": "马塔里基（毛利新年）", "en": "Matariki" }, "date": "6 月或 7 月昴星团升起时", "note": { "zh": "以昴星团升起为标志的毛利新年，2022 年起为法定假日", "en": "Māori New Year marked by the rising of the Pleiades; a public holiday since 2022" } }
+    ]
+  },
+  "PLW": {
+    "capitalZh": "恩吉鲁穆德",
+    "religions": [
+      { "key": "catholicism", "share": 45 },
+      { "key": "protestantism", "share": 30 },
+      { "key": "indigenous", "share": 5 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "宪法日", "en": "Constitution Day" }, "date": "07-09", "note": { "zh": "纪念 1981 年帕劳宪法生效", "en": "Marks the adoption of Palau's constitution in 1981" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "10-01", "note": { "zh": "纪念 1994 年结束托管、正式独立", "en": "Marks full independence in 1994 after UN trusteeship" } }
+    ]
+  },
+  "PNG": {
+    "capitalZh": "莫尔兹比港",
+    "religions": [
+      { "key": "protestantism", "share": 64 },
+      { "key": "catholicism", "share": 26 },
+      { "key": "indigenous" }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "09-16", "note": { "zh": "纪念 1975 年脱离澳大利亚管理独立", "en": "Marks independence from Australian administration in 1975" } },
+      { "name": { "zh": "全国忏悔日", "en": "National Day of Repentance" }, "date": "08-26", "note": { "zh": "2011 年设立的基督教祈祷日，为国家祈求宽恕", "en": "A Christian day of prayer established in 2011 to seek national forgiveness" } }
+    ]
+  },
+  "WSM": {
+    "capitalZh": "阿皮亚",
+    "religions": [
+      { "key": "protestantism", "share": 55 },
+      { "key": "catholicism", "share": 19 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "06-01", "note": { "zh": "纪念 1962 年成为首个恢复独立的波利尼西亚国家", "en": "Marks 1962 independence, the first Polynesian nation to do so" } },
+      { "name": { "zh": "白色星期日（儿童礼拜日）", "en": "White Sunday (Lotu a Tamaiti)" }, "date": "10 月第二个周日", "note": { "zh": "孩子们身着白衣在教堂领唱表演，家庭为其庆祝", "en": "Children dress in white and lead church services; families honour them" } }
+    ]
+  },
+  "SLB": {
+    "capitalZh": "霍尼亚拉",
+    "religions": [
+      { "key": "protestantism", "share": 73 },
+      { "key": "catholicism", "share": 19 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "07-07", "note": { "zh": "纪念 1978 年脱离英国独立", "en": "Marks independence from Britain in 1978" } },
+      { "name": { "zh": "沃加西亚掷矛节", "en": "Wogasia Spear Festival" }, "date": "5 月（圣卡塔利娜岛）", "note": { "zh": "圣卡塔利娜岛的传统掷矛与山药丰收仪式，用以化解宿怨", "en": "A Santa Catalina spear-throwing and yam-harvest ritual to settle grievances" } }
+    ]
+  },
+  "TON": {
+    "capitalZh": "努库阿洛法",
+    "religions": [
+      { "key": "protestantism", "share": 60 },
+      { "key": "catholicism", "share": 14 }
+    ],
+    "government": "constitutional_monarchy",
+    "holidays": [
+      { "name": { "zh": "解放日", "en": "Emancipation Day" }, "date": "06-04", "note": { "zh": "纪念 1862 年图普一世废除农奴制", "en": "Marks King Tupou I's 1862 abolition of serfdom" } },
+      { "name": { "zh": "宪法日", "en": "Constitution Day" }, "date": "11-04", "note": { "zh": "汤加国庆日，纪念 1875 年颁布宪法", "en": "Tonga's national day, marking the 1875 constitution" } }
+    ]
+  },
+  "TUV": {
+    "capitalZh": "富纳富提",
+    "religions": [
+      { "key": "protestantism", "share": 90 },
+      { "key": "bahai", "share": 2 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "图瓦卢日（独立日）", "en": "Tuvalu Day" }, "date": "10-01 至 10-02", "note": { "zh": "纪念 1978 年脱离英国独立，庆祝持续两天", "en": "Two-day celebration of independence from Britain in 1978" } },
+      { "name": { "zh": "福音日", "en": "Gospel Day" }, "date": "5 月第二个周一", "note": { "zh": "纪念基督教福音传入图瓦卢", "en": "Commemorates the arrival of the Christian gospel in Tuvalu" } }
+    ]
+  },
+  "VUT": {
+    "capitalZh": "维拉港",
+    "religions": [
+      { "key": "protestantism", "share": 55 },
+      { "key": "catholicism", "share": 12 },
+      { "key": "indigenous", "share": 4 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "07-30", "note": { "zh": "纪念 1980 年结束英法共管、宣告独立", "en": "Marks 1980 independence from the Anglo-French Condominium" } },
+      { "name": { "zh": "纳戈尔陆潜", "en": "Naghol (Land Diving)" }, "date": "4 月至 6 月（五旬节岛）", "note": { "zh": "五旬节岛男子以藤蔓缚脚从高塔跳下祈求山药丰收，是蹦极的起源", "en": "Pentecost Island men leap from towers with vines tied to their ankles for a good yam harvest; the origin of bungee jumping" } }
+    ]
+  }
+}

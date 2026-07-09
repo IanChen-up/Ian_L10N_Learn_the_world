@@ -1,0 +1,625 @@
+{
+  "_comment": "Per-language common phrases with native text, romanization and BCP-47 langTag for TTS. Sources: Wiktionary / Omniglot / public phrasebooks.",
+  "phrases": {
+    "spa": {
+      "langTag": "es-ES",
+      "items": [
+        { "key": "hello", "text": "Hola", "romanization": "OH-lah" },
+        { "key": "thanks", "text": "Gracias", "romanization": "GRAH-syahs" },
+        { "key": "goodbye", "text": "Adiós", "romanization": "ah-DYOHS" },
+        { "key": "yes", "text": "Sí", "romanization": "see" },
+        { "key": "no", "text": "No", "romanization": "noh" }
+      ]
+    },
+    "por": {
+      "langTag": "pt-PT",
+      "items": [
+        { "key": "hello", "text": "Olá", "romanization": "oh-LAH" },
+        { "key": "thanks", "text": "Obrigado", "romanization": "oh-bree-GAH-doo" },
+        { "key": "goodbye", "text": "Adeus", "romanization": "ah-DEH-oosh" },
+        { "key": "yes", "text": "Sim", "romanization": "seeng" },
+        { "key": "no", "text": "Não", "romanization": "nowng" }
+      ]
+    },
+    "fra": {
+      "langTag": "fr-FR",
+      "items": [
+        { "key": "hello", "text": "Bonjour", "romanization": "bohn-ZHOOR" },
+        { "key": "thanks", "text": "Merci", "romanization": "mehr-SEE" },
+        { "key": "goodbye", "text": "Au revoir", "romanization": "oh ruh-VWAHR" },
+        { "key": "yes", "text": "Oui", "romanization": "wee" },
+        { "key": "no", "text": "Non", "romanization": "nohn" }
+      ]
+    },
+    "ara": {
+      "langTag": "ar-SA",
+      "items": [
+        { "key": "hello", "text": "مرحبا", "romanization": "MAR-ha-ban" },
+        { "key": "thanks", "text": "شكرا", "romanization": "SHUK-ran" },
+        { "key": "goodbye", "text": "مع السلامة", "romanization": "maa as-sa-LAA-ma" },
+        { "key": "yes", "text": "نعم", "romanization": "NA-am" },
+        { "key": "no", "text": "لا", "romanization": "laa" }
+      ]
+    },
+    "swa": {
+      "langTag": "sw-KE",
+      "items": [
+        { "key": "hello", "text": "Habari", "romanization": "ha-BAH-ree" },
+        { "key": "thanks", "text": "Asante", "romanization": "ah-SAHN-teh" },
+        { "key": "goodbye", "text": "Kwaheri", "romanization": "kwah-HEH-ree" },
+        { "key": "yes", "text": "Ndiyo", "romanization": "n-DEE-yoh" },
+        { "key": "no", "text": "Hapana", "romanization": "ha-PAH-nah" }
+      ]
+    },
+    "hau": {
+      "langTag": "ha",
+      "items": [
+        { "key": "hello", "text": "Sannu", "romanization": "SAHN-noo" },
+        { "key": "thanks", "text": "Na gode", "romanization": "nah GOH-deh" },
+        { "key": "goodbye", "text": "Sai an jima", "romanization": "sigh ahn JEE-mah" },
+        { "key": "yes", "text": "Ii", "romanization": "ee" },
+        { "key": "no", "text": "A'a", "romanization": "AH-ah" }
+      ]
+    },
+    "yor": {
+      "langTag": "yo-NG",
+      "items": [
+        { "key": "hello", "text": "Báwo ni", "romanization": "BAH-woh nee" },
+        { "key": "thanks", "text": "Ẹ ṣé", "romanization": "eh SHEH" },
+        { "key": "goodbye", "text": "Ó dàbọ̀", "romanization": "oh DAH-baw" },
+        { "key": "yes", "text": "Bẹ́ẹ̀ ni", "romanization": "BEH-eh nee" },
+        { "key": "no", "text": "Rárá", "romanization": "RAH-rah" }
+      ]
+    },
+    "ibo": {
+      "langTag": "ig-NG",
+      "items": [
+        { "key": "hello", "text": "Ndewo", "romanization": "n-DEH-woh" },
+        { "key": "thanks", "text": "Daalụ", "romanization": "DAH-loo" },
+        { "key": "goodbye", "text": "Ka ọ dị", "romanization": "kah aw dee" },
+        { "key": "yes", "text": "Ee", "romanization": "eh-eh" },
+        { "key": "no", "text": "Mba", "romanization": "m-BAH" }
+      ]
+    },
+    "zul": {
+      "langTag": "zu-ZA",
+      "items": [
+        { "key": "hello", "text": "Sawubona", "romanization": "sah-woo-BOH-nah" },
+        { "key": "thanks", "text": "Ngiyabonga", "romanization": "ngee-yah-BOHN-gah" },
+        { "key": "goodbye", "text": "Hamba kahle", "romanization": "HAHM-bah GAH-shleh" },
+        { "key": "yes", "text": "Yebo", "romanization": "YEH-boh" },
+        { "key": "no", "text": "Cha", "romanization": "chah" }
+      ]
+    },
+    "amh": {
+      "langTag": "am-ET",
+      "items": [
+        { "key": "hello", "text": "ሰላም", "romanization": "se-LAM" },
+        { "key": "thanks", "text": "አመሰግናለሁ", "romanization": "a-me-seg-NA-le-hu" },
+        { "key": "goodbye", "text": "ደህና ሁን", "romanization": "DEH-na hun" },
+        { "key": "yes", "text": "አዎ", "romanization": "AH-wo" },
+        { "key": "no", "text": "አይ", "romanization": "eye" }
+      ]
+    },
+    "som": {
+      "langTag": "so-SO",
+      "items": [
+        { "key": "hello", "text": "Salaan", "romanization": "sa-LAAN" },
+        { "key": "thanks", "text": "Mahadsanid", "romanization": "ma-had-SA-nid" },
+        { "key": "goodbye", "text": "Nabadgelyo", "romanization": "na-bad-GEL-yo" },
+        { "key": "yes", "text": "Haa", "romanization": "haa" },
+        { "key": "no", "text": "Maya", "romanization": "MA-ya" }
+      ]
+    },
+    "msa": {
+      "langTag": "ms-MY",
+      "items": [
+        { "key": "hello", "text": "Helo", "romanization": "HEH-loh" },
+        { "key": "thanks", "text": "Terima kasih", "romanization": "teh-REE-mah KAH-seh" },
+        { "key": "goodbye", "text": "Selamat tinggal", "romanization": "seh-LAH-mat TING-gal" },
+        { "key": "yes", "text": "Ya", "romanization": "yah" },
+        { "key": "no", "text": "Tidak", "romanization": "TEE-dah" }
+      ]
+    },
+    "ind": {
+      "langTag": "id-ID",
+      "items": [
+        { "key": "hello", "text": "Halo", "romanization": "HAH-loh" },
+        { "key": "thanks", "text": "Terima kasih", "romanization": "teh-REE-mah KAH-seh" },
+        { "key": "goodbye", "text": "Selamat tinggal", "romanization": "seh-LAH-mat TING-gal" },
+        { "key": "yes", "text": "Ya", "romanization": "yah" },
+        { "key": "no", "text": "Tidak", "romanization": "TEE-dah" }
+      ]
+    },
+    "fil": {
+      "langTag": "fil-PH",
+      "items": [
+        { "key": "hello", "text": "Kumusta", "romanization": "koo-MOOS-tah" },
+        { "key": "thanks", "text": "Salamat", "romanization": "sah-LAH-mat" },
+        { "key": "goodbye", "text": "Paalam", "romanization": "pah-AH-lam" },
+        { "key": "yes", "text": "Oo", "romanization": "OH-oh" },
+        { "key": "no", "text": "Hindi", "romanization": "hin-DEE" }
+      ]
+    },
+    "tgl": {
+      "langTag": "fil-PH",
+      "items": [
+        { "key": "hello", "text": "Kumusta", "romanization": "koo-MOOS-tah" },
+        { "key": "thanks", "text": "Salamat", "romanization": "sah-LAH-mat" },
+        { "key": "goodbye", "text": "Paalam", "romanization": "pah-AH-lam" },
+        { "key": "yes", "text": "Oo", "romanization": "OH-oh" },
+        { "key": "no", "text": "Hindi", "romanization": "hin-DEE" }
+      ]
+    },
+    "vie": {
+      "langTag": "vi-VN",
+      "items": [
+        { "key": "hello", "text": "Xin chào", "romanization": "sin JOW" },
+        { "key": "thanks", "text": "Cảm ơn", "romanization": "gahm UHN" },
+        { "key": "goodbye", "text": "Tạm biệt", "romanization": "tahm BEE-et" },
+        { "key": "yes", "text": "Vâng", "romanization": "vuhng" },
+        { "key": "no", "text": "Không", "romanization": "kohng" }
+      ]
+    },
+    "tha": {
+      "langTag": "th-TH",
+      "items": [
+        { "key": "hello", "text": "สวัสดี", "romanization": "sa-wat-DEE" },
+        { "key": "thanks", "text": "ขอบคุณ", "romanization": "korp-KOON" },
+        { "key": "goodbye", "text": "ลาก่อน", "romanization": "lah-GORN" },
+        { "key": "yes", "text": "ใช่", "romanization": "chai" },
+        { "key": "no", "text": "ไม่", "romanization": "mai" }
+      ]
+    },
+    "khm": {
+      "langTag": "km-KH",
+      "items": [
+        { "key": "hello", "text": "សួស្តី", "romanization": "suo-s'DEI" },
+        { "key": "thanks", "text": "អរគុណ", "romanization": "or-KUN" },
+        { "key": "goodbye", "text": "លាហើយ", "romanization": "lea-HAOY" },
+        { "key": "yes", "text": "បាទ", "romanization": "baat" },
+        { "key": "no", "text": "ទេ", "romanization": "teh" }
+      ]
+    },
+    "lao": {
+      "langTag": "lo-LA",
+      "items": [
+        { "key": "hello", "text": "ສະບາຍດີ", "romanization": "sa-bai-DEE" },
+        { "key": "thanks", "text": "ຂອບໃຈ", "romanization": "korp-JAI" },
+        { "key": "goodbye", "text": "ລາກ່ອນ", "romanization": "lah-GORN" },
+        { "key": "yes", "text": "ແມ່ນ", "romanization": "maen" },
+        { "key": "no", "text": "ບໍ່", "romanization": "bor" }
+      ]
+    },
+    "mya": {
+      "langTag": "my-MM",
+      "items": [
+        { "key": "hello", "text": "မင်္ဂလာပါ", "romanization": "ming-gah-lah-BAH" },
+        { "key": "thanks", "text": "ကျေးဇူးတင်ပါတယ်", "romanization": "kyay-zoo-tin-bah-DEH" },
+        { "key": "goodbye", "text": "သွားတော့မယ်", "romanization": "thwah-daw-MEH" },
+        { "key": "yes", "text": "ဟုတ်ကဲ့", "romanization": "HOKE-keh" },
+        { "key": "no", "text": "မဟုတ်ဘူး", "romanization": "ma-HOKE-boo" }
+      ]
+    },
+    "sin": {
+      "langTag": "si-LK",
+      "items": [
+        { "key": "hello", "text": "ආයුබෝවන්", "romanization": "AH-yu-boh-wan" },
+        { "key": "thanks", "text": "ස්තූතියි", "romanization": "s-TOO-tee-yi" },
+        { "key": "goodbye", "text": "ගිහින් එන්නම්", "romanization": "gi-hin EN-nam" },
+        { "key": "yes", "text": "ඔව්", "romanization": "ow" },
+        { "key": "no", "text": "නැහැ", "romanization": "NEH-heh" }
+      ]
+    },
+    "nep": {
+      "langTag": "ne-NP",
+      "items": [
+        { "key": "hello", "text": "नमस्ते", "romanization": "nah-mah-STEH" },
+        { "key": "thanks", "text": "धन्यवाद", "romanization": "DHUN-yah-vaad" },
+        { "key": "goodbye", "text": "फेरि भेटौंला", "romanization": "PHEH-ri bheh-TOWN-lah" },
+        { "key": "yes", "text": "हो", "romanization": "ho" },
+        { "key": "no", "text": "होइन", "romanization": "HO-in" }
+      ]
+    },
+    "hin": {
+      "langTag": "hi-IN",
+      "items": [
+        { "key": "hello", "text": "नमस्ते", "romanization": "nah-mah-STEH" },
+        { "key": "thanks", "text": "धन्यवाद", "romanization": "DHUN-yah-vaad" },
+        { "key": "goodbye", "text": "अलविदा", "romanization": "al-vi-DAH" },
+        { "key": "yes", "text": "हाँ", "romanization": "haan" },
+        { "key": "no", "text": "नहीं", "romanization": "na-HEEN" }
+      ]
+    },
+    "ben": {
+      "langTag": "bn-BD",
+      "items": [
+        { "key": "hello", "text": "নমস্কার", "romanization": "no-mosh-KAR" },
+        { "key": "thanks", "text": "ধন্যবাদ", "romanization": "DHON-no-baad" },
+        { "key": "goodbye", "text": "বিদায়", "romanization": "bi-DAI" },
+        { "key": "yes", "text": "হ্যাঁ", "romanization": "hyañ" },
+        { "key": "no", "text": "না", "romanization": "nah" }
+      ]
+    },
+    "tam": {
+      "langTag": "ta-IN",
+      "items": [
+        { "key": "hello", "text": "வணக்கம்", "romanization": "va-NAK-kam" },
+        { "key": "thanks", "text": "நன்றி", "romanization": "NAN-dri" },
+        { "key": "goodbye", "text": "போய் வருகிறேன்", "romanization": "poy va-ru-gi-REN" },
+        { "key": "yes", "text": "ஆம்", "romanization": "aam" },
+        { "key": "no", "text": "இல்லை", "romanization": "IL-lai" }
+      ]
+    },
+    "tel": {
+      "langTag": "te-IN",
+      "items": [
+        { "key": "hello", "text": "నమస్కారం", "romanization": "na-mas-KAA-ram" },
+        { "key": "thanks", "text": "ధన్యవాదాలు", "romanization": "dhan-ya-vaa-DAA-lu" },
+        { "key": "goodbye", "text": "వెళ్తాను", "romanization": "vel-TAA-nu" },
+        { "key": "yes", "text": "అవును", "romanization": "a-VOO-nu" },
+        { "key": "no", "text": "కాదు", "romanization": "KAA-du" }
+      ]
+    },
+    "mar": {
+      "langTag": "mr-IN",
+      "items": [
+        { "key": "hello", "text": "नमस्कार", "romanization": "na-mas-KAR" },
+        { "key": "thanks", "text": "धन्यवाद", "romanization": "DHUN-ya-vaad" },
+        { "key": "goodbye", "text": "येतो", "romanization": "YEH-to" },
+        { "key": "yes", "text": "होय", "romanization": "hoy" },
+        { "key": "no", "text": "नाही", "romanization": "NAA-hee" }
+      ]
+    },
+    "guj": {
+      "langTag": "gu-IN",
+      "items": [
+        { "key": "hello", "text": "નમસ્તે", "romanization": "nah-mas-TEH" },
+        { "key": "thanks", "text": "આભાર", "romanization": "aa-BHAAR" },
+        { "key": "goodbye", "text": "આવજો", "romanization": "AAV-jo" },
+        { "key": "yes", "text": "હા", "romanization": "haa" },
+        { "key": "no", "text": "ના", "romanization": "naa" }
+      ]
+    },
+    "kan": {
+      "langTag": "kn-IN",
+      "items": [
+        { "key": "hello", "text": "ನಮಸ್ಕಾರ", "romanization": "na-mas-KAA-ra" },
+        { "key": "thanks", "text": "ಧನ್ಯವಾದ", "romanization": "DHAN-ya-vaa-da" },
+        { "key": "goodbye", "text": "ಹೋಗಿ ಬರುತ್ತೇನೆ", "romanization": "HO-gi ba-rut-TEH-ne" },
+        { "key": "yes", "text": "ಹೌದು", "romanization": "HOW-du" },
+        { "key": "no", "text": "ಇಲ್ಲ", "romanization": "IL-la" }
+      ]
+    },
+    "mal": {
+      "langTag": "ml-IN",
+      "items": [
+        { "key": "hello", "text": "നമസ്കാരം", "romanization": "na-mas-KAA-ram" },
+        { "key": "thanks", "text": "നന്ദി", "romanization": "NAN-di" },
+        { "key": "goodbye", "text": "വിട", "romanization": "VI-da" },
+        { "key": "yes", "text": "അതെ", "romanization": "A-the" },
+        { "key": "no", "text": "അല്ല", "romanization": "AL-la" }
+      ]
+    },
+    "pan": {
+      "langTag": "pa-IN",
+      "items": [
+        { "key": "hello", "text": "ਸਤ ਸ੍ਰੀ ਅਕਾਲ", "romanization": "sat sree a-KAAL" },
+        { "key": "thanks", "text": "ਧੰਨਵਾਦ", "romanization": "DHAN-vaad" },
+        { "key": "goodbye", "text": "ਰੱਬ ਰਾਖਾ", "romanization": "rabb RAA-khaa" },
+        { "key": "yes", "text": "ਹਾਂ", "romanization": "haan" },
+        { "key": "no", "text": "ਨਹੀਂ", "romanization": "na-HEEN" }
+      ]
+    },
+    "urd": {
+      "langTag": "ur-PK",
+      "items": [
+        { "key": "hello", "text": "السلام علیکم", "romanization": "as-sa-LAAM a-LAY-kum" },
+        { "key": "thanks", "text": "شکریہ", "romanization": "SHUK-ri-ya" },
+        { "key": "goodbye", "text": "خدا حافظ", "romanization": "khu-DAA HAA-fiz" },
+        { "key": "yes", "text": "جی ہاں", "romanization": "jee haan" },
+        { "key": "no", "text": "نہیں", "romanization": "na-HEEN" }
+      ]
+    },
+    "fas": {
+      "langTag": "fa-IR",
+      "items": [
+        { "key": "hello", "text": "سلام", "romanization": "sa-LAAM" },
+        { "key": "thanks", "text": "ممنون", "romanization": "mam-NOON" },
+        { "key": "goodbye", "text": "خداحافظ", "romanization": "kho-daa-HAA-fez" },
+        { "key": "yes", "text": "بله", "romanization": "BA-le" },
+        { "key": "no", "text": "نه", "romanization": "na" }
+      ]
+    },
+    "pus": {
+      "langTag": "ps-AF",
+      "items": [
+        { "key": "hello", "text": "سلام", "romanization": "sa-LAAM" },
+        { "key": "thanks", "text": "مننه", "romanization": "ma-NA-na" },
+        { "key": "goodbye", "text": "خدای پامان", "romanization": "khu-DAY paa-MAAN" },
+        { "key": "yes", "text": "هو", "romanization": "ho" },
+        { "key": "no", "text": "نه", "romanization": "na" }
+      ]
+    },
+    "tur": {
+      "langTag": "tr-TR",
+      "items": [
+        { "key": "hello", "text": "Merhaba", "romanization": "MEHR-ha-bah" },
+        { "key": "thanks", "text": "Teşekkürler", "romanization": "teh-shehk-kewr-LEHR" },
+        { "key": "goodbye", "text": "Hoşça kal", "romanization": "HOSH-chah kahl" },
+        { "key": "yes", "text": "Evet", "romanization": "EH-vet" },
+        { "key": "no", "text": "Hayır", "romanization": "HA-yuhr" }
+      ]
+    },
+    "aze": {
+      "langTag": "az-AZ",
+      "items": [
+        { "key": "hello", "text": "Salam", "romanization": "sa-LAM" },
+        { "key": "thanks", "text": "Təşəkkür", "romanization": "teh-sheh-KYUR" },
+        { "key": "goodbye", "text": "Əlvida", "romanization": "el-vi-DA" },
+        { "key": "yes", "text": "Bəli", "romanization": "BEH-li" },
+        { "key": "no", "text": "Xeyr", "romanization": "khayr" }
+      ]
+    },
+    "uzb": {
+      "langTag": "uz-UZ",
+      "items": [
+        { "key": "hello", "text": "Salom", "romanization": "sa-LOM" },
+        { "key": "thanks", "text": "Rahmat", "romanization": "rah-MAT" },
+        { "key": "goodbye", "text": "Xayr", "romanization": "khayr" },
+        { "key": "yes", "text": "Ha", "romanization": "hah" },
+        { "key": "no", "text": "Yo'q", "romanization": "yoq" }
+      ]
+    },
+    "kaz": {
+      "langTag": "kk-KZ",
+      "items": [
+        { "key": "hello", "text": "Сәлем", "romanization": "sa-LEM" },
+        { "key": "thanks", "text": "Рахмет", "romanization": "rakh-MET" },
+        { "key": "goodbye", "text": "Сау болыңыз", "romanization": "sau bo-LUH-nuhz" },
+        { "key": "yes", "text": "Иә", "romanization": "ee-YA" },
+        { "key": "no", "text": "Жоқ", "romanization": "zhoq" }
+      ]
+    },
+    "mon": {
+      "langTag": "mn-MN",
+      "items": [
+        { "key": "hello", "text": "Сайн байна уу", "romanization": "sain bai-NUU" },
+        { "key": "thanks", "text": "Баярлалаа", "romanization": "ba-yar-la-LAA" },
+        { "key": "goodbye", "text": "Баяртай", "romanization": "ba-yar-TAI" },
+        { "key": "yes", "text": "Тийм", "romanization": "teem" },
+        { "key": "no", "text": "Үгүй", "romanization": "oo-GOOEE" }
+      ]
+    },
+    "kat": {
+      "langTag": "ka-GE",
+      "items": [
+        { "key": "hello", "text": "გამარჯობა", "romanization": "ga-mar-JO-ba" },
+        { "key": "thanks", "text": "მადლობა", "romanization": "MAD-lo-ba" },
+        { "key": "goodbye", "text": "ნახვამდის", "romanization": "nakh-VAM-dis" },
+        { "key": "yes", "text": "დიახ", "romanization": "dee-AKH" },
+        { "key": "no", "text": "არა", "romanization": "A-ra" }
+      ]
+    },
+    "hye": {
+      "langTag": "hy-AM",
+      "items": [
+        { "key": "hello", "text": "Բարեւ", "romanization": "ba-REV" },
+        { "key": "thanks", "text": "Շնորհակալություն", "romanization": "shnor-ha-ka-lu-TYUN" },
+        { "key": "goodbye", "text": "Ցտեսություն", "romanization": "tse-te-su-TYUN" },
+        { "key": "yes", "text": "Այո", "romanization": "a-YO" },
+        { "key": "no", "text": "Ոչ", "romanization": "voch" }
+      ]
+    },
+    "ell": {
+      "langTag": "el-GR",
+      "items": [
+        { "key": "hello", "text": "Γεια σας", "romanization": "yah sahs" },
+        { "key": "thanks", "text": "Ευχαριστώ", "romanization": "ef-kha-ri-STOH" },
+        { "key": "goodbye", "text": "Αντίο", "romanization": "an-DEE-oh" },
+        { "key": "yes", "text": "Ναι", "romanization": "neh" },
+        { "key": "no", "text": "Όχι", "romanization": "OH-hee" }
+      ]
+    },
+    "heb": {
+      "langTag": "he-IL",
+      "items": [
+        { "key": "hello", "text": "שלום", "romanization": "sha-LOM" },
+        { "key": "thanks", "text": "תודה", "romanization": "to-DAH" },
+        { "key": "goodbye", "text": "להתראות", "romanization": "le-hit-ra-OT" },
+        { "key": "yes", "text": "כן", "romanization": "ken" },
+        { "key": "no", "text": "לא", "romanization": "lo" }
+      ]
+    },
+    "hun": {
+      "langTag": "hu-HU",
+      "items": [
+        { "key": "hello", "text": "Szia", "romanization": "SEE-yah" },
+        { "key": "thanks", "text": "Köszönöm", "romanization": "KUH-suh-nuhm" },
+        { "key": "goodbye", "text": "Viszlát", "romanization": "VIS-laat" },
+        { "key": "yes", "text": "Igen", "romanization": "EE-gen" },
+        { "key": "no", "text": "Nem", "romanization": "nem" }
+      ]
+    },
+    "fin": {
+      "langTag": "fi-FI",
+      "items": [
+        { "key": "hello", "text": "Hei", "romanization": "hay" },
+        { "key": "thanks", "text": "Kiitos", "romanization": "KEE-tohs" },
+        { "key": "goodbye", "text": "Näkemiin", "romanization": "NAK-eh-meen" },
+        { "key": "yes", "text": "Kyllä", "romanization": "KUL-la" },
+        { "key": "no", "text": "Ei", "romanization": "ay" }
+      ]
+    },
+    "ces": {
+      "langTag": "cs-CZ",
+      "items": [
+        { "key": "hello", "text": "Ahoj", "romanization": "AH-hoy" },
+        { "key": "thanks", "text": "Děkuji", "romanization": "DYEH-koo-yee" },
+        { "key": "goodbye", "text": "Na shledanou", "romanization": "nah SKHLE-da-noh" },
+        { "key": "yes", "text": "Ano", "romanization": "AH-no" },
+        { "key": "no", "text": "Ne", "romanization": "neh" }
+      ]
+    },
+    "ron": {
+      "langTag": "ro-RO",
+      "items": [
+        { "key": "hello", "text": "Bună", "romanization": "BOO-na" },
+        { "key": "thanks", "text": "Mulțumesc", "romanization": "mool-tsoo-MESK" },
+        { "key": "goodbye", "text": "La revedere", "romanization": "lah reh-veh-DEH-reh" },
+        { "key": "yes", "text": "Da", "romanization": "dah" },
+        { "key": "no", "text": "Nu", "romanization": "noo" }
+      ]
+    },
+    "ukr": {
+      "langTag": "uk-UA",
+      "items": [
+        { "key": "hello", "text": "Привіт", "romanization": "pry-VEET" },
+        { "key": "thanks", "text": "Дякую", "romanization": "DYA-koo-yu" },
+        { "key": "goodbye", "text": "До побачення", "romanization": "do po-BA-chen-nya" },
+        { "key": "yes", "text": "Так", "romanization": "tahk" },
+        { "key": "no", "text": "Ні", "romanization": "nee" }
+      ]
+    },
+    "bul": {
+      "langTag": "bg-BG",
+      "items": [
+        { "key": "hello", "text": "Здравей", "romanization": "zdra-VEY" },
+        { "key": "thanks", "text": "Благодаря", "romanization": "bla-go-da-RYA" },
+        { "key": "goodbye", "text": "Довиждане", "romanization": "do-VIZH-da-ne" },
+        { "key": "yes", "text": "Да", "romanization": "dah" },
+        { "key": "no", "text": "Не", "romanization": "neh" }
+      ]
+    },
+    "srp": {
+      "langTag": "sr-RS",
+      "items": [
+        { "key": "hello", "text": "Здраво", "romanization": "ZDRA-vo" },
+        { "key": "thanks", "text": "Хвала", "romanization": "HVA-la" },
+        { "key": "goodbye", "text": "Довиђења", "romanization": "do-vi-DJE-nya" },
+        { "key": "yes", "text": "Да", "romanization": "dah" },
+        { "key": "no", "text": "Не", "romanization": "neh" }
+      ]
+    },
+    "hrv": {
+      "langTag": "hr-HR",
+      "items": [
+        { "key": "hello", "text": "Bok", "romanization": "bohk" },
+        { "key": "thanks", "text": "Hvala", "romanization": "HVA-la" },
+        { "key": "goodbye", "text": "Doviđenja", "romanization": "do-vi-DJE-nya" },
+        { "key": "yes", "text": "Da", "romanization": "dah" },
+        { "key": "no", "text": "Ne", "romanization": "neh" }
+      ]
+    },
+    "pol": {
+      "langTag": "pl-PL",
+      "items": [
+        { "key": "hello", "text": "Cześć", "romanization": "cheshch" },
+        { "key": "thanks", "text": "Dziękuję", "romanization": "jyen-KOO-yeh" },
+        { "key": "goodbye", "text": "Do widzenia", "romanization": "do vee-DZEN- yah" },
+        { "key": "yes", "text": "Tak", "romanization": "tahk" },
+        { "key": "no", "text": "Nie", "romanization": "nyeh" }
+      ]
+    },
+    "nld": {
+      "langTag": "nl-NL",
+      "items": [
+        { "key": "hello", "text": "Hallo", "romanization": "HAH-loh" },
+        { "key": "thanks", "text": "Dank je", "romanization": "dahnk yuh" },
+        { "key": "goodbye", "text": "Tot ziens", "romanization": "toht zeens" },
+        { "key": "yes", "text": "Ja", "romanization": "yah" },
+        { "key": "no", "text": "Nee", "romanization": "nay" }
+      ]
+    },
+    "swe": {
+      "langTag": "sv-SE",
+      "items": [
+        { "key": "hello", "text": "Hej", "romanization": "hey" },
+        { "key": "thanks", "text": "Tack", "romanization": "tahk" },
+        { "key": "goodbye", "text": "Hej då", "romanization": "hey doh" },
+        { "key": "yes", "text": "Ja", "romanization": "yah" },
+        { "key": "no", "text": "Nej", "romanization": "nay" }
+      ]
+    },
+    "nob": {
+      "langTag": "nb-NO",
+      "items": [
+        { "key": "hello", "text": "Hei", "romanization": "hay" },
+        { "key": "thanks", "text": "Takk", "romanization": "tahk" },
+        { "key": "goodbye", "text": "Ha det", "romanization": "hah deh" },
+        { "key": "yes", "text": "Ja", "romanization": "yah" },
+        { "key": "no", "text": "Nei", "romanization": "nay" }
+      ]
+    },
+    "dan": {
+      "langTag": "da-DK",
+      "items": [
+        { "key": "hello", "text": "Hej", "romanization": "hai" },
+        { "key": "thanks", "text": "Tak", "romanization": "tahk" },
+        { "key": "goodbye", "text": "Farvel", "romanization": "fah-VEL" },
+        { "key": "yes", "text": "Ja", "romanization": "yah" },
+        { "key": "no", "text": "Nej", "romanization": "nai" }
+      ]
+    },
+    "deu": {
+      "langTag": "de-DE",
+      "items": [
+        { "key": "hello", "text": "Hallo", "romanization": "HAH-loh" },
+        { "key": "thanks", "text": "Danke", "romanization": "DAHN-keh" },
+        { "key": "goodbye", "text": "Auf Wiedersehen", "romanization": "owf VEE-der-zayn" },
+        { "key": "yes", "text": "Ja", "romanization": "yah" },
+        { "key": "no", "text": "Nein", "romanization": "nine" }
+      ]
+    },
+    "ita": {
+      "langTag": "it-IT",
+      "items": [
+        { "key": "hello", "text": "Ciao", "romanization": "chow" },
+        { "key": "thanks", "text": "Grazie", "romanization": "GRAH-tsyeh" },
+        { "key": "goodbye", "text": "Arrivederci", "romanization": "ah-ree-veh-DEHR-chee" },
+        { "key": "yes", "text": "Sì", "romanization": "see" },
+        { "key": "no", "text": "No", "romanization": "noh" }
+      ]
+    },
+    "rus": {
+      "langTag": "ru-RU",
+      "items": [
+        { "key": "hello", "text": "Привет", "romanization": "pri-VYET" },
+        { "key": "thanks", "text": "Спасибо", "romanization": "spa-SEE-ba" },
+        { "key": "goodbye", "text": "До свидания", "romanization": "da svee-DA-ni-ya" },
+        { "key": "yes", "text": "Да", "romanization": "dah" },
+        { "key": "no", "text": "Нет", "romanization": "nyet" }
+      ]
+    },
+    "jpn": {
+      "langTag": "ja-JP",
+      "items": [
+        { "key": "hello", "text": "こんにちは", "romanization": "kon-nee-chee-wah" },
+        { "key": "thanks", "text": "ありがとう", "romanization": "a-ree-GA-toh" },
+        { "key": "goodbye", "text": "さようなら", "romanization": "sa-yoh-NA-ra" },
+        { "key": "yes", "text": "はい", "romanization": "hai" },
+        { "key": "no", "text": "いいえ", "romanization": "ee-eh" }
+      ]
+    },
+    "kor": {
+      "langTag": "ko-KR",
+      "items": [
+        { "key": "hello", "text": "안녕하세요", "romanization": "an-nyeong-ha-se-yo" },
+        { "key": "thanks", "text": "감사합니다", "romanization": "gam-sa-ham-ni-da" },
+        { "key": "goodbye", "text": "안녕히 가세요", "romanization": "an-nyeong-hi ga-se-yo" },
+        { "key": "yes", "text": "네", "romanization": "neh" },
+        { "key": "no", "text": "아니요", "romanization": "a-ni-yo" }
+      ]
+    },
+    "zho": {
+      "langTag": "zh-CN",
+      "items": [
+        { "key": "hello", "text": "你好", "romanization": "nee HAO" },
+        { "key": "thanks", "text": "谢谢", "romanization": "SYEH-syeh" },
+        { "key": "goodbye", "text": "再见", "romanization": "dzai-JYEN" },
+        { "key": "yes", "text": "是", "romanization": "shr" },
+        { "key": "no", "text": "不", "romanization": "boo" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "iso": "KR",
+  "overview": {
+    "zh": "大韩民国位于亚洲东部朝鲜半岛南部，三面环海。经济发达，在电子、造船、汽车与文化产业方面具有全球竞争力，近年以'韩流'流行文化广受关注。",
+    "en": "The Republic of Korea lies in the southern part of the Korean Peninsula in East Asia, surrounded by sea on three sides. It has an advanced economy with global competitiveness in electronics, shipbuilding, automobiles and cultural industries, and has drawn attention in recent years through the 'Korean Wave' of popular culture."
+  },
+  "capitalHistory": {
+    "zh": "首尔旧称汉阳、汉城，1394年朝鲜王朝定都于此，历经数百年发展，现为韩国的政治、经济与文化中心。",
+    "en": "Seoul, formerly known as Hanyang and Hanseong, became the capital of the Joseon dynasty in 1394; after centuries of growth it is now the political, economic and cultural center of Korea."
+  },
+  "climate": {
+    "zh": "属温带季风气候，四季分明，夏季受东亚季风影响炎热多雨，冬季寒冷干燥。",
+    "en": "A temperate monsoon climate with four distinct seasons: hot, rainy summers under the East Asian monsoon and cold, dry winters."
+  },
+  "phrases": [
+    { "key": "hello", "text": "안녕하세요", "romanization": "Annyeonghaseyo", "langTag": "ko-KR" },
+    { "key": "thanks", "text": "감사합니다", "romanization": "Gamsahamnida", "langTag": "ko-KR" },
+    { "key": "goodbye", "text": "안녕히 가세요", "romanization": "Annyeonghi gaseyo", "langTag": "ko-KR" },
+    { "key": "cheers", "text": "건배", "romanization": "Geonbae", "langTag": "ko-KR" }
+  ],
+  "anthem": {
+    "name": { "zh": "《爱国歌》", "en": "Aegukga" },
+    "note": { "zh": "意为'爱国之歌'，由安益泰作曲，歌词表达对国家的热爱与祝愿。", "en": "Meaning 'the patriotic song', composed by Ahn Eak-tai, with lyrics expressing love and good wishes for the nation." }
+  },
+  "symbols": [
+    { "key": "flower", "name": { "zh": "木槿花（无穷花，国花）", "en": "Rose of Sharon (mugunghwa, national flower)" } },
+    { "key": "bird", "name": { "zh": "喜鹊（传统吉祥鸟）", "en": "Magpie (traditional auspicious bird)" } }
+  ],
+  "alphabetCount": 40,
+  "qsTop100": 5,
+  "unescoSites": 16,
+  "football": {
+    "fifaRank": 23,
+    "worldCupTitles": 0,
+    "note": { "zh": "曾于2002年与邻国共同主办世界杯，并历史性闯入四强。", "en": "Co-hosted the 2002 World Cup and reached the semi-finals, its best-ever result." }
+  },
+  "localization": {
+    "direction": "ltr",
+    "grammaticalGender": false,
+    "colorNotes": [
+      { "zh": "红蓝太极与黑色卦象构成国旗，寓意阴阳调和；红蓝在传统中象征平衡。", "en": "The flag's red-blue taegeuk and black trigrams express the harmony of yin and yang; red and blue symbolize balance in tradition." },
+      { "zh": "传统上以红色书写人名被视为不吉，应避免。", "en": "Writing a person's name in red is traditionally considered unlucky and should be avoided." }
+    ],
+    "culturalTaboos": [
+      { "zh": "重视长幼尊卑与敬语，依据对方身份使用不同的礼貌语体；数字 4 因谐音'死'而常被回避。", "en": "Hierarchy and honorifics matter, with speech levels varying by the listener's status; the number 4 sounds like 'death' and is often avoided." }
+    ],
+    "formatting": [
+      { "zh": "谚文按音节成块书写；日期常用 年-月-日；姓氏在前、名字在后。", "en": "Hangul is written in syllabic blocks; dates commonly use YYYY-MM-DD; family name precedes given name." },
+      { "zh": "年龄与称谓文化影响用词，本地化时需注意敬语层级。", "en": "Age and forms of address shape word choice; mind honorific levels when localizing." }
+    ]
+  },
+  "funFacts": [
+    { "zh": "谚文（Hangul）由15世纪世宗大王主导创制，被认为是科学易学的表音文字。", "en": "Hangul, created under King Sejong in the 15th century, is regarded as a scientific and easy-to-learn phonetic script." },
+    { "zh": "韩国是全球互联网普及率与网速最高的国家之一。", "en": "South Korea is among the world leaders in internet penetration and connection speeds." }
+  ],
+  "sources": {
+    "overview": { "label": { "zh": "维基百科", "en": "Wikipedia" }, "url": "https://en.wikipedia.org/wiki/South_Korea" },
+    "metrics": { "label": { "zh": "联合国教科文组织世界遗产名录", "en": "UNESCO World Heritage List" }, "url": "https://whc.unesco.org/en/statesparties/kr", "year": "2024" },
+    "football": { "label": { "zh": "国际足联世界排名", "en": "FIFA World Ranking" }, "url": "https://www.fifa.com/fifa-world-ranking" }
+  }
+}

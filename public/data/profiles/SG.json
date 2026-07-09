@@ -1,0 +1,62 @@
+{
+  "iso": "SG",
+  "overview": {
+    "zh": "新加坡是位于东南亚马来半岛南端的城市国家，扼守马六甲海峡要冲，是世界重要的国际金融、航运与贸易中心。社会多元，华人、马来人、印度人等族群和谐共处，经济高度发达。",
+    "en": "Singapore is a city-state at the southern tip of the Malay Peninsula in Southeast Asia, commanding the strategic Strait of Malacca and serving as a major global hub for finance, shipping and trade. It is a highly multicultural society where Chinese, Malay, Indian and other communities live together, with a highly developed economy."
+  },
+  "capitalHistory": {
+    "zh": "新加坡是城市国家，全国即为首都。1819年成为自由贸易港后迅速崛起，1965年独立建国，发展为现代化都市。",
+    "en": "As a city-state, Singapore is itself the capital. It rose rapidly after becoming a free port in 1819 and, following independence in 1965, developed into a modern metropolis."
+  },
+  "climate": {
+    "zh": "地处赤道附近，属热带雨林气候，全年高温多雨、湿度较大。",
+    "en": "Located near the equator, Singapore has a tropical rainforest climate with high temperatures, abundant rainfall and high humidity throughout the year."
+  },
+  "phrases": [
+    { "key": "hello", "text": "Hello", "romanization": "heh-LOH", "langTag": "en-SG" },
+    { "key": "thanks", "text": "Thank you", "romanization": "thank yoo", "langTag": "en-SG" },
+    { "key": "goodbye", "text": "Goodbye", "romanization": "good-BYE", "langTag": "en-SG" },
+    { "key": "cheers", "text": "Cheers", "romanization": "cheerz", "langTag": "en-SG" }
+  ],
+  "anthem": {
+    "name": { "zh": "《前进吧,新加坡》", "en": "Majulah Singapura (Onward Singapore)" },
+    "note": { "zh": "由祖比尔·赛义德以马来语创作，1965年独立时定为国歌。", "en": "Composed in Malay by Zubir Said; adopted as the national anthem at independence in 1965." }
+  },
+  "symbols": [
+    { "key": "flower", "name": { "zh": "卓锦·万代兰（胡姬花,国花）", "en": "Vanda Miss Joaquim orchid (national flower)" } },
+    { "key": "animal", "name": { "zh": "狮子（'狮城'象征,见于鱼尾狮）", "en": "Lion (symbol of the 'Lion City', echoed by the Merlion)" } }
+  ],
+  "alphabetCount": 26,
+  "qsTop100": 2,
+  "unescoSites": 1,
+  "football": {
+    "fifaRank": 160,
+    "worldCupTitles": 0,
+    "note": { "zh": "男足曾多次夺得东南亚地区赛事冠军，尚未打进世界杯正赛。", "en": "The men's team has won several Southeast Asian regional titles but has yet to qualify for the World Cup." }
+  },
+  "localization": {
+    "direction": "ltr",
+    "grammaticalGender": false,
+    "colorNotes": [
+      { "zh": "红色与白色为国旗色，象征团结、平等与纯洁，节庆中广泛使用。", "en": "Red and white, the flag colors, symbolize unity, equality and purity, and are widely used in celebrations." },
+      { "zh": "红色也契合华人文化的喜庆寓意，适合节庆营销。", "en": "Red also aligns with festive connotations in Chinese culture, fitting for celebratory marketing." }
+    ],
+    "culturalTaboos": [
+      { "zh": "官方语言有英语、华语、马来语和泰米尔语，重要内容宜提供多语版本。", "en": "Official languages are English, Mandarin, Malay and Tamil; key content should offer multilingual versions." },
+      { "zh": "社会对多元宗教与族群十分敏感,内容需避免冒犯任一群体。", "en": "Society is sensitive about its religious and ethnic diversity; content must avoid offending any group." }
+    ],
+    "formatting": [
+      { "zh": "英语为主要行政与商务语言，拼写偏英式；日期常用 日/月/年。", "en": "English is the main administrative and business language with British-leaning spelling; dates commonly use DD/MM/YYYY." },
+      { "zh": "货币为新加坡元（符号 S$），采用公制单位。", "en": "The currency is the Singapore dollar (symbol S$), and metric units are used." }
+    ]
+  },
+  "funFacts": [
+    { "zh": "新加坡被誉为'花园城市',城市绿化覆盖率在全球名列前茅。", "en": "Singapore is known as a 'Garden City', with one of the world's highest rates of urban greenery." },
+    { "zh": "新加坡植物园是该国唯一的世界文化遗产,也是首个入选的热带植物园。", "en": "The Singapore Botanic Gardens is the country's only World Heritage Site and the first tropical botanic garden to be listed." }
+  ],
+  "sources": {
+    "overview": { "label": { "zh": "维基百科", "en": "Wikipedia" }, "url": "https://en.wikipedia.org/wiki/Singapore" },
+    "metrics": { "label": { "zh": "联合国教科文组织世界遗产名录", "en": "UNESCO World Heritage List" }, "url": "https://whc.unesco.org/en/statesparties/sg", "year": "2024" },
+    "football": { "label": { "zh": "国际足联世界排名", "en": "FIFA World Ranking" }, "url": "https://www.fifa.com/fifa-world-ranking" }
+  }
+}

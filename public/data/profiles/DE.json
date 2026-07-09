@@ -1,0 +1,61 @@
+{
+  "iso": "DE",
+  "overview": {
+    "zh": "德意志联邦共和国位于欧洲中部，是欧洲人口和经济规模领先的国家之一。以精密制造、汽车工业与工程技术著称，同时拥有深厚的音乐、哲学与文学传统，是欧洲一体化的重要推动者。",
+    "en": "The Federal Republic of Germany lies in Central Europe and is one of the continent's most populous and economically powerful countries. Known for precision manufacturing, the automotive industry and engineering, it also has deep traditions in music, philosophy and literature, and is a key force in European integration."
+  },
+  "capitalHistory": {
+    "zh": "柏林13世纪见于史册，18世纪成为普鲁士王国都城，后为德意志帝国首都；1990年两德统一后重新成为统一德国的首都。",
+    "en": "Berlin first appears in records in the 13th century, became the capital of the Kingdom of Prussia in the 18th century and later of the German Empire, and again became the capital of a unified Germany after reunification in 1990."
+  },
+  "climate": {
+    "zh": "以温带气候为主，西北部偏海洋性、温和湿润，东南部偏大陆性，四季较为分明。",
+    "en": "A mostly temperate climate: more maritime, mild and humid in the northwest and more continental in the southeast, with fairly distinct seasons."
+  },
+  "phrases": [
+    { "key": "hello", "text": "Hallo", "romanization": "HAH-loh", "langTag": "de-DE" },
+    { "key": "thanks", "text": "Danke", "romanization": "DAHN-kuh", "langTag": "de-DE" },
+    { "key": "goodbye", "text": "Auf Wiedersehen", "romanization": "owf VEE-der-zayn", "langTag": "de-DE" },
+    { "key": "cheers", "text": "Prost", "romanization": "prohst", "langTag": "de-DE" }
+  ],
+  "anthem": {
+    "name": { "zh": "《德意志之歌》", "en": "Deutschlandlied" },
+    "note": { "zh": "曲调由海顿谱写，现行国歌仅采用歌词的第三段，主题为统一、正义与自由。", "en": "Set to a melody by Haydn; only the third stanza, themed on unity, justice and freedom, is used as the current anthem." }
+  },
+  "symbols": [
+    { "key": "bird", "name": { "zh": "联邦之鹰（国徽为黑鹰）", "en": "Federal eagle (black eagle on the coat of arms)" } },
+    { "key": "flower", "name": { "zh": "矢车菊（传统象征）", "en": "Cornflower (traditional emblem)" } }
+  ],
+  "alphabetCount": 26,
+  "qsTop100": 5,
+  "unescoSites": 54,
+  "football": {
+    "fifaRank": 10,
+    "worldCupTitles": 4,
+    "note": { "zh": "德国队四次夺得世界杯冠军（1954、1974、1990、2014）。", "en": "Germany has won the World Cup four times (1954, 1974, 1990 and 2014)." }
+  },
+  "localization": {
+    "direction": "ltr",
+    "grammaticalGender": true,
+    "colorNotes": [
+      { "zh": "黑红金三色为国旗色，象征统一与自由。", "en": "Black, red and gold are the flag colors, symbolizing unity and freedom." },
+      { "zh": "白色与浅色多用于正式、简洁的现代设计。", "en": "White and light tones are common in formal, minimalist modern design." }
+    ],
+    "culturalTaboos": [
+      { "zh": "重视守时、规则与直接坦诚的沟通方式，约定时间应严格遵守。", "en": "Punctuality, rules and direct, candid communication are valued; agreed times should be strictly kept." }
+    ],
+    "formatting": [
+      { "zh": "德语名词分阳性、阴性、中性三种性，名词首字母大写；日期用 日.月.年。", "en": "German nouns have three genders (masculine, feminine, neuter) and are capitalized; dates use DD.MM.YYYY." },
+      { "zh": "数字用句点作千位分隔、逗号作小数点，如 1.234,56。", "en": "Numbers use a period as the thousands separator and a comma as the decimal point, e.g. 1.234,56." }
+    ]
+  },
+  "funFacts": [
+    { "zh": "德语所有名词首字母均需大写，是其显著的书写特征。", "en": "In German every noun is capitalized, a distinctive feature of its writing." },
+    { "zh": "德国拥有众多历史悠久的大学，并以'双元制'职业教育体系闻名。", "en": "Germany has many historic universities and is renowned for its 'dual' vocational training system." }
+  ],
+  "sources": {
+    "overview": { "label": { "zh": "维基百科", "en": "Wikipedia" }, "url": "https://en.wikipedia.org/wiki/Germany" },
+    "metrics": { "label": { "zh": "联合国教科文组织世界遗产名录", "en": "UNESCO World Heritage List" }, "url": "https://whc.unesco.org/en/statesparties/de", "year": "2024" },
+    "football": { "label": { "zh": "国际足联世界排名", "en": "FIFA World Ranking" }, "url": "https://www.fifa.com/fifa-world-ranking" }
+  }
+}

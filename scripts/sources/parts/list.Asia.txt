@@ -1,0 +1,46 @@
+AFG | Afghanistan | 阿富汗 | cap:Kabul
+ARM | Armenia | 亚美尼亚 | cap:Yerevan
+AZE | Azerbaijan | 阿塞拜疆 | cap:Baku
+BHR | Bahrain | 巴林 | cap:Manama
+BGD | Bangladesh | 孟加拉国 | cap:Dhaka
+BTN | Bhutan | 不丹 | cap:Thimphu
+BRN | Brunei | 文莱 | cap:Bandar Seri Begawan
+KHM | Cambodia | 柬埔寨 | cap:Phnom Penh
+CHN | China | 中国 | cap:Beijing
+GEO | Georgia | 格鲁吉亚 | cap:Tbilisi
+IND | India | 印度 | cap:New Delhi
+IDN | Indonesia | 印度尼西亚 | cap:Jakarta
+IRN | Iran | 伊朗 | cap:Tehran
+IRQ | Iraq | 伊拉克 | cap:Baghdad
+ISR | Israel | 以色列 | cap:Jerusalem
+JPN | Japan | 日本 | cap:Tokyo
+JOR | Jordan | 约旦 | cap:Amman
+KAZ | Kazakhstan | 哈萨克斯坦 | cap:Astana
+KWT | Kuwait | 科威特 | cap:Kuwait City
+KGZ | Kyrgyzstan | 吉尔吉斯斯坦 | cap:Bishkek
+LAO | Laos | 老挝 | cap:Vientiane
+LBN | Lebanon | 黎巴嫩 | cap:Beirut
+MYS | Malaysia | 马来西亚 | cap:Kuala Lumpur
+MDV | Maldives | 马尔代夫 | cap:Malé
+MNG | Mongolia | 蒙古 | cap:Ulan Bator
+MMR | Myanmar | 缅甸 | cap:Naypyidaw
+NPL | Nepal | 尼泊尔 | cap:Kathmandu
+PRK | North Korea | 朝鲜 | cap:Pyongyang
+OMN | Oman | 阿曼 | cap:Muscat
+PAK | Pakistan | 巴基斯坦 | cap:Islamabad
+PHL | Philippines | 菲律宾 | cap:Manila
+QAT | Qatar | 卡塔尔 | cap:Doha
+SAU | Saudi Arabia | 沙特阿拉伯 | cap:Riyadh
+SGP | Singapore | 新加坡 | cap:Singapore
+KOR | South Korea | 韩国 | cap:Seoul
+LKA | Sri Lanka | 斯里兰卡 | cap:Colombo
+SYR | Syria | 叙利亚 | cap:Damascus
+TJK | Tajikistan | 塔吉克斯坦 | cap:Dushanbe
+THA | Thailand | 泰国 | cap:Bangkok
+TLS | Timor-Leste | 东帝汶 | cap:Dili
+TUR | Türkiye | 土耳其 | cap:Ankara
+TKM | Turkmenistan | 土库曼斯坦 | cap:Ashgabat
+ARE | United Arab Emirates | 阿拉伯联合酋长国 | cap:Abu Dhabi
+UZB | Uzbekistan | 乌兹别克斯坦 | cap:Tashkent
+VNM | Vietnam | 越南 | cap:Hanoi
+YEM | Yemen | 也门 | cap:Sana'a

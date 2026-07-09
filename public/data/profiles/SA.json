@@ -1,0 +1,62 @@
+{
+  "iso": "SA",
+  "overview": {
+    "zh": "沙特阿拉伯位于亚洲西南部的阿拉伯半岛，是海湾地区面积最大的国家，拥有伊斯兰教两大圣地麦加和麦地那。石油资源丰富，是世界主要产油国和二十国集团成员，近年来大力推进'2030愿景'推动经济多元化。",
+    "en": "Saudi Arabia occupies most of the Arabian Peninsula in Southwest Asia and is the largest country in the Gulf region, home to Islam's two holiest cities, Mecca and Medina. Rich in oil and a leading global producer and G20 member, it has in recent years pursued economic diversification under its 'Vision 2030' program."
+  },
+  "capitalHistory": {
+    "zh": "首都利雅得由沙特王室发源地德拉伊耶（迪里耶）发展而来，1932年沙特阿拉伯王国建立后成为首都，如今是阿拉伯半岛重要的政治与金融中心。",
+    "en": "The capital Riyadh grew out of the historic Diriyah, cradle of the Saudi royal house; it became the capital after the Kingdom's founding in 1932 and is today a major political and financial hub of the Arabian Peninsula."
+  },
+  "climate": {
+    "zh": "以热带沙漠气候为主，夏季炎热干燥、昼夜温差大，全年降水稀少。",
+    "en": "Predominantly a hot desert climate, with very hot and dry summers, large day-night temperature swings, and scarce rainfall year-round."
+  },
+  "phrases": [
+    { "key": "hello", "text": "مرحبا", "romanization": "marhaban", "langTag": "ar-SA" },
+    { "key": "thanks", "text": "شكرا", "romanization": "shukran", "langTag": "ar-SA" },
+    { "key": "goodbye", "text": "مع السلامة", "romanization": "maa as-salama", "langTag": "ar-SA" },
+    { "key": "cheers", "text": "بصحتك", "romanization": "bi-sahtak", "langTag": "ar-SA" }
+  ],
+  "anthem": {
+    "name": { "zh": "《国王万岁》（沙特国歌）", "en": "Aash Al Maleek (Long Live the King)" },
+    "note": { "zh": "曲调由阿卜杜勒·拉赫曼·哈提卜谱写，1950年启用，1984年定型并加入易卜拉欣·哈法吉所作歌词。", "en": "Music composed by Abdul Rahman Al-Khateeb; adopted in 1950, with lyrics by Ibrahim Khafaji added in 1984." }
+  },
+  "symbols": [
+    { "key": "tree", "name": { "zh": "椰枣树（国徽图案之一）", "en": "Date palm (featured on the national emblem)" } },
+    { "key": "animal", "name": { "zh": "阿拉伯骆驼（单峰驼）", "en": "Arabian camel (dromedary)" } }
+  ],
+  "alphabetCount": 28,
+  "qsTop100": 0,
+  "unescoSites": 8,
+  "football": {
+    "fifaRank": 58,
+    "worldCupTitles": 0,
+    "note": { "zh": "多次打进世界杯正赛，2022年小组赛曾爆冷战胜阿根廷。", "en": "A regular World Cup qualifier; famously upset Argentina in the 2022 group stage." }
+  },
+  "localization": {
+    "direction": "rtl",
+    "grammaticalGender": true,
+    "colorNotes": [
+      { "zh": "绿色是国旗与伊斯兰文化中的重要色彩，象征生命与信仰，广受尊崇。", "en": "Green is prominent on the flag and in Islamic culture, symbolizing life and faith, and is widely revered." },
+      { "zh": "国旗上印有清真言，属神圣文字，不可随意用于商品、地面或降半旗等场合。", "en": "The flag bears the shahada (Islamic creed); as sacred text it must not be printed on merchandise, placed on the ground, or flown at half-mast." }
+    ],
+    "culturalTaboos": [
+      { "zh": "禁酒禁猪肉；进食、递物应使用右手，避免用左手。", "en": "Alcohol and pork are prohibited; use the right hand for eating and passing items, avoiding the left hand." },
+      { "zh": "着装宜端庄保守，注意尊重礼拜时间与斋月礼仪。", "en": "Dress modestly and conservatively; respect prayer times and Ramadan etiquette." }
+    ],
+    "formatting": [
+      { "zh": "文字从右向左书写；界面与排版需整体镜像（RTL）。", "en": "Text is written right-to-left; UI and layouts should be fully mirrored (RTL)." },
+      { "zh": "常与公历并用伊斯兰历（希吉来历）；周末为周五、周六，一周从周日开始。", "en": "The Islamic (Hijri) calendar is used alongside the Gregorian; the weekend is Friday-Saturday and the week starts on Sunday." }
+    ]
+  },
+  "funFacts": [
+    { "zh": "每年有数百万穆斯林前往麦加朝觐（Hajj），是世界上规模最大的年度宗教集会之一。", "en": "Each year millions of Muslims perform the Hajj pilgrimage to Mecca, one of the world's largest annual religious gatherings." },
+    { "zh": "阿拉伯数字虽源于此文化圈，但当地常用'东阿拉伯数字'（٠١٢٣）书写。", "en": "Although 'Arabic numerals' spread from this region, Eastern Arabic numerals (٠١٢٣) are commonly used locally." }
+  ],
+  "sources": {
+    "overview": { "label": { "zh": "维基百科", "en": "Wikipedia" }, "url": "https://en.wikipedia.org/wiki/Saudi_Arabia" },
+    "metrics": { "label": { "zh": "联合国教科文组织世界遗产名录", "en": "UNESCO World Heritage List" }, "url": "https://whc.unesco.org/en/statesparties/sa", "year": "2024" },
+    "football": { "label": { "zh": "国际足联世界排名", "en": "FIFA World Ranking" }, "url": "https://www.fifa.com/fifa-world-ranking" }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "iso": "EG",
+  "overview": {
+    "zh": "埃及地跨亚非两洲，主体位于非洲东北部，尼罗河纵贯全境，是世界上历史最悠久的文明发源地之一。以金字塔、狮身人面像等古代遗迹闻名，苏伊士运河是连接地中海与红海的重要国际航道。",
+    "en": "Egypt straddles northeastern Africa and Southwest Asia, with the Nile River running through the country; it is one of the world's oldest cradles of civilization. Famed for ancient monuments such as the pyramids and the Sphinx, it is also home to the Suez Canal, a vital waterway linking the Mediterranean and Red seas."
+  },
+  "capitalHistory": {
+    "zh": "首都开罗始建于公元969年法蒂玛王朝时期，长期作为伊斯兰世界的政治文化中心，被誉为'千塔之城'。",
+    "en": "The capital Cairo was founded in 969 CE under the Fatimid dynasty and long served as a political and cultural center of the Islamic world, earning the epithet 'city of a thousand minarets'."
+  },
+  "climate": {
+    "zh": "以热带沙漠气候为主，全年干燥少雨，夏季炎热、冬季温和，尼罗河沿岸与三角洲相对湿润。",
+    "en": "Mostly a hot desert climate that is dry year-round with hot summers and mild winters; the Nile valley and delta are relatively more humid."
+  },
+  "phrases": [
+    { "key": "hello", "text": "مرحبا", "romanization": "marhaban", "langTag": "ar-EG" },
+    { "key": "thanks", "text": "شكرا", "romanization": "shukran", "langTag": "ar-EG" },
+    { "key": "goodbye", "text": "مع السلامة", "romanization": "maa as-salama", "langTag": "ar-EG" },
+    { "key": "cheers", "text": "في صحتك", "romanization": "fi sahtak", "langTag": "ar-EG" }
+  ],
+  "anthem": {
+    "name": { "zh": "《我的祖国》", "en": "Bilady, Bilady, Bilady (My Homeland)" },
+    "note": { "zh": "歌词改编自赛义德·达尔维什的作品，1979年正式定为国歌。", "en": "Lyrics adapted from the work of Sayed Darwish; officially adopted as the national anthem in 1979." }
+  },
+  "symbols": [
+    { "key": "bird", "name": { "zh": "萨拉丁之鹰（国徽图案）", "en": "Eagle of Saladin (national emblem)" } },
+    { "key": "flower", "name": { "zh": "蓝睡莲（古埃及圣花）", "en": "Blue water lily (sacred lotus of ancient Egypt)" } }
+  ],
+  "alphabetCount": 28,
+  "qsTop100": 0,
+  "unescoSites": 7,
+  "football": {
+    "fifaRank": 36,
+    "worldCupTitles": 0,
+    "note": { "zh": "非洲传统劲旅，曾七次夺得非洲国家杯冠军。", "en": "A traditional African powerhouse, having won the Africa Cup of Nations a record seven times." }
+  },
+  "localization": {
+    "direction": "rtl",
+    "grammaticalGender": true,
+    "colorNotes": [
+      { "zh": "红、白、黑为国旗三色，象征革命、光明与历史；金色常与法老文明相关联。", "en": "The flag's red, white and black symbolize revolution, brightness and history; gold is often linked to pharaonic heritage." },
+      { "zh": "绿色在伊斯兰文化中受尊崇，象征生命与信仰。", "en": "Green is revered in Islamic culture, symbolizing life and faith." }
+    ],
+    "culturalTaboos": [
+      { "zh": "多数居民为穆斯林，禁猪肉、慎饮酒；进食、递物宜用右手。", "en": "Most residents are Muslim; pork is avoided and alcohol used sparingly; use the right hand for eating and passing items." },
+      { "zh": "参观清真寺等宗教场所需着装端庄、脱鞋，尊重礼拜与斋月礼仪。", "en": "Dress modestly and remove shoes when visiting mosques; respect prayer times and Ramadan etiquette." }
+    ],
+    "formatting": [
+      { "zh": "文字从右向左书写；界面与排版需整体镜像（RTL）。", "en": "Text is written right-to-left; UI and layouts should be fully mirrored (RTL)." },
+      { "zh": "书面语为标准阿拉伯语，日常口语为埃及阿拉伯方言，二者存在差异。", "en": "The written language is Modern Standard Arabic, while everyday speech uses Egyptian Arabic, which differs notably." }
+    ]
+  },
+  "funFacts": [
+    { "zh": "吉萨大金字塔是古代世界七大奇迹中唯一留存至今的建筑。", "en": "The Great Pyramid of Giza is the only one of the Seven Wonders of the Ancient World still standing." },
+    { "zh": "尼罗河全长约6650公里，是世界上最长的河流之一，孕育了古埃及文明。", "en": "The Nile, about 6,650 km long, is one of the world's longest rivers and nurtured ancient Egyptian civilization." }
+  ],
+  "sources": {
+    "overview": { "label": { "zh": "维基百科", "en": "Wikipedia" }, "url": "https://en.wikipedia.org/wiki/Egypt" },
+    "metrics": { "label": { "zh": "联合国教科文组织世界遗产名录", "en": "UNESCO World Heritage List" }, "url": "https://whc.unesco.org/en/statesparties/eg", "year": "2024" },
+    "football": { "label": { "zh": "国际足联世界排名", "en": "FIFA World Ranking" }, "url": "https://www.fifa.com/fifa-world-ranking" }
+  }
+}

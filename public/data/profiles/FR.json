@@ -1,0 +1,61 @@
+{
+  "iso": "FR",
+  "overview": {
+    "zh": "法兰西共和国位于欧洲西部，濒临大西洋与地中海，是欧洲重要国家之一。以艺术、时尚、美食与哲学传统闻名，工业、航空航天与旅游业发达，是世界主要经济体之一。",
+    "en": "The French Republic lies in Western Europe, bordering the Atlantic and the Mediterranean. Renowned for its traditions in art, fashion, cuisine and philosophy, it has strong industry, aerospace and tourism sectors and ranks among the world's major economies."
+  },
+  "capitalHistory": {
+    "zh": "巴黎起源于塞纳河中西岱岛上的古代聚落卢泰西亚（Lutetia），自中世纪起成为法国的政治与文化中心，逐渐发展为世界艺术之都。",
+    "en": "Paris grew from the ancient settlement of Lutetia on the Île de la Cité in the Seine, becoming France's political and cultural center from the Middle Ages and evolving into a world capital of art."
+  },
+  "climate": {
+    "zh": "以温带海洋性气候为主，西部湿润温和；东部与内陆偏大陆性，地中海沿岸为地中海气候，夏干冬雨。",
+    "en": "Predominantly a temperate maritime climate, mild and humid in the west; more continental inland and in the east, with a Mediterranean climate along the southern coast featuring dry summers and wet winters."
+  },
+  "phrases": [
+    { "key": "hello", "text": "Bonjour", "romanization": "bon-ZHOOR", "langTag": "fr-FR" },
+    { "key": "thanks", "text": "Merci", "romanization": "mair-SEE", "langTag": "fr-FR" },
+    { "key": "goodbye", "text": "Au revoir", "romanization": "oh ruh-VWAR", "langTag": "fr-FR" },
+    { "key": "cheers", "text": "Santé", "romanization": "sahn-TAY", "langTag": "fr-FR" }
+  ],
+  "anthem": {
+    "name": { "zh": "《马赛曲》", "en": "La Marseillaise" },
+    "note": { "zh": "由鲁热·德·利尔于1792年创作，源自法国大革命时期，1795年首次被定为国歌。", "en": "Composed by Rouget de Lisle in 1792 during the French Revolution and first adopted as the national anthem in 1795." }
+  },
+  "symbols": [
+    { "key": "flower", "name": { "zh": "鸢尾（传统象征）", "en": "Iris / fleur-de-lis (traditional emblem)" } },
+    { "key": "bird", "name": { "zh": "高卢雄鸡", "en": "Gallic rooster" } }
+  ],
+  "alphabetCount": 26,
+  "qsTop100": 4,
+  "unescoSites": 53,
+  "football": {
+    "fifaRank": 2,
+    "worldCupTitles": 2,
+    "note": { "zh": "法国队分别于1998年和2018年两夺世界杯冠军。", "en": "France won the World Cup twice, in 1998 and 2018." }
+  },
+  "localization": {
+    "direction": "ltr",
+    "grammaticalGender": true,
+    "colorNotes": [
+      { "zh": "蓝白红三色为国旗色，象征自由、平等、博爱。", "en": "Blue, white and red are the flag colors, symbolizing liberty, equality and fraternity." },
+      { "zh": "黄色在传统上偶有负面联想，需结合语境使用。", "en": "Yellow has occasionally carried negative connotations traditionally—use with context in mind." }
+    ],
+    "culturalTaboos": [
+      { "zh": "见面常行贴面礼，重视用餐礼仪；交流中礼貌称呼与问候不可省略。", "en": "Cheek kisses are common greetings and dining etiquette matters; polite forms of address and greetings should not be skipped." }
+    ],
+    "formatting": [
+      { "zh": "法语名词分阴阳性，形容词需随性数变化；日期用 日/月/年。", "en": "French nouns have grammatical gender and adjectives agree in gender and number; dates use DD/MM/YYYY." },
+      { "zh": "数字用空格作千位分隔、逗号作小数点，如 1 234,56。", "en": "Numbers use a space as the thousands separator and a comma as the decimal point, e.g. 1 234,56." }
+    ]
+  },
+  "funFacts": [
+    { "zh": "法语曾长期是国际外交的通用语言，至今仍是联合国等多个国际组织的官方语言之一。", "en": "French was long the language of international diplomacy and remains an official language of the UN and many other bodies." },
+    { "zh": "法国是世界上接待国际游客最多的国家之一。", "en": "France is one of the most visited countries in the world by international tourists." }
+  ],
+  "sources": {
+    "overview": { "label": { "zh": "维基百科", "en": "Wikipedia" }, "url": "https://en.wikipedia.org/wiki/France" },
+    "metrics": { "label": { "zh": "联合国教科文组织世界遗产名录", "en": "UNESCO World Heritage List" }, "url": "https://whc.unesco.org/en/statesparties/fr", "year": "2024" },
+    "football": { "label": { "zh": "国际足联世界排名", "en": "FIFA World Ranking" }, "url": "https://www.fifa.com/fifa-world-ranking" }
+  }
+}

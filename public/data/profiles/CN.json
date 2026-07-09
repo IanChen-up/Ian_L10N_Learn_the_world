@@ -1,0 +1,61 @@
+{
+  "iso": "CN",
+  "overview": {
+    "zh": "中华人民共和国位于亚洲东部、太平洋西岸，是世界上人口最多的国家之一，拥有超过五千年连续的文明史。地形自西向东呈三级阶梯下降，气候与自然带丰富多样，是世界第二大经济体。",
+    "en": "The People's Republic of China lies in East Asia on the western Pacific coast. With over 5,000 years of continuous civilization and one of the world's largest populations, it is the second-largest economy globally, spanning diverse climates and terrain that descends in three great steps from west to east."
+  },
+  "capitalHistory": {
+    "zh": "北京有三千余年建城史、逾八百年建都史，元、明、清三代及现代均定都于此。故宫、天坛、颐和园等皇家建筑群见证了其作为政治文化中心的深厚积淀。",
+    "en": "Beijing has over 3,000 years of urban history and more than 800 years as a capital, serving the Yuan, Ming, Qing dynasties and the modern era. Royal complexes such as the Forbidden City, Temple of Heaven and Summer Palace attest to its depth as a political and cultural center."
+  },
+  "climate": {
+    "zh": "疆域辽阔，气候类型多样：东部为温带季风与亚热带季风气候，西北为温带大陆性气候，青藏高原为高原山地气候，海南与南海诸岛属热带气候。",
+    "en": "Vast territory spanning many climate zones: temperate and subtropical monsoon in the east, temperate continental in the northwest, alpine plateau climate on the Qinghai-Tibet Plateau, and tropical climate in Hainan and the South China Sea islands."
+  },
+  "phrases": [
+    { "key": "hello", "text": "你好", "romanization": "Nǐ hǎo", "langTag": "zh-CN" },
+    { "key": "thanks", "text": "谢谢", "romanization": "Xièxie", "langTag": "zh-CN" },
+    { "key": "goodbye", "text": "再见", "romanization": "Zàijiàn", "langTag": "zh-CN" },
+    { "key": "cheers", "text": "干杯", "romanization": "Gānbēi", "langTag": "zh-CN" }
+  ],
+  "anthem": {
+    "name": { "zh": "《义勇军进行曲》", "en": "March of the Volunteers" },
+    "note": { "zh": "田汉作词、聂耳作曲，1949年确定为代国歌，2004年写入宪法。", "en": "Lyrics by Tian Han, music by Nie Er; adopted in 1949 and enshrined in the Constitution in 2004." }
+  },
+  "symbols": [
+    { "key": "flower", "name": { "zh": "牡丹（传统上被视为国花）", "en": "Peony (traditionally regarded as the national flower)" } },
+    { "key": "animal", "name": { "zh": "大熊猫", "en": "Giant panda" } }
+  ],
+  "alphabetCount": null,
+  "qsTop100": 5,
+  "unescoSites": 59,
+  "football": {
+    "fifaRank": 88,
+    "worldCupTitles": 0,
+    "note": { "zh": "男足曾于2002年首次打进世界杯正赛（32强阶段）。", "en": "The men's team first qualified for the World Cup in 2002." }
+  },
+  "localization": {
+    "direction": "ltr",
+    "grammaticalGender": false,
+    "colorNotes": [
+      { "zh": "红色象征喜庆、吉祥与热烈，广泛用于节庆与礼品。", "en": "Red signifies joy, luck and celebration; widely used in festivals and gifts." },
+      { "zh": "白色在传统丧葬语境中较为敏感，需谨慎使用。", "en": "White can carry funeral connotations in traditional contexts—use with care." }
+    ],
+    "culturalTaboos": [
+      { "zh": "数字 4 谐音'死'，部分场合会被回避；数字 8 谐音'发'受欢迎。", "en": "The number 4 sounds like 'death' and is sometimes avoided; 8 sounds like 'prosperity' and is favored." }
+    ],
+    "formatting": [
+      { "zh": "日期常用 年-月-日；姓氏在前、名字在后。", "en": "Dates commonly use YYYY-MM-DD; family name precedes given name." },
+      { "zh": "中文不使用空格分词，排版需注意断行与标点全角。", "en": "Chinese has no inter-word spaces; mind line breaks and full-width punctuation." }
+    ]
+  },
+  "funFacts": [
+    { "zh": "汉字是世界上仍在广泛使用的最古老文字系统之一，常用字约 3,500 个。", "en": "Chinese characters form one of the oldest writing systems still in wide use, with about 3,500 common characters." },
+    { "zh": "高铁运营里程居世界第一，连接全国主要城市。", "en": "China has the world's largest high-speed rail network, linking major cities nationwide." }
+  ],
+  "sources": {
+    "overview": { "label": { "zh": "维基百科", "en": "Wikipedia" }, "url": "https://zh.wikipedia.org/wiki/中华人民共和国" },
+    "metrics": { "label": { "zh": "联合国教科文组织世界遗产名录", "en": "UNESCO World Heritage List" }, "url": "https://whc.unesco.org/en/statesparties/cn", "year": "2024" },
+    "football": { "label": { "zh": "国际足联世界排名", "en": "FIFA World Ranking" }, "url": "https://www.fifa.com/fifa-world-ranking" }
+  }
+}

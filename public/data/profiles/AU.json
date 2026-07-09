@@ -1,0 +1,62 @@
+{
+  "iso": "AU",
+  "overview": {
+    "zh": "澳大利亚地处南半球，是唯一独占一整块大陆的国家，四面环海，自然景观独特、生物多样性丰富。经济高度发达，以矿产资源、农牧业和服务业为主，社会文化多元开放。",
+    "en": "Australia lies in the Southern Hemisphere and is the only nation to occupy an entire continent, surrounded by ocean with unique landscapes and rich biodiversity. It has a highly developed economy led by mining, agriculture and services, and a diverse, open society."
+  },
+  "capitalHistory": {
+    "zh": "首都堪培拉是为平衡悉尼与墨尔本之争而专门规划的城市，1913年奠基，1927年联邦议会迁入。",
+    "en": "The capital Canberra was purpose-planned to settle the rivalry between Sydney and Melbourne; founded in 1913, it received the federal parliament in 1927."
+  },
+  "climate": {
+    "zh": "气候多样，内陆广布干旱与半干旱区，北部为热带气候，东南与西南沿海为温带气候。",
+    "en": "Climates are varied: vast arid and semi-arid zones inland, a tropical north, and temperate zones along the southeast and southwest coasts."
+  },
+  "phrases": [
+    { "key": "hello", "text": "Hello", "romanization": "heh-LOH", "langTag": "en-AU" },
+    { "key": "thanks", "text": "Thank you", "romanization": "thank yoo", "langTag": "en-AU" },
+    { "key": "goodbye", "text": "Goodbye", "romanization": "good-BYE", "langTag": "en-AU" },
+    { "key": "cheers", "text": "Cheers", "romanization": "cheerz", "langTag": "en-AU" }
+  ],
+  "anthem": {
+    "name": { "zh": "《前进,美丽的澳大利亚》", "en": "Advance Australia Fair" },
+    "note": { "zh": "由彼得·多兹·麦考密克作曲，1984年正式定为国歌。", "en": "Composed by Peter Dodds McCormick; officially adopted as the national anthem in 1984." }
+  },
+  "symbols": [
+    { "key": "animal", "name": { "zh": "红大袋鼠与鸸鹋（见于国徽）", "en": "Red kangaroo and emu (featured on the coat of arms)" } },
+    { "key": "flower", "name": { "zh": "金合欢（国花）", "en": "Golden wattle (national floral emblem)" } }
+  ],
+  "alphabetCount": 26,
+  "qsTop100": 9,
+  "unescoSites": 20,
+  "football": {
+    "fifaRank": 24,
+    "worldCupTitles": 0,
+    "note": { "zh": "男足'袋鼠军团'多次打进世界杯正赛，2006年曾闯入16强。", "en": "The men's 'Socceroos' have qualified for several World Cups, reaching the round of 16 in 2006." }
+  },
+  "localization": {
+    "direction": "ltr",
+    "grammaticalGender": false,
+    "colorNotes": [
+      { "zh": "绿色与金色为澳大利亚的国家代表色，广泛用于体育与国家活动。", "en": "Green and gold are Australia's national colors, widely used in sports and national events." },
+      { "zh": "色彩偏好总体与英语文化圈一致，无强烈普遍禁忌。", "en": "Color preferences generally align with the English-speaking world, with no strong universal taboos." }
+    ],
+    "culturalTaboos": [
+      { "zh": "拼写沿用英式偏好（如 colour、organise），与美式英语有别。", "en": "Spelling follows British-influenced conventions (e.g., colour, organise), differing from American English." },
+      { "zh": "位于南半球，季节与北半球相反，节庆与营销日历需相应调整。", "en": "Being in the Southern Hemisphere, seasons are reversed from the north—adjust festivals and marketing calendars accordingly." }
+    ],
+    "formatting": [
+      { "zh": "日期常用 日/月/年；采用公制单位，货币为澳大利亚元（符号 $）。", "en": "Dates commonly use DD/MM/YYYY; metric units are standard, and the currency is the Australian dollar (symbol $)." },
+      { "zh": "英语为主要语言，但应尊重原住民语言与文化表达。", "en": "English is the main language, though Indigenous languages and cultural expression should be respected." }
+    ]
+  },
+  "funFacts": [
+    { "zh": "大堡礁是世界上最大的珊瑚礁系统，从太空中也可辨识。", "en": "The Great Barrier Reef is the world's largest coral reef system and is visible from space." },
+    { "zh": "袋鼠、考拉、鸭嘴兽等许多特有物种仅分布于澳大利亚。", "en": "Many unique species such as kangaroos, koalas and platypuses are found only in Australia." }
+  ],
+  "sources": {
+    "overview": { "label": { "zh": "维基百科", "en": "Wikipedia" }, "url": "https://en.wikipedia.org/wiki/Australia" },
+    "metrics": { "label": { "zh": "联合国教科文组织世界遗产名录", "en": "UNESCO World Heritage List" }, "url": "https://whc.unesco.org/en/statesparties/au", "year": "2024" },
+    "football": { "label": { "zh": "国际足联世界排名", "en": "FIFA World Ranking" }, "url": "https://www.fifa.com/fifa-world-ranking" }
+  }
+}

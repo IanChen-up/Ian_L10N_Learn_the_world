@@ -1,0 +1,14 @@
+AUS | Australia | 澳大利亚 | cap:Canberra
+FJI | Fiji | 斐济 | cap:Suva
+KIR | Kiribati | 基里巴斯 | cap:South Tarawa
+MHL | Marshall Islands | 马绍尔群岛 | cap:Majuro
+FSM | Micronesia | 密克罗尼西亚 | cap:Palikir
+NRU | Nauru | 瑙鲁 | cap:Yaren
+NZL | New Zealand | 新西兰 | cap:Wellington
+PLW | Palau | 帕劳 | cap:Ngerulmud
+PNG | Papua New Guinea | 巴布亚新几内亚 | cap:Port Moresby
+WSM | Samoa | 萨摩亚 | cap:Apia
+SLB | Solomon Islands | 所罗门群岛 | cap:Honiara
+TON | Tonga | 汤加 | cap:Nuku'alofa
+TUV | Tuvalu | 图瓦卢 | cap:Funafuti
+VUT | Vanuatu | 瓦努阿图 | cap:Port Vila

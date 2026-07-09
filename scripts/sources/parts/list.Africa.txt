@@ -1,0 +1,54 @@
+DZA | Algeria | 阿尔及利亚 | cap:Algiers
+AGO | Angola | 安哥拉 | cap:Luanda
+BEN | Benin | 贝宁 | cap:Porto-Novo
+BWA | Botswana | 博茨瓦纳 | cap:Gaborone
+BFA | Burkina Faso | 布基纳法索 | cap:Ouagadougou
+BDI | Burundi | 布隆迪 | cap:Gitega
+CMR | Cameroon | 喀麦隆 | cap:Yaoundé
+CPV | Cape Verde | 佛得角 | cap:Praia
+CAF | Central African Republic | 中非共和国 | cap:Bangui
+TCD | Chad | 乍得 | cap:N'Djamena
+COM | Comoros | 科摩罗 | cap:Moroni
+DJI | Djibouti | 吉布提 | cap:Djibouti
+COD | DR Congo | 民主刚果 | cap:Kinshasa
+EGY | Egypt | 埃及 | cap:Cairo
+GNQ | Equatorial Guinea | 赤道几内亚 | cap:Malabo
+ERI | Eritrea | 厄立特里亚 | cap:Asmara
+SWZ | Eswatini | 斯威士兰 | cap:Lobamba
+ETH | Ethiopia | 埃塞俄比亚 | cap:Addis Ababa
+GAB | Gabon | 加蓬 | cap:Libreville
+GMB | Gambia | 冈比亚 | cap:Banjul
+GHA | Ghana | 加纳 | cap:Accra
+GIN | Guinea | 几内亚 | cap:Conakry
+GNB | Guinea-Bissau | 几内亚比绍 | cap:Bissau
+CIV | Ivory Coast | 科特迪瓦 | cap:Yamoussoukro
+KEN | Kenya | 肯尼亚 | cap:Nairobi
+LSO | Lesotho | 莱索托 | cap:Maseru
+LBR | Liberia | 利比里亚 | cap:Monrovia
+LBY | Libya | 利比亚 | cap:Tripoli
+MDG | Madagascar | 马达加斯加 | cap:Antananarivo
+MWI | Malawi | 马拉维 | cap:Lilongwe
+MLI | Mali | 马里 | cap:Bamako
+MRT | Mauritania | 毛里塔尼亚 | cap:Nouakchott
+MUS | Mauritius | 毛里求斯 | cap:Port Louis
+MAR | Morocco | 摩洛哥 | cap:Rabat
+MOZ | Mozambique | 莫桑比克 | cap:Maputo
+NAM | Namibia | 纳米比亚 | cap:Windhoek
+NER | Niger | 尼日尔 | cap:Niamey
+NGA | Nigeria | 尼日利亚 | cap:Abuja
+COG | Republic of the Congo | 刚果 | cap:Brazzaville
+RWA | Rwanda | 卢旺达 | cap:Kigali
+STP | São Tomé and Príncipe | 圣多美和普林西比 | cap:São Tomé
+SEN | Senegal | 塞内加尔 | cap:Dakar
+SYC | Seychelles | 塞舌尔 | cap:Victoria
+SLE | Sierra Leone | 塞拉利昂 | cap:Freetown
+SOM | Somalia | 索马里 | cap:Mogadishu
+ZAF | South Africa | 南非 | cap:Pretoria
+SSD | South Sudan | 南苏丹 | cap:Juba
+SDN | Sudan | 苏丹 | cap:Khartoum
+TZA | Tanzania | 坦桑尼亚 | cap:Dodoma
+TGO | Togo | 多哥 | cap:Lomé
+TUN | Tunisia | 突尼斯 | cap:Tunis
+UGA | Uganda | 乌干达 | cap:Kampala
+ZMB | Zambia | 赞比亚 | cap:Lusaka
+ZWE | Zimbabwe | 津巴布韦 | cap:Harare

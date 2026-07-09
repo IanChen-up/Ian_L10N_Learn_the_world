@@ -1,0 +1,436 @@
+{
+  "ATG": {
+    "capitalZh": "圣约翰",
+    "religions": [
+      { "key": "protestantism", "share": 68 },
+      { "key": "catholicism", "share": 8 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "11-01", "note": { "zh": "纪念 1981 年脱离英国独立", "en": "Marks independence from Britain in 1981" } },
+      { "name": { "zh": "安提瓜狂欢节", "en": "Antigua Carnival" }, "date": "7 月底至 8 月初", "note": { "zh": "庆祝废奴解放的街头巡游与音乐盛会", "en": "Street parades and music celebrating emancipation from slavery" } }
+    ]
+  },
+  "ARG": {
+    "capitalZh": "布宜诺斯艾利斯",
+    "religions": [
+      { "key": "catholicism", "share": 62 },
+      { "key": "protestantism", "share": 15 },
+      { "key": "secular", "share": 19 }
+    ],
+    "government": "federal_republic",
+    "holidays": [
+      { "name": { "zh": "五月革命纪念日", "en": "May Revolution Day" }, "date": "05-25", "note": { "zh": "纪念 1810 年布宜诺斯艾利斯建立首个本土政府", "en": "Commemorates the 1810 first local government in Buenos Aires" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "07-09", "note": { "zh": "纪念 1816 年正式宣布脱离西班牙独立", "en": "Marks the 1816 declaration of independence from Spain" } },
+      { "name": { "zh": "传统日（高乔人节）", "en": "Day of Tradition" }, "date": "11-10", "note": { "zh": "颂扬高乔牧民文化与民族史诗", "en": "Honors gaucho (cowboy) culture and folk tradition" } }
+    ]
+  },
+  "BHS": {
+    "capitalZh": "拿骚",
+    "religions": [
+      { "key": "protestantism", "share": 70 },
+      { "key": "catholicism", "share": 12 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "琼卡努狂欢节", "en": "Junkanoo" }, "date": "12-26 与 01-01", "note": { "zh": "节礼日与元旦清晨的传统盛装街头巡游", "en": "Costumed street parades at dawn on Boxing Day and New Year" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "07-10", "note": { "zh": "纪念 1973 年脱离英国独立", "en": "Marks independence from Britain in 1973" } }
+    ]
+  },
+  "BRB": {
+    "capitalZh": "布里奇顿",
+    "religions": [
+      { "key": "protestantism", "share": 66 },
+      { "key": "catholicism", "share": 4 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "甘蔗丰收节", "en": "Crop Over" }, "date": "6 月至 8 月初", "note": { "zh": "源于制糖业的夏季节庆，以大巡游 Grand Kadooment 收尾", "en": "Summer festival rooted in the sugar harvest, ending with Grand Kadooment" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "11-30", "note": { "zh": "纪念 1966 年脱离英国独立", "en": "Marks independence from Britain in 1966" } }
+    ]
+  },
+  "BLZ": {
+    "capitalZh": "贝尔莫潘",
+    "religions": [
+      { "key": "catholicism", "share": 40 },
+      { "key": "protestantism", "share": 32 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "加里富纳定居日", "en": "Garifuna Settlement Day" }, "date": "11-19", "note": { "zh": "纪念 1832 年加里富纳人抵达伯利兹海岸", "en": "Marks the 1832 arrival of the Garifuna people" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "09-21", "note": { "zh": "纪念 1981 年脱离英国独立", "en": "Marks independence from Britain in 1981" } }
+    ]
+  },
+  "BOL": {
+    "capitalZh": "苏克雷",
+    "religions": [
+      { "key": "catholicism", "share": 70 },
+      { "key": "protestantism", "share": 18 },
+      { "key": "indigenous", "share": 4 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "奥鲁罗狂欢节", "en": "Oruro Carnival" }, "date": "2 月或 3 月", "note": { "zh": "联合国教科文组织非遗，安第斯民间信仰与天主教融合的盛装游行", "en": "UNESCO-listed Andean folk-Catholic masked parade" } },
+      { "name": { "zh": "阿伊马拉新年", "en": "Aymara New Year" }, "date": "06-21", "note": { "zh": "冬至日在蒂瓦纳库迎接日出，庆祝安第斯新年", "en": "Andean new year welcomed at the winter solstice sunrise in Tiwanaku" } }
+    ]
+  },
+  "BRA": {
+    "capitalZh": "巴西利亚",
+    "religions": [
+      { "key": "catholicism", "share": 50 },
+      { "key": "protestantism", "share": 31 }
+    ],
+    "government": "federal_republic",
+    "holidays": [
+      { "name": { "zh": "巴西狂欢节", "en": "Brazilian Carnival" }, "date": "四旬期前（2 月或 3 月）", "note": { "zh": "以桑巴巡游闻名于世的全国性庆典", "en": "Nationwide festival famous for samba parades" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "09-07", "note": { "zh": "纪念 1822 年脱离葡萄牙独立", "en": "Marks independence from Portugal in 1822" } }
+    ]
+  },
+  "CAN": {
+    "capitalZh": "渥太华",
+    "religions": [
+      { "key": "secular", "share": 35 },
+      { "key": "catholicism", "share": 30 },
+      { "key": "protestantism", "share": 13 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "加拿大日", "en": "Canada Day" }, "date": "07-01", "note": { "zh": "纪念 1867 年英属北美各省联合成立自治领", "en": "Marks the 1867 confederation of Canada" } },
+      { "name": { "zh": "感恩节", "en": "Thanksgiving" }, "date": "10 月第二个周一", "note": { "zh": "加拿大感恩节比美国早，庆祝秋收", "en": "Canadian Thanksgiving falls earlier than the U.S. one, celebrating the harvest" } }
+    ]
+  },
+  "CHL": {
+    "capitalZh": "圣地亚哥",
+    "religions": [
+      { "key": "catholicism", "share": 45 },
+      { "key": "protestantism", "share": 18 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "国庆节（十八节）", "en": "Fiestas Patrias" }, "date": "09-18", "note": { "zh": "纪念 1810 年首个自治政府，以库埃卡舞和肉馅饼庆祝", "en": "National day marking the 1810 first junta, with cueca dancing and empanadas" } },
+      { "name": { "zh": "海军荣耀日", "en": "Navy Day" }, "date": "05-21", "note": { "zh": "纪念 1879 年伊基克海战", "en": "Commemorates the 1879 Battle of Iquique" } }
+    ]
+  },
+  "COL": {
+    "capitalZh": "波哥大",
+    "religions": [
+      { "key": "catholicism", "share": 73 },
+      { "key": "protestantism", "share": 14 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "07-20", "note": { "zh": "纪念 1810 年脱离西班牙统治的呼声", "en": "Marks the 1810 cry for independence from Spain" } },
+      { "name": { "zh": "巴兰基亚狂欢节", "en": "Barranquilla Carnival" }, "date": "四旬期前（2 月或 3 月）", "note": { "zh": "联合国教科文组织非遗，加勒比海岸最盛大的民俗庆典", "en": "UNESCO-listed carnival, the largest folk festival on the Caribbean coast" } }
+    ]
+  },
+  "CRI": {
+    "capitalZh": "圣何塞",
+    "religions": [
+      { "key": "catholicism", "share": 52 },
+      { "key": "protestantism", "share": 25 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "09-15", "note": { "zh": "纪念 1821 年中美洲脱离西班牙独立", "en": "Marks Central America's 1821 independence from Spain" } },
+      { "name": { "zh": "天使圣母节", "en": "Day of the Virgin of Los Ángeles" }, "date": "08-02", "note": { "zh": "全国信众徒步朝圣至卡塔戈朝拜主保圣母", "en": "Nationwide pilgrimage to Cartago to honor the patron saint" } }
+    ]
+  },
+  "CUB": {
+    "capitalZh": "哈瓦那",
+    "religions": [
+      { "key": "catholicism" },
+      { "key": "folk" },
+      { "key": "secular" }
+    ],
+    "government": "one_party_state",
+    "holidays": [
+      { "name": { "zh": "革命胜利日", "en": "Triumph of the Revolution" }, "date": "01-01", "note": { "zh": "纪念 1959 年古巴革命胜利", "en": "Marks the 1959 triumph of the Cuban Revolution" } },
+      { "name": { "zh": "起义日（七·二六）", "en": "Day of the National Rebellion" }, "date": "07-26", "note": { "zh": "纪念 1953 年攻打蒙卡达兵营", "en": "Commemorates the 1953 attack on the Moncada Barracks" } }
+    ]
+  },
+  "DMA": {
+    "capitalZh": "罗索",
+    "religions": [
+      { "key": "catholicism", "share": 52 },
+      { "key": "protestantism", "share": 30 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "11-03", "note": { "zh": "纪念 1978 年脱离英国独立", "en": "Marks independence from Britain in 1978" } },
+      { "name": { "zh": "克里奥尔文化日", "en": "Creole Day" }, "date": "10 月", "note": { "zh": "身着传统克里奥尔服饰，配合世界克里奥尔音乐节", "en": "Traditional Creole dress worn alongside the World Creole Music Festival" } }
+    ]
+  },
+  "DOM": {
+    "capitalZh": "圣多明各",
+    "religions": [
+      { "key": "catholicism", "share": 45 },
+      { "key": "protestantism", "share": 25 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "02-27", "note": { "zh": "纪念 1844 年脱离海地统治独立", "en": "Marks the 1844 independence from Haiti" } },
+      { "name": { "zh": "阿尔塔格拉西亚圣母节", "en": "Day of Our Lady of Altagracia" }, "date": "01-21", "note": { "zh": "全国信众朝圣主保圣母的宗教节日", "en": "Religious pilgrimage day honoring the country's patron saint" } }
+    ]
+  },
+  "ECU": {
+    "capitalZh": "基多",
+    "religions": [
+      { "key": "catholicism", "share": 74 },
+      { "key": "protestantism", "share": 11 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立呼声日", "en": "First Cry of Independence" }, "date": "08-10", "note": { "zh": "纪念 1809 年基多发出拉美首次独立呼声", "en": "Marks Quito's 1809 first cry for independence in Latin America" } },
+      { "name": { "zh": "太阳节", "en": "Inti Raymi" }, "date": "6 月", "note": { "zh": "安第斯原住民庆祝太阳与丰收的传统节日", "en": "Andean indigenous festival honoring the sun and harvest" } }
+    ]
+  },
+  "SLV": {
+    "capitalZh": "圣萨尔瓦多",
+    "religions": [
+      { "key": "catholicism", "share": 50 },
+      { "key": "protestantism", "share": 35 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "09-15", "note": { "zh": "纪念 1821 年中美洲脱离西班牙独立", "en": "Marks Central America's 1821 independence from Spain" } },
+      { "name": { "zh": "八月节（救世主节）", "en": "August Festivals" }, "date": "8 月初", "note": { "zh": "首都为主保'世界救世主'举行的宗教庆典", "en": "Capital's religious festival honoring the patron 'Divine Savior of the World'" } }
+    ]
+  },
+  "GRD": {
+    "capitalZh": "圣乔治",
+    "religions": [
+      { "key": "catholicism", "share": 44 },
+      { "key": "protestantism", "share": 44 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "02-07", "note": { "zh": "纪念 1974 年脱离英国独立", "en": "Marks independence from Britain in 1974" } },
+      { "name": { "zh": "香料狂欢节", "en": "Spicemas" }, "date": "8 月", "note": { "zh": "'香料之岛'最盛大的狂欢节庆典", "en": "The biggest carnival of the 'Isle of Spice'" } }
+    ]
+  },
+  "GTM": {
+    "capitalZh": "危地马拉城",
+    "religions": [
+      { "key": "catholicism", "share": 45 },
+      { "key": "protestantism", "share": 42 },
+      { "key": "indigenous", "share": 5 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "圣周", "en": "Holy Week" }, "date": "四旬期末（3 月或 4 月）", "note": { "zh": "安提瓜以彩色锯末地毯和盛大宗教游行闻名", "en": "Antigua is famous for colored sawdust carpets and grand processions" } },
+      { "name": { "zh": "巨型风筝节", "en": "Giant Kite Festival" }, "date": "11-01", "note": { "zh": "苏潘戈等地放飞巨型风筝以与逝者沟通", "en": "Huge kites flown in Sumpango to communicate with the dead" } }
+    ]
+  },
+  "GUY": {
+    "capitalZh": "乔治敦",
+    "religions": [
+      { "key": "christianity", "share": 63 },
+      { "key": "hinduism", "share": 25 },
+      { "key": "islam", "share": 7 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "共和日狂欢节", "en": "Mashramani" }, "date": "02-23", "note": { "zh": "纪念 1970 年成为共和国，以巡游和音乐庆祝", "en": "Celebrates becoming a republic in 1970 with parades and music" } },
+      { "name": { "zh": "排灯节", "en": "Diwali" }, "date": "10 月或 11 月", "note": { "zh": "印度裔人口众多，印度教光明节为全国假日", "en": "A national holiday reflecting the large Indo-Guyanese Hindu population" } }
+    ]
+  },
+  "HTI": {
+    "capitalZh": "太子港",
+    "religions": [
+      { "key": "catholicism", "share": 55 },
+      { "key": "protestantism", "share": 29 },
+      { "key": "folk" }
+    ],
+    "government": "semi_presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "01-01", "note": { "zh": "1804 年成为世界首个由奴隶起义建立的黑人共和国，当日喝南瓜汤庆祝", "en": "Marks 1804, the first Black republic born of a slave revolt; celebrated with joumou soup" } },
+      { "name": { "zh": "国旗日", "en": "Flag Day" }, "date": "05-18", "note": { "zh": "纪念 1803 年海地国旗的诞生", "en": "Commemorates the 1803 creation of the Haitian flag" } }
+    ]
+  },
+  "HND": {
+    "capitalZh": "特古西加尔巴",
+    "religions": [
+      { "key": "catholicism", "share": 46 },
+      { "key": "protestantism", "share": 41 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "09-15", "note": { "zh": "纪念 1821 年中美洲脱离西班牙独立", "en": "Marks Central America's 1821 independence from Spain" } },
+      { "name": { "zh": "拉塞瓦友谊狂欢节", "en": "La Ceiba Carnival" }, "date": "5 月", "note": { "zh": "为纪念圣伊西德罗而举办的加勒比海岸盛大狂欢节", "en": "Caribbean-coast carnival honoring San Isidro" } }
+    ]
+  },
+  "JAM": {
+    "capitalZh": "金斯敦",
+    "religions": [
+      { "key": "protestantism", "share": 65 },
+      { "key": "secular", "share": 21 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "解放日", "en": "Emancipation Day" }, "date": "08-01", "note": { "zh": "纪念 1834 年大英帝国废除奴隶制", "en": "Marks the 1834 abolition of slavery in the British Empire" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "08-06", "note": { "zh": "纪念 1962 年脱离英国独立", "en": "Marks independence from Britain in 1962" } }
+    ]
+  },
+  "MEX": {
+    "capitalZh": "墨西哥城",
+    "religions": [
+      { "key": "catholicism", "share": 78 },
+      { "key": "protestantism", "share": 11 }
+    ],
+    "government": "federal_republic",
+    "holidays": [
+      { "name": { "zh": "亡灵节", "en": "Day of the Dead" }, "date": "11-01 至 11-02", "note": { "zh": "联合国教科文组织非遗，以祭坛和万寿菊缅怀逝者", "en": "UNESCO-listed festival honoring the dead with altars and marigolds" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "09-16", "note": { "zh": "9 月 15 日夜'多洛雷斯呐喊'拉开庆典序幕", "en": "The 'Grito de Dolores' on Sept 15 eve opens the celebration" } }
+    ]
+  },
+  "NIC": {
+    "capitalZh": "马那瓜",
+    "religions": [
+      { "key": "catholicism", "share": 50 },
+      { "key": "protestantism", "share": 33 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "圣母无染原罪节（大喊节）", "en": "La Purísima / Gritería" }, "date": "12-07 至 12-08", "note": { "zh": "尼加拉瓜最具特色的圣母庆典，街头高呼问答互赠礼物", "en": "Nicaragua's signature Marian festival with call-and-response chants and gifts" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "09-15", "note": { "zh": "纪念 1821 年中美洲脱离西班牙独立", "en": "Marks Central America's 1821 independence from Spain" } }
+    ]
+  },
+  "PAN": {
+    "capitalZh": "巴拿马城",
+    "religions": [
+      { "key": "catholicism", "share": 63 },
+      { "key": "protestantism", "share": 25 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "从哥伦比亚分离日", "en": "Separation Day" }, "date": "11-03", "note": { "zh": "纪念 1903 年脱离哥伦比亚独立", "en": "Marks the 1903 separation from Colombia" } },
+      { "name": { "zh": "狂欢节", "en": "Carnival" }, "date": "四旬期前（2 月或 3 月）", "note": { "zh": "拉斯塔夫拉斯镇的狂欢节尤为盛大", "en": "Especially grand in the town of Las Tablas" } }
+    ]
+  },
+  "PRY": {
+    "capitalZh": "亚松森",
+    "religions": [
+      { "key": "catholicism", "share": 80 },
+      { "key": "protestantism", "share": 9 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "05-14 至 05-15", "note": { "zh": "纪念 1811 年脱离西班牙独立", "en": "Marks independence from Spain in 1811" } },
+      { "name": { "zh": "卡库佩圣母节", "en": "Day of the Virgin of Caacupé" }, "date": "12-08", "note": { "zh": "信众徒步朝圣至卡库佩朝拜'蓝色圣母'", "en": "Pilgrimage to Caacupé to honor the 'Blue Virgin'" } }
+    ]
+  },
+  "PER": {
+    "capitalZh": "利马",
+    "religions": [
+      { "key": "catholicism", "share": 76 },
+      { "key": "protestantism", "share": 14 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "07-28", "note": { "zh": "纪念 1821 年脱离西班牙独立", "en": "Marks independence from Spain in 1821" } },
+      { "name": { "zh": "太阳节", "en": "Inti Raymi" }, "date": "06-24", "note": { "zh": "库斯科重现印加帝国祭祀太阳神的盛大仪式", "en": "Cusco reenacts the Inca sun-worship ceremony" } }
+    ]
+  },
+  "KNA": {
+    "capitalZh": "巴斯特尔",
+    "religions": [
+      { "key": "protestantism", "share": 75 },
+      { "key": "catholicism", "share": 6 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "09-19", "note": { "zh": "纪念 1983 年脱离英国独立", "en": "Marks independence from Britain in 1983" } },
+      { "name": { "zh": "糖节狂欢节", "en": "Sugar Mas" }, "date": "12 月至次年 1 月", "note": { "zh": "跨越年末的全国狂欢节庆典", "en": "The national carnival spanning year's end" } }
+    ]
+  },
+  "LCA": {
+    "capitalZh": "卡斯特里",
+    "religions": [
+      { "key": "catholicism", "share": 61 },
+      { "key": "protestantism", "share": 26 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "02-22", "note": { "zh": "纪念 1979 年脱离英国独立", "en": "Marks independence from Britain in 1979" } },
+      { "name": { "zh": "圣露西亚节（国庆日）", "en": "Feast of Saint Lucy" }, "date": "12-13", "note": { "zh": "以主保圣女露西亚命名的光明节与国庆日", "en": "Festival of Lights and national day named for patron Saint Lucy" } }
+    ]
+  },
+  "VCT": {
+    "capitalZh": "金斯敦",
+    "religions": [
+      { "key": "protestantism", "share": 68 },
+      { "key": "catholicism", "share": 6 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "10-27", "note": { "zh": "纪念 1979 年脱离英国独立", "en": "Marks independence from Britain in 1979" } },
+      { "name": { "zh": "文西狂欢节", "en": "Vincy Mas" }, "date": "6 月至 7 月", "note": { "zh": "全国规模最大的狂欢节庆典", "en": "The nation's largest carnival celebration" } }
+    ]
+  },
+  "SUR": {
+    "capitalZh": "帕拉马里博",
+    "religions": [
+      { "key": "christianity", "share": 48 },
+      { "key": "hinduism", "share": 22 },
+      { "key": "islam", "share": 14 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "11-25", "note": { "zh": "纪念 1975 年脱离荷兰独立", "en": "Marks independence from the Netherlands in 1975" } },
+      { "name": { "zh": "胡里节", "en": "Holi Phagwa" }, "date": "3 月", "note": { "zh": "印度裔庆祝的春季泼彩节，为全国假日", "en": "Indo-Surinamese spring festival of colors, a national holiday" } },
+      { "name": { "zh": "解放日", "en": "Keti Koti" }, "date": "07-01", "note": { "zh": "纪念 1863 年废除奴隶制", "en": "Marks the 1863 abolition of slavery" } }
+    ]
+  },
+  "TTO": {
+    "capitalZh": "西班牙港",
+    "religions": [
+      { "key": "christianity", "share": 55 },
+      { "key": "hinduism", "share": 18 },
+      { "key": "islam", "share": 5 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "特立尼达狂欢节", "en": "Trinidad Carnival" }, "date": "四旬期前（2 月或 3 月）", "note": { "zh": "钢鼓、卡里普索与索卡音乐的发源地盛会", "en": "The birthplace celebration of steelpan, calypso and soca music" } },
+      { "name": { "zh": "排灯节", "en": "Divali" }, "date": "10 月或 11 月", "note": { "zh": "印度裔人口众多，印度教光明节为全国假日", "en": "A national holiday reflecting the large Indo-Trinidadian Hindu community" } }
+    ]
+  },
+  "USA": {
+    "capitalZh": "华盛顿哥伦比亚特区",
+    "religions": [
+      { "key": "protestantism", "share": 40 },
+      { "key": "secular", "share": 28 },
+      { "key": "catholicism", "share": 21 }
+    ],
+    "government": "federal_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "07-04", "note": { "zh": "纪念 1776 年发表《独立宣言》", "en": "Marks the 1776 Declaration of Independence" } },
+      { "name": { "zh": "感恩节", "en": "Thanksgiving" }, "date": "11 月第四个周四", "note": { "zh": "家庭团聚共享火鸡大餐的传统节日", "en": "Traditional family gathering with a turkey feast" } }
+    ]
+  },
+  "URY": {
+    "capitalZh": "蒙得维的亚",
+    "religions": [
+      { "key": "catholicism", "share": 40 },
+      { "key": "secular", "share": 38 },
+      { "key": "protestantism", "share": 11 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "狂欢节", "en": "Carnival" }, "date": "1 月底至 3 月", "note": { "zh": "世界最长的狂欢节，以非洲裔坎东贝鼓乐闻名（联合国非遗）", "en": "The world's longest carnival, famed for UNESCO-listed Candombe drumming" } },
+      { "name": { "zh": "旅游周", "en": "Tourism Week" }, "date": "四旬期末（3 月或 4 月）", "note": { "zh": "政教分离下将圣周世俗化命名的公共假期", "en": "Holy Week secularized under Uruguay's strict church-state separation" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "08-25", "note": { "zh": "纪念 1825 年宣布独立", "en": "Marks the 1825 declaration of independence" } }
+    ]
+  },
+  "VEN": {
+    "capitalZh": "加拉加斯",
+    "religions": [
+      { "key": "catholicism", "share": 71 },
+      { "key": "protestantism", "share": 17 }
+    ],
+    "government": "federal_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "07-05", "note": { "zh": "纪念 1811 年宣布脱离西班牙独立", "en": "Marks the 1811 declaration of independence from Spain" } },
+      { "name": { "zh": "亚雷跳舞魔鬼节", "en": "Dancing Devils of Yare" }, "date": "圣体节（5 月或 6 月）", "note": { "zh": "联合国教科文组织非遗，戴红色魔鬼面具起舞的宗教庆典", "en": "UNESCO-listed ritual of dancers in red devil masks on Corpus Christi" } }
+    ]
+  }
+}

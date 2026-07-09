@@ -1,0 +1,62 @@
+{
+  "iso": "MX",
+  "overview": {
+    "zh": "墨西哥位于北美洲南部，北接美国，南邻中美洲，濒临太平洋和墨西哥湾，是拉丁美洲人口最多的西班牙语国家。拥有玛雅、阿兹特克等古代文明遗产，经济体量位居拉美前列，制造业与旅游业发达。",
+    "en": "Mexico lies in the southern part of North America, bordering the United States to the north and Central America to the south, with coastlines on the Pacific and the Gulf of Mexico. It is the most populous Spanish-speaking country, heir to ancient Maya and Aztec civilizations, with one of Latin America's largest economies and strong manufacturing and tourism sectors."
+  },
+  "capitalHistory": {
+    "zh": "首都墨西哥城建于阿兹特克帝国都城特诺奇蒂特兰的遗址之上，1521年后成为西班牙殖民地新西班牙的中心，如今是拉美最大的都市之一。",
+    "en": "The capital Mexico City was built atop Tenochtitlan, capital of the Aztec Empire; after 1521 it became the center of the Spanish colony of New Spain and is today one of Latin America's largest metropolises."
+  },
+  "climate": {
+    "zh": "气候多样，北部干旱、沿海与南部多为热带气候，中部高原因海拔较高而气候温和。",
+    "en": "Climates vary widely: arid in the north, tropical along the coasts and south, and temperate on the high central plateau owing to elevation."
+  },
+  "phrases": [
+    { "key": "hello", "text": "Hola", "romanization": "OH-lah", "langTag": "es-MX" },
+    { "key": "thanks", "text": "Gracias", "romanization": "GRAH-syahs", "langTag": "es-MX" },
+    { "key": "goodbye", "text": "Adiós", "romanization": "ah-DYOHS", "langTag": "es-MX" },
+    { "key": "cheers", "text": "Salud", "romanization": "sah-LOOD", "langTag": "es-MX" }
+  ],
+  "anthem": {
+    "name": { "zh": "《墨西哥国歌》", "en": "Himno Nacional Mexicano (Mexican National Anthem)" },
+    "note": { "zh": "由弗朗西斯科·冈萨雷斯·博卡内格拉作词、海梅·努诺作曲，1854年首次奏响。", "en": "Lyrics by Francisco González Bocanegra and music by Jaime Nunó; first performed in 1854." }
+  },
+  "symbols": [
+    { "key": "bird", "name": { "zh": "金雕（国鸟，见于国徽）", "en": "Golden eagle (national bird, featured on the emblem)" } },
+    { "key": "flower", "name": { "zh": "大丽花（国花）", "en": "Dahlia (national flower)" } }
+  ],
+  "alphabetCount": 27,
+  "qsTop100": 1,
+  "unescoSites": 35,
+  "football": {
+    "fifaRank": 15,
+    "worldCupTitles": 0,
+    "note": { "zh": "多次晋级世界杯，并曾于1970年和1986年两度主办赛事。", "en": "A frequent World Cup participant that hosted the tournament in 1970 and 1986." }
+  },
+  "localization": {
+    "direction": "ltr",
+    "grammaticalGender": true,
+    "colorNotes": [
+      { "zh": "绿、白、红为国旗三色，象征希望、团结与民族；色彩在节庆中广泛使用。", "en": "Green, white and red from the flag symbolize hope, unity and nation, widely used in festivals." },
+      { "zh": "亡灵节以万寿菊（金盏花）的橙黄色为标志性色彩，寓意缅怀先人。", "en": "The Day of the Dead features the orange-gold of marigolds, a color of remembrance for ancestors." }
+    ],
+    "culturalTaboos": [
+      { "zh": "西班牙语名词分阴阳性，形容词需与名词性数一致，本地化时需注意。", "en": "Spanish nouns have grammatical gender and adjectives must agree in gender and number—mind this during localization." },
+      { "zh": "墨西哥西班牙语与欧洲西班牙语在词汇、用法上存在差异，需针对本地读者调整。", "en": "Mexican Spanish differs from European Spanish in vocabulary and usage—adapt content for local readers." }
+    ],
+    "formatting": [
+      { "zh": "日期常用 日/月/年；货币为墨西哥比索，符号为 $。", "en": "Dates commonly use DD/MM/YYYY; the currency is the Mexican peso, symbol $." },
+      { "zh": "疑问句与感叹句使用倒置标点 ¿ 与 ¡ 开头。", "en": "Questions and exclamations open with inverted marks ¿ and ¡." }
+    ]
+  },
+  "funFacts": [
+    { "zh": "墨西哥的亡灵节（Día de los Muertos）被列入联合国教科文组织非物质文化遗产。", "en": "Mexico's Day of the Dead (Día de los Muertos) is inscribed on UNESCO's Intangible Cultural Heritage list." },
+    { "zh": "巧克力、玉米和辣椒等作物均起源于墨西哥所在的中美洲地区。", "en": "Crops such as chocolate, maize and chili peppers all originate from the Mesoamerican region that includes Mexico." }
+  ],
+  "sources": {
+    "overview": { "label": { "zh": "维基百科", "en": "Wikipedia" }, "url": "https://en.wikipedia.org/wiki/Mexico" },
+    "metrics": { "label": { "zh": "联合国教科文组织世界遗产名录", "en": "UNESCO World Heritage List" }, "url": "https://whc.unesco.org/en/statesparties/mx", "year": "2024" },
+    "football": { "label": { "zh": "国际足联世界排名", "en": "FIFA World Ranking" }, "url": "https://www.fifa.com/fifa-world-ranking" }
+  }
+}

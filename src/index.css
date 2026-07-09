@@ -1,0 +1,182 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   Design tokens — Atlas 本地化学习地图
+   "精致编辑感 + 地图学探索" — 避免通用 AI 观感
+   ============================================================ */
+
+:root {
+  /* Light: 羊皮纸暖白 + 墨绿点缀 */
+  --bg-base: 43 38% 95%;          /* 羊皮纸底 */
+  --bg-elevated: 40 40% 98%;      /* 卡片/浮层 */
+  --bg-sunken: 42 30% 90%;        /* 凹陷区 */
+  --surface-glass: 40 40% 98% / 0.72;
+  --border: 38 22% 82%;
+  --border-strong: 36 20% 70%;
+
+  --text-primary: 200 30% 14%;    /* 深墨 */
+  --text-secondary: 210 12% 38%;
+  --text-muted: 210 10% 52%;
+
+  --accent: 32 68% 46%;           /* 暖金铜 */
+  --accent-soft: 32 70% 58%;
+  --accent-contrast: 40 40% 98%;
+
+  --map-land: 40 24% 86%;
+  --map-land-hover: 32 60% 70%;
+  --map-stroke: 36 20% 66%;
+  --map-ocean: 197 28% 88%;
+  --map-highlight: 32 72% 52%;
+  --map-terrain-land: 92 30% 62%;
+  --map-terrain-ocean: 205 45% 62%;
+
+  --shadow-sm: 0 1px 2px rgb(60 50 30 / 0.08);
+  --shadow-md: 0 6px 20px -6px rgb(60 50 30 / 0.18);
+  --shadow-lg: 0 24px 60px -18px rgb(40 34 20 / 0.32);
+
+  /* 六大维度语义色 (light) */
+  --dim-currency: 38 82% 45%;     /* 琥珀金 */
+  --dim-language: 194 72% 40%;    /* 青蓝 */
+  --dim-religion: 268 48% 52%;    /* 紫罗兰 */
+  --dim-government: 6 62% 50%;    /* 赭红 */
+  --dim-holiday: 16 82% 56%;      /* 珊瑚橙 */
+  --dim-capital: 158 52% 38%;     /* 翠绿 */
+  /* 发散型指标（男女比例）两侧色 */
+  --dim-male: 212 74% 48%;        /* 偏男·蓝 */
+  --dim-female: 340 68% 55%;      /* 偏女·玫红 */
+}
+
+html.dark {
+  /* Dark: 深墨蓝 / 石板灰 + 暖金铜 */
+  --bg-base: 210 32% 9%;
+  --bg-elevated: 210 26% 13%;
+  --bg-sunken: 212 34% 7%;
+  --surface-glass: 210 26% 13% / 0.68;
+  --border: 210 18% 22%;
+  --border-strong: 210 16% 32%;
+
+  --text-primary: 40 30% 92%;
+  --text-secondary: 210 14% 72%;
+  --text-muted: 210 12% 54%;
+
+  --accent: 36 78% 60%;
+  --accent-soft: 36 70% 52%;
+  --accent-contrast: 210 32% 9%;
+
+  --map-land: 210 20% 20%;
+  --map-land-hover: 36 50% 46%;
+  --map-stroke: 210 16% 30%;
+  --map-ocean: 210 34% 11%;
+  --map-highlight: 36 82% 60%;
+  --map-terrain-land: 95 22% 34%;
+  --map-terrain-ocean: 205 40% 22%;
+
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-md: 0 8px 24px -8px rgb(0 0 0 / 0.55);
+  --shadow-lg: 0 28px 70px -20px rgb(0 0 0 / 0.7);
+
+  --dim-currency: 38 84% 60%;
+  --dim-language: 194 68% 58%;
+  --dim-religion: 268 62% 70%;
+  --dim-government: 6 70% 64%;
+  --dim-holiday: 16 84% 66%;
+  --dim-capital: 158 52% 55%;
+  --dim-male: 212 72% 62%;
+  --dim-female: 340 70% 66%;
+}
+
+:root {
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html.dark { color-scheme: dark; }
+
+/* ---- RTL（阿拉伯语）适配 ---- */
+/* 方向性 chevron/arrow 图标在 RTL 下水平镜像，使"前进"始终指向行文方向 */
+[dir="rtl"] .rtl-flip { transform: scaleX(-1); }
+/* 地图与地形容器保持 LTR：地理方位不随文字方向镜像 */
+[dir="rtl"] .keep-ltr { direction: ltr; }
+
+* { border-color: hsl(var(--border)); }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: hsl(var(--bg-base));
+  color: hsl(var(--text-primary));
+  font-family: "Manrope", "Noto Sans SC", system-ui, sans-serif;
+  transition: background-color 0.5s ease, color 0.4s ease;
+}
+
+/* 羊皮纸/深空纹理背景 */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    radial-gradient(1200px 600px at 15% -10%, hsl(var(--accent) / 0.10), transparent 60%),
+    radial-gradient(900px 500px at 100% 110%, hsl(var(--dim-language) / 0.08), transparent 55%);
+}
+
+h1, h2, h3, .font-display {
+  font-family: "Fraunces", "Noto Serif SC", Georgia, serif;
+  letter-spacing: -0.01em;
+}
+
+::selection {
+  background: hsl(var(--accent) / 0.28);
+  color: hsl(var(--text-primary));
+}
+
+/* 细腻滚动条 */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--border-strong));
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover { background: hsl(var(--accent-soft)); }
+
+@keyframes float-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Leaflet 地形图：将其内部高 z-index 图层（瓦片/控件 z-index 可达 400+）
+   收束进独立堆叠上下文，避免在部分浏览器/WebView 中覆盖到国家面板、导航栏
+   等应用层 UI（表现为面板透出底图）。 */
+.leaflet-container {
+  position: relative;
+  z-index: 0;
+  isolation: isolate;
+  background: hsl(var(--map-ocean));
+  font-family: inherit;
+}
+.leaflet-container a {
+  color: hsl(var(--accent));
+}
+
+@layer components {
+  .input {
+    width: 100%;
+    border-radius: 0.6rem;
+    border: 1px solid hsl(var(--border));
+    background: hsl(var(--bg-elevated));
+    padding: 0.55rem 0.75rem;
+    font-size: 0.875rem;
+    color: hsl(var(--text-primary));
+    outline: none;
+    transition: border-color 0.2s ease;
+  }
+  .input::placeholder { color: hsl(var(--text-muted)); }
+  .input:focus { border-color: hsl(var(--accent)); }
+}

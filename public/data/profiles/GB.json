@@ -1,0 +1,61 @@
+{
+  "iso": "GB",
+  "overview": {
+    "zh": "大不列颠及北爱尔兰联合王国位于欧洲西北部，由英格兰、苏格兰、威尔士和北爱尔兰组成，隔英吉利海峡与欧洲大陆相望。工业革命发源地，在金融、教育、文学与流行文化领域影响深远。",
+    "en": "The United Kingdom of Great Britain and Northern Ireland lies in northwestern Europe, comprising England, Scotland, Wales and Northern Ireland, separated from continental Europe by the English Channel. Birthplace of the Industrial Revolution, it is influential in finance, education, literature and popular culture."
+  },
+  "capitalHistory": {
+    "zh": "伦敦起源于古罗马时期的伦蒂尼恩（Londinium），近两千年来一直是不列颠的政治与商业中心，威斯敏斯特宫、伦敦塔等见证了其悠久历史。",
+    "en": "London originated as the Roman settlement of Londinium and has been Britain's political and commercial center for nearly two millennia, with landmarks such as the Palace of Westminster and the Tower of London attesting to its long history."
+  },
+  "climate": {
+    "zh": "属温带海洋性气候，受北大西洋暖流影响，全年温和湿润、雨量分布均匀，天气多变。",
+    "en": "A temperate maritime climate influenced by the North Atlantic Drift, with mild, damp conditions and evenly distributed rainfall year-round, and notably changeable weather."
+  },
+  "phrases": [
+    { "key": "hello", "text": "Hello", "langTag": "en-GB" },
+    { "key": "thanks", "text": "Thank you", "langTag": "en-GB" },
+    { "key": "goodbye", "text": "Goodbye", "langTag": "en-GB" },
+    { "key": "cheers", "text": "Cheers", "langTag": "en-GB" }
+  ],
+  "anthem": {
+    "name": { "zh": "《天佑国王》", "en": "God Save the King" },
+    "note": { "zh": "自18世纪起沿用的皇家颂歌，歌词随在位君主性别在'King'与'Queen'之间变化。", "en": "A royal anthem in use since the 18th century; the lyrics alternate between 'King' and 'Queen' according to the reigning monarch." }
+  },
+  "symbols": [
+    { "key": "flower", "name": { "zh": "玫瑰（英格兰）", "en": "Rose (England)" } },
+    { "key": "animal", "name": { "zh": "狮子（传统象征）", "en": "Lion (traditional emblem)" } }
+  ],
+  "alphabetCount": 26,
+  "qsTop100": 15,
+  "unescoSites": 35,
+  "football": {
+    "fifaRank": 4,
+    "worldCupTitles": 1,
+    "note": { "zh": "英格兰队于1966年在本土夺得世界杯冠军，是现代足球的发源地。", "en": "England won the World Cup on home soil in 1966 and is regarded as the birthplace of modern football." }
+  },
+  "localization": {
+    "direction": "ltr",
+    "grammaticalGender": false,
+    "colorNotes": [
+      { "zh": "红白蓝三色见于米字旗，具有国家象征意义；红色也常用于纪念活动的罂粟花。", "en": "Red, white and blue appear on the Union Jack with national symbolism; red also features in the remembrance poppy." },
+      { "zh": "黑色多用于正式与哀悼场合。", "en": "Black is used for formal and mourning occasions." }
+    ],
+    "culturalTaboos": [
+      { "zh": "重视排队礼仪与'请''谢谢'等礼貌用语，交流偏含蓄委婉。", "en": "Queuing etiquette and polite words like 'please' and 'thank you' are valued; communication tends to be understated." }
+    ],
+    "formatting": [
+      { "zh": "日期常用 日/月/年；拼写采用英式英语（如 colour、centre）。", "en": "Dates commonly use DD/MM/YYYY; spelling follows British English (e.g. colour, centre)." },
+      { "zh": "使用英镑（£），数字以逗号作千位分隔。", "en": "Uses the pound sterling (£); numbers use a comma as the thousands separator." }
+    ]
+  },
+  "funFacts": [
+    { "zh": "英国是议会制的发源地之一，威斯敏斯特体制被许多国家借鉴。", "en": "The UK is a cradle of parliamentary democracy, and its Westminster system has been widely emulated." },
+    { "zh": "格林尼治本初子午线是全球经度与标准时间的基准。", "en": "The Prime Meridian at Greenwich serves as the global reference for longitude and standard time." }
+  ],
+  "sources": {
+    "overview": { "label": { "zh": "维基百科", "en": "Wikipedia" }, "url": "https://en.wikipedia.org/wiki/United_Kingdom" },
+    "metrics": { "label": { "zh": "联合国教科文组织世界遗产名录", "en": "UNESCO World Heritage List" }, "url": "https://whc.unesco.org/en/statesparties/gb", "year": "2024" },
+    "football": { "label": { "zh": "国际足联世界排名", "en": "FIFA World Ranking" }, "url": "https://www.fifa.com/fifa-world-ranking" }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "iso": "BR",
+  "overview": {
+    "zh": "巴西联邦共和国位于南美洲，是该大陆面积最大、人口最多的国家，拥有亚马孙雨林等丰富的自然资源。文化多元融合，在农业、矿业与足球方面享有世界声誉。",
+    "en": "The Federative Republic of Brazil is in South America and is the continent's largest country by area and population, home to rich natural resources including the Amazon rainforest. With a richly blended culture, it is world-renowned for agriculture, mining and football."
+  },
+  "capitalHistory": {
+    "zh": "巴西利亚是一座规划新城，由建筑师尼迈耶等设计，1960年落成并取代里约热内卢成为首都，以现代主义城市布局闻名。",
+    "en": "Brasília is a planned city designed by architects including Oscar Niemeyer; completed in 1960, it replaced Rio de Janeiro as the capital and is celebrated for its modernist urban layout."
+  },
+  "climate": {
+    "zh": "以热带气候为主，亚马孙地区终年湿热，中部为热带草原气候，南部部分地区属亚热带气候。",
+    "en": "Predominantly tropical: the Amazon region is hot and humid year-round, the center has a tropical savanna climate, and parts of the south are subtropical."
+  },
+  "phrases": [
+    { "key": "hello", "text": "Olá", "romanization": "oh-LAH", "langTag": "pt-BR" },
+    { "key": "thanks", "text": "Obrigado", "romanization": "oh-bree-GAH-doo", "langTag": "pt-BR" },
+    { "key": "goodbye", "text": "Tchau", "romanization": "chow", "langTag": "pt-BR" },
+    { "key": "cheers", "text": "Saúde", "romanization": "sah-OO-jee", "langTag": "pt-BR" }
+  ],
+  "anthem": {
+    "name": { "zh": "《巴西国歌》", "en": "Brazilian National Anthem" },
+    "note": { "zh": "曲调由弗兰西斯科·曼努埃尔·达席尔瓦谱写，歌词于1922年正式确定，风格庄严激昂。", "en": "Set to a melody by Francisco Manuel da Silva, with lyrics officially fixed in 1922; the anthem is stately and rousing." }
+  },
+  "symbols": [
+    { "key": "flower", "name": { "zh": "毛蟹爪兰（伊佩黄花常作象征）", "en": "Golden trumpet tree (ipê-amarelo), a common national emblem" } },
+    { "key": "bird", "name": { "zh": "厓䴕（鵎鵼，热带代表鸟类）", "en": "Rufous-bellied thrush (national bird)" } }
+  ],
+  "alphabetCount": 26,
+  "qsTop100": 1,
+  "unescoSites": 23,
+  "football": {
+    "fifaRank": 5,
+    "worldCupTitles": 5,
+    "note": { "zh": "巴西队五次夺得世界杯冠军，是夺冠次数最多的国家。", "en": "Brazil has won the World Cup five times, more than any other nation." }
+  },
+  "localization": {
+    "direction": "ltr",
+    "grammaticalGender": true,
+    "colorNotes": [
+      { "zh": "绿黄两色源自国旗，象征森林与矿产，是国家的标志色。", "en": "Green and yellow from the flag symbolize forests and mineral wealth and are the nation's signature colors." },
+      { "zh": "紫色在传统上多与哀悼相关，节庆场合较少使用。", "en": "Purple is traditionally linked with mourning and is used less in festive contexts." }
+    ],
+    "culturalTaboos": [
+      { "zh": "社交热情、注重人际关系，见面常有拥抱或贴面礼；'OK'手势在当地含义不佳，应避免。", "en": "Social warmth and personal relationships matter, with hugs or cheek kisses common; the 'OK' hand gesture is offensive locally and should be avoided." }
+    ],
+    "formatting": [
+      { "zh": "使用巴西葡萄牙语，名词分阴阳性；日期用 日/月/年。", "en": "Uses Brazilian Portuguese with grammatically gendered nouns; dates use DD/MM/YYYY." },
+      { "zh": "数字用句点作千位分隔、逗号作小数点，如 1.234,56。", "en": "Numbers use a period as the thousands separator and a comma as the decimal point, e.g. 1.234,56." }
+    ]
+  },
+  "funFacts": [
+    { "zh": "巴西是世界上使用葡萄牙语人口最多的国家。", "en": "Brazil is the most populous Portuguese-speaking country in the world." },
+    { "zh": "亚马孙雨林大部分位于巴西境内，是地球上生物多样性最丰富的地区之一。", "en": "Most of the Amazon rainforest lies within Brazil, one of the most biodiverse regions on Earth." }
+  ],
+  "sources": {
+    "overview": { "label": { "zh": "维基百科", "en": "Wikipedia" }, "url": "https://en.wikipedia.org/wiki/Brazil" },
+    "metrics": { "label": { "zh": "联合国教科文组织世界遗产名录", "en": "UNESCO World Heritage List" }, "url": "https://whc.unesco.org/en/statesparties/br", "year": "2024" },
+    "football": { "label": { "zh": "国际足联世界排名", "en": "FIFA World Ranking" }, "url": "https://www.fifa.com/fifa-world-ranking" }
+  }
+}

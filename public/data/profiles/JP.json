@@ -1,0 +1,61 @@
+{
+  "iso": "JP",
+  "overview": {
+    "zh": "日本位于亚洲东部、太平洋西北，是由本州、北海道、四国、九州等岛屿组成的岛国。传统与现代交融，制造业、动漫与饮食文化享誉世界，是重要的发达经济体。",
+    "en": "Japan is an island nation in East Asia on the northwestern Pacific, made up of Honshu, Hokkaido, Shikoku, Kyushu and other islands. Blending tradition and modernity, it is renowned for manufacturing, anime and cuisine, and is a major developed economy."
+  },
+  "capitalHistory": {
+    "zh": "东京旧称江户，1603年成为德川幕府的政治中心；1868年明治维新后改称东京并成为首都，此后发展为世界级大都市。",
+    "en": "Tokyo, formerly Edo, became the political center of the Tokugawa shogunate in 1603; after the 1868 Meiji Restoration it was renamed Tokyo and made the capital, later growing into a world-class metropolis."
+  },
+  "climate": {
+    "zh": "多数地区属温带季风气候，四季分明；北部北海道偏冷凉，南部冲绳一带接近亚热带，夏秋易受台风影响。",
+    "en": "Most regions have a temperate monsoon climate with four distinct seasons; Hokkaido in the north is cooler while Okinawa in the south is subtropical, and typhoons are common in summer and autumn."
+  },
+  "phrases": [
+    { "key": "hello", "text": "こんにちは", "romanization": "Konnichiwa", "langTag": "ja-JP" },
+    { "key": "thanks", "text": "ありがとう", "romanization": "Arigatō", "langTag": "ja-JP" },
+    { "key": "goodbye", "text": "さようなら", "romanization": "Sayōnara", "langTag": "ja-JP" },
+    { "key": "cheers", "text": "乾杯", "romanization": "Kanpai", "langTag": "ja-JP" }
+  ],
+  "anthem": {
+    "name": { "zh": "《君之代》", "en": "Kimigayo" },
+    "note": { "zh": "歌词取自平安时代的和歌，旋律庄重，是世界上歌词最短的国歌之一，1999年经法律确认。", "en": "Its lyrics come from a Heian-era waka poem; among the world's shortest anthems, it was legally recognized in 1999." }
+  },
+  "symbols": [
+    { "key": "flower", "name": { "zh": "樱花", "en": "Cherry blossom (sakura)" } },
+    { "key": "bird", "name": { "zh": "绿雉（国鸟）", "en": "Green pheasant (national bird)" } }
+  ],
+  "alphabetCount": null,
+  "qsTop100": 4,
+  "unescoSites": 26,
+  "football": {
+    "fifaRank": 15,
+    "worldCupTitles": 0,
+    "note": { "zh": "多次打进世界杯正赛，是亚洲足球的代表力量之一。", "en": "A regular at the World Cup and one of the leading forces in Asian football." }
+  },
+  "localization": {
+    "direction": "ltr",
+    "grammaticalGender": false,
+    "colorNotes": [
+      { "zh": "红与白常用于庆典与礼仪，象征喜庆；组合的红白配色寓意吉祥。", "en": "Red and white are used in ceremonies and celebrations; the red-and-white pairing signifies good fortune." },
+      { "zh": "纯黑或纯白多用于丧葬场合，礼品包装需留意。", "en": "All-black or all-white is common at funerals—mind gift wrapping accordingly." }
+    ],
+    "culturalTaboos": [
+      { "zh": "重视礼节与鞠躬，进入室内常需脱鞋；数字 4 与 9 因谐音而被部分回避。", "en": "Etiquette and bowing matter; shoes are removed indoors, and the numbers 4 and 9 are sometimes avoided due to their sound." }
+    ],
+    "formatting": [
+      { "zh": "日期常用 年-月-日，并使用年号纪年；姓氏在前、名字在后。", "en": "Dates commonly use YYYY-MM-DD and era names; family name precedes given name." },
+      { "zh": "文字可横排或竖排，混用汉字、平假名与片假名。", "en": "Text can be set horizontally or vertically, mixing kanji, hiragana and katakana." }
+    ]
+  },
+  "funFacts": [
+    { "zh": "日语书写系统混合使用汉字与平假名、片假名两套音节文字，没有拉丁式字母表。", "en": "Japanese writing mixes kanji with two syllabaries, hiragana and katakana, and has no Latin-style alphabet." },
+    { "zh": "新干线是世界上最早的高速铁路系统之一，1964年开通。", "en": "The Shinkansen, opened in 1964, was one of the world's first high-speed rail systems." }
+  ],
+  "sources": {
+    "overview": { "label": { "zh": "维基百科", "en": "Wikipedia" }, "url": "https://en.wikipedia.org/wiki/Japan" },
+    "metrics": { "label": { "zh": "联合国教科文组织世界遗产名录", "en": "UNESCO World Heritage List" }, "url": "https://whc.unesco.org/en/statesparties/jp", "year": "2024" },
+    "football": { "label": { "zh": "国际足联世界排名", "en": "FIFA World Ranking" }, "url": "https://www.fifa.com/fifa-world-ranking" }
+  }
+}

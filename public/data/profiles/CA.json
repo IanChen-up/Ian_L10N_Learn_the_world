@@ -1,0 +1,62 @@
+{
+  "iso": "CA",
+  "overview": {
+    "zh": "加拿大位于北美洲北部，是世界上国土面积第二大的国家，濒临大西洋、太平洋和北冰洋。自然资源丰富、社会多元，英语和法语同为官方语言，经济高度发达，以资源、制造与服务业为支柱。",
+    "en": "Canada occupies the northern part of North America and is the world's second-largest country by area, bordering the Atlantic, Pacific and Arctic oceans. Rich in natural resources and highly multicultural, it has English and French as official languages and a highly developed economy built on resources, manufacturing and services."
+  },
+  "capitalHistory": {
+    "zh": "首都渥太华于1857年由维多利亚女王选定为省府所在地，1867年加拿大联邦成立后成为国家首都。",
+    "en": "The capital Ottawa was chosen as the seat of government by Queen Victoria in 1857 and became the national capital when the Canadian Confederation was formed in 1867."
+  },
+  "climate": {
+    "zh": "以温带大陆性气候为主，冬季寒冷漫长；北部为寒带气候，西海岸受海洋影响相对温和。",
+    "en": "Largely a temperate continental climate with long, cold winters; the north is subarctic to arctic, while the west coast is milder due to maritime influence."
+  },
+  "phrases": [
+    { "key": "hello", "text": "Hello", "romanization": "heh-LOH", "langTag": "en-CA" },
+    { "key": "thanks", "text": "Thank you", "romanization": "thank yoo", "langTag": "en-CA" },
+    { "key": "goodbye", "text": "Goodbye", "romanization": "good-BYE", "langTag": "en-CA" },
+    { "key": "cheers", "text": "Cheers", "romanization": "cheerz", "langTag": "en-CA" }
+  ],
+  "anthem": {
+    "name": { "zh": "《啊，加拿大》", "en": "O Canada" },
+    "note": { "zh": "由卡利克萨·拉瓦莱作曲，1880年首次演唱，1980年正式定为国歌。", "en": "Music by Calixa Lavallée; first performed in 1880 and officially adopted as the national anthem in 1980." }
+  },
+  "symbols": [
+    { "key": "animal", "name": { "zh": "河狸（国兽）", "en": "Beaver (national animal)" } },
+    { "key": "tree", "name": { "zh": "糖枫（枫叶为国家象征）", "en": "Sugar maple (the maple leaf is a national emblem)" } }
+  ],
+  "alphabetCount": 26,
+  "qsTop100": 4,
+  "unescoSites": 22,
+  "football": {
+    "fifaRank": 40,
+    "worldCupTitles": 0,
+    "note": { "zh": "男足曾于1986年和2022年打进世界杯正赛，并将联合主办2026年世界杯。", "en": "The men's team qualified for the World Cup in 1986 and 2022 and will co-host the 2026 tournament." }
+  },
+  "localization": {
+    "direction": "ltr",
+    "grammaticalGender": false,
+    "colorNotes": [
+      { "zh": "红色与白色为国旗色，象征国家认同，广泛用于官方与节庆场合。", "en": "Red and white, the flag colors, symbolize national identity and are widely used in official and festive contexts." },
+      { "zh": "色彩偏好总体与北美主流一致，无强烈普遍禁忌。", "en": "Color preferences broadly align with North American norms, with no strong universal taboos." }
+    ],
+    "culturalTaboos": [
+      { "zh": "英语和法语同为官方语言，产品与界面通常需提供英法双语。", "en": "English and French are both official languages; products and interfaces usually require bilingual English-French content." },
+      { "zh": "拼写沿用英式偏好（如 colour、centre），与美式英语有别。", "en": "Spelling follows British-influenced conventions (e.g., colour, centre), differing from American English." }
+    ],
+    "formatting": [
+      { "zh": "日期书写较为混用，官方推荐 年-月-日；并用公制单位。", "en": "Date formats vary; the official recommendation is YYYY-MM-DD, and metric units are used." },
+      { "zh": "货币为加拿大元，符号 $，需与美元等区分。", "en": "The currency is the Canadian dollar, symbol $, to be distinguished from other dollars." }
+    ]
+  },
+  "funFacts": [
+    { "zh": "加拿大拥有全球最长的海岸线，长度约20万公里。", "en": "Canada has the world's longest coastline, stretching roughly 200,000 kilometers." },
+    { "zh": "全国淡水湖泊数量居世界前列，境内湖泊数以百万计。", "en": "Canada holds a large share of the world's lakes, with millions of freshwater lakes across the country." }
+  ],
+  "sources": {
+    "overview": { "label": { "zh": "维基百科", "en": "Wikipedia" }, "url": "https://en.wikipedia.org/wiki/Canada" },
+    "metrics": { "label": { "zh": "联合国教科文组织世界遗产名录", "en": "UNESCO World Heritage List" }, "url": "https://whc.unesco.org/en/statesparties/ca", "year": "2024" },
+    "football": { "label": { "zh": "国际足联世界排名", "en": "FIFA World Ranking" }, "url": "https://www.fifa.com/fifa-world-ranking" }
+  }
+}

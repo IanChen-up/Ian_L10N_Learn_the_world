@@ -1,0 +1,62 @@
+{
+  "iso": "TH",
+  "overview": {
+    "zh": "泰国位于东南亚中南半岛中部，是一个以佛教文化为主的国家，风光秀丽、旅游资源丰富。经济以农业、制造业和旅游业为支柱，稻米出口和热带水果闻名于世，享有'微笑之国'的美誉。",
+    "en": "Thailand lies in the center of mainland Southeast Asia, a predominantly Buddhist country with beautiful scenery and abundant tourism resources. Its economy rests on agriculture, manufacturing and tourism; famed for rice exports and tropical fruit, it is often called the 'Land of Smiles'."
+  },
+  "capitalHistory": {
+    "zh": "首都曼谷于1782年由却克里王朝的拉玛一世定为都城，逐渐发展为泰国的政治、经济与文化中心。",
+    "en": "The capital Bangkok was established as the seat of the Chakri dynasty by King Rama I in 1782 and grew into Thailand's political, economic and cultural center."
+  },
+  "climate": {
+    "zh": "属热带季风气候，全年高温，分为热季、雨季和凉季三季。",
+    "en": "A tropical monsoon climate with high temperatures year-round, divided into hot, rainy and cool seasons."
+  },
+  "phrases": [
+    { "key": "hello", "text": "สวัสดี", "romanization": "sawasdee", "langTag": "th-TH" },
+    { "key": "thanks", "text": "ขอบคุณ", "romanization": "khob khun", "langTag": "th-TH" },
+    { "key": "goodbye", "text": "ลาก่อน", "romanization": "laa gorn", "langTag": "th-TH" },
+    { "key": "cheers", "text": "ไชโย", "romanization": "chai yo", "langTag": "th-TH" }
+  ],
+  "anthem": {
+    "name": { "zh": "《泰国国歌》", "en": "Phleng Chat Thai (Thai National Anthem)" },
+    "note": { "zh": "由披耶纳·帕迪蓬松作曲、銮沙鲁泰亚·孔哈拉作词，1939年定为国歌，每天两次在公共场所播放。", "en": "Music by Phra Chenduriyang with lyrics by Luang Saranupraphan; adopted in 1939 and played twice daily in public spaces." }
+  },
+  "symbols": [
+    { "key": "animal", "name": { "zh": "大象（国家象征）", "en": "Elephant (national symbol)" } },
+    { "key": "flower", "name": { "zh": "金链花（国花）", "en": "Golden shower (Ratchaphruek, national flower)" } }
+  ],
+  "alphabetCount": 44,
+  "qsTop100": 0,
+  "unescoSites": 8,
+  "football": {
+    "fifaRank": 99,
+    "worldCupTitles": 0,
+    "note": { "zh": "男足为东南亚传统强队，多次夺得东南亚锦标赛冠军，尚未打进世界杯正赛。", "en": "The men's team is a Southeast Asian powerhouse with multiple regional championship titles, though it has yet to qualify for the World Cup." }
+  },
+  "localization": {
+    "direction": "ltr",
+    "grammaticalGender": false,
+    "colorNotes": [
+      { "zh": "传统上一周七天各有代表色（如周一黄、周五蓝），黄色和蓝色与王室相关联，广受尊崇。", "en": "Traditionally each day of the week has a color (e.g., yellow for Monday, blue for Friday); yellow and blue are associated with the monarchy and highly esteemed." },
+      { "zh": "黑色多用于丧葬场合，喜庆场合应谨慎使用。", "en": "Black is used for mourning and should be applied cautiously in festive contexts." }
+    ],
+    "culturalTaboos": [
+      { "zh": "头部被视为神圣，不可随意触碰他人头部；脚被视为不洁，不可用脚指人或指物。", "en": "The head is considered sacred and should not be touched; feet are considered unclean and must not point at people or objects." },
+      { "zh": "对王室与佛教应保持尊重，相关内容需谨慎处理。", "en": "Show respect toward the monarchy and Buddhism; handle related content with care." }
+    ],
+    "formatting": [
+      { "zh": "泰文不使用空格分词，需借助断词算法处理换行与排版。", "en": "Thai does not use spaces between words, so line-breaking and layout require word-segmentation algorithms." },
+      { "zh": "官方常用佛历纪年（比公历早543年），需与公历做转换。", "en": "The Buddhist Era calendar (543 years ahead of the Gregorian) is officially common and needs conversion to the Gregorian year." }
+    ]
+  },
+  "funFacts": [
+    { "zh": "泰国首都曼谷的全称是世界上最长的城市名称之一。", "en": "The full ceremonial name of Thailand's capital, Bangkok, is one of the longest city names in the world." },
+    { "zh": "宋干节（泼水节）是泰国传统新年，以互相泼水祝福而闻名。", "en": "Songkran, the traditional Thai New Year, is famous for people splashing water on one another as a blessing." }
+  ],
+  "sources": {
+    "overview": { "label": { "zh": "维基百科", "en": "Wikipedia" }, "url": "https://en.wikipedia.org/wiki/Thailand" },
+    "metrics": { "label": { "zh": "联合国教科文组织世界遗产名录", "en": "UNESCO World Heritage List" }, "url": "https://whc.unesco.org/en/statesparties/th", "year": "2024" },
+    "football": { "label": { "zh": "国际足联世界排名", "en": "FIFA World Ranking" }, "url": "https://www.fifa.com/fifa-world-ranking" }
+  }
+}

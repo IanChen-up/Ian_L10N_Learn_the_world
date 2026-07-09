@@ -1,0 +1,61 @@
+{
+  "iso": "IT",
+  "overview": {
+    "zh": "意大利共和国位于欧洲南部地中海地区，呈靴形半岛伸入地中海。是古罗马文明与文艺复兴的发祥地，以艺术、建筑、时尚与美食闻名，是重要的发达经济体。",
+    "en": "The Italian Republic lies in southern Europe in the Mediterranean, its boot-shaped peninsula extending into the sea. Cradle of Roman civilization and the Renaissance, it is famed for art, architecture, fashion and cuisine, and is a major developed economy."
+  },
+  "capitalHistory": {
+    "zh": "罗马有近三千年历史，曾是古罗马帝国的中心，被誉为'永恒之城'，1871年成为统一后意大利王国的首都，城中保存有大量古迹。",
+    "en": "Rome has nearly 3,000 years of history as the heart of the ancient Roman Empire—the 'Eternal City'—and became the capital of a unified Italy in 1871, preserving vast numbers of ancient monuments."
+  },
+  "climate": {
+    "zh": "以地中海气候为主，夏季炎热干燥、冬季温和多雨；北部阿尔卑斯山区偏大陆性与高山气候。",
+    "en": "Predominantly a Mediterranean climate with hot, dry summers and mild, wet winters; the northern Alpine region is more continental and alpine."
+  },
+  "phrases": [
+    { "key": "hello", "text": "Ciao", "romanization": "chow", "langTag": "it-IT" },
+    { "key": "thanks", "text": "Grazie", "romanization": "GRAH-tsyeh", "langTag": "it-IT" },
+    { "key": "goodbye", "text": "Arrivederci", "romanization": "ah-ree-veh-DEHR-chee", "langTag": "it-IT" },
+    { "key": "cheers", "text": "Salute", "romanization": "sah-LOO-teh", "langTag": "it-IT" }
+  ],
+  "anthem": {
+    "name": { "zh": "《马梅利之歌》", "en": "Il Canto degli Italiani" },
+    "note": { "zh": "又称《意大利兄弟》，由马梅利作词、诺瓦罗作曲，源自19世纪意大利统一运动。", "en": "Also known as 'Fratelli d'Italia', with lyrics by Mameli and music by Novaro, dating to the 19th-century Italian unification movement." }
+  },
+  "symbols": [
+    { "key": "flower", "name": { "zh": "草莓树莓果（意大利草莓树，传统象征）", "en": "Strawberry tree (corbezzolo, a traditional emblem)" } },
+    { "key": "animal", "name": { "zh": "意大利狼（半岛代表动物）", "en": "Italian wolf (emblematic animal of the peninsula)" } }
+  ],
+  "alphabetCount": 21,
+  "qsTop100": 0,
+  "unescoSites": 60,
+  "football": {
+    "fifaRank": 9,
+    "worldCupTitles": 4,
+    "note": { "zh": "意大利队四次夺得世界杯冠军（1934、1938、1982、2006）。", "en": "Italy has won the World Cup four times (1934, 1938, 1982 and 2006)." }
+  },
+  "localization": {
+    "direction": "ltr",
+    "grammaticalGender": true,
+    "colorNotes": [
+      { "zh": "绿白红为国旗三色，是国家标志色；红色也象征热情与美食文化。", "en": "Green, white and red are the flag colors and national signature; red also evokes passion and food culture." },
+      { "zh": "紫色在传统上与哀悼、宗教斋期相关，喜庆场合较少使用。", "en": "Purple is traditionally linked with mourning and religious penitential seasons and is used less on festive occasions." }
+    ],
+    "culturalTaboos": [
+      { "zh": "重视家庭、餐桌礼仪与地方传统；用餐时间与咖啡习惯有其讲究。", "en": "Family, table manners and regional traditions matter; meal times and coffee customs have their own etiquette." }
+    ],
+    "formatting": [
+      { "zh": "意大利语名词分阴阳性，形容词随性数变化；日期用 日/月/年。", "en": "Italian nouns have grammatical gender and adjectives agree in gender and number; dates use DD/MM/YYYY." },
+      { "zh": "数字用句点作千位分隔、逗号作小数点，如 1.234,56。", "en": "Numbers use a period as the thousands separator and a comma as the decimal point, e.g. 1.234,56." }
+    ]
+  },
+  "funFacts": [
+    { "zh": "传统意大利语字母表仅含21个字母，J、K、W、X、Y主要用于外来词。", "en": "The traditional Italian alphabet has just 21 letters; J, K, W, X and Y appear mainly in loanwords." },
+    { "zh": "意大利是世界上世界文化与自然遗产数量最多的国家之一。", "en": "Italy has one of the highest numbers of UNESCO World Heritage Sites in the world." }
+  ],
+  "sources": {
+    "overview": { "label": { "zh": "维基百科", "en": "Wikipedia" }, "url": "https://en.wikipedia.org/wiki/Italy" },
+    "metrics": { "label": { "zh": "联合国教科文组织世界遗产名录", "en": "UNESCO World Heritage List" }, "url": "https://whc.unesco.org/en/statesparties/it", "year": "2024" },
+    "football": { "label": { "zh": "国际足联世界排名", "en": "FIFA World Ranking" }, "url": "https://www.fifa.com/fifa-world-ranking" }
+  }
+}

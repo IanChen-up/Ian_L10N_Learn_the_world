@@ -1,0 +1,422 @@
+{
+  "湖南省": {
+    "nameEn": "Hunan",
+    "capital": { "zh": "长沙", "en": "Changsha" },
+    "capitalNote": { "zh": "", "en": "" },
+    "population": 66040000,
+    "gdpCNY": 48670.4,
+    "areaKm2": 211800,
+    "abbr": "湘",
+    "dialects": [
+      { "name": { "zh": "湘语", "en": "Xiang" }, "family": { "zh": "湘语", "en": "Xiang" } },
+      { "name": { "zh": "西南官话", "en": "Southwestern Mandarin" }, "family": { "zh": "官话", "en": "Mandarin" } },
+      { "name": { "zh": "赣语", "en": "Gan" }, "family": { "zh": "赣语", "en": "Gan" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 90 },
+      { "name": { "zh": "土家族", "en": "Tujia" } },
+      { "name": { "zh": "苗族", "en": "Miao" } }
+    ],
+    "religions": ["buddhism", "taoism", "folk", "christianity"],
+    "highlights": [
+      { "name": { "zh": "湘菜", "en": "Hunan cuisine" }, "note": { "zh": "中国八大菜系之一，以香辣著称", "en": "One of China's eight great cuisines, known for its spicy flavours" } },
+      { "name": { "zh": "张家界", "en": "Zhangjiajie" }, "note": { "zh": "奇峰林立的世界自然遗产", "en": "A UNESCO natural heritage site of towering sandstone peaks" } },
+      { "name": { "zh": "花鼓戏", "en": "Huagu opera" } }
+    ]
+  },
+  "广东省": {
+    "nameEn": "Guangdong",
+    "capital": { "zh": "广州", "en": "Guangzhou" },
+    "capitalNote": { "zh": "", "en": "" },
+    "population": 126010000,
+    "gdpCNY": 129118.6,
+    "areaKm2": 179800,
+    "abbr": "粤",
+    "dialects": [
+      { "name": { "zh": "粤语", "en": "Cantonese" }, "family": { "zh": "粤语", "en": "Yue" } },
+      { "name": { "zh": "客家话", "en": "Hakka" }, "family": { "zh": "客家话", "en": "Hakka" } },
+      { "name": { "zh": "潮汕话", "en": "Teochew" }, "family": { "zh": "闽语·闽南", "en": "Min · Southern Min" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 96 }
+    ],
+    "religions": ["buddhism", "taoism", "folk", "christianity"],
+    "highlights": [
+      { "name": { "zh": "粤菜", "en": "Cantonese cuisine" }, "note": { "zh": "中国八大菜系之一，早茶闻名", "en": "One of China's great cuisines; famous dim sum" } },
+      { "name": { "zh": "粤剧", "en": "Cantonese opera" } }
+    ]
+  },
+  "广西壮族自治区": {
+    "nameEn": "Guangxi",
+    "capital": { "zh": "南宁", "en": "Nanning" },
+    "capitalNote": { "zh": "壮族自治区首府", "en": "Capital of the Zhuang Autonomous Region" },
+    "population": 50470000,
+    "gdpCNY": 26300.9,
+    "areaKm2": 237600,
+    "abbr": "桂",
+    "dialects": [
+      { "name": { "zh": "粤语", "en": "Cantonese" }, "family": { "zh": "粤语", "en": "Yue" } },
+      { "name": { "zh": "壮语", "en": "Zhuang" }, "family": { "zh": "壮侗语族", "en": "Tai-Kadai" } },
+      { "name": { "zh": "西南官话", "en": "Southwestern Mandarin" }, "family": { "zh": "官话", "en": "Mandarin" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 62 },
+      { "name": { "zh": "壮族", "en": "Zhuang" }, "share": 31 },
+      { "name": { "zh": "瑶族", "en": "Yao" } }
+    ],
+    "religions": ["buddhism", "taoism", "folk", "christianity"],
+    "highlights": [
+      { "name": { "zh": "桂林山水", "en": "Guilin landscape" }, "note": { "zh": "“桂林山水甲天下”的喀斯特风光", "en": "Karst scenery famed as the finest under heaven" } },
+      { "name": { "zh": "壮族三月三", "en": "Zhuang San Yue San festival" }, "note": { "zh": "壮族传统歌圩节日", "en": "Traditional Zhuang song festival" } },
+      { "name": { "zh": "螺蛳粉", "en": "Luosifen" }, "note": { "zh": "柳州风味螺蛳米粉", "en": "Liuzhou's signature snail rice noodles" } }
+    ]
+  },
+  "海南省": {
+    "nameEn": "Hainan",
+    "capital": { "zh": "海口", "en": "Haikou" },
+    "capitalNote": { "zh": "", "en": "" },
+    "population": 10270000,
+    "gdpCNY": 6818.2,
+    "areaKm2": 35400,
+    "abbr": "琼",
+    "dialects": [
+      { "name": { "zh": "海南话", "en": "Hainanese" }, "family": { "zh": "闽语·闽南", "en": "Min · Southern Min" } },
+      { "name": { "zh": "黎语", "en": "Hlai" }, "family": { "zh": "壮侗语族", "en": "Kra-Dai" } },
+      { "name": { "zh": "普通话", "en": "Mandarin" }, "family": { "zh": "官话", "en": "Mandarin" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 83 },
+      { "name": { "zh": "黎族", "en": "Li" }, "share": 15 },
+      { "name": { "zh": "苗族", "en": "Miao" } }
+    ],
+    "religions": ["buddhism", "taoism", "folk", "christianity"],
+    "highlights": [
+      { "name": { "zh": "三亚热带海滨", "en": "Sanya tropical coast" }, "note": { "zh": "天涯海角与椰林沙滩", "en": "Palm-lined beaches and the famed Tianya Haijiao cape" } },
+      { "name": { "zh": "黎族文化", "en": "Li ethnic culture" }, "note": { "zh": "黎锦织造等非物质文化遗产", "en": "Li brocade weaving and other intangible heritage" } },
+      { "name": { "zh": "海南鸡饭", "en": "Hainanese chicken rice" } }
+    ]
+  },
+  "重庆市": {
+    "nameEn": "Chongqing",
+    "capital": { "zh": "重庆", "en": "Chongqing" },
+    "capitalNote": { "zh": "中央直辖市", "en": "A municipality directly under the central government" },
+    "population": 32130000,
+    "gdpCNY": 29129.0,
+    "areaKm2": 82400,
+    "abbr": "渝",
+    "dialects": [
+      { "name": { "zh": "西南官话", "en": "Southwestern Mandarin" }, "family": { "zh": "官话", "en": "Mandarin" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 93 },
+      { "name": { "zh": "土家族", "en": "Tujia" } },
+      { "name": { "zh": "苗族", "en": "Miao" } }
+    ],
+    "religions": ["buddhism", "taoism", "folk", "christianity"],
+    "highlights": [
+      { "name": { "zh": "重庆火锅", "en": "Chongqing hotpot" }, "note": { "zh": "以麻辣鲜香闻名的红汤火锅", "en": "Famed for its numbing-spicy red broth" } },
+      { "name": { "zh": "山城夜景", "en": "Mountain-city night view" }, "note": { "zh": "洪崖洞与两江灯火", "en": "Hongyadong stilt houses and riverside lights" } },
+      { "name": { "zh": "川剧", "en": "Sichuan opera" } }
+    ]
+  },
+  "四川省": {
+    "nameEn": "Sichuan",
+    "capital": { "zh": "成都", "en": "Chengdu" },
+    "capitalNote": { "zh": "", "en": "" },
+    "population": 83740000,
+    "gdpCNY": 56749.8,
+    "areaKm2": 486000,
+    "abbr": "川",
+    "dialects": [
+      { "name": { "zh": "四川话（西南官话）", "en": "Sichuanese (Southwestern Mandarin)" }, "family": { "zh": "官话", "en": "Mandarin" } },
+      { "name": { "zh": "彝语", "en": "Yi" }, "family": { "zh": "汉藏语系·藏缅", "en": "Tibeto-Burman" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 95 },
+      { "name": { "zh": "彝族", "en": "Yi" } },
+      { "name": { "zh": "藏族", "en": "Tibetan" } },
+      { "name": { "zh": "羌族", "en": "Qiang" } }
+    ],
+    "religions": ["buddhism", "taoism", "folk", "tibetan_buddhism"],
+    "highlights": [
+      { "name": { "zh": "川菜", "en": "Sichuan cuisine" }, "note": { "zh": "以麻辣著称的八大菜系之一", "en": "One of the great cuisines, known for its mala spice" } },
+      { "name": { "zh": "川剧变脸", "en": "Sichuan opera face-changing" } },
+      { "name": { "zh": "大熊猫", "en": "Giant panda" }, "note": { "zh": "成都设有大熊猫繁育研究基地", "en": "Chengdu is home to giant panda breeding bases" } },
+      { "name": { "zh": "都江堰", "en": "Dujiangyan" }, "note": { "zh": "两千多年前的古代水利工程", "en": "An ancient irrigation system over two millennia old" } }
+    ]
+  },
+  "贵州省": {
+    "nameEn": "Guizhou",
+    "capital": { "zh": "贵阳", "en": "Guiyang" },
+    "capitalNote": { "zh": "", "en": "" },
+    "population": 38560000,
+    "gdpCNY": 20164.6,
+    "areaKm2": 176200,
+    "abbr": "黔",
+    "dialects": [
+      { "name": { "zh": "西南官话", "en": "Southwestern Mandarin" }, "family": { "zh": "官话", "en": "Mandarin" } },
+      { "name": { "zh": "苗语", "en": "Miao (Hmong)" }, "family": { "zh": "苗瑶语族", "en": "Hmong-Mien" } },
+      { "name": { "zh": "布依语", "en": "Buyei" }, "family": { "zh": "壮侗语族", "en": "Tai-Kadai" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 64 },
+      { "name": { "zh": "苗族", "en": "Miao" } },
+      { "name": { "zh": "布依族", "en": "Buyei" } },
+      { "name": { "zh": "侗族", "en": "Dong" } }
+    ],
+    "religions": ["buddhism", "taoism", "folk", "christianity"],
+    "highlights": [
+      { "name": { "zh": "黄果树瀑布", "en": "Huangguoshu Waterfall" }, "note": { "zh": "中国著名的大型瀑布", "en": "One of China's largest and most famous waterfalls" } },
+      { "name": { "zh": "苗族侗族村寨", "en": "Miao and Dong villages" }, "note": { "zh": "千户苗寨与侗族大歌", "en": "Vast Miao villages and the Dong grand choir" } },
+      { "name": { "zh": "茅台酒", "en": "Moutai liquor" }, "note": { "zh": "中国著名的酱香型白酒", "en": "China's renowned sauce-aroma baijiu" } }
+    ]
+  },
+  "云南省": {
+    "nameEn": "Yunnan",
+    "capital": { "zh": "昆明", "en": "Kunming" },
+    "capitalNote": { "zh": "", "en": "" },
+    "population": 46930000,
+    "gdpCNY": 28954.2,
+    "areaKm2": 394100,
+    "abbr": "滇",
+    "dialects": [
+      { "name": { "zh": "西南官话", "en": "Southwestern Mandarin" }, "family": { "zh": "官话", "en": "Mandarin" } },
+      { "name": { "zh": "彝语", "en": "Yi" }, "family": { "zh": "汉藏语系·藏缅", "en": "Tibeto-Burman" } },
+      { "name": { "zh": "傣语", "en": "Dai" }, "family": { "zh": "壮侗语族", "en": "Tai-Kadai" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 66 },
+      { "name": { "zh": "彝族", "en": "Yi" } },
+      { "name": { "zh": "白族", "en": "Bai" } },
+      { "name": { "zh": "傣族", "en": "Dai" } }
+    ],
+    "religions": ["buddhism", "taoism", "folk", "tibetan_buddhism"],
+    "highlights": [
+      { "name": { "zh": "过桥米线", "en": "Crossing-the-bridge rice noodles" }, "note": { "zh": "云南代表性风味小吃", "en": "Yunnan's signature noodle dish" } },
+      { "name": { "zh": "丽江古城", "en": "Old Town of Lijiang" }, "note": { "zh": "世界文化遗产古镇", "en": "A UNESCO world heritage old town" } },
+      { "name": { "zh": "民族风情", "en": "Ethnic diversity" }, "note": { "zh": "拥有众多世居少数民族", "en": "Home to many indigenous ethnic groups" } },
+      { "name": { "zh": "石林", "en": "Stone Forest" }, "note": { "zh": "壮观的喀斯特地貌", "en": "A spectacular karst landscape" } }
+    ]
+  },
+  "西藏自治区": {
+    "nameEn": "Tibet",
+    "capital": { "zh": "拉萨", "en": "Lhasa" },
+    "capitalNote": { "zh": "藏族自治区首府", "en": "Capital of the Tibet Autonomous Region" },
+    "population": 3640000,
+    "gdpCNY": 2132.6,
+    "areaKm2": 1228400,
+    "abbr": "藏",
+    "dialects": [
+      { "name": { "zh": "藏语", "en": "Tibetan" }, "family": { "zh": "汉藏语系·藏缅", "en": "Tibeto-Burman" } },
+      { "name": { "zh": "普通话", "en": "Mandarin" }, "family": { "zh": "官话", "en": "Mandarin" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "藏族", "en": "Tibetan" }, "share": 86 },
+      { "name": { "zh": "汉族", "en": "Han" } }
+    ],
+    "religions": ["tibetan_buddhism", "folk"],
+    "highlights": [
+      { "name": { "zh": "布达拉宫", "en": "Potala Palace" }, "note": { "zh": "拉萨的世界文化遗产地标", "en": "A UNESCO world heritage landmark in Lhasa" } },
+      { "name": { "zh": "藏传佛教", "en": "Tibetan Buddhism" } },
+      { "name": { "zh": "唐卡", "en": "Thangka" }, "note": { "zh": "传统藏族卷轴画艺术", "en": "Traditional Tibetan scroll painting" } },
+      { "name": { "zh": "珠穆朗玛峰", "en": "Mount Qomolangma" }, "note": { "zh": "世界最高峰", "en": "The world's highest peak" } }
+    ]
+  },
+  "陕西省": {
+    "nameEn": "Shaanxi",
+    "capital": { "zh": "西安", "en": "Xi'an" },
+    "capitalNote": { "zh": "", "en": "" },
+    "population": 39560000,
+    "gdpCNY": 32772.7,
+    "areaKm2": 205600,
+    "abbr": "陕",
+    "dialects": [
+      { "name": { "zh": "中原官话（关中话）", "en": "Central Plains Mandarin (Guanzhong)" }, "family": { "zh": "官话", "en": "Mandarin" } },
+      { "name": { "zh": "晋语", "en": "Jin" }, "family": { "zh": "晋语", "en": "Jin" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 99 },
+      { "name": { "zh": "回族", "en": "Hui" } }
+    ],
+    "religions": ["buddhism", "taoism", "folk", "islam"],
+    "highlights": [
+      { "name": { "zh": "兵马俑", "en": "Terracotta Army" }, "note": { "zh": "秦始皇陵的世界文化遗产", "en": "The UNESCO-listed guardians of Qin Shi Huang's tomb" } },
+      { "name": { "zh": "秦腔", "en": "Qin opera" }, "note": { "zh": "西北地区古老的戏曲剧种", "en": "An ancient opera of northwest China" } },
+      { "name": { "zh": "肉夹馍与羊肉泡馍", "en": "Roujiamo and yangrou paomo" }, "note": { "zh": "陕西特色面食小吃", "en": "Signature Shaanxi wheat snacks" } },
+      { "name": { "zh": "古都西安", "en": "Ancient capital Xi'an" }, "note": { "zh": "丝绸之路的东方起点", "en": "The eastern start of the Silk Road" } }
+    ]
+  },
+  "甘肃省": {
+    "nameEn": "Gansu",
+    "capital": { "zh": "兰州", "en": "Lanzhou" },
+    "capitalNote": { "zh": "", "en": "" },
+    "population": 24920000,
+    "gdpCNY": 11201.6,
+    "areaKm2": 425800,
+    "abbr": "甘",
+    "dialects": [
+      { "name": { "zh": "中原官话", "en": "Central Plains Mandarin" }, "family": { "zh": "官话", "en": "Mandarin" } },
+      { "name": { "zh": "兰银官话", "en": "Lanyin Mandarin" }, "family": { "zh": "官话", "en": "Mandarin" } },
+      { "name": { "zh": "藏语", "en": "Tibetan" }, "family": { "zh": "汉藏语系·藏缅", "en": "Tibeto-Burman" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 90 },
+      { "name": { "zh": "回族", "en": "Hui" } },
+      { "name": { "zh": "藏族", "en": "Tibetan" } },
+      { "name": { "zh": "东乡族", "en": "Dongxiang" } }
+    ],
+    "religions": ["buddhism", "islam", "folk", "tibetan_buddhism"],
+    "highlights": [
+      { "name": { "zh": "敦煌莫高窟", "en": "Mogao Caves" }, "note": { "zh": "丝路上的佛教石窟艺术宝库", "en": "A Buddhist cave-art treasure on the Silk Road" } },
+      { "name": { "zh": "兰州牛肉面", "en": "Lanzhou beef noodles" } },
+      { "name": { "zh": "丝绸之路", "en": "Silk Road" }, "note": { "zh": "河西走廊连接东西方文明", "en": "The Hexi Corridor linking East and West" } }
+    ]
+  },
+  "青海省": {
+    "nameEn": "Qinghai",
+    "capital": { "zh": "西宁", "en": "Xining" },
+    "capitalNote": { "zh": "", "en": "" },
+    "population": 5950000,
+    "gdpCNY": 3610.1,
+    "areaKm2": 722300,
+    "abbr": "青",
+    "dialects": [
+      { "name": { "zh": "中原官话", "en": "Central Plains Mandarin" }, "family": { "zh": "官话", "en": "Mandarin" } },
+      { "name": { "zh": "藏语", "en": "Tibetan" }, "family": { "zh": "汉藏语系·藏缅", "en": "Tibeto-Burman" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 53 },
+      { "name": { "zh": "藏族", "en": "Tibetan" }, "share": 24 },
+      { "name": { "zh": "回族", "en": "Hui" }, "share": 14 },
+      { "name": { "zh": "撒拉族", "en": "Salar" } }
+    ],
+    "religions": ["tibetan_buddhism", "islam", "folk"],
+    "highlights": [
+      { "name": { "zh": "青海湖", "en": "Qinghai Lake" }, "note": { "zh": "中国最大的内陆咸水湖", "en": "China's largest inland saltwater lake" } },
+      { "name": { "zh": "塔尔寺", "en": "Kumbum Monastery" }, "note": { "zh": "藏传佛教格鲁派名寺", "en": "A famed Gelug-school Tibetan Buddhist monastery" } },
+      { "name": { "zh": "三江源", "en": "Sanjiangyuan" }, "note": { "zh": "长江、黄河、澜沧江发源地", "en": "Source of the Yangtze, Yellow and Lancang rivers" } }
+    ]
+  },
+  "宁夏回族自治区": {
+    "nameEn": "Ningxia",
+    "capital": { "zh": "银川", "en": "Yinchuan" },
+    "capitalNote": { "zh": "回族自治区首府", "en": "Capital of the Ningxia Hui Autonomous Region" },
+    "population": 7280000,
+    "gdpCNY": 5069.6,
+    "areaKm2": 66400,
+    "abbr": "宁",
+    "dialects": [
+      { "name": { "zh": "中原官话", "en": "Central Plains Mandarin" }, "family": { "zh": "官话", "en": "Mandarin" } },
+      { "name": { "zh": "兰银官话", "en": "Lanyin Mandarin" }, "family": { "zh": "官话", "en": "Mandarin" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 65 },
+      { "name": { "zh": "回族", "en": "Hui" }, "share": 35 }
+    ],
+    "religions": ["islam", "buddhism", "taoism", "folk"],
+    "highlights": [
+      { "name": { "zh": "贺兰山岩画", "en": "Helan Mountain rock art" }, "note": { "zh": "古代游牧民族的岩刻遗存", "en": "Ancient rock carvings left by nomadic peoples" } },
+      { "name": { "zh": "西夏王陵", "en": "Western Xia Imperial Tombs" }, "note": { "zh": "西夏王朝的皇家陵园", "en": "The royal necropolis of the Western Xia dynasty" } },
+      { "name": { "zh": "宁夏枸杞", "en": "Ningxia goji berries" }, "note": { "zh": "享誉全国的地方特产", "en": "A nationally famed local specialty" } }
+    ]
+  },
+  "新疆维吾尔自治区": {
+    "nameEn": "Xinjiang",
+    "capital": { "zh": "乌鲁木齐", "en": "Ürümqi" },
+    "capitalNote": { "zh": "维吾尔自治区首府", "en": "Capital of the Xinjiang Uyghur Autonomous Region" },
+    "population": 25870000,
+    "gdpCNY": 17741.3,
+    "areaKm2": 1664900,
+    "abbr": "新",
+    "dialects": [
+      { "name": { "zh": "维吾尔语", "en": "Uyghur" }, "family": { "zh": "突厥语族", "en": "Turkic" } },
+      { "name": { "zh": "普通话", "en": "Mandarin" }, "family": { "zh": "官话", "en": "Mandarin" } },
+      { "name": { "zh": "哈萨克语", "en": "Kazakh" }, "family": { "zh": "突厥语族", "en": "Turkic" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "维吾尔族", "en": "Uyghur" }, "share": 45 },
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 42 },
+      { "name": { "zh": "哈萨克族", "en": "Kazakh" } },
+      { "name": { "zh": "回族", "en": "Hui" } }
+    ],
+    "religions": ["islam", "buddhism", "folk"],
+    "highlights": [
+      { "name": { "zh": "天山", "en": "Tianshan Mountains" }, "note": { "zh": "横贯中亚的世界自然遗产山脉", "en": "A UNESCO natural heritage range across Central Asia" } },
+      { "name": { "zh": "坎儿井", "en": "Karez wells" }, "note": { "zh": "古老的地下水利灌溉系统", "en": "An ancient underground irrigation system" } },
+      { "name": { "zh": "新疆歌舞", "en": "Song and dance" }, "note": { "zh": "维吾尔木卡姆等歌舞艺术", "en": "Uyghur Muqam and other performing arts" } },
+      { "name": { "zh": "瓜果与烤羊肉串", "en": "Melons and lamb skewers" }, "note": { "zh": "哈密瓜、葡萄与羊肉串闻名", "en": "Famed for Hami melon, grapes and lamb kebabs" } }
+    ]
+  },
+  "台湾省": {
+    "nameEn": "Taiwan",
+    "capital": { "zh": "台北", "en": "Taipei" },
+    "capitalNote": { "zh": "中国的省份（台湾地区）", "en": "A province of China (Taiwan region)" },
+    "population": 23260000,
+    "gdpCNY": 51150.0,
+    "areaKm2": 36193,
+    "abbr": "台",
+    "dialects": [
+      { "name": { "zh": "闽南语（台语）", "en": "Taiwanese Hokkien" }, "family": { "zh": "闽语·闽南", "en": "Min · Southern Min" } },
+      { "name": { "zh": "客家话", "en": "Hakka" }, "family": { "zh": "客家话", "en": "Hakka" } },
+      { "name": { "zh": "国语（普通话）", "en": "Mandarin" }, "family": { "zh": "官话", "en": "Mandarin" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 97 },
+      { "name": { "zh": "台湾少数民族", "en": "Indigenous peoples" }, "share": 2 }
+    ],
+    "religions": ["buddhism", "taoism", "folk", "christianity"],
+    "highlights": [
+      { "name": { "zh": "台湾夜市", "en": "Night markets" }, "note": { "zh": "小吃云集的庶民美食文化", "en": "Street-food culture of local snacks" } },
+      { "name": { "zh": "日月潭与阿里山", "en": "Sun Moon Lake and Alishan" }, "note": { "zh": "著名的湖光山色风景区", "en": "Renowned lake and mountain scenic areas" } },
+      { "name": { "zh": "妈祖信仰", "en": "Mazu worship" }, "note": { "zh": "沿海盛行的民间信仰", "en": "A widespread coastal folk belief" } },
+      { "name": { "zh": "珍珠奶茶", "en": "Bubble tea" } }
+    ]
+  },
+  "香港特别行政区": {
+    "nameEn": "Hong Kong",
+    "capital": { "zh": "香港", "en": "Hong Kong" },
+    "capitalNote": { "zh": "中华人民共和国特别行政区", "en": "A Special Administrative Region of China" },
+    "population": 7350000,
+    "gdpCNY": 24200.0,
+    "areaKm2": 1114,
+    "abbr": "港",
+    "dialects": [
+      { "name": { "zh": "粤语", "en": "Cantonese" }, "family": { "zh": "粤语", "en": "Yue" } },
+      { "name": { "zh": "英语", "en": "English" }, "family": { "zh": "印欧语系·日耳曼", "en": "Germanic" } },
+      { "name": { "zh": "普通话", "en": "Mandarin" }, "family": { "zh": "官话", "en": "Mandarin" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 92 }
+    ],
+    "religions": ["buddhism", "taoism", "folk", "christianity"],
+    "highlights": [
+      { "name": { "zh": "维多利亚港", "en": "Victoria Harbour" }, "note": { "zh": "举世闻名的城市夜景", "en": "A world-famous city skyline and night view" } },
+      { "name": { "zh": "港式茶餐厅", "en": "Cha chaan teng" }, "note": { "zh": "中西合璧的平民餐饮文化", "en": "Casual eateries blending Chinese and Western tastes" } },
+      { "name": { "zh": "港式点心", "en": "Dim sum" }, "note": { "zh": "饮茶文化中的精致点心", "en": "Refined snacks central to the yum cha tradition" } }
+    ]
+  },
+  "澳门特别行政区": {
+    "nameEn": "Macau",
+    "capital": { "zh": "澳门", "en": "Macau" },
+    "capitalNote": { "zh": "中华人民共和国特别行政区", "en": "A Special Administrative Region of China" },
+    "population": 672000,
+    "gdpCNY": 1580.0,
+    "areaKm2": 33,
+    "abbr": "澳",
+    "dialects": [
+      { "name": { "zh": "粤语", "en": "Cantonese" }, "family": { "zh": "粤语", "en": "Yue" } },
+      { "name": { "zh": "葡萄牙语", "en": "Portuguese" }, "family": { "zh": "印欧语系·罗曼", "en": "Romance" } },
+      { "name": { "zh": "普通话", "en": "Mandarin" }, "family": { "zh": "官话", "en": "Mandarin" } }
+    ],
+    "ethnicGroups": [
+      { "name": { "zh": "汉族", "en": "Han" }, "share": 88 },
+      { "name": { "zh": "土生葡人", "en": "Macanese" } }
+    ],
+    "religions": ["buddhism", "taoism", "folk", "catholicism"],
+    "highlights": [
+      { "name": { "zh": "大三巴牌坊", "en": "Ruins of St. Paul's" }, "note": { "zh": "澳门的标志性历史遗迹", "en": "Macau's iconic historic landmark" } },
+      { "name": { "zh": "澳门历史城区", "en": "Historic Centre of Macao" }, "note": { "zh": "中葡风格交融的世界文化遗产", "en": "A UNESCO site blending Chinese and Portuguese styles" } },
+      { "name": { "zh": "葡式蛋挞", "en": "Portuguese egg tart" } }
+    ]
+  }
+}

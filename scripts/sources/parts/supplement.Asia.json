@@ -1,0 +1,461 @@
+{
+  "AFG": {
+    "capitalZh": "喀布尔",
+    "religions": [{ "key": "sunni", "share": 90 }, { "key": "shia", "share": 9 }],
+    "government": "theocracy",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "08-19", "note": { "zh": "纪念1919年摆脱英国控制获得外交独立", "en": "Marks independence from British influence in 1919" } },
+      { "name": { "zh": "诺鲁孜节", "en": "Nowruz" }, "date": "03-21", "note": { "zh": "波斯历新年，庆祝春分", "en": "Persian new year at the spring equinox" } },
+      { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "note": { "zh": "斋月结束后的庆典", "en": "Feast marking the end of Ramadan" } }
+    ]
+  },
+  "ARM": {
+    "capitalZh": "埃里温",
+    "religions": [{ "key": "christianity", "share": 94 }],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "瓦尔达瓦尔泼水节", "en": "Vardavar" }, "date": "7月（复活节后14周）", "note": { "zh": "人们互相泼水的传统夏季节日", "en": "Traditional festival where people douse each other with water" } },
+      { "name": { "zh": "大屠杀纪念日", "en": "Genocide Remembrance Day" }, "date": "04-24", "note": { "zh": "纪念1915年奥斯曼帝国大屠杀遇难者", "en": "Commemorates victims of the 1915 genocide" } },
+      { "name": { "zh": "亚美尼亚圣诞节", "en": "Armenian Christmas" }, "date": "01-06", "note": { "zh": "使徒教会在1月6日同庆圣诞与主显节", "en": "Celebrated on Jan 6, combining Christmas and Epiphany" } }
+    ]
+  },
+  "AZE": {
+    "capitalZh": "巴库",
+    "religions": [{ "key": "shia", "share": 60 }, { "key": "sunni", "share": 30 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "诺鲁孜节", "en": "Novruz" }, "date": "03-20 前后", "note": { "zh": "庆祝春天到来的传统新年", "en": "Traditional new year welcoming spring" } },
+      { "name": { "zh": "共和国日", "en": "Republic Day" }, "date": "05-28", "note": { "zh": "纪念1918年建立首个民主共和国", "en": "Marks the 1918 founding of the first democratic republic" } },
+      { "name": { "zh": "开斋节", "en": "Ramazan Bayrami" }, "note": { "zh": "斋月结束的庆典", "en": "Feast marking the end of Ramadan" } }
+    ]
+  },
+  "BHR": {
+    "capitalZh": "麦纳麦",
+    "religions": [{ "key": "islam", "share": 74 }, { "key": "hinduism", "share": 10 }, { "key": "christianity", "share": 9 }],
+    "government": "constitutional_monarchy",
+    "holidays": [
+      { "name": { "zh": "国庆日", "en": "National Day" }, "date": "12-16", "note": { "zh": "纪念1971年独立及已故埃米尔登基", "en": "Marks independence and the late Emir's accession" } },
+      { "name": { "zh": "阿舒拉节", "en": "Ashura" }, "note": { "zh": "什叶派纪念伊玛目侯赛因殉难的哀悼日", "en": "Shia day of mourning for Imam Husayn" } },
+      { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "note": { "zh": "斋月结束的庆典", "en": "Feast marking the end of Ramadan" } }
+    ]
+  },
+  "BGD": {
+    "capitalZh": "达卡",
+    "religions": [{ "key": "islam", "share": 91 }, { "key": "hinduism", "share": 8 }],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "孟加拉新年", "en": "Pohela Boishakh" }, "date": "04-14", "note": { "zh": "孟加拉历新年，有盛大的彩色游行", "en": "Bengali new year with colourful processions" } },
+      { "name": { "zh": "语言烈士日", "en": "Language Martyrs' Day" }, "date": "02-21", "note": { "zh": "纪念1952年为孟加拉语献身的烈士，即国际母语日", "en": "Honours those who died for the Bengali language in 1952" } },
+      { "name": { "zh": "胜利日", "en": "Victory Day" }, "date": "12-16", "note": { "zh": "纪念1971年独立战争胜利", "en": "Marks victory in the 1971 Liberation War" } }
+    ]
+  },
+  "BTN": {
+    "capitalZh": "廷布",
+    "religions": [{ "key": "buddhism", "share": 75 }, { "key": "hinduism", "share": 22 }],
+    "government": "constitutional_monarchy",
+    "holidays": [
+      { "name": { "zh": "策秋节（面具舞节）", "en": "Tshechu" }, "note": { "zh": "寺院举行的宗教假面舞蹈节", "en": "Religious festival with masked dances at monasteries" } },
+      { "name": { "zh": "国庆日", "en": "National Day" }, "date": "12-17", "note": { "zh": "纪念1907年不丹君主制建立", "en": "Marks the founding of the monarchy in 1907" } },
+      { "name": { "zh": "洛萨（藏历新年）", "en": "Losar" }, "note": { "zh": "不丹与藏区的阴历新年", "en": "Bhutanese and Tibetan lunar new year" } }
+    ]
+  },
+  "BRN": {
+    "capitalZh": "斯里巴加湾市",
+    "religions": [{ "key": "islam", "share": 78 }, { "key": "buddhism", "share": 8 }, { "key": "christianity", "share": 8 }],
+    "government": "absolute_monarchy",
+    "holidays": [
+      { "name": { "zh": "苏丹诞辰", "en": "Sultan's Birthday" }, "date": "07-15", "note": { "zh": "庆祝在位苏丹的生日", "en": "Celebrates the reigning Sultan's birthday" } },
+      { "name": { "zh": "开斋节", "en": "Hari Raya Aidilfitri" }, "note": { "zh": "斋月结束的马来穆斯林庆典", "en": "Malay Muslim feast ending Ramadan" } },
+      { "name": { "zh": "国庆日", "en": "National Day" }, "date": "02-23", "note": { "zh": "纪念1984年完全独立", "en": "Marks full independence in 1984" } }
+    ]
+  },
+  "KHM": {
+    "capitalZh": "金边",
+    "religions": [{ "key": "buddhism", "share": 97 }],
+    "government": "constitutional_monarchy",
+    "holidays": [
+      { "name": { "zh": "高棉新年", "en": "Khmer New Year" }, "date": "4月中旬", "note": { "zh": "柬埔寨传统新年，持续三天", "en": "Traditional Cambodian new year lasting three days" } },
+      { "name": { "zh": "亡人节", "en": "Pchum Ben" }, "note": { "zh": "祭祀祖先亡灵的宗教节日", "en": "Festival honouring ancestral spirits" } },
+      { "name": { "zh": "送水节", "en": "Water Festival" }, "note": { "zh": "庆祝洞里萨河水流逆转的龙舟节", "en": "Boat-racing festival marking the reversal of the Tonlé Sap" } }
+    ]
+  },
+  "CHN": {
+    "capitalZh": "北京",
+    "religions": [{ "key": "secular", "share": 52 }, { "key": "folk", "share": 22 }, { "key": "buddhism", "share": 18 }],
+    "government": "one_party_state",
+    "holidays": [
+      { "name": { "zh": "春节", "en": "Spring Festival" }, "date": "农历正月初一", "note": { "zh": "农历新年，最重要的传统团圆节日", "en": "Lunar new year, the most important family reunion" } },
+      { "name": { "zh": "中秋节", "en": "Mid-Autumn Festival" }, "date": "农历八月十五", "note": { "zh": "赏月吃月饼的团圆节", "en": "Moon-gazing festival with mooncakes" } },
+      { "name": { "zh": "端午节", "en": "Dragon Boat Festival" }, "date": "农历五月初五", "note": { "zh": "赛龙舟、吃粽子，纪念屈原", "en": "Boat races and rice dumplings honouring Qu Yuan" } }
+    ]
+  },
+  "GEO": {
+    "capitalZh": "第比利斯",
+    "religions": [{ "key": "orthodoxy", "share": 83 }, { "key": "islam", "share": 11 }],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "05-26", "note": { "zh": "纪念1918年脱离俄国独立", "en": "Marks independence from Russia in 1918" } },
+      { "name": { "zh": "东正教圣诞节", "en": "Orthodox Christmas" }, "date": "01-07", "note": { "zh": "格鲁吉亚正教会按儒略历庆祝", "en": "Georgian Orthodox Christmas by the Julian calendar" } },
+      { "name": { "zh": "第比利斯城市节", "en": "Tbilisoba" }, "date": "10月", "note": { "zh": "庆祝首都的年度城市节庆", "en": "Annual festival celebrating the capital city" } }
+    ]
+  },
+  "IND": {
+    "capitalZh": "新德里",
+    "religions": [{ "key": "hinduism", "share": 80 }, { "key": "islam", "share": 14 }, { "key": "christianity", "share": 2 }, { "key": "sikhism", "share": 2 }],
+    "government": "federal_republic",
+    "holidays": [
+      { "name": { "zh": "排灯节", "en": "Diwali" }, "note": { "zh": "印度教光明节，象征善战胜恶", "en": "Hindu festival of lights, good over evil" } },
+      { "name": { "zh": "洒红节", "en": "Holi" }, "note": { "zh": "春天的色彩节，人们互相抛洒彩粉", "en": "Spring festival of colours" } },
+      { "name": { "zh": "共和国日", "en": "Republic Day" }, "date": "01-26", "note": { "zh": "纪念1950年宪法生效", "en": "Marks the constitution taking effect in 1950" } }
+    ]
+  },
+  "IDN": {
+    "capitalZh": "雅加达",
+    "religions": [{ "key": "islam", "share": 87 }, { "key": "christianity", "share": 10 }, { "key": "hinduism", "share": 2 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "安宁日（静居日）", "en": "Nyepi" }, "note": { "zh": "巴厘岛印度教新年，全岛静默一天", "en": "Balinese Hindu new year, a day of island-wide silence" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "08-17", "note": { "zh": "纪念1945年宣布独立", "en": "Marks the 1945 declaration of independence" } },
+      { "name": { "zh": "开斋节", "en": "Idul Fitri (Lebaran)" }, "note": { "zh": "斋月结束，全国返乡团聚", "en": "End of Ramadan with mass homecoming" } }
+    ]
+  },
+  "IRN": {
+    "capitalZh": "德黑兰",
+    "religions": [{ "key": "shia", "share": 90 }, { "key": "sunni", "share": 9 }],
+    "government": "theocracy",
+    "holidays": [
+      { "name": { "zh": "诺鲁孜节", "en": "Nowruz" }, "date": "03-21", "note": { "zh": "波斯新年，庆祝春分", "en": "Persian new year at the spring equinox" } },
+      { "name": { "zh": "雅尔达之夜", "en": "Yalda Night" }, "date": "12-21 前后", "note": { "zh": "冬至夜，家人团聚吃石榴和坚果", "en": "Winter solstice night with pomegranates and family gatherings" } },
+      { "name": { "zh": "伊斯兰共和国日", "en": "Islamic Republic Day" }, "date": "04-01", "note": { "zh": "纪念1979年公投建立伊斯兰共和国", "en": "Marks the 1979 referendum establishing the republic" } }
+    ]
+  },
+  "IRQ": {
+    "capitalZh": "巴格达",
+    "religions": [{ "key": "shia", "share": 64 }, { "key": "sunni", "share": 32 }],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "阿舒拉节", "en": "Ashura" }, "note": { "zh": "什叶派纪念伊玛目侯赛因殉难", "en": "Shia commemoration of Imam Husayn's martyrdom" } },
+      { "name": { "zh": "诺鲁孜节", "en": "Nowruz" }, "date": "03-21", "note": { "zh": "库尔德人等庆祝的春季新年", "en": "Spring new year celebrated by Kurds and others" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "10-03", "note": { "zh": "纪念1932年脱离英国托管", "en": "Marks the end of the British mandate in 1932" } }
+    ]
+  },
+  "ISR": {
+    "capitalZh": "耶路撒冷",
+    "religions": [{ "key": "judaism", "share": 74 }, { "key": "islam", "share": 18 }, { "key": "christianity", "share": 2 }],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "逾越节", "en": "Passover" }, "note": { "zh": "纪念犹太人出埃及的重大节日", "en": "Commemorates the Exodus from Egypt" } },
+      { "name": { "zh": "赎罪日", "en": "Yom Kippur" }, "note": { "zh": "犹太教最神圣的斋戒忏悔日", "en": "Judaism's holiest day of fasting and atonement" } },
+      { "name": { "zh": "光明节", "en": "Hanukkah" }, "note": { "zh": "点燃烛台八天的灯节", "en": "Eight-day festival of lights" } }
+    ]
+  },
+  "JPN": {
+    "capitalZh": "东京",
+    "religions": [{ "key": "shinto", "share": 70 }, { "key": "buddhism", "share": 67 }],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "成人节", "en": "Coming of Age Day" }, "date": "1月第二个周一", "note": { "zh": "庆祝迈入成年的青年", "en": "Celebrates young people reaching adulthood" } },
+      { "name": { "zh": "黄金周", "en": "Golden Week" }, "date": "4月底至5月初", "note": { "zh": "连续多个假日组成的长假", "en": "A cluster of consecutive spring holidays" } },
+      { "name": { "zh": "盂兰盆节", "en": "Obon" }, "date": "8月中旬", "note": { "zh": "迎接先人灵魂返家的祭祖节", "en": "Festival welcoming ancestral spirits home" } }
+    ]
+  },
+  "JOR": {
+    "capitalZh": "安曼",
+    "religions": [{ "key": "islam", "share": 95 }, { "key": "christianity", "share": 4 }],
+    "government": "constitutional_monarchy",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "05-25", "note": { "zh": "纪念1946年脱离英国托管独立", "en": "Marks independence from the British mandate in 1946" } },
+      { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "note": { "zh": "斋月结束的庆典", "en": "Feast marking the end of Ramadan" } },
+      { "name": { "zh": "宰牲节", "en": "Eid al-Adha" }, "note": { "zh": "朝觐期间的献祭节", "en": "Feast of sacrifice during the Hajj" } }
+    ]
+  },
+  "KAZ": {
+    "capitalZh": "阿斯塔纳",
+    "religions": [{ "key": "islam", "share": 70 }, { "key": "orthodoxy", "share": 26 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "纳吾肉孜节", "en": "Nauryz" }, "date": "03-21至03-23", "note": { "zh": "中亚传统春季新年", "en": "Traditional Central Asian spring new year" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "12-16", "note": { "zh": "纪念1991年脱离苏联独立", "en": "Marks independence from the USSR in 1991" } },
+      { "name": { "zh": "首都日", "en": "Capital City Day" }, "date": "07-06", "note": { "zh": "庆祝首都的建立", "en": "Celebrates the founding of the capital" } }
+    ]
+  },
+  "KWT": {
+    "capitalZh": "科威特城",
+    "religions": [{ "key": "islam", "share": 75 }, { "key": "christianity", "share": 18 }],
+    "government": "constitutional_monarchy",
+    "holidays": [
+      { "name": { "zh": "国庆日", "en": "National Day" }, "date": "02-25", "note": { "zh": "纪念1961年独立", "en": "Marks independence in 1961" } },
+      { "name": { "zh": "解放日", "en": "Liberation Day" }, "date": "02-26", "note": { "zh": "纪念1991年海湾战争中获得解放", "en": "Marks liberation during the 1991 Gulf War" } },
+      { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "note": { "zh": "斋月结束的庆典", "en": "Feast marking the end of Ramadan" } }
+    ]
+  },
+  "KGZ": {
+    "capitalZh": "比什凯克",
+    "religions": [{ "key": "islam", "share": 90 }, { "key": "orthodoxy", "share": 7 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "诺鲁孜节", "en": "Nooruz" }, "date": "03-21", "note": { "zh": "庆祝春分的传统新年", "en": "Traditional new year at the spring equinox" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "08-31", "note": { "zh": "纪念1991年脱离苏联独立", "en": "Marks independence from the USSR in 1991" } },
+      { "name": { "zh": "开斋节", "en": "Orozo Ait (Eid al-Fitr)" }, "note": { "zh": "斋月结束的庆典", "en": "Feast marking the end of Ramadan" } }
+    ]
+  },
+  "LAO": {
+    "capitalZh": "万象",
+    "religions": [{ "key": "buddhism", "share": 65 }, { "key": "animism", "share": 30 }],
+    "government": "one_party_state",
+    "holidays": [
+      { "name": { "zh": "老挝新年（泼水节）", "en": "Lao New Year (Pi Mai)" }, "date": "4月中旬", "note": { "zh": "传统新年，以泼水祈福", "en": "Traditional new year celebrated with water" } },
+      { "name": { "zh": "塔銮节", "en": "That Luang Festival" }, "date": "11月", "note": { "zh": "在万象塔銮举行的佛教盛会", "en": "Buddhist festival at the That Luang stupa in Vientiane" } },
+      { "name": { "zh": "火箭节", "en": "Rocket Festival" }, "note": { "zh": "发射自制火箭祈求降雨的节日", "en": "Festival firing homemade rockets to pray for rain" } }
+    ]
+  },
+  "LBN": {
+    "capitalZh": "贝鲁特",
+    "religions": [{ "key": "islam", "share": 61 }, { "key": "christianity", "share": 34 }],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "11-22", "note": { "zh": "纪念1943年脱离法国托管独立", "en": "Marks independence from the French mandate in 1943" } },
+      { "name": { "zh": "圣马龙日", "en": "Saint Maroun's Day" }, "date": "02-09", "note": { "zh": "马龙派天主教徒纪念其主保圣人", "en": "Maronite Christians honour their patron saint" } },
+      { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "note": { "zh": "斋月结束的庆典", "en": "Feast marking the end of Ramadan" } }
+    ]
+  },
+  "MYS": {
+    "capitalZh": "吉隆坡",
+    "religions": [{ "key": "islam", "share": 64 }, { "key": "buddhism", "share": 19 }, { "key": "christianity", "share": 9 }, { "key": "hinduism", "share": 6 }],
+    "government": "constitutional_monarchy",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Hari Merdeka" }, "date": "08-31", "note": { "zh": "纪念1957年脱离英国独立", "en": "Marks independence from Britain in 1957" } },
+      { "name": { "zh": "大宝森节", "en": "Thaipusam" }, "note": { "zh": "泰米尔印度教徒的赎罪与还愿节日", "en": "Tamil Hindu festival of penance and devotion" } },
+      { "name": { "zh": "开斋节", "en": "Hari Raya Aidilfitri" }, "note": { "zh": "斋月结束的马来穆斯林庆典", "en": "Malay Muslim feast ending Ramadan" } }
+    ]
+  },
+  "MDV": {
+    "capitalZh": "马累",
+    "religions": [{ "key": "islam", "share": 99 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "07-26", "note": { "zh": "纪念1965年脱离英国保护独立", "en": "Marks independence from British protection in 1965" } },
+      { "name": { "zh": "国庆日", "en": "National Day" }, "note": { "zh": "纪念抵抗葡萄牙人的民族英雄", "en": "Honours the hero who resisted Portuguese rule" } },
+      { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "note": { "zh": "斋月结束的庆典", "en": "Feast marking the end of Ramadan" } }
+    ]
+  },
+  "MNG": {
+    "capitalZh": "乌兰巴托",
+    "religions": [{ "key": "buddhism", "share": 52 }, { "key": "secular", "share": 38 }, { "key": "indigenous", "share": 3 }],
+    "government": "semi_presidential_republic",
+    "holidays": [
+      { "name": { "zh": "那达慕", "en": "Naadam" }, "date": "07-11至07-13", "note": { "zh": "摔跤、赛马、射箭三项传统竞技盛会", "en": "Festival of wrestling, horse racing and archery" } },
+      { "name": { "zh": "白月节（蒙古新年）", "en": "Tsagaan Sar" }, "note": { "zh": "蒙古阴历新年，意为白月", "en": "Mongolian lunar new year, the White Moon" } }
+    ]
+  },
+  "MMR": {
+    "capitalZh": "内比都",
+    "religions": [{ "key": "buddhism", "share": 88 }, { "key": "christianity", "share": 6 }, { "key": "islam", "share": 4 }],
+    "government": "military",
+    "holidays": [
+      { "name": { "zh": "泼水节", "en": "Thingyan" }, "date": "4月中旬", "note": { "zh": "缅甸传统新年，以泼水辞旧迎新", "en": "Burmese new year celebrated by splashing water" } },
+      { "name": { "zh": "点灯节", "en": "Thadingyut" }, "note": { "zh": "庆祝佛陀自天界归来的灯节", "en": "Festival of lights marking the Buddha's descent" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "01-04", "note": { "zh": "纪念1948年脱离英国独立", "en": "Marks independence from Britain in 1948" } }
+    ]
+  },
+  "NPL": {
+    "capitalZh": "加德满都",
+    "religions": [{ "key": "hinduism", "share": 81 }, { "key": "buddhism", "share": 9 }, { "key": "islam", "share": 4 }],
+    "government": "federal_republic",
+    "holidays": [
+      { "name": { "zh": "德赛节", "en": "Dashain" }, "note": { "zh": "尼泊尔最盛大的印度教节日，庆祝正义战胜邪恶", "en": "Nepal's biggest Hindu festival, good over evil" } },
+      { "name": { "zh": "提哈节（灯节）", "en": "Tihar" }, "note": { "zh": "五天的灯节，也向乌鸦、狗、牛致敬", "en": "Five-day festival of lights honouring animals too" } },
+      { "name": { "zh": "佛陀诞辰", "en": "Buddha Jayanti" }, "note": { "zh": "纪念释迦牟尼诞生于蓝毗尼", "en": "Marks the Buddha's birth at Lumbini" } }
+    ]
+  },
+  "PRK": {
+    "capitalZh": "平壤",
+    "religions": [{ "key": "secular", "share": 64 }, { "key": "folk", "share": 14 }],
+    "government": "one_party_state",
+    "holidays": [
+      { "name": { "zh": "太阳节", "en": "Day of the Sun" }, "date": "04-15", "note": { "zh": "纪念金日成诞辰，最重要的政治节日", "en": "Marks Kim Il-sung's birth, the top national holiday" } },
+      { "name": { "zh": "光明星节", "en": "Day of the Shining Star" }, "date": "02-16", "note": { "zh": "纪念金正日诞辰", "en": "Marks Kim Jong-il's birthday" } },
+      { "name": { "zh": "建国日", "en": "Foundation Day" }, "date": "09-09", "note": { "zh": "纪念1948年共和国成立", "en": "Marks the founding of the republic in 1948" } }
+    ]
+  },
+  "OMN": {
+    "capitalZh": "马斯喀特",
+    "religions": [{ "key": "islam", "share": 86 }, { "key": "christianity", "share": 6 }, { "key": "hinduism", "share": 5 }],
+    "government": "absolute_monarchy",
+    "holidays": [
+      { "name": { "zh": "国庆日", "en": "National Day" }, "date": "11-18", "note": { "zh": "庆祝国家独立并纪念已故苏丹卡布斯诞辰", "en": "National day tied to the late Sultan Qaboos's birthday" } },
+      { "name": { "zh": "文艺复兴日", "en": "Renaissance Day" }, "date": "07-23", "note": { "zh": "纪念1970年卡布斯登基开启现代化", "en": "Marks Sultan Qaboos's 1970 accession and modernisation" } },
+      { "name": { "zh": "宰牲节", "en": "Eid al-Adha" }, "note": { "zh": "朝觐期间的献祭节", "en": "Feast of sacrifice during the Hajj" } }
+    ]
+  },
+  "PAK": {
+    "capitalZh": "伊斯兰堡",
+    "religions": [{ "key": "sunni", "share": 80 }, { "key": "shia", "share": 15 }],
+    "government": "federal_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "08-14", "note": { "zh": "纪念1947年脱离英属印度建国", "en": "Marks the 1947 founding from British India" } },
+      { "name": { "zh": "巴基斯坦日", "en": "Pakistan Day" }, "date": "03-23", "note": { "zh": "纪念1940年拉合尔决议", "en": "Marks the 1940 Lahore Resolution" } },
+      { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "note": { "zh": "斋月结束的庆典", "en": "Feast marking the end of Ramadan" } }
+    ]
+  },
+  "PHL": {
+    "capitalZh": "马尼拉",
+    "religions": [{ "key": "catholicism", "share": 79 }, { "key": "protestantism", "share": 10 }, { "key": "islam", "share": 6 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "辛努洛格节", "en": "Sinulog Festival" }, "date": "1月第三个周日", "note": { "zh": "纪念圣婴的盛大歌舞游行", "en": "Grand dance parade honouring the Santo Niño" } },
+      { "name": { "zh": "圣周", "en": "Holy Week" }, "date": "复活节前一周", "note": { "zh": "复活节前的天主教重要斋期", "en": "Solemn Catholic week before Easter" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "06-12", "note": { "zh": "纪念1898年脱离西班牙宣布独立", "en": "Marks the 1898 declaration of independence from Spain" } }
+    ]
+  },
+  "QAT": {
+    "capitalZh": "多哈",
+    "religions": [{ "key": "islam", "share": 66 }, { "key": "hinduism", "share": 14 }, { "key": "christianity", "share": 14 }],
+    "government": "absolute_monarchy",
+    "holidays": [
+      { "name": { "zh": "国庆日", "en": "National Day" }, "date": "12-18", "note": { "zh": "纪念1878年国家统一", "en": "Marks the 1878 unification of the country" } },
+      { "name": { "zh": "国家体育日", "en": "National Sports Day" }, "date": "2月第二个周二", "note": { "zh": "全民参与体育活动的独特假日", "en": "Public holiday devoted to sport and fitness" } },
+      { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "note": { "zh": "斋月结束的庆典", "en": "Feast marking the end of Ramadan" } }
+    ]
+  },
+  "SAU": {
+    "capitalZh": "利雅得",
+    "religions": [{ "key": "sunni", "share": 85 }, { "key": "shia", "share": 10 }],
+    "government": "absolute_monarchy",
+    "holidays": [
+      { "name": { "zh": "宰牲节", "en": "Eid al-Adha" }, "note": { "zh": "朝觐麦加期间的献祭大节", "en": "Feast of sacrifice during the Hajj to Mecca" } },
+      { "name": { "zh": "国庆日", "en": "National Day" }, "date": "09-23", "note": { "zh": "纪念1932年沙特阿拉伯王国统一", "en": "Marks the 1932 unification of the kingdom" } },
+      { "name": { "zh": "建国日", "en": "Founding Day" }, "date": "02-22", "note": { "zh": "纪念1727年第一沙特王国建立", "en": "Marks the 1727 founding of the first Saudi state" } }
+    ]
+  },
+  "SGP": {
+    "capitalZh": "新加坡",
+    "religions": [{ "key": "buddhism", "share": 31 }, { "key": "secular", "share": 20 }, { "key": "christianity", "share": 19 }, { "key": "islam", "share": 16 }],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "国庆日", "en": "National Day" }, "date": "08-09", "note": { "zh": "纪念1965年独立建国", "en": "Marks independence in 1965" } },
+      { "name": { "zh": "大宝森节", "en": "Thaipusam" }, "note": { "zh": "印度教泰米尔社群的还愿节日", "en": "Tamil Hindu festival of devotion" } },
+      { "name": { "zh": "屠妖节", "en": "Deepavali" }, "note": { "zh": "印度教光明节", "en": "Hindu festival of lights" } }
+    ]
+  },
+  "KOR": {
+    "capitalZh": "首尔",
+    "religions": [{ "key": "secular", "share": 56 }, { "key": "protestantism", "share": 20 }, { "key": "buddhism", "share": 16 }, { "key": "catholicism", "share": 8 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "秋夕（韩国中秋）", "en": "Chuseok" }, "date": "农历八月十五", "note": { "zh": "感恩丰收、祭祖团圆的节日", "en": "Harvest thanksgiving and ancestral reunion" } },
+      { "name": { "zh": "春节（韩国农历新年）", "en": "Seollal" }, "date": "农历正月初一", "note": { "zh": "韩国农历新年", "en": "Korean lunar new year" } },
+      { "name": { "zh": "韩文节", "en": "Hangul Day" }, "date": "10-09", "note": { "zh": "纪念1446年颁布韩文字母", "en": "Marks the 1446 promulgation of the Hangul alphabet" } }
+    ]
+  },
+  "LKA": {
+    "capitalZh": "科伦坡",
+    "religions": [{ "key": "buddhism", "share": 70 }, { "key": "hinduism", "share": 13 }, { "key": "islam", "share": 10 }, { "key": "christianity", "share": 7 }],
+    "government": "semi_presidential_republic",
+    "holidays": [
+      { "name": { "zh": "卫塞节", "en": "Vesak" }, "note": { "zh": "纪念佛陀诞生、成道与涅槃", "en": "Marks the Buddha's birth, enlightenment and passing" } },
+      { "name": { "zh": "僧伽罗与泰米尔新年", "en": "Sinhala and Tamil New Year" }, "date": "4月中旬", "note": { "zh": "两大族群共庆的传统新年", "en": "Traditional new year shared by both communities" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "02-04", "note": { "zh": "纪念1948年脱离英国独立", "en": "Marks independence from Britain in 1948" } }
+    ]
+  },
+  "SYR": {
+    "capitalZh": "大马士革",
+    "religions": [{ "key": "sunni", "share": 74 }, { "key": "shia", "share": 13 }, { "key": "christianity", "share": 10 }],
+    "government": "provisional",
+    "holidays": [
+      { "name": { "zh": "独立日（撤离日）", "en": "Independence Day" }, "date": "04-17", "note": { "zh": "纪念1946年法国军队撤离", "en": "Marks the 1946 evacuation of French troops" } },
+      { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "note": { "zh": "斋月结束的庆典", "en": "Feast marking the end of Ramadan" } },
+      { "name": { "zh": "宰牲节", "en": "Eid al-Adha" }, "note": { "zh": "朝觐期间的献祭节", "en": "Feast of sacrifice during the Hajj" } }
+    ]
+  },
+  "TJK": {
+    "capitalZh": "杜尚别",
+    "religions": [{ "key": "sunni", "share": 95 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "纳乌鲁兹节", "en": "Navruz" }, "date": "03-21", "note": { "zh": "庆祝春分的传统新年", "en": "Traditional new year at the spring equinox" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "09-09", "note": { "zh": "纪念1991年脱离苏联独立", "en": "Marks independence from the USSR in 1991" } },
+      { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "note": { "zh": "斋月结束的庆典", "en": "Feast marking the end of Ramadan" } }
+    ]
+  },
+  "THA": {
+    "capitalZh": "曼谷",
+    "religions": [{ "key": "buddhism", "share": 93 }, { "key": "islam", "share": 5 }],
+    "government": "constitutional_monarchy",
+    "holidays": [
+      { "name": { "zh": "宋干节（泼水节）", "en": "Songkran" }, "date": "04-13至04-15", "note": { "zh": "泰国传统新年，以泼水祈福", "en": "Thai new year celebrated with water" } },
+      { "name": { "zh": "水灯节", "en": "Loy Krathong" }, "date": "11月满月", "note": { "zh": "在水面放漂花灯，感恩水神", "en": "Floating decorated baskets on water to thank the water spirits" } },
+      { "name": { "zh": "国王诞辰", "en": "King's Birthday" }, "note": { "zh": "庆祝在位国王诞辰的重要节日", "en": "Major holiday marking the reigning king's birthday" } }
+    ]
+  },
+  "TLS": {
+    "capitalZh": "帝力",
+    "religions": [{ "key": "catholicism", "share": 97 }],
+    "government": "semi_presidential_republic",
+    "holidays": [
+      { "name": { "zh": "恢复独立日", "en": "Restoration of Independence Day" }, "date": "05-20", "note": { "zh": "纪念2002年正式恢复独立", "en": "Marks the restoration of independence in 2002" } },
+      { "name": { "zh": "独立宣言日", "en": "Proclamation of Independence Day" }, "date": "11-28", "note": { "zh": "纪念1975年宣布脱离葡萄牙独立", "en": "Marks the 1975 proclamation of independence from Portugal" } },
+      { "name": { "zh": "万灵节", "en": "All Souls' Day" }, "date": "11-02", "note": { "zh": "天主教扫墓追思亡者的日子", "en": "Catholic day of remembrance for the dead" } }
+    ]
+  },
+  "TUR": {
+    "capitalZh": "安卡拉",
+    "religions": [{ "key": "islam", "share": 90 }, { "key": "secular", "share": 9 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "共和国日", "en": "Republic Day" }, "date": "10-29", "note": { "zh": "纪念1923年土耳其共和国成立", "en": "Marks the founding of the republic in 1923" } },
+      { "name": { "zh": "国家主权与儿童节", "en": "National Sovereignty and Children's Day" }, "date": "04-23", "note": { "zh": "纪念1920年大国民议会成立，并献给儿童", "en": "Marks the 1920 opening of parliament and honours children" } },
+      { "name": { "zh": "开斋节", "en": "Ramazan Bayrami" }, "note": { "zh": "斋月结束的庆典", "en": "Feast marking the end of Ramadan" } }
+    ]
+  },
+  "TKM": {
+    "capitalZh": "阿什哈巴德",
+    "religions": [{ "key": "islam", "share": 89 }, { "key": "orthodoxy", "share": 9 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "诺鲁孜节", "en": "Novruz" }, "date": "03-21", "note": { "zh": "庆祝春分的传统新年", "en": "Traditional new year at the spring equinox" } },
+      { "name": { "zh": "甜瓜节", "en": "Melon Day" }, "date": "8月第二个周日", "note": { "zh": "庆祝国宝土库曼甜瓜的独特节日", "en": "Unique holiday celebrating the prized Turkmen melon" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "09-27", "note": { "zh": "纪念1991年脱离苏联独立", "en": "Marks independence from the USSR in 1991" } }
+    ]
+  },
+  "ARE": {
+    "capitalZh": "阿布扎比",
+    "religions": [{ "key": "islam", "share": 76 }, { "key": "christianity", "share": 9 }, { "key": "hinduism", "share": 7 }],
+    "government": "federation",
+    "holidays": [
+      { "name": { "zh": "国庆日", "en": "National Day" }, "date": "12-02", "note": { "zh": "纪念1971年七个酋长国联合建国", "en": "Marks the 1971 union of the seven emirates" } },
+      { "name": { "zh": "烈士纪念日", "en": "Commemoration Day" }, "date": "11-30", "note": { "zh": "纪念为国捐躯的烈士", "en": "Honours citizens who died serving the nation" } },
+      { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "note": { "zh": "斋月结束的庆典", "en": "Feast marking the end of Ramadan" } }
+    ]
+  },
+  "UZB": {
+    "capitalZh": "塔什干",
+    "religions": [{ "key": "islam", "share": 88 }, { "key": "orthodoxy", "share": 9 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "纳乌鲁兹节", "en": "Navruz" }, "date": "03-21", "note": { "zh": "庆祝春分的传统新年", "en": "Traditional new year at the spring equinox" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "09-01", "note": { "zh": "纪念1991年脱离苏联独立", "en": "Marks independence from the USSR in 1991" } },
+      { "name": { "zh": "开斋节", "en": "Ramazon Hayit (Eid al-Fitr)" }, "note": { "zh": "斋月结束的庆典", "en": "Feast marking the end of Ramadan" } }
+    ]
+  },
+  "VNM": {
+    "capitalZh": "河内",
+    "religions": [{ "key": "folk", "share": 45 }, { "key": "buddhism", "share": 16 }, { "key": "catholicism", "share": 7 }],
+    "government": "one_party_state",
+    "holidays": [
+      { "name": { "zh": "春节（Tết）", "en": "Tết (Lunar New Year)" }, "date": "农历正月初一", "note": { "zh": "越南最重要的传统农历新年", "en": "Vietnam's most important lunar new year" } },
+      { "name": { "zh": "雄王节", "en": "Hùng Kings' Festival" }, "date": "农历三月初十", "note": { "zh": "祭祀越南开国雄王的国家节日", "en": "National day honouring the founding Hùng kings" } },
+      { "name": { "zh": "中秋节", "en": "Mid-Autumn Festival" }, "date": "农历八月十五", "note": { "zh": "儿童提灯笼、吃月饼的节日", "en": "Children's lantern festival with mooncakes" } }
+    ]
+  },
+  "YEM": {
+    "capitalZh": "萨那",
+    "religions": [{ "key": "sunni", "share": 65 }, { "key": "shia", "share": 35 }],
+    "government": "provisional",
+    "holidays": [
+      { "name": { "zh": "统一日", "en": "Unity Day" }, "date": "05-22", "note": { "zh": "纪念1990年南北也门统一", "en": "Marks the 1990 unification of North and South Yemen" } },
+      { "name": { "zh": "革命日", "en": "Revolution Day" }, "date": "09-26", "note": { "zh": "纪念1962年推翻君主制建立共和国", "en": "Marks the 1962 revolution establishing the republic" } },
+      { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "note": { "zh": "斋月结束的庆典", "en": "Feast marking the end of Ramadan" } }
+    ]
+  }
+}

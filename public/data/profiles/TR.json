@@ -1,0 +1,62 @@
+{
+  "iso": "TR",
+  "overview": {
+    "zh": "土耳其地跨欧亚两洲，扼守连接黑海与地中海的博斯普鲁斯海峡，是东西方文明交汇之地。历史上曾是多个帝国的中心，拥有丰富的历史遗迹与自然景观，经济以制造业、农业和旅游业为主。",
+    "en": "Türkiye straddles Europe and Asia, commanding the Bosphorus that links the Black Sea and the Mediterranean, a meeting point of Eastern and Western civilizations. Once the heart of several empires, it is rich in historical sites and natural landscapes, with an economy led by manufacturing, agriculture and tourism."
+  },
+  "capitalHistory": {
+    "zh": "首都安卡拉历史悠久，1923年土耳其共和国成立时被定为首都，取代了此前的伊斯坦布尔。",
+    "en": "The capital Ankara is an ancient city that was designated capital upon the founding of the Republic of Türkiye in 1923, replacing Istanbul."
+  },
+  "climate": {
+    "zh": "沿海地区为地中海气候，夏季炎热干燥、冬季温和多雨；内陆高原为大陆性气候，冬季寒冷。",
+    "en": "Coastal areas have a Mediterranean climate with hot, dry summers and mild, wet winters, while the inland plateau is continental with cold winters."
+  },
+  "phrases": [
+    { "key": "hello", "text": "Merhaba", "romanization": "MEHR-hah-bah", "langTag": "tr-TR" },
+    { "key": "thanks", "text": "Teşekkürler", "romanization": "teh-shek-KUUR-ler", "langTag": "tr-TR" },
+    { "key": "goodbye", "text": "Hoşça kal", "romanization": "HOSH-cha kal", "langTag": "tr-TR" },
+    { "key": "cheers", "text": "Şerefe", "romanization": "sheh-reh-FEH", "langTag": "tr-TR" }
+  ],
+  "anthem": {
+    "name": { "zh": "《独立进行曲》", "en": "İstiklal Marşı (Independence March)" },
+    "note": { "zh": "由穆罕默德·阿基夫·埃索伊作词，1921年被定为国歌。", "en": "Lyrics by Mehmet Akif Ersoy; adopted as the national anthem in 1921." }
+  },
+  "symbols": [
+    { "key": "animal", "name": { "zh": "灰狼（传统文化象征）", "en": "Grey wolf (traditional cultural symbol)" } },
+    { "key": "flower", "name": { "zh": "郁金香（历史文化象征）", "en": "Tulip (historic cultural symbol)" } }
+  ],
+  "alphabetCount": 29,
+  "qsTop100": 0,
+  "unescoSites": 21,
+  "football": {
+    "fifaRank": 26,
+    "worldCupTitles": 0,
+    "note": { "zh": "男足曾于2002年世界杯获得季军,创下最佳战绩。", "en": "The men's team finished third at the 2002 World Cup, its best-ever result." }
+  },
+  "localization": {
+    "direction": "ltr",
+    "grammaticalGender": false,
+    "colorNotes": [
+      { "zh": "红色与白色为国旗色，象征国家认同，星月图案广受尊崇。", "en": "Red and white, the flag colors, symbolize national identity, and the star-and-crescent motif is highly esteemed." },
+      { "zh": "'土耳其蓝'（蓝眼睛护身符 nazar）被视为辟邪吉祥的传统符号。", "en": "'Turkish blue' (the nazar evil-eye amulet) is a traditional symbol believed to ward off misfortune." }
+    ],
+    "culturalTaboos": [
+      { "zh": "土耳其语使用特殊字母（如 ç、ğ、ı、İ、ö、ş、ü），需注意大小写转换（无点 i 与有点 İ）。", "en": "Turkish uses special letters (ç, ğ, ı, İ, ö, ş, ü); mind case conversion of dotless 'ı' and dotted 'İ'." },
+      { "zh": "多数居民为穆斯林,涉及宗教、饮食（清真）内容需谨慎处理。", "en": "Most residents are Muslim; handle religious and dietary (halal) content with care." }
+    ],
+    "formatting": [
+      { "zh": "日期常用 日.月.年（如 08.07.2026）；小数用逗号、千位用点号。", "en": "Dates commonly use DD.MM.YYYY (e.g., 08.07.2026); commas mark decimals and dots group thousands." },
+      { "zh": "土耳其语为黏着语,大量使用后缀,句子结构与中英文差异较大,需注意本地化排版。", "en": "Turkish is agglutinative with extensive suffixation and word order that differs from Chinese and English—mind localization layout." }
+    ]
+  },
+  "funFacts": [
+    { "zh": "伊斯坦布尔是世界上唯一横跨欧亚两大洲的大城市。", "en": "Istanbul is the only major city in the world that spans two continents, Europe and Asia." },
+    { "zh": "卡帕多西亚的岩石地貌与热气球景观闻名世界，是著名旅游胜地。", "en": "Cappadocia is world-famous for its rock formations and hot-air balloon vistas, a renowned tourist destination." }
+  ],
+  "sources": {
+    "overview": { "label": { "zh": "维基百科", "en": "Wikipedia" }, "url": "https://en.wikipedia.org/wiki/Turkey" },
+    "metrics": { "label": { "zh": "联合国教科文组织世界遗产名录", "en": "UNESCO World Heritage List" }, "url": "https://whc.unesco.org/en/statesparties/tr", "year": "2024" },
+    "football": { "label": { "zh": "国际足联世界排名", "en": "FIFA World Ranking" }, "url": "https://www.fifa.com/fifa-world-ranking" }
+  }
+}

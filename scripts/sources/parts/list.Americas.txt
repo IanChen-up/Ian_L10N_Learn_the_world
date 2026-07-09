@@ -1,0 +1,35 @@
+ATG | Antigua and Barbuda | 安提瓜和巴布达 | cap:Saint John's
+ARG | Argentina | 阿根廷 | cap:Buenos Aires
+BHS | Bahamas | 巴哈马 | cap:Nassau
+BRB | Barbados | 巴巴多斯 | cap:Bridgetown
+BLZ | Belize | 伯利兹 | cap:Belmopan
+BOL | Bolivia | 玻利维亚 | cap:Sucre
+BRA | Brazil | 巴西 | cap:Brasília
+CAN | Canada | 加拿大 | cap:Ottawa
+CHL | Chile | 智利 | cap:Santiago
+COL | Colombia | 哥伦比亚 | cap:Bogotá
+CRI | Costa Rica | 哥斯达黎加 | cap:San José
+CUB | Cuba | 古巴 | cap:Havana
+DMA | Dominica | 多米尼加 | cap:Roseau
+DOM | Dominican Republic | 多明尼加 | cap:Santo Domingo
+ECU | Ecuador | 厄瓜多尔 | cap:Quito
+SLV | El Salvador | 萨尔瓦多 | cap:San Salvador
+GRD | Grenada | 格林纳达 | cap:St. George's
+GTM | Guatemala | 危地马拉 | cap:Guatemala City
+GUY | Guyana | 圭亚那 | cap:Georgetown
+HTI | Haiti | 海地 | cap:Port-au-Prince
+HND | Honduras | 洪都拉斯 | cap:Tegucigalpa
+JAM | Jamaica | 牙买加 | cap:Kingston
+MEX | Mexico | 墨西哥 | cap:Mexico City
+NIC | Nicaragua | 尼加拉瓜 | cap:Managua
+PAN | Panama | 巴拿马 | cap:Panama City
+PRY | Paraguay | 巴拉圭 | cap:Asunción
+PER | Peru | 秘鲁 | cap:Lima
+KNA | Saint Kitts and Nevis | 圣基茨和尼维斯 | cap:Basseterre
+LCA | Saint Lucia | 圣卢西亚 | cap:Castries
+VCT | Saint Vincent and the Grenadines | 圣文森特和格林纳丁斯 | cap:Kingstown
+SUR | Suriname | 苏里南 | cap:Paramaribo
+TTO | Trinidad and Tobago | 特立尼达和多巴哥 | cap:Port of Spain
+USA | United States | 美国 | cap:Washington D.C.
+URY | Uruguay | 乌拉圭 | cap:Montevideo
+VEN | Venezuela | 委内瑞拉 | cap:Caracas

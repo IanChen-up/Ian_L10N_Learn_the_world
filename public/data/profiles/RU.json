@@ -1,0 +1,61 @@
+{
+  "iso": "RU",
+  "overview": {
+    "zh": "俄罗斯联邦横跨欧亚大陆，是世界上领土面积最大的国家，自然资源丰富。拥有深厚的文学、音乐与科学传统，在能源、航天与基础科学领域具有重要地位。",
+    "en": "The Russian Federation spans Eurasia and is the largest country in the world by land area, rich in natural resources. It has deep traditions in literature, music and science, and holds an important position in energy, space exploration and fundamental research."
+  },
+  "capitalHistory": {
+    "zh": "莫斯科最早见于12世纪的史料，逐步发展为俄罗斯的政治与文化中心；克里姆林宫和红场是其历史象征。",
+    "en": "Moscow first appears in records in the 12th century and gradually became Russia's political and cultural center; the Kremlin and Red Square are its historic symbols."
+  },
+  "climate": {
+    "zh": "疆域辽阔，以温带与亚寒带大陆性气候为主，冬季漫长寒冷，北部部分地区属寒带气候。",
+    "en": "A vast territory dominated by temperate and subarctic continental climates, with long, cold winters and a polar climate in parts of the far north."
+  },
+  "phrases": [
+    { "key": "hello", "text": "Здравствуйте", "romanization": "Zdravstvuyte", "langTag": "ru-RU" },
+    { "key": "thanks", "text": "Спасибо", "romanization": "Spasibo", "langTag": "ru-RU" },
+    { "key": "goodbye", "text": "До свидания", "romanization": "Do svidaniya", "langTag": "ru-RU" },
+    { "key": "cheers", "text": "За здоровье", "romanization": "Za zdorovye", "langTag": "ru-RU" }
+  ],
+  "anthem": {
+    "name": { "zh": "《俄罗斯联邦国歌》", "en": "State Anthem of the Russian Federation" },
+    "note": { "zh": "旋律由亚历山德罗夫谱写，米哈尔科夫填词，2000年确定为现行国歌。", "en": "Set to a melody by Alexandrov with lyrics by Mikhalkov, adopted as the current anthem in 2000." }
+  },
+  "symbols": [
+    { "key": "animal", "name": { "zh": "棕熊（传统象征）", "en": "Brown bear (traditional emblem)" } },
+    { "key": "bird", "name": { "zh": "双头鹰（国徽）", "en": "Double-headed eagle (coat of arms)" } }
+  ],
+  "alphabetCount": 33,
+  "qsTop100": 1,
+  "unescoSites": 32,
+  "football": {
+    "fifaRank": 34,
+    "worldCupTitles": 0,
+    "note": { "zh": "曾于2018年主办世界杯并晋级八强。", "en": "Hosted the 2018 World Cup and reached the quarter-finals." }
+  },
+  "localization": {
+    "direction": "ltr",
+    "grammaticalGender": true,
+    "colorNotes": [
+      { "zh": "白蓝红为国旗三色；红色在俄语文化中与'美好'相关，具有积极意涵。", "en": "White, blue and red are the flag colors; in Russian culture red is linked to 'beautiful' and carries positive connotations." },
+      { "zh": "送花讲究单数，双数花束多用于葬礼场合。", "en": "Flowers are given in odd numbers; even-numbered bouquets are associated with funerals." }
+    ],
+    "culturalTaboos": [
+      { "zh": "重视礼节与敬称，正式场合使用名字加父称；忌隔门槛握手或递物。", "en": "Etiquette and honorifics matter, using name plus patronymic in formal settings; avoid shaking hands or passing items across a threshold." }
+    ],
+    "formatting": [
+      { "zh": "俄语名词分阳性、阴性、中性并有六个格，形容词随之变化；日期用 日.月.年。", "en": "Russian nouns have three genders and six cases with adjectives agreeing accordingly; dates use DD.MM.YYYY." },
+      { "zh": "数字用空格作千位分隔、逗号作小数点，如 1 234,56。", "en": "Numbers use a space as the thousands separator and a comma as the decimal point, e.g. 1 234,56." }
+    ]
+  },
+  "funFacts": [
+    { "zh": "西里尔字母在9世纪由传教士基于希腊字母发展而来，现被多种语言使用。", "en": "The Cyrillic script was developed in the 9th century from the Greek alphabet by missionaries and is now used by many languages." },
+    { "zh": "俄罗斯横跨十一个时区，是世界上时区最多的国家。", "en": "Russia spans eleven time zones, the most of any country in the world." }
+  ],
+  "sources": {
+    "overview": { "label": { "zh": "维基百科", "en": "Wikipedia" }, "url": "https://en.wikipedia.org/wiki/Russia" },
+    "metrics": { "label": { "zh": "联合国教科文组织世界遗产名录", "en": "UNESCO World Heritage List" }, "url": "https://whc.unesco.org/en/statesparties/ru", "year": "2024" },
+    "football": { "label": { "zh": "国际足联世界排名", "en": "FIFA World Ranking" }, "url": "https://www.fifa.com/fifa-world-ranking" }
+  }
+}

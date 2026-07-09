@@ -1,0 +1,590 @@
+{
+  "ALB": {
+    "capitalZh": "地拉那",
+    "religions": [
+      { "key": "islam", "share": 57 },
+      { "key": "catholicism", "share": 10 },
+      { "key": "orthodoxy", "share": 7 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "独立日（国旗日）", "en": "Flag Day" }, "date": "11-28", "note": { "zh": "1912 年脱离奥斯曼帝国宣布独立", "en": "Marks independence from the Ottoman Empire in 1912" } },
+      { "name": { "zh": "夏日节", "en": "Summer Day (Dita e Verës)" }, "date": "03-14", "note": { "zh": "阿尔巴尼亚古老传统节日，庆祝冬去春来", "en": "Ancient Albanian festival marking the end of winter" } }
+    ]
+  },
+  "AND": {
+    "capitalZh": "安道尔城",
+    "religions": [
+      { "key": "catholicism", "share": 89 }
+    ],
+    "government": "constitutional_monarchy",
+    "holidays": [
+      { "name": { "zh": "梅里特赛尔圣母日", "en": "Our Lady of Meritxell" }, "date": "09-08", "note": { "zh": "安道尔国庆日，纪念国家主保圣母", "en": "National day honouring the country's patron saint" } },
+      { "name": { "zh": "圣乔治节", "en": "Sant Jordi (St George's Day)" }, "date": "04-23", "note": { "zh": "情侣互赠书籍与玫瑰", "en": "People exchange books and roses" } }
+    ]
+  },
+  "AUT": {
+    "capitalZh": "维也纳",
+    "religions": [
+      { "key": "catholicism", "share": 55 },
+      { "key": "secular", "share": 22 },
+      { "key": "islam", "share": 8 }
+    ],
+    "government": "federal_republic",
+    "holidays": [
+      { "name": { "zh": "国庆日", "en": "National Day" }, "date": "10-26", "note": { "zh": "纪念 1955 年宣布永久中立", "en": "Marks the 1955 declaration of permanent neutrality" } },
+      { "name": { "zh": "克拉姆普斯之夜", "en": "Krampus Night" }, "date": "12-05", "note": { "zh": "人们装扮成恶魔克拉姆普斯吓唬顽童", "en": "People dress as the demon Krampus to scare naughty children" } },
+      { "name": { "zh": "圣体圣血节", "en": "Corpus Christi" }, "note": { "zh": "天主教盛大宗教游行", "en": "Catholic feast marked by processions" } }
+    ]
+  },
+  "BLR": {
+    "capitalZh": "明斯克",
+    "religions": [
+      { "key": "orthodoxy", "share": 73 },
+      { "key": "catholicism", "share": 10 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "07-03", "note": { "zh": "纪念 1944 年明斯克解放", "en": "Marks the 1944 liberation of Minsk" } },
+      { "name": { "zh": "库帕拉之夜", "en": "Kupalle" }, "date": "07-07", "note": { "zh": "斯拉夫仲夏传统，跳篝火、寻花", "en": "Slavic midsummer festival with bonfires and flower-seeking" } },
+      { "name": { "zh": "拉杜尼察", "en": "Radunitsa" }, "note": { "zh": "东正教扫墓纪念亡者的日子", "en": "Orthodox day of remembrance at cemeteries" } }
+    ]
+  },
+  "BEL": {
+    "capitalZh": "布鲁塞尔",
+    "religions": [
+      { "key": "catholicism", "share": 55 },
+      { "key": "secular", "share": 30 },
+      { "key": "islam", "share": 7 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "国庆日", "en": "National Day" }, "date": "07-21", "note": { "zh": "纪念 1831 年首位国王宣誓即位", "en": "Marks the 1831 oath of the first Belgian king" } },
+      { "name": { "zh": "班什狂欢节", "en": "Carnival of Binche" }, "note": { "zh": "联合国教科文遗产，戴面具的 Gilles 抛掷橙子", "en": "UNESCO carnival where masked 'Gilles' throw oranges" } }
+    ]
+  },
+  "BIH": {
+    "capitalZh": "萨拉热窝",
+    "religions": [
+      { "key": "islam", "share": 51 },
+      { "key": "orthodoxy", "share": 31 },
+      { "key": "catholicism", "share": 15 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "03-01", "note": { "zh": "纪念 1992 年独立公投", "en": "Marks the 1992 independence referendum" } },
+      { "name": { "zh": "国家日", "en": "Statehood Day" }, "date": "11-25", "note": { "zh": "纪念 1943 年现代波黑的奠基", "en": "Marks the 1943 founding of the modern state" } }
+    ]
+  },
+  "BGR": {
+    "capitalZh": "索非亚",
+    "religions": [
+      { "key": "orthodoxy", "share": 71 },
+      { "key": "islam", "share": 10 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "三月奶奶节", "en": "Baba Marta" }, "date": "03-01", "note": { "zh": "互赠红白线饰马尔特尼察祈求健康", "en": "People exchange red-and-white 'martenitsa' charms" } },
+      { "name": { "zh": "解放日", "en": "Liberation Day" }, "date": "03-03", "note": { "zh": "纪念 1878 年摆脱奥斯曼统治", "en": "Marks liberation from Ottoman rule in 1878" } },
+      { "name": { "zh": "字母与文化日", "en": "Alphabet Day" }, "date": "05-24", "note": { "zh": "纪念西里尔字母的创制", "en": "Celebrates the creation of the Cyrillic alphabet" } }
+    ]
+  },
+  "HRV": {
+    "capitalZh": "萨格勒布",
+    "religions": [
+      { "key": "catholicism", "share": 79 },
+      { "key": "orthodoxy", "share": 4 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "国家日", "en": "Statehood Day" }, "date": "05-30", "note": { "zh": "纪念 1990 年首届多党制议会召开", "en": "Marks the 1990 convening of the first multi-party parliament" } },
+      { "name": { "zh": "辛伊斯卡骑士竞技", "en": "Sinjska Alka" }, "note": { "zh": "传统长枪套环骑术比赛（教科文遗产）", "en": "Traditional knights' lance-and-ring tournament (UNESCO)" } }
+    ]
+  },
+  "CYP": {
+    "capitalZh": "尼科西亚",
+    "religions": [
+      { "key": "orthodoxy", "share": 89 },
+      { "key": "islam", "share": 2 }
+    ],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "10-01", "note": { "zh": "1960 年脱离英国独立", "en": "Independence from Britain in 1960" } },
+      { "name": { "zh": "洪水节", "en": "Kataklysmos" }, "note": { "zh": "塞浦路斯独有，五旬节临海泼水庆祝", "en": "Unique Cypriot festival of water celebrated at Pentecost" } },
+      { "name": { "zh": "清净星期一", "en": "Green Monday" }, "note": { "zh": "大斋首日，全家郊游放风筝", "en": "Start of Lent with family picnics and kite-flying" } }
+    ]
+  },
+  "CZE": {
+    "capitalZh": "布拉格",
+    "religions": [
+      { "key": "secular", "share": 47 },
+      { "key": "catholicism", "share": 10 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "圣瓦茨拉夫日（建国日）", "en": "St. Wenceslas Day" }, "date": "09-28", "note": { "zh": "国家主保圣人，捷克建国日", "en": "Patron saint and Czech statehood day" } },
+      { "name": { "zh": "扬·胡斯日", "en": "Jan Hus Day" }, "date": "07-06", "note": { "zh": "纪念 1415 年宗教改革家胡斯殉道", "en": "Marks the 1415 martyrdom of reformer Jan Hus" } },
+      { "name": { "zh": "自由民主斗争日", "en": "Struggle for Freedom Day" }, "date": "11-17", "note": { "zh": "纪念天鹅绒革命", "en": "Commemorates the Velvet Revolution" } }
+    ]
+  },
+  "DNK": {
+    "capitalZh": "哥本哈根",
+    "religions": [
+      { "key": "protestantism", "share": 72 },
+      { "key": "secular", "share": 20 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "宪法日", "en": "Constitution Day" }, "date": "06-05", "note": { "zh": "纪念 1849 年首部宪法", "en": "Marks the 1849 constitution" } },
+      { "name": { "zh": "圣汉斯之夜", "en": "Sankt Hans Eve" }, "date": "06-23", "note": { "zh": "仲夏夜点篝火、烧女巫草人", "en": "Midsummer with bonfires and a straw witch" } }
+    ]
+  },
+  "EST": {
+    "capitalZh": "塔林",
+    "religions": [
+      { "key": "secular", "share": 58 },
+      { "key": "orthodoxy", "share": 16 },
+      { "key": "protestantism", "share": 9 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "02-24", "note": { "zh": "1918 年宣布独立", "en": "Declared independence in 1918" } },
+      { "name": { "zh": "胜利日", "en": "Victory Day" }, "date": "06-23", "note": { "zh": "纪念 1919 年独立战争胜利", "en": "Marks victory in the 1919 War of Independence" } },
+      { "name": { "zh": "仲夏节", "en": "Jaanipäev" }, "date": "06-24", "note": { "zh": "通宵篝火迎接仲夏", "en": "Midsummer celebrated with all-night bonfires" } }
+    ]
+  },
+  "FIN": {
+    "capitalZh": "赫尔辛基",
+    "religions": [
+      { "key": "protestantism", "share": 66 },
+      { "key": "secular", "share": 30 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "12-06", "note": { "zh": "1917 年脱离俄国独立", "en": "Independence from Russia in 1917" } },
+      { "name": { "zh": "仲夏节", "en": "Juhannus" }, "note": { "zh": "湖畔点篝火并享受桑拿", "en": "Midsummer with lakeside bonfires and sauna" } },
+      { "name": { "zh": "瓦普节（五一）", "en": "Vappu" }, "date": "05-01", "note": { "zh": "学生戴白帽狂欢迎春", "en": "Students wear white caps to celebrate spring" } }
+    ]
+  },
+  "FRA": {
+    "capitalZh": "巴黎",
+    "religions": [
+      { "key": "catholicism", "share": 47 },
+      { "key": "secular", "share": 40 },
+      { "key": "islam", "share": 6 }
+    ],
+    "government": "semi_presidential_republic",
+    "holidays": [
+      { "name": { "zh": "巴士底日（国庆日）", "en": "Bastille Day" }, "date": "07-14", "note": { "zh": "纪念 1789 年攻占巴士底狱", "en": "Marks the 1789 storming of the Bastille" } },
+      { "name": { "zh": "音乐节", "en": "Fête de la Musique" }, "date": "06-21", "note": { "zh": "全城免费街头音乐狂欢", "en": "Free street music across the whole country" } }
+    ]
+  },
+  "DEU": {
+    "capitalZh": "柏林",
+    "religions": [
+      { "key": "secular", "share": 44 },
+      { "key": "catholicism", "share": 26 },
+      { "key": "protestantism", "share": 23 },
+      { "key": "islam", "share": 4 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "统一日", "en": "German Unity Day" }, "date": "10-03", "note": { "zh": "纪念 1990 年两德统一", "en": "Marks German reunification in 1990" } },
+      { "name": { "zh": "慕尼黑啤酒节", "en": "Oktoberfest" }, "note": { "zh": "世界最大的民间啤酒盛会", "en": "The world's largest beer festival, held in Munich" } },
+      { "name": { "zh": "狂欢节", "en": "Karneval / Fasching" }, "note": { "zh": "莱茵地区盛大的化装游行", "en": "Costumed carnival celebrated in the Rhineland" } }
+    ]
+  },
+  "GRC": {
+    "capitalZh": "雅典",
+    "religions": [
+      { "key": "orthodoxy", "share": 90 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "03-25", "note": { "zh": "纪念 1821 年起义反抗奥斯曼统治", "en": "Marks the 1821 uprising against Ottoman rule" } },
+      { "name": { "zh": "拒绝日", "en": "Ohi Day" }, "date": "10-28", "note": { "zh": "纪念 1940 年拒绝意大利最后通牒", "en": "Marks the 1940 rejection of Italy's ultimatum" } },
+      { "name": { "zh": "东正教复活节", "en": "Orthodox Easter" }, "note": { "zh": "希腊最重要的宗教节日", "en": "The most important religious holiday in Greece" } }
+    ]
+  },
+  "HUN": {
+    "capitalZh": "布达佩斯",
+    "religions": [
+      { "key": "catholicism", "share": 37 },
+      { "key": "protestantism", "share": 12 },
+      { "key": "secular", "share": 40 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "圣伊什特万日（建国日）", "en": "St. Stephen's Day" }, "date": "08-20", "note": { "zh": "纪念开国君主与立国", "en": "Honours the first king and the founding of the state" } },
+      { "name": { "zh": "1848 革命纪念日", "en": "1848 Revolution Day" }, "date": "03-15", "note": { "zh": "纪念反抗哈布斯堡的革命", "en": "Commemorates the revolution against Habsburg rule" } },
+      { "name": { "zh": "1956 革命纪念日", "en": "1956 Revolution Day" }, "date": "10-23", "note": { "zh": "纪念反抗苏联的起义", "en": "Commemorates the uprising against Soviet rule" } }
+    ]
+  },
+  "ISL": {
+    "capitalZh": "雷克雅未克",
+    "religions": [
+      { "key": "protestantism", "share": 60 },
+      { "key": "secular", "share": 25 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "国庆日", "en": "National Day" }, "date": "06-17", "note": { "zh": "纪念 1944 年共和国成立", "en": "Marks the 1944 founding of the republic" } },
+      { "name": { "zh": "索里节", "en": "Þorrablót" }, "note": { "zh": "隆冬品尝发酵鲨鱼等古老传统食物", "en": "Midwinter feast of traditional foods such as fermented shark" } },
+      { "name": { "zh": "夏之首日", "en": "First Day of Summer" }, "note": { "zh": "古北欧历法中夏季的开始", "en": "First day of summer in the old Norse calendar" } }
+    ]
+  },
+  "IRL": {
+    "capitalZh": "都柏林",
+    "religions": [
+      { "key": "catholicism", "share": 69 },
+      { "key": "secular", "share": 14 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "圣帕特里克节", "en": "St. Patrick's Day" }, "date": "03-17", "note": { "zh": "国家主保圣人日，绿色主题庆典", "en": "Patron saint's day celebrated in green" } },
+      { "name": { "zh": "布卢姆日", "en": "Bloomsday" }, "date": "06-16", "note": { "zh": "纪念乔伊斯小说《尤利西斯》", "en": "Celebrates Joyce's novel Ulysses" } },
+      { "name": { "zh": "萨温节", "en": "Samhain" }, "note": { "zh": "凯尔特传统节日，万圣节的前身", "en": "Ancient Celtic festival, the origin of Halloween" } }
+    ]
+  },
+  "ITA": {
+    "capitalZh": "罗马",
+    "religions": [
+      { "key": "catholicism", "share": 74 },
+      { "key": "secular", "share": 15 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "共和国日", "en": "Republic Day" }, "date": "06-02", "note": { "zh": "纪念 1946 年公投成立共和国", "en": "Marks the 1946 referendum founding the republic" } },
+      { "name": { "zh": "解放日", "en": "Liberation Day" }, "date": "04-25", "note": { "zh": "纪念二战结束时的解放", "en": "Marks liberation at the end of WWII" } },
+      { "name": { "zh": "主显节（贝法娜）", "en": "Epiphany (La Befana)" }, "date": "01-06", "note": { "zh": "女巫贝法娜给孩子们送礼物", "en": "The witch Befana brings gifts to children" } }
+    ]
+  },
+  "LVA": {
+    "capitalZh": "里加",
+    "religions": [
+      { "key": "protestantism", "share": 34 },
+      { "key": "catholicism", "share": 24 },
+      { "key": "orthodoxy", "share": 18 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "独立宣言日", "en": "Proclamation Day" }, "date": "11-18", "note": { "zh": "1918 年宣布独立", "en": "Declared independence in 1918" } },
+      { "name": { "zh": "仲夏节", "en": "Jāņi" }, "date": "06-23", "note": { "zh": "编花环、通宵跳篝火", "en": "Midsummer with flower crowns and all-night bonfires" } },
+      { "name": { "zh": "歌舞节", "en": "Song and Dance Festival" }, "note": { "zh": "每五年举办的大型合唱庆典（教科文遗产）", "en": "Grand choral festival held every five years (UNESCO)" } }
+    ]
+  },
+  "LIE": {
+    "capitalZh": "瓦杜兹",
+    "religions": [
+      { "key": "catholicism", "share": 73 },
+      { "key": "protestantism", "share": 7 }
+    ],
+    "government": "constitutional_monarchy",
+    "holidays": [
+      { "name": { "zh": "国庆日", "en": "National Day" }, "date": "08-15", "note": { "zh": "民众与亲王在城堡花园共庆", "en": "Citizens celebrate with the prince at his castle" } },
+      { "name": { "zh": "狂欢节", "en": "Fasnacht" }, "note": { "zh": "化装游行迎接春天", "en": "Costumed carnival welcoming spring" } }
+    ]
+  },
+  "LTU": {
+    "capitalZh": "维尔纽斯",
+    "religions": [
+      { "key": "catholicism", "share": 74 },
+      { "key": "orthodoxy", "share": 4 }
+    ],
+    "government": "semi_presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立恢复日", "en": "Restoration of Independence" }, "date": "03-11", "note": { "zh": "纪念 1990 年脱离苏联", "en": "Marks the 1990 restoration of independence from the USSR" } },
+      { "name": { "zh": "建国日", "en": "Statehood Day" }, "date": "07-06", "note": { "zh": "纪念 1253 年明道加斯加冕", "en": "Marks the 1253 coronation of King Mindaugas" } },
+      { "name": { "zh": "送冬节", "en": "Užgavėnės" }, "note": { "zh": "戴面具驱赶寒冬", "en": "Masked festival that drives out winter" } }
+    ]
+  },
+  "LUX": {
+    "capitalZh": "卢森堡市",
+    "religions": [
+      { "key": "catholicism", "share": 63 },
+      { "key": "secular", "share": 26 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "国庆日", "en": "National Day" }, "date": "06-23", "note": { "zh": "庆祝大公的官方生日", "en": "Celebrates the Grand Duke's official birthday" } },
+      { "name": { "zh": "埃希特纳赫跳舞游行", "en": "Dancing Procession of Echternach" }, "note": { "zh": "教科文遗产，边跳边前进的朝圣", "en": "UNESCO hopping pilgrimage procession" } },
+      { "name": { "zh": "什布尔游乐会", "en": "Schueberfouer" }, "note": { "zh": "始于 1340 年的大型游乐市集", "en": "Large funfair dating back to 1340" } }
+    ]
+  },
+  "MLT": {
+    "capitalZh": "瓦莱塔",
+    "religions": [
+      { "key": "catholicism", "share": 90 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "09-21", "note": { "zh": "1964 年脱离英国独立", "en": "Independence from Britain in 1964" } },
+      { "name": { "zh": "圣保罗海难节", "en": "St. Paul's Shipwreck" }, "date": "02-10", "note": { "zh": "纪念圣保罗在马耳他遇海难传教", "en": "Marks St. Paul's shipwreck and mission on Malta" } },
+      { "name": { "zh": "乡村主保瞻礼", "en": "Village Festas" }, "note": { "zh": "夏季各村庆祝主保圣人，烟花与乐队游行", "en": "Summer feasts honouring each village's patron saint" } }
+    ]
+  },
+  "MDA": {
+    "capitalZh": "基希讷乌",
+    "religions": [
+      { "key": "orthodoxy", "share": 90 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "08-27", "note": { "zh": "1991 年脱离苏联独立", "en": "Independence from the USSR in 1991" } },
+      { "name": { "zh": "语言节", "en": "National Language Day" }, "date": "08-31", "note": { "zh": "我们的语言，纪念改用拉丁字母书写罗马尼亚语", "en": "'Our Language' day celebrating the return to the Latin script" } },
+      { "name": { "zh": "迎春花饰节", "en": "Mărțișor" }, "date": "03-01", "note": { "zh": "佩戴红白花饰迎接春天", "en": "Wearing red-and-white charms to welcome spring" } }
+    ]
+  },
+  "MCO": {
+    "capitalZh": "摩纳哥城",
+    "religions": [
+      { "key": "catholicism", "share": 90 }
+    ],
+    "government": "constitutional_monarchy",
+    "holidays": [
+      { "name": { "zh": "国庆日", "en": "National Day" }, "date": "11-19", "note": { "zh": "亲王日，庆祝在位亲王", "en": "The Sovereign Prince's Day" } },
+      { "name": { "zh": "圣德沃塔节", "en": "Sainte Dévote" }, "date": "01-27", "note": { "zh": "国家主保圣人日，焚烧小船祈福", "en": "Patron saint's day with a symbolic boat burning" } },
+      { "name": { "zh": "摩纳哥大奖赛", "en": "Monaco Grand Prix" }, "note": { "zh": "在城市街道举办的一级方程式赛车", "en": "Formula 1 race run through the city streets" } }
+    ]
+  },
+  "MNE": {
+    "capitalZh": "波德戈里察",
+    "religions": [
+      { "key": "orthodoxy", "share": 72 },
+      { "key": "islam", "share": 19 },
+      { "key": "catholicism", "share": 3 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "国家日", "en": "Statehood Day" }, "date": "07-13", "note": { "zh": "纪念 1878 年获国际承认与 1941 年起义", "en": "Marks 1878 international recognition and the 1941 uprising" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "05-21", "note": { "zh": "纪念 2006 年独立公投", "en": "Marks the 2006 independence referendum" } }
+    ]
+  },
+  "NLD": {
+    "capitalZh": "阿姆斯特丹",
+    "religions": [
+      { "key": "secular", "share": 50 },
+      { "key": "catholicism", "share": 20 },
+      { "key": "protestantism", "share": 15 },
+      { "key": "islam", "share": 5 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "国王节", "en": "King's Day" }, "date": "04-27", "note": { "zh": "举国身着橙色庆祝国王生日", "en": "The country dresses in orange for the king's birthday" } },
+      { "name": { "zh": "圣尼古拉斯节", "en": "Sinterklaas" }, "date": "12-05", "note": { "zh": "圣尼古拉斯给孩子们送礼物", "en": "St. Nicholas brings gifts to children" } },
+      { "name": { "zh": "解放日", "en": "Liberation Day" }, "date": "05-05", "note": { "zh": "纪念 1945 年二战结束时的解放", "en": "Marks liberation from WWII in 1945" } }
+    ]
+  },
+  "MKD": {
+    "capitalZh": "斯科普里",
+    "religions": [
+      { "key": "orthodoxy", "share": 46 },
+      { "key": "islam", "share": 32 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "圣伊林登起义日", "en": "Ilinden" }, "date": "08-02", "note": { "zh": "纪念 1903 年起义与 1944 年建国", "en": "Marks the 1903 uprising and 1944 statehood" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "09-08", "note": { "zh": "纪念 1991 年独立公投", "en": "Marks the 1991 independence referendum" } },
+      { "name": { "zh": "维夫查尼狂欢节", "en": "Vevčani Carnival" }, "note": { "zh": "有上千年历史的异教面具狂欢", "en": "Ancient pagan masked carnival over a thousand years old" } }
+    ]
+  },
+  "NOR": {
+    "capitalZh": "奥斯陆",
+    "religions": [
+      { "key": "protestantism", "share": 64 },
+      { "key": "secular", "share": 25 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "宪法日", "en": "Constitution Day" }, "date": "05-17", "note": { "zh": "儿童游行庆祝 1814 年宪法", "en": "Children's parades celebrate the 1814 constitution" } },
+      { "name": { "zh": "萨米民族日", "en": "Sami National Day" }, "date": "02-06", "note": { "zh": "原住民萨米人的节日", "en": "Day of the indigenous Sami people" } },
+      { "name": { "zh": "仲夏夜", "en": "Sankthans" }, "date": "06-23", "note": { "zh": "海边点篝火庆祝仲夏", "en": "Midsummer bonfires by the sea" } }
+    ]
+  },
+  "POL": {
+    "capitalZh": "华沙",
+    "religions": [
+      { "key": "catholicism", "share": 87 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "五三宪法日", "en": "Constitution Day" }, "date": "05-03", "note": { "zh": "纪念 1791 年欧洲第一部成文宪法", "en": "Marks the 1791 constitution, Europe's first" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "11-11", "note": { "zh": "1918 年恢复独立", "en": "Regained independence in 1918" } },
+      { "name": { "zh": "泼水星期一", "en": "Śmigus-Dyngus" }, "note": { "zh": "复活节次日相互泼水的传统", "en": "Easter Monday water-splashing tradition" } }
+    ]
+  },
+  "PRT": {
+    "capitalZh": "里斯本",
+    "religions": [
+      { "key": "catholicism", "share": 80 },
+      { "key": "secular", "share": 15 }
+    ],
+    "government": "semi_presidential_republic",
+    "holidays": [
+      { "name": { "zh": "葡萄牙日", "en": "Portugal Day" }, "date": "06-10", "note": { "zh": "纪念诗人卡蒙斯逝世", "en": "Marks the death of poet Luís de Camões" } },
+      { "name": { "zh": "圣安东尼节", "en": "Santo António" }, "date": "06-13", "note": { "zh": "里斯本烤沙丁鱼与街头庆典", "en": "Lisbon's sardine grills and street festivities" } },
+      { "name": { "zh": "恢复独立日", "en": "Restoration of Independence" }, "date": "12-01", "note": { "zh": "1640 年脱离西班牙统治", "en": "Restored independence from Spain in 1640" } }
+    ]
+  },
+  "ROU": {
+    "capitalZh": "布加勒斯特",
+    "religions": [
+      { "key": "orthodoxy", "share": 85 },
+      { "key": "protestantism", "share": 6 },
+      { "key": "catholicism", "share": 5 }
+    ],
+    "government": "semi_presidential_republic",
+    "holidays": [
+      { "name": { "zh": "大统一日（国庆）", "en": "Great Union Day" }, "date": "12-01", "note": { "zh": "纪念 1918 年领土大统一", "en": "Marks the 1918 unification of the country" } },
+      { "name": { "zh": "迎春花饰节", "en": "Mărțișor" }, "date": "03-01", "note": { "zh": "佩戴红白花饰迎接春天", "en": "Wearing red-and-white charms to welcome spring" } },
+      { "name": { "zh": "德拉戈贝特", "en": "Dragobete" }, "date": "02-24", "note": { "zh": "罗马尼亚传统的爱情节", "en": "Traditional Romanian day of love" } }
+    ]
+  },
+  "RUS": {
+    "capitalZh": "莫斯科",
+    "religions": [
+      { "key": "orthodoxy", "share": 65 },
+      { "key": "secular", "share": 15 },
+      { "key": "islam", "share": 10 }
+    ],
+    "government": "semi_presidential_republic",
+    "holidays": [
+      { "name": { "zh": "胜利日", "en": "Victory Day" }, "date": "05-09", "note": { "zh": "纪念 1945 年卫国战争胜利，举行大阅兵", "en": "Marks the 1945 WWII victory with military parades" } },
+      { "name": { "zh": "谢肉节", "en": "Maslenitsa" }, "note": { "zh": "大斋前吃薄饼、送冬迎春", "en": "Pre-Lent pancake week bidding farewell to winter" } },
+      { "name": { "zh": "俄罗斯日", "en": "Russia Day" }, "date": "06-12", "note": { "zh": "纪念 1990 年国家主权宣言", "en": "Marks the 1990 declaration of sovereignty" } }
+    ]
+  },
+  "SMR": {
+    "capitalZh": "圣马力诺市",
+    "religions": [
+      { "key": "catholicism", "share": 90 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "建国日（圣马力诺节）", "en": "Foundation Day" }, "date": "09-03", "note": { "zh": "纪念公元 301 年石匠马力诺建立共和国", "en": "Marks the founding of the republic by stonemason Marinus in 301 AD" } },
+      { "name": { "zh": "执政官就职", "en": "Investiture of the Captains Regent" }, "note": { "zh": "每年两次选出两位执政官", "en": "Twice-yearly installation of the two heads of state" } },
+      { "name": { "zh": "阿伦戈纪念日", "en": "Anniversary of the Arengo" }, "date": "03-25", "note": { "zh": "纪念 1906 年恢复人民议会主权", "en": "Marks the 1906 restoration of popular sovereignty" } }
+    ]
+  },
+  "SRB": {
+    "capitalZh": "贝尔格莱德",
+    "religions": [
+      { "key": "orthodoxy", "share": 85 },
+      { "key": "catholicism", "share": 5 },
+      { "key": "islam", "share": 3 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "国家日", "en": "Statehood Day (Sretenje)" }, "date": "02-15", "note": { "zh": "纪念 1804 年起义与 1835 年首部宪法", "en": "Marks the 1804 uprising and 1835 constitution" } },
+      { "name": { "zh": "主保圣人日", "en": "Slava" }, "note": { "zh": "各家庭庆祝其主保圣人（教科文遗产）", "en": "Each family's patron-saint celebration (UNESCO tradition)" } },
+      { "name": { "zh": "东正教圣诞节", "en": "Orthodox Christmas" }, "date": "01-07", "note": { "zh": "焚烧橡木枝迎接圣诞", "en": "Burning an oak branch to celebrate Christmas" } }
+    ]
+  },
+  "SVK": {
+    "capitalZh": "布拉迪斯拉发",
+    "religions": [
+      { "key": "catholicism", "share": 62 },
+      { "key": "secular", "share": 24 },
+      { "key": "protestantism", "share": 6 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "宪法日", "en": "Constitution Day" }, "date": "09-01", "note": { "zh": "纪念 1992 年通过斯洛伐克宪法", "en": "Marks the 1992 adoption of the constitution" } },
+      { "name": { "zh": "圣西里尔与美多德日", "en": "Sts. Cyril and Methodius Day" }, "date": "07-05", "note": { "zh": "纪念斯拉夫传教士", "en": "Honours the Slavic missionaries" } },
+      { "name": { "zh": "自由民主斗争日", "en": "Struggle for Freedom Day" }, "date": "11-17", "note": { "zh": "纪念天鹅绒革命", "en": "Commemorates the Velvet Revolution" } }
+    ]
+  },
+  "SVN": {
+    "capitalZh": "卢布尔雅那",
+    "religions": [
+      { "key": "catholicism", "share": 58 },
+      { "key": "secular", "share": 30 }
+    ],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "国家日", "en": "Statehood Day" }, "date": "06-25", "note": { "zh": "纪念 1991 年宣布独立", "en": "Marks the 1991 declaration of independence" } },
+      { "name": { "zh": "普列舍伦日（文化节）", "en": "Prešeren Day" }, "date": "02-08", "note": { "zh": "纪念民族诗人普列舍伦的文化节", "en": "Culture day honouring poet France Prešeren" } },
+      { "name": { "zh": "库伦特狂欢节", "en": "Kurentovanje" }, "note": { "zh": "身披羊皮的库伦特驱冬迎春", "en": "Sheepskin-clad 'Kurent' figures drive out winter" } }
+    ]
+  },
+  "ESP": {
+    "capitalZh": "马德里",
+    "religions": [
+      { "key": "catholicism", "share": 56 },
+      { "key": "secular", "share": 37 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "国庆日", "en": "National Day" }, "date": "10-12", "note": { "zh": "纪念哥伦布抵达美洲", "en": "Marks Columbus's arrival in the Americas" } },
+      { "name": { "zh": "圣费尔明奔牛节", "en": "San Fermín" }, "date": "07-07", "note": { "zh": "潘普洛纳的街头奔牛", "en": "The running of the bulls in Pamplona" } },
+      { "name": { "zh": "番茄大战", "en": "La Tomatina" }, "note": { "zh": "布尼奥尔镇八月的互掷番茄节", "en": "Tomato-throwing festival in Buñol each August" } }
+    ]
+  },
+  "SWE": {
+    "capitalZh": "斯德哥尔摩",
+    "religions": [
+      { "key": "protestantism", "share": 53 },
+      { "key": "secular", "share": 34 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "仲夏节", "en": "Midsummer" }, "note": { "zh": "竖起五月柱并围着跳环舞", "en": "Raising a maypole and dancing around it" } },
+      { "name": { "zh": "国庆日", "en": "National Day" }, "date": "06-06", "note": { "zh": "纪念 1523 年古斯塔夫·瓦萨当选国王", "en": "Marks the 1523 election of King Gustav Vasa" } },
+      { "name": { "zh": "圣露西亚节", "en": "St. Lucia Day" }, "date": "12-13", "note": { "zh": "头戴烛冠的光明游行", "en": "Candle-crowned procession of light" } }
+    ]
+  },
+  "CHE": {
+    "capitalZh": "伯尔尼",
+    "religions": [
+      { "key": "catholicism", "share": 34 },
+      { "key": "secular", "share": 30 },
+      { "key": "protestantism", "share": 22 },
+      { "key": "islam", "share": 5 }
+    ],
+    "government": "federal_republic",
+    "holidays": [
+      { "name": { "zh": "国庆日", "en": "National Day" }, "date": "08-01", "note": { "zh": "纪念 1291 年三州结盟", "en": "Marks the 1291 founding pact of the confederation" } },
+      { "name": { "zh": "巴塞尔狂欢节", "en": "Basel Fasnacht" }, "note": { "zh": "凌晨提灯游行的狂欢节（教科文遗产）", "en": "Pre-dawn lantern carnival (UNESCO)" } },
+      { "name": { "zh": "六鸣节", "en": "Sechseläuten" }, "note": { "zh": "苏黎世焚烧冬之雪人迎接春天", "en": "Zurich burns a snowman effigy to welcome spring" } }
+    ]
+  },
+  "UKR": {
+    "capitalZh": "基辅",
+    "religions": [
+      { "key": "orthodoxy", "share": 70 },
+      { "key": "catholicism", "share": 9 }
+    ],
+    "government": "semi_presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "08-24", "note": { "zh": "1991 年脱离苏联独立", "en": "Independence from the USSR in 1991" } },
+      { "name": { "zh": "伊万库帕拉节", "en": "Ivana Kupala" }, "date": "07-07", "note": { "zh": "仲夏跳篝火、放花环占卜", "en": "Midsummer festival with bonfires and floating flower wreaths" } },
+      { "name": { "zh": "宪法日", "en": "Constitution Day" }, "date": "06-28", "note": { "zh": "纪念 1996 年通过宪法", "en": "Marks the 1996 adoption of the constitution" } }
+    ]
+  },
+  "GBR": {
+    "capitalZh": "伦敦",
+    "religions": [
+      { "key": "christianity", "share": 46 },
+      { "key": "secular", "share": 37 },
+      { "key": "islam", "share": 7 }
+    ],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "篝火之夜", "en": "Guy Fawkes Night" }, "date": "11-05", "note": { "zh": "纪念 1605 年火药阴谋，燃放烟花与篝火", "en": "Bonfires and fireworks marking the 1605 Gunpowder Plot" } },
+      { "name": { "zh": "阵亡将士纪念日", "en": "Remembrance Day" }, "date": "11-11", "note": { "zh": "佩戴红罂粟花缅怀阵亡者", "en": "People wear red poppies to honour the fallen" } },
+      { "name": { "zh": "皇家阅兵（君主官方生日）", "en": "Trooping the Colour" }, "note": { "zh": "六月为君主庆祝官方生日的阅兵", "en": "June parade for the monarch's official birthday" } }
+    ]
+  },
+  "VAT": {
+    "capitalZh": "梵蒂冈城",
+    "religions": [
+      { "key": "catholicism", "share": 100 }
+    ],
+    "government": "theocracy",
+    "holidays": [
+      { "name": { "zh": "圣伯多禄与圣保禄瞻礼", "en": "Feast of Sts. Peter and Paul" }, "date": "06-29", "note": { "zh": "罗马两位主保圣人的节日", "en": "Feast of the two patron saints of Rome" } },
+      { "name": { "zh": "拉特兰条约纪念日", "en": "Lateran Treaty Day" }, "date": "02-11", "note": { "zh": "纪念 1929 年梵蒂冈城国的建立", "en": "Marks the 1929 founding of Vatican City State" } },
+      { "name": { "zh": "现任教宗当选纪念", "en": "Anniversary of the Pope's Election" }, "note": { "zh": "庆祝在位教宗的当选", "en": "Celebrates the election of the reigning pope" } }
+    ]
+  }
+}

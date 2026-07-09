@@ -1,0 +1,62 @@
+{
+  "iso": "AE",
+  "overview": {
+    "zh": "阿拉伯联合酋长国位于阿拉伯半岛东南部、波斯湾沿岸，由阿布扎比、迪拜等七个酋长国组成的联邦国家。凭借石油财富与开放的商贸政策迅速发展，迪拜已成为中东地区重要的国际金融、贸易与旅游枢纽。",
+    "en": "The United Arab Emirates lies on the southeastern Arabian Peninsula along the Persian Gulf, a federation of seven emirates including Abu Dhabi and Dubai. Propelled by oil wealth and open trade policies, it has developed rapidly, with Dubai emerging as a major international finance, trade and tourism hub in the Middle East."
+  },
+  "capitalHistory": {
+    "zh": "首都阿布扎比得名于当地的瞪羚，18世纪起成为巴尼亚斯部落的聚居地；1971年阿联酋成立后被定为联邦首都。",
+    "en": "The capital Abu Dhabi (meaning 'father of the gazelle') was settled by the Bani Yas tribe from the 18th century and became the federal capital when the UAE was formed in 1971."
+  },
+  "climate": {
+    "zh": "属热带沙漠气候，夏季酷热潮湿，冬季温暖干燥，全年降水极少。",
+    "en": "A hot desert climate with extremely hot, humid summers and warm, dry winters, and very little rainfall year-round."
+  },
+  "phrases": [
+    { "key": "hello", "text": "مرحبا", "romanization": "marhaban", "langTag": "ar-AE" },
+    { "key": "thanks", "text": "شكرا", "romanization": "shukran", "langTag": "ar-AE" },
+    { "key": "goodbye", "text": "مع السلامة", "romanization": "maa as-salama", "langTag": "ar-AE" },
+    { "key": "cheers", "text": "بصحتك", "romanization": "bi-sahtak", "langTag": "ar-AE" }
+  ],
+  "anthem": {
+    "name": { "zh": "《我的祖国万岁》", "en": "Ishy Bilady (Long Live My Nation)" },
+    "note": { "zh": "曲调由穆罕默德·阿卜杜勒·瓦哈卜谱写，1971年建国时启用，1996年加入阿里夫·谢赫·阿卜杜拉·哈桑所作歌词。", "en": "Music by Mohammed Abdel Wahab; adopted at the federation's founding in 1971, with lyrics by Arif Al Sheikh Abdullah Al Hassan added in 1996." }
+  },
+  "symbols": [
+    { "key": "bird", "name": { "zh": "游隼（国鸟）", "en": "Peregrine falcon (national bird)" } },
+    { "key": "tree", "name": { "zh": "椰枣树", "en": "Date palm" } }
+  ],
+  "alphabetCount": 28,
+  "qsTop100": 0,
+  "unescoSites": 1,
+  "football": {
+    "fifaRank": 65,
+    "worldCupTitles": 0,
+    "note": { "zh": "曾于1990年首次打进世界杯正赛。", "en": "First qualified for the World Cup in 1990." }
+  },
+  "localization": {
+    "direction": "rtl",
+    "grammaticalGender": true,
+    "colorNotes": [
+      { "zh": "绿色象征繁荣，红、绿、白、黑为国旗四色，寓意团结与阿拉伯传统。", "en": "Green signifies prosperity; the flag's red, green, white and black evoke unity and Arab heritage." },
+      { "zh": "金色常与财富、奢华相关联，广泛用于高端品牌与场景。", "en": "Gold is strongly associated with wealth and luxury, widely used in premium branding." }
+    ],
+    "culturalTaboos": [
+      { "zh": "禁猪肉，饮酒仅限持牌场所；进食、递物宜用右手。", "en": "Pork is prohibited and alcohol limited to licensed venues; use the right hand for eating and passing items." },
+      { "zh": "公共场合着装应端庄，尊重礼拜时间与斋月礼仪。", "en": "Dress modestly in public, and respect prayer times and Ramadan etiquette." }
+    ],
+    "formatting": [
+      { "zh": "文字从右向左书写；界面与排版需整体镜像（RTL）。", "en": "Text is written right-to-left; UI and layouts should be fully mirrored (RTL)." },
+      { "zh": "常与公历并用伊斯兰历；周末为周六、周日，官方工作周为周一至周五。", "en": "The Islamic calendar is used alongside the Gregorian; the weekend is Saturday-Sunday, with the official work week Monday to Friday." }
+    ]
+  },
+  "funFacts": [
+    { "zh": "迪拜的哈利法塔高约828米，是目前世界第一高楼。", "en": "Dubai's Burj Khalifa, about 828 meters tall, is currently the world's tallest building." },
+    { "zh": "全国居民中外籍人口占比很高，通用语言多元，英语在商务中广泛使用。", "en": "Expatriates make up a large share of the population, making the country highly multilingual, with English widely used in business." }
+  ],
+  "sources": {
+    "overview": { "label": { "zh": "维基百科", "en": "Wikipedia" }, "url": "https://en.wikipedia.org/wiki/United_Arab_Emirates" },
+    "metrics": { "label": { "zh": "联合国教科文组织世界遗产名录", "en": "UNESCO World Heritage List" }, "url": "https://whc.unesco.org/en/statesparties/ae", "year": "2024" },
+    "football": { "label": { "zh": "国际足联世界排名", "en": "FIFA World Ranking" }, "url": "https://www.fifa.com/fifa-world-ranking" }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "iso": "ES",
+  "overview": {
+    "zh": "西班牙位于欧洲西南部的伊比利亚半岛，濒临地中海与大西洋，是一个历史文化悠久的国家。曾孕育灿烂的艺术与建筑传统，如今是欧盟重要成员和世界热门旅游目的地，经济以服务业、旅游业和制造业为主。",
+    "en": "Spain occupies most of the Iberian Peninsula in southwestern Europe, bordering the Mediterranean and the Atlantic, with a rich history and culture. Once the cradle of dazzling artistic and architectural traditions, it is today a major EU member and popular travel destination, with an economy led by services, tourism and manufacturing."
+  },
+  "capitalHistory": {
+    "zh": "首都马德里在16世纪由国王腓力二世定为宫廷所在地，逐渐发展为西班牙的政治中心，如今是国家政治、经济与文化的核心。",
+    "en": "The capital Madrid was established as the seat of the royal court by King Philip II in the 16th century, gradually becoming Spain's political center and today the nation's political, economic and cultural core."
+  },
+  "climate": {
+    "zh": "以地中海气候为主，夏季炎热干燥、冬季温和多雨；内陆高原为大陆性气候，北部沿海较为湿润。",
+    "en": "Predominantly a Mediterranean climate with hot, dry summers and mild, wet winters; the inland plateau is more continental, while the northern coast is wetter."
+  },
+  "phrases": [
+    { "key": "hello", "text": "Hola", "romanization": "OH-lah", "langTag": "es-ES" },
+    { "key": "thanks", "text": "Gracias", "romanization": "GRAH-syahs", "langTag": "es-ES" },
+    { "key": "goodbye", "text": "Adiós", "romanization": "ah-DYOHS", "langTag": "es-ES" },
+    { "key": "cheers", "text": "Salud", "romanization": "sah-LOOD", "langTag": "es-ES" }
+  ],
+  "anthem": {
+    "name": { "zh": "《皇家进行曲》", "en": "Marcha Real (Royal March)" },
+    "note": { "zh": "是世界上少数没有官方歌词的国歌之一，起源可追溯至18世纪。", "en": "One of the few national anthems in the world with no official lyrics; its origins trace back to the 18th century." }
+  },
+  "symbols": [
+    { "key": "animal", "name": { "zh": "公牛（文化象征）", "en": "Bull (cultural symbol)" } },
+    { "key": "flower", "name": { "zh": "红色康乃馨（常见文化象征）", "en": "Red carnation (common cultural symbol)" } }
+  ],
+  "alphabetCount": 27,
+  "qsTop100": 0,
+  "unescoSites": 50,
+  "football": {
+    "fifaRank": 8,
+    "worldCupTitles": 1,
+    "note": { "zh": "2010年首夺世界杯冠军，并曾于2008、2012年两度问鼎欧洲杯。", "en": "Won its first World Cup in 2010 and claimed the European Championship in 2008 and 2012." }
+  },
+  "localization": {
+    "direction": "ltr",
+    "grammaticalGender": true,
+    "colorNotes": [
+      { "zh": "红色与黄色源自国旗，常见于节庆与体育场合，象征热情与活力。", "en": "Red and yellow, drawn from the flag, appear at festivals and sporting events, evoking passion and vitality." },
+      { "zh": "黑色多用于正式与哀悼场合，需结合语境使用。", "en": "Black is used for formal and mourning occasions and should be applied with context in mind." }
+    ],
+    "culturalTaboos": [
+      { "zh": "西班牙语名词分阴阳性，形容词需与名词性数一致，本地化时需注意。", "en": "Spanish nouns have grammatical gender and adjectives must agree in gender and number—mind this during localization." },
+      { "zh": "午休（siesta）与较晚的用餐时间是常见生活习惯，商务安排宜留意。", "en": "The siesta and later meal times are common customs worth noting when scheduling business." }
+    ],
+    "formatting": [
+      { "zh": "日期常用 日/月/年；小数用逗号、千位用点号（如 1.234,56）。", "en": "Dates commonly use DD/MM/YYYY; commas mark decimals and dots group thousands (e.g., 1.234,56)." },
+      { "zh": "疑问句与感叹句使用倒置标点 ¿ 与 ¡ 开头。", "en": "Questions and exclamations open with inverted marks ¿ and ¡." }
+    ]
+  },
+  "funFacts": [
+    { "zh": "西班牙语是全球母语人数第二多的语言，通行于西班牙及大部分拉丁美洲国家。", "en": "Spanish has the second-largest number of native speakers worldwide, spoken across Spain and most of Latin America." },
+    { "zh": "巴塞罗那的圣家族大教堂自1882年动工，至今仍在建造之中。", "en": "Barcelona's Sagrada Familia has been under construction since 1882 and remains unfinished." }
+  ],
+  "sources": {
+    "overview": { "label": { "zh": "维基百科", "en": "Wikipedia" }, "url": "https://en.wikipedia.org/wiki/Spain" },
+    "metrics": { "label": { "zh": "联合国教科文组织世界遗产名录", "en": "UNESCO World Heritage List" }, "url": "https://whc.unesco.org/en/statesparties/es", "year": "2024" },
+    "football": { "label": { "zh": "国际足联世界排名", "en": "FIFA World Ranking" }, "url": "https://www.fifa.com/fifa-world-ranking" }
+  }
+}

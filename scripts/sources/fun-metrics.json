@@ -1,0 +1,527 @@
+{
+  "_comment": "有趣指标与历史维度数据。来源：Nobel Foundation/Wikipedia（诺贝尔）、Fortune Global 500 2024、FIFA/Wikipedia（世界杯，截至2022）、IEP GPI 2024（和平指数）、Britannica/Wikipedia（一战/二战）。ISO3 键。历史实体映射：USSR→RUS，Yugoslavia→SRB，Ottoman→TUR，Austria-Hungary→AUT+HUN。",
+  "nobel": {
+    "USA": 425,
+    "GBR": 144,
+    "DEU": 116,
+    "FRA": 78,
+    "SWE": 34,
+    "JPN": 33,
+    "RUS": 30,
+    "CAN": 29,
+    "CHE": 27,
+    "AUT": 25,
+    "NLD": 22,
+    "ITA": 21,
+    "POL": 18,
+    "HUN": 16,
+    "AUS": 15,
+    "ISR": 14,
+    "DNK": 14,
+    "NOR": 14,
+    "IND": 13,
+    "BEL": 11,
+    "IRL": 11,
+    "ZAF": 11,
+    "CHN": 8,
+    "ESP": 8,
+    "CZE": 6,
+    "UKR": 6,
+    "ARG": 5,
+    "FIN": 5,
+    "EGY": 5,
+    "MEX": 3,
+    "NZL": 3,
+    "KOR": 3,
+    "TUR": 3,
+    "GRC": 2,
+    "PRT": 2,
+    "PAK": 2
+  },
+  "fortune500": {
+    "USA": 139,
+    "CHN": 133,
+    "JPN": 40,
+    "DEU": 29,
+    "FRA": 24,
+    "GBR": 17,
+    "KOR": 15,
+    "CAN": 14,
+    "CHE": 11,
+    "NLD": 11,
+    "BRA": 9,
+    "IND": 9,
+    "ESP": 9,
+    "AUS": 6,
+    "ITA": 5,
+    "RUS": 5,
+    "MEX": 4,
+    "SGP": 3,
+    "IRL": 2,
+    "DNK": 2,
+    "SWE": 1,
+    "BEL": 1,
+    "NOR": 1,
+    "LUX": 1,
+    "SAU": 1
+  },
+  "worldCup": {
+    "BRA": {
+      "titles": 5,
+      "appearances": 22,
+      "titleYears": [
+        1958,
+        1962,
+        1970,
+        1994,
+        2002
+      ]
+    },
+    "DEU": {
+      "titles": 4,
+      "appearances": 20,
+      "titleYears": [
+        1954,
+        1974,
+        1990,
+        2014
+      ]
+    },
+    "ITA": {
+      "titles": 4,
+      "appearances": 18,
+      "titleYears": [
+        1934,
+        1938,
+        1982,
+        2006
+      ]
+    },
+    "ARG": {
+      "titles": 3,
+      "appearances": 18,
+      "titleYears": [
+        1978,
+        1986,
+        2022
+      ]
+    },
+    "FRA": {
+      "titles": 2,
+      "appearances": 16,
+      "titleYears": [
+        1998,
+        2018
+      ]
+    },
+    "URY": {
+      "titles": 2,
+      "appearances": 14,
+      "titleYears": [
+        1930,
+        1950
+      ]
+    },
+    "GBR": {
+      "titles": 1,
+      "appearances": 16,
+      "titleYears": [
+        1966
+      ]
+    },
+    "ESP": {
+      "titles": 1,
+      "appearances": 16,
+      "titleYears": [
+        2010
+      ]
+    },
+    "MEX": {
+      "titles": 0,
+      "appearances": 17
+    },
+    "BEL": {
+      "titles": 0,
+      "appearances": 14
+    },
+    "SRB": {
+      "titles": 0,
+      "appearances": 13
+    },
+    "CHE": {
+      "titles": 0,
+      "appearances": 12
+    },
+    "SWE": {
+      "titles": 0,
+      "appearances": 12
+    },
+    "USA": {
+      "titles": 0,
+      "appearances": 11
+    },
+    "KOR": {
+      "titles": 0,
+      "appearances": 11
+    },
+    "NLD": {
+      "titles": 0,
+      "appearances": 11
+    },
+    "RUS": {
+      "titles": 0,
+      "appearances": 11
+    },
+    "POL": {
+      "titles": 0,
+      "appearances": 9
+    },
+    "HUN": {
+      "titles": 0,
+      "appearances": 9
+    },
+    "CZE": {
+      "titles": 0,
+      "appearances": 9
+    },
+    "CHL": {
+      "titles": 0,
+      "appearances": 9
+    },
+    "PRT": {
+      "titles": 0,
+      "appearances": 8
+    },
+    "CMR": {
+      "titles": 0,
+      "appearances": 8
+    },
+    "PRY": {
+      "titles": 0,
+      "appearances": 8
+    },
+    "JPN": {
+      "titles": 0,
+      "appearances": 7
+    },
+    "BGR": {
+      "titles": 0,
+      "appearances": 7
+    },
+    "ROU": {
+      "titles": 0,
+      "appearances": 7
+    },
+    "AUT": {
+      "titles": 0,
+      "appearances": 7
+    },
+    "AUS": {
+      "titles": 0,
+      "appearances": 6
+    },
+    "SAU": {
+      "titles": 0,
+      "appearances": 6
+    },
+    "IRN": {
+      "titles": 0,
+      "appearances": 6
+    },
+    "CRI": {
+      "titles": 0,
+      "appearances": 6
+    },
+    "HRV": {
+      "titles": 0,
+      "appearances": 6
+    },
+    "TUN": {
+      "titles": 0,
+      "appearances": 6
+    },
+    "MAR": {
+      "titles": 0,
+      "appearances": 6
+    },
+    "DNK": {
+      "titles": 0,
+      "appearances": 6
+    },
+    "COL": {
+      "titles": 0,
+      "appearances": 6
+    },
+    "NGA": {
+      "titles": 0,
+      "appearances": 6
+    },
+    "PER": {
+      "titles": 0,
+      "appearances": 5
+    },
+    "DZA": {
+      "titles": 0,
+      "appearances": 4
+    },
+    "ECU": {
+      "titles": 0,
+      "appearances": 4
+    },
+    "GHA": {
+      "titles": 0,
+      "appearances": 4
+    },
+    "BOL": {
+      "titles": 0,
+      "appearances": 3
+    },
+    "CIV": {
+      "titles": 0,
+      "appearances": 3
+    },
+    "EGY": {
+      "titles": 0,
+      "appearances": 3
+    },
+    "GRC": {
+      "titles": 0,
+      "appearances": 3
+    },
+    "HND": {
+      "titles": 0,
+      "appearances": 3
+    },
+    "IRL": {
+      "titles": 0,
+      "appearances": 3
+    },
+    "NOR": {
+      "titles": 0,
+      "appearances": 3
+    },
+    "SEN": {
+      "titles": 0,
+      "appearances": 3
+    },
+    "ZAF": {
+      "titles": 0,
+      "appearances": 3
+    },
+    "CAN": {
+      "titles": 0,
+      "appearances": 2
+    },
+    "PRK": {
+      "titles": 0,
+      "appearances": 2
+    },
+    "NZL": {
+      "titles": 0,
+      "appearances": 2
+    },
+    "SLV": {
+      "titles": 0,
+      "appearances": 2
+    },
+    "TUR": {
+      "titles": 0,
+      "appearances": 2
+    },
+    "SVN": {
+      "titles": 0,
+      "appearances": 2
+    },
+    "AGO": {
+      "titles": 0,
+      "appearances": 1
+    },
+    "BIH": {
+      "titles": 0,
+      "appearances": 1
+    },
+    "CHN": {
+      "titles": 0,
+      "appearances": 1
+    },
+    "CUB": {
+      "titles": 0,
+      "appearances": 1
+    },
+    "HTI": {
+      "titles": 0,
+      "appearances": 1
+    },
+    "ISL": {
+      "titles": 0,
+      "appearances": 1
+    },
+    "IDN": {
+      "titles": 0,
+      "appearances": 1
+    },
+    "IRQ": {
+      "titles": 0,
+      "appearances": 1
+    },
+    "ISR": {
+      "titles": 0,
+      "appearances": 1
+    },
+    "JAM": {
+      "titles": 0,
+      "appearances": 1
+    },
+    "KWT": {
+      "titles": 0,
+      "appearances": 1
+    },
+    "PAN": {
+      "titles": 0,
+      "appearances": 1
+    },
+    "QAT": {
+      "titles": 0,
+      "appearances": 1
+    },
+    "SVK": {
+      "titles": 0,
+      "appearances": 1
+    },
+    "TGO": {
+      "titles": 0,
+      "appearances": 1
+    },
+    "TTO": {
+      "titles": 0,
+      "appearances": 1
+    },
+    "UKR": {
+      "titles": 0,
+      "appearances": 1
+    },
+    "ARE": {
+      "titles": 0,
+      "appearances": 1
+    },
+    "COD": {
+      "titles": 0,
+      "appearances": 1
+    }
+  },
+  "peaceIndex": {
+    "ISL": 1.112,
+    "IRL": 1.303,
+    "AUT": 1.313,
+    "NZL": 1.323,
+    "SGP": 1.339,
+    "CHE": 1.35,
+    "PRT": 1.372,
+    "DNK": 1.382,
+    "SVN": 1.395,
+    "MYS": 1.427,
+    "CAN": 1.449,
+    "CZE": 1.459,
+    "FIN": 1.474,
+    "HUN": 1.502,
+    "HRV": 1.504,
+    "BEL": 1.51,
+    "JPN": 1.525,
+    "NLD": 1.527,
+    "AUS": 1.536,
+    "DEU": 1.542,
+    "BTN": 1.564,
+    "MUS": 1.577,
+    "ESP": 1.597,
+    "EST": 1.615,
+    "KWT": 1.622,
+    "BGR": 1.629,
+    "SVK": 1.634,
+    "NOR": 1.638,
+    "QAT": 1.656,
+    "LVA": 1.661,
+    "ITA": 1.692,
+    "GBR": 1.703,
+    "FRA": 2.088,
+    "CHN": 2.101,
+    "USA": 2.622
+  },
+  "mostPeaceful": [
+    "ISL",
+    "IRL",
+    "AUT",
+    "NZL",
+    "SGP",
+    "CHE",
+    "PRT",
+    "DNK",
+    "SVN",
+    "MYS",
+    "CAN",
+    "CZE",
+    "FIN",
+    "HUN",
+    "HRV"
+  ],
+  "ww2": {
+    "allied": [
+      "CHN",
+      "USA",
+      "GBR",
+      "RUS",
+      "FRA",
+      "POL",
+      "CAN",
+      "AUS",
+      "NZL",
+      "IND",
+      "ZAF",
+      "BEL",
+      "NLD",
+      "NOR",
+      "GRC",
+      "BRA",
+      "MEX",
+      "PHL",
+      "DNK",
+      "LUX",
+      "CZE",
+      "ETH"
+    ],
+    "axis": [
+      "DEU",
+      "JPN",
+      "ITA",
+      "HUN",
+      "ROU",
+      "BGR",
+      "FIN",
+      "THA"
+    ]
+  },
+  "ww1": {
+    "allied": [
+      "FRA",
+      "GBR",
+      "RUS",
+      "ITA",
+      "USA",
+      "JPN",
+      "SRB",
+      "BEL",
+      "ROU",
+      "GRC",
+      "PRT",
+      "MNE",
+      "CHN",
+      "BRA"
+    ],
+    "central": [
+      "DEU",
+      "AUT",
+      "HUN",
+      "TUR",
+      "BGR"
+    ]
+  }
+}

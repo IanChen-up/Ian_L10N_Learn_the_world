@@ -1,0 +1,483 @@
+{
+  "CHN": [
+    { "name": { "zh": "春节", "en": "Spring Festival" }, "date": "农历正月初一", "note": { "zh": "农历新年，阖家团圆、贴春联、放鞭炮", "en": "Lunar New Year, the biggest family reunion of the year" } },
+    { "name": { "zh": "元宵节", "en": "Lantern Festival" }, "date": "农历正月十五", "note": { "zh": "赏花灯、猜灯谜、吃元宵，春节的收尾", "en": "Lanterns and sweet rice balls close the New Year season" } },
+    { "name": { "zh": "清明节", "en": "Qingming Festival" }, "date": "4/4-4/6", "note": { "zh": "扫墓祭祖、踏青,慎终追远", "en": "Tomb-sweeping day to honor ancestors" } },
+    { "name": { "zh": "端午节", "en": "Dragon Boat Festival" }, "date": "农历五月初五", "note": { "zh": "赛龙舟、吃粽子，纪念屈原", "en": "Dragon-boat races and rice dumplings honor poet Qu Yuan" } },
+    { "name": { "zh": "中秋节", "en": "Mid-Autumn Festival" }, "date": "农历八月十五", "note": { "zh": "赏月、吃月饼，象征团圆", "en": "Mooncakes and moon-gazing symbolize reunion" } },
+    { "name": { "zh": "劳动节", "en": "Labour Day" }, "date": "5/1", "note": { "zh": "国际劳动节，全国放假", "en": "International Workers' Day, a national holiday" } },
+    { "name": { "zh": "国庆节", "en": "National Day" }, "date": "10/1", "note": { "zh": "庆祝中华人民共和国成立", "en": "Celebrates the founding of the People's Republic of China" } }
+  ],
+  "USA": [
+    { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "7/4", "note": { "zh": "纪念1776年《独立宣言》，烟花与烧烤", "en": "Marks the 1776 Declaration with fireworks and barbecues" } },
+    { "name": { "zh": "感恩节", "en": "Thanksgiving" }, "date": "11月第四个周四", "note": { "zh": "家人团聚共享火鸡大餐，表达感恩", "en": "Family turkey dinner giving thanks" } },
+    { "name": { "zh": "马丁·路德·金纪念日", "en": "Martin Luther King Jr. Day" }, "date": "1月第三个周一", "note": { "zh": "纪念民权运动领袖金牧师", "en": "Honors the civil-rights leader" } },
+    { "name": { "zh": "阵亡将士纪念日", "en": "Memorial Day" }, "date": "5月最后一个周一", "note": { "zh": "缅怀阵亡军人，夏季非正式开端", "en": "Remembers fallen soldiers and opens summer" } },
+    { "name": { "zh": "劳动节", "en": "Labor Day" }, "date": "9月第一个周一", "note": { "zh": "向劳动者致敬，夏季非正式结束", "en": "Honors workers and marks summer's end" } },
+    { "name": { "zh": "万圣夜", "en": "Halloween" }, "date": "10/31", "note": { "zh": "化装、南瓜灯与'不给糖就捣蛋'", "en": "Costumes, jack-o'-lanterns and trick-or-treating" } }
+  ],
+  "GBR": [
+    { "name": { "zh": "篝火之夜", "en": "Guy Fawkes Night" }, "date": "11/5", "note": { "zh": "点篝火放烟花，纪念1605年火药阴谋失败", "en": "Bonfires and fireworks recall the 1605 Gunpowder Plot" } },
+    { "name": { "zh": "节礼日", "en": "Boxing Day" }, "date": "12/26", "note": { "zh": "圣诞次日购物与体育赛事传统", "en": "Post-Christmas day of shopping and sport" } },
+    { "name": { "zh": "五朔节银行假日", "en": "May Day Bank Holiday" }, "date": "5月第一个周一", "note": { "zh": "迎春公共假日，常有莫里斯舞", "en": "Spring public holiday, often with Morris dancing" } },
+    { "name": { "zh": "煎饼日", "en": "Pancake Day" }, "date": "四旬斋前的忏悔星期二", "note": { "zh": "斋期前吃煎饼，还有翻煎饼比赛", "en": "Shrove Tuesday pancake feasting and races" } },
+    { "name": { "zh": "圣帕特里克节", "en": "St Patrick's Day" }, "date": "3/17", "note": { "zh": "北爱尔兰的守护圣人节日", "en": "Patron saint's day, marked in Northern Ireland" } },
+    { "name": { "zh": "复活节星期一", "en": "Easter Monday" }, "date": "移动节日（春季）", "note": { "zh": "复活节次日的公共假日", "en": "Public holiday after Easter Sunday" } }
+  ],
+  "FRA": [
+    { "name": { "zh": "巴士底日", "en": "Bastille Day" }, "date": "7/14", "note": { "zh": "国庆日，阅兵与烟花庆祝1789年革命", "en": "National day with a parade marking the 1789 revolution" } },
+    { "name": { "zh": "主显节", "en": "Epiphany" }, "date": "1/6", "note": { "zh": "吃国王饼，藏在饼里的小瓷偶带来好运", "en": "King cake with a hidden charm brings luck" } },
+    { "name": { "zh": "圣烛节", "en": "La Chandeleur" }, "date": "2/2", "note": { "zh": "全家一起做可丽饼的煎饼节", "en": "Crêpe day when families flip pancakes" } },
+    { "name": { "zh": "音乐节", "en": "Fête de la Musique" }, "date": "6/21", "note": { "zh": "夏至街头免费音乐遍布全城", "en": "Free street music fills cities on the summer solstice" } },
+    { "name": { "zh": "劳动节铃兰日", "en": "May Day (Lily of the Valley)" }, "date": "5/1", "note": { "zh": "赠送铃兰花，祝对方好运", "en": "People gift lily-of-the-valley for luck" } },
+    { "name": { "zh": "诸圣节", "en": "All Saints' Day" }, "date": "11/1", "note": { "zh": "扫墓献菊花，缅怀逝者", "en": "Families visit graves with chrysanthemums" } }
+  ],
+  "DEU": [
+    { "name": { "zh": "慕尼黑啤酒节", "en": "Oktoberfest" }, "date": "9月末至10月初", "note": { "zh": "全球最大民间啤酒盛会，源于慕尼黑", "en": "The world's largest beer folk festival, held in Munich" } },
+    { "name": { "zh": "德国统一日", "en": "German Unity Day" }, "date": "10/3", "note": { "zh": "纪念1990年两德统一的国庆日", "en": "National day marking the 1990 reunification" } },
+    { "name": { "zh": "狂欢节", "en": "Karneval" }, "date": "四旬斋前（冬末）", "note": { "zh": "莱茵地区盛大化装游行", "en": "Costumed street parades in the Rhineland" } },
+    { "name": { "zh": "圣诞市场", "en": "Christmas Markets" }, "date": "将临期（12月前）", "note": { "zh": "广场上的圣诞集市与热红酒传统", "en": "Advent market squares with mulled wine" } },
+    { "name": { "zh": "圣尼古拉日", "en": "St Nicholas Day" }, "date": "12/6", "note": { "zh": "孩子擦亮鞋子等待糖果礼物", "en": "Children leave shoes out for sweets" } },
+    { "name": { "zh": "劳动节", "en": "Labour Day" }, "date": "5/1", "note": { "zh": "五一公共假日与工会游行", "en": "May Day public holiday with union marches" } }
+  ],
+  "JPN": [
+    { "name": { "zh": "成人节", "en": "Coming of Age Day" }, "date": "1月第二个周一", "note": { "zh": "庆祝年满二十岁的青年成年", "en": "Celebrates those reaching adulthood" } },
+    { "name": { "zh": "七五三", "en": "Shichi-Go-San" }, "date": "11/15", "note": { "zh": "为3、5、7岁孩童祈福健康成长", "en": "Blessings for children aged three, five and seven" } },
+    { "name": { "zh": "黄金周", "en": "Golden Week" }, "date": "4月底至5月初", "note": { "zh": "多个假日相连的春季长假", "en": "A run of spring holidays forming a long break" } },
+    { "name": { "zh": "盂兰盆节", "en": "Obon" }, "date": "8月中旬", "note": { "zh": "迎回祖先亡灵，跳盆踊舞", "en": "Honors ancestors' spirits with Bon dances" } },
+    { "name": { "zh": "女儿节", "en": "Hina Matsuri" }, "date": "3/3", "note": { "zh": "摆人偶祈愿女孩健康幸福", "en": "Doll display wishing girls happiness" } },
+    { "name": { "zh": "赏樱", "en": "Hanami" }, "date": "3月底至4月", "note": { "zh": "樱花树下野餐赏花的传统", "en": "Picnicking under blooming cherry blossoms" } }
+  ],
+  "KOR": [
+    { "name": { "zh": "春节", "en": "Seollal" }, "date": "农历正月初一", "note": { "zh": "行大礼、吃年糕汤，长一岁", "en": "Lunar New Year with bows and rice-cake soup" } },
+    { "name": { "zh": "中秋", "en": "Chuseok" }, "date": "农历八月十五", "note": { "zh": "秋收感恩，做半月形松饼", "en": "Harvest thanksgiving with songpyeon rice cakes" } },
+    { "name": { "zh": "谚文日", "en": "Hangul Day" }, "date": "10/9", "note": { "zh": "纪念韩文字母的创制", "en": "Celebrates the creation of the Korean alphabet" } },
+    { "name": { "zh": "儿童节", "en": "Children's Day" }, "date": "5/5", "note": { "zh": "家庭出游、为孩子庆祝的公共假日", "en": "A holiday devoted to children and family outings" } },
+    { "name": { "zh": "佛诞日", "en": "Buddha's Birthday" }, "date": "农历四月初八", "note": { "zh": "寺庙挂满彩色莲花灯", "en": "Temples glow with lotus lanterns" } },
+    { "name": { "zh": "开天节", "en": "Gaecheonjeol" }, "date": "10/3", "note": { "zh": "纪念传说中古朝鲜的建立", "en": "Marks the legendary founding of the first Korean state" } }
+  ],
+  "IND": [
+    { "name": { "zh": "排灯节", "en": "Diwali" }, "date": "10月或11月（移动）", "note": { "zh": "万家点灯的光明节，象征善胜恶", "en": "Festival of lights celebrating good over evil" } },
+    { "name": { "zh": "洒红节", "en": "Holi" }, "date": "3月（移动）", "note": { "zh": "互撒彩粉的春季色彩节", "en": "Spring festival of throwing colored powders" } },
+    { "name": { "zh": "十胜节", "en": "Dussehra" }, "date": "9月或10月（移动）", "note": { "zh": "焚烧魔王像，庆祝正义得胜", "en": "Burning of demon effigies marks good's triumph" } },
+    { "name": { "zh": "共和国日", "en": "Republic Day" }, "date": "1/26", "note": { "zh": "纪念宪法生效，盛大阅兵", "en": "Marks the constitution with a grand parade" } },
+    { "name": { "zh": "丰收节", "en": "Pongal / Makar Sankranti" }, "date": "1月中旬", "note": { "zh": "感谢太阳与丰收的农事节", "en": "Harvest festival thanking the sun" } },
+    { "name": { "zh": "象头神节", "en": "Ganesh Chaturthi" }, "date": "8月或9月（移动）", "note": { "zh": "迎请象头神像并送入水中", "en": "Welcomes Lord Ganesha, then immerses his idol" } }
+  ],
+  "RUS": [
+    { "name": { "zh": "谢肉节", "en": "Maslenitsa" }, "date": "四旬斋前一周（冬末）", "note": { "zh": "吃薄饼送冬迎春的传统节日", "en": "Blini-eating week that sees off winter" } },
+    { "name": { "zh": "胜利日", "en": "Victory Day" }, "date": "5/9", "note": { "zh": "纪念二战胜利，盛大阅兵", "en": "Commemorates the WWII victory with a parade" } },
+    { "name": { "zh": "东正教圣诞节", "en": "Orthodox Christmas" }, "date": "1/7", "note": { "zh": "按儒略历庆祝的圣诞节", "en": "Christmas by the Julian calendar" } },
+    { "name": { "zh": "祖国保卫者日", "en": "Defender of the Fatherland Day" }, "date": "2/23", "note": { "zh": "向军人与男性致敬的节日", "en": "Honors the armed forces and men" } },
+    { "name": { "zh": "国际妇女节", "en": "International Women's Day" }, "date": "3/8", "note": { "zh": "向女性送花致敬的公共假日", "en": "Women are honored with flowers" } },
+    { "name": { "zh": "俄罗斯日", "en": "Russia Day" }, "date": "6/12", "note": { "zh": "现代俄罗斯的国庆日", "en": "National day of modern Russia" } }
+  ],
+  "BRA": [
+    { "name": { "zh": "里约狂欢节", "en": "Carnival" }, "date": "四旬斋前（2月或3月）", "note": { "zh": "桑巴游行的世界级狂欢盛会", "en": "World-famous samba parades before Lent" } },
+    { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "9/7", "note": { "zh": "纪念1822年脱离葡萄牙独立", "en": "Marks 1822 independence from Portugal" } },
+    { "name": { "zh": "共和国宣告日", "en": "Republic Day" }, "date": "11/15", "note": { "zh": "纪念1889年共和制的建立", "en": "Marks the 1889 founding of the republic" } },
+    { "name": { "zh": "耶稣圣体节", "en": "Corpus Christi" }, "date": "6月（移动）", "note": { "zh": "街道铺满彩色地毯的宗教游行", "en": "Processions over colorful street carpets" } },
+    { "name": { "zh": "圣母显现日", "en": "Our Lady of Aparecida" }, "date": "10/12", "note": { "zh": "纪念巴西主保圣母的宗教节日", "en": "Honors Brazil's patron saint" } },
+    { "name": { "zh": "六月节", "en": "Festa Junina" }, "date": "6月", "note": { "zh": "庆祝丰收的乡村篝火民俗节", "en": "Rural harvest festivals with bonfires" } }
+  ],
+  "CAN": [
+    { "name": { "zh": "加拿大日", "en": "Canada Day" }, "date": "7/1", "note": { "zh": "纪念1867年联邦成立的国庆日", "en": "National day marking the 1867 confederation" } },
+    { "name": { "zh": "维多利亚日", "en": "Victoria Day" }, "date": "5月25日前的周一", "note": { "zh": "春季长周末，非正式开启夏天", "en": "Spring long weekend that kicks off summer" } },
+    { "name": { "zh": "感恩节", "en": "Thanksgiving" }, "date": "10月第二个周一", "note": { "zh": "秋收感恩的家庭聚餐", "en": "Autumn harvest family dinner" } },
+    { "name": { "zh": "国殇纪念日", "en": "Remembrance Day" }, "date": "11/11", "note": { "zh": "佩戴红罂粟花缅怀阵亡军人", "en": "Red poppies honor fallen soldiers" } },
+    { "name": { "zh": "节礼日", "en": "Boxing Day" }, "date": "12/26", "note": { "zh": "圣诞次日的购物假日", "en": "Post-Christmas shopping holiday" } },
+    { "name": { "zh": "全国真相与和解日", "en": "National Day for Truth and Reconciliation" }, "date": "9/30", "note": { "zh": "反思原住民寄宿学校历史的纪念日", "en": "Reflects on residential-school history" } }
+  ],
+  "AUS": [
+    { "name": { "zh": "澳大利亚日", "en": "Australia Day" }, "date": "1/26", "note": { "zh": "纪念1788年首批船队抵达的国庆日", "en": "National day marking the 1788 First Fleet arrival" } },
+    { "name": { "zh": "澳新军团日", "en": "Anzac Day" }, "date": "4/25", "note": { "zh": "缅怀参战军人的黎明纪念仪式", "en": "Dawn services honor war veterans" } },
+    { "name": { "zh": "墨尔本杯赛马日", "en": "Melbourne Cup Day" }, "date": "11月第一个周二", "note": { "zh": "'让全国停摆的赛马'盛事", "en": "The horse race that stops the nation" } },
+    { "name": { "zh": "节礼日", "en": "Boxing Day" }, "date": "12/26", "note": { "zh": "圣诞次日的购物与板球赛传统", "en": "Post-Christmas shopping and cricket" } },
+    { "name": { "zh": "女王/国王官方生日", "en": "Monarch's Birthday" }, "date": "6月（多数州）", "note": { "zh": "多数州在6月放假庆祝", "en": "A public holiday in most states in June" } },
+    { "name": { "zh": "劳动节", "en": "Labour Day" }, "date": "各州不同", "note": { "zh": "纪念八小时工作制，各州日期不一", "en": "Marks the eight-hour workday, dates vary by state" } }
+  ],
+  "ITA": [
+    { "name": { "zh": "解放日", "en": "Liberation Day" }, "date": "4/25", "note": { "zh": "纪念1945年脱离法西斯统治获得解放", "en": "Marks the 1945 liberation from fascism" } },
+    { "name": { "zh": "共和国日", "en": "Republic Day" }, "date": "6/2", "note": { "zh": "纪念1946年共和制公投的国庆日", "en": "National day marking the 1946 republic referendum" } },
+    { "name": { "zh": "威尼斯狂欢节", "en": "Venice Carnival" }, "date": "四旬斋前（2月）", "note": { "zh": "以华丽面具闻名的水城盛会", "en": "Famed for elaborate masks in Venice" } },
+    { "name": { "zh": "主显节", "en": "Epiphany (La Befana)" }, "date": "1/6", "note": { "zh": "女巫贝法娜给孩子送糖果或煤块", "en": "The witch Befana brings sweets or coal" } },
+    { "name": { "zh": "感恩圣母升天节", "en": "Ferragosto" }, "date": "8/15", "note": { "zh": "盛夏假期，全国出游休假", "en": "Mid-summer holiday when the country vacations" } },
+    { "name": { "zh": "圣诞节", "en": "Christmas" }, "date": "12/25", "note": { "zh": "以摆放耶稣诞生场景著称", "en": "Known for nativity scene displays" } }
+  ],
+  "ESP": [
+    { "name": { "zh": "西红柿大战", "en": "La Tomatina" }, "date": "8月最后一个周三", "note": { "zh": "布尼奥尔镇的番茄狂欢大战", "en": "Tomato-throwing festival in Buñol" } },
+    { "name": { "zh": "圣周", "en": "Semana Santa" }, "date": "复活节前一周（移动）", "note": { "zh": "复活节前庄严的宗教游行", "en": "Solemn Holy Week processions" } },
+    { "name": { "zh": "奔牛节", "en": "San Fermín" }, "date": "7/6-7/14", "note": { "zh": "潘普洛纳街头的奔牛盛事", "en": "The running of the bulls in Pamplona" } },
+    { "name": { "zh": "三王节", "en": "Three Kings Day" }, "date": "1/6", "note": { "zh": "东方三博士游行为孩子送礼", "en": "Kings' parade brings children gifts" } },
+    { "name": { "zh": "法雅节", "en": "Las Fallas" }, "date": "3月中旬", "note": { "zh": "巴伦西亚焚烧巨型人偶的火节", "en": "Valencia burns giant effigies" } },
+    { "name": { "zh": "国庆日", "en": "National Day" }, "date": "10/12", "note": { "zh": "西班牙的国庆节", "en": "Spain's national day" } }
+  ],
+  "MEX": [
+    { "name": { "zh": "亡灵节", "en": "Día de los Muertos" }, "date": "11/1-11/2", "note": { "zh": "以糖骷髅与万寿菊缅怀先人", "en": "Honors the dead with sugar skulls and marigolds" } },
+    { "name": { "zh": "五月五日节", "en": "Cinco de Mayo" }, "date": "5/5", "note": { "zh": "纪念1862年普埃布拉战役胜利", "en": "Marks the 1862 Battle of Puebla" } },
+    { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "9/16", "note": { "zh": "以'呐喊'纪念1810年独立运动", "en": "The Grito recalls the 1810 independence call" } },
+    { "name": { "zh": "瓜达卢佩圣母节", "en": "Day of the Virgin of Guadalupe" }, "date": "12/12", "note": { "zh": "全国朝圣的重要天主教节日", "en": "A major pilgrimage feast day" } },
+    { "name": { "zh": "圣诞旅店寻宿", "en": "Las Posadas" }, "date": "12/16-12/24", "note": { "zh": "圣诞前重现约瑟寻宿的巡游", "en": "Pre-Christmas processions reenacting the search for shelter" } },
+    { "name": { "zh": "革命纪念日", "en": "Revolution Day" }, "date": "11/20", "note": { "zh": "纪念1910年墨西哥革命", "en": "Marks the 1910 Mexican Revolution" } }
+  ],
+  "IDN": [
+    { "name": { "zh": "开斋节", "en": "Eid al-Fitr (Lebaran)" }, "date": "斋月结束（移动）", "note": { "zh": "举国返乡团聚的最大节日", "en": "The biggest holiday, with mass homecoming" } },
+    { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "8/17", "note": { "zh": "纪念1945年独立，村里办趣味比赛", "en": "Marks 1945 independence with village games" } },
+    { "name": { "zh": "静居日", "en": "Nyepi" }, "date": "巴厘历新年（3月前后）", "note": { "zh": "巴厘岛全岛静默的新年", "en": "Bali's silent day of New Year" } },
+    { "name": { "zh": "卫塞节", "en": "Vesak" }, "date": "农历四月十五前后", "note": { "zh": "佛教徒在婆罗浮屠庆祝佛诞", "en": "Buddhists mark Buddha's day at Borobudur" } },
+    { "name": { "zh": "宰牲节", "en": "Eid al-Adha" }, "date": "移动（伊斯兰历）", "note": { "zh": "宰牲献祭并分享肉食的节日", "en": "Feast of sacrifice sharing meat with the needy" } },
+    { "name": { "zh": "先知诞辰", "en": "Maulid" }, "date": "移动（伊斯兰历）", "note": { "zh": "纪念先知穆罕默德诞辰", "en": "Marks the Prophet Muhammad's birthday" } }
+  ],
+  "TUR": [
+    { "name": { "zh": "共和国日", "en": "Republic Day" }, "date": "10/29", "note": { "zh": "纪念1923年土耳其共和国成立", "en": "Marks the 1923 founding of the republic" } },
+    { "name": { "zh": "开斋节", "en": "Şeker Bayramı" }, "date": "斋月结束（移动）", "note": { "zh": "以互赠糖果著称的'糖节'", "en": "The 'sugar feast' of exchanging sweets" } },
+    { "name": { "zh": "宰牲节", "en": "Kurban Bayramı" }, "date": "移动（伊斯兰历）", "note": { "zh": "宰牲分肉、周济他人的节日", "en": "Feast of sacrifice sharing meat" } },
+    { "name": { "zh": "儿童节", "en": "National Sovereignty and Children's Day" }, "date": "4/23", "note": { "zh": "世界少见的献给儿童的国家节日", "en": "A national day dedicated to children" } },
+    { "name": { "zh": "青年与体育日", "en": "Youth and Sports Day" }, "date": "5/19", "note": { "zh": "纪念独立运动开端，庆祝青年", "en": "Marks the start of the independence movement" } },
+    { "name": { "zh": "胜利日", "en": "Victory Day" }, "date": "8/30", "note": { "zh": "纪念1922年独立战争的关键胜利", "en": "Commemorates the 1922 decisive victory" } }
+  ],
+  "SAU": [
+    { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "date": "斋月结束（移动）", "note": { "zh": "斋月结束后的欢庆与家宴", "en": "Joyful feasting after Ramadan" } },
+    { "name": { "zh": "宰牲节", "en": "Eid al-Adha" }, "date": "朝觐期间（移动）", "note": { "zh": "与麦加朝觐相连的宰牲节", "en": "Feast of sacrifice tied to the Hajj" } },
+    { "name": { "zh": "斋月", "en": "Ramadan" }, "date": "伊斯兰历九月（移动）", "note": { "zh": "日出到日落禁食的斋戒月", "en": "The holy month of daytime fasting" } },
+    { "name": { "zh": "建国日", "en": "Founding Day" }, "date": "2/22", "note": { "zh": "纪念沙特第一王国的建立", "en": "Marks the founding of the first Saudi state" } },
+    { "name": { "zh": "国庆日", "en": "National Day" }, "date": "9/23", "note": { "zh": "纪念1932年王国统一", "en": "Marks the 1932 unification of the kingdom" } },
+    { "name": { "zh": "朝觐", "en": "Hajj" }, "date": "伊斯兰历十二月（移动）", "note": { "zh": "穆斯林一生一次的麦加朝圣", "en": "The once-in-a-lifetime pilgrimage to Mecca" } }
+  ],
+  "EGY": [
+    { "name": { "zh": "闻风节", "en": "Sham El-Nessim" }, "date": "东正教复活节次日", "note": { "zh": "源自古埃及的迎春踏青节", "en": "Ancient spring festival of the outdoors" } },
+    { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "date": "斋月结束（移动）", "note": { "zh": "斋月结束后的欢庆", "en": "Celebration ending Ramadan" } },
+    { "name": { "zh": "宰牲节", "en": "Eid al-Adha" }, "date": "移动（伊斯兰历）", "note": { "zh": "宰牲分肉的献祭节", "en": "Feast of sacrifice" } },
+    { "name": { "zh": "革命日", "en": "Revolution Day" }, "date": "7/23", "note": { "zh": "纪念1952年革命的国庆日", "en": "National day marking the 1952 revolution" } },
+    { "name": { "zh": "科普特圣诞节", "en": "Coptic Christmas" }, "date": "1/7", "note": { "zh": "科普特基督徒的圣诞节", "en": "Christmas for Coptic Christians" } },
+    { "name": { "zh": "西奈解放日", "en": "Sinai Liberation Day" }, "date": "4/25", "note": { "zh": "纪念西奈半岛回归", "en": "Marks the return of the Sinai Peninsula" } }
+  ],
+  "ZAF": [
+    { "name": { "zh": "自由日", "en": "Freedom Day" }, "date": "4/27", "note": { "zh": "纪念1994年首次全民选举", "en": "Marks the 1994 first all-race elections" } },
+    { "name": { "zh": "遗产日", "en": "Heritage Day" }, "date": "9/24", "note": { "zh": "庆祝多元文化，别称'烤肉日'", "en": "Celebrates diversity, also 'Braai Day'" } },
+    { "name": { "zh": "青年节", "en": "Youth Day" }, "date": "6/16", "note": { "zh": "纪念1976年索韦托学生运动", "en": "Remembers the 1976 Soweto student uprising" } },
+    { "name": { "zh": "曼德拉日", "en": "Mandela Day" }, "date": "7/18", "note": { "zh": "以志愿服务纪念曼德拉", "en": "Honors Mandela through community service" } },
+    { "name": { "zh": "和解日", "en": "Day of Reconciliation" }, "date": "12/16", "note": { "zh": "促进各族群和解的节日", "en": "Promotes national reconciliation" } },
+    { "name": { "zh": "妇女节", "en": "Women's Day" }, "date": "8/9", "note": { "zh": "纪念1956年妇女游行", "en": "Marks the 1956 women's march" } }
+  ],
+  "NGA": [
+    { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "10/1", "note": { "zh": "纪念1960年脱离英国独立", "en": "Marks 1960 independence from Britain" } },
+    { "name": { "zh": "民主日", "en": "Democracy Day" }, "date": "6/12", "note": { "zh": "庆祝民主回归的国家节日", "en": "Celebrates the return of democracy" } },
+    { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "date": "斋月结束（移动）", "note": { "zh": "北部穆斯林的重要节日", "en": "A key festival for northern Muslims" } },
+    { "name": { "zh": "宰牲节", "en": "Eid al-Adha" }, "date": "移动（伊斯兰历）", "note": { "zh": "宰牲分肉的献祭节", "en": "Feast of sacrifice" } },
+    { "name": { "zh": "新雅姆节", "en": "New Yam Festival" }, "date": "8月至10月", "note": { "zh": "伊博人庆祝薯蓣丰收的传统节", "en": "Igbo festival marking the yam harvest" } },
+    { "name": { "zh": "圣诞节", "en": "Christmas" }, "date": "12/25", "note": { "zh": "南部基督徒的返乡团聚节", "en": "Homecoming season for southern Christians" } }
+  ],
+  "KEN": [
+    { "name": { "zh": "马沙卡日", "en": "Madaraka Day" }, "date": "6/1", "note": { "zh": "纪念1963年获得自治", "en": "Marks the 1963 attainment of self-rule" } },
+    { "name": { "zh": "玛沙卡独立日", "en": "Jamhuri Day" }, "date": "12/12", "note": { "zh": "纪念1963年独立与共和国成立", "en": "Marks 1963 independence and the republic" } },
+    { "name": { "zh": "马希德日", "en": "Mashujaa Day" }, "date": "10/20", "note": { "zh": "英雄日，缅怀民族先驱", "en": "Heroes' Day honoring national figures" } },
+    { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "date": "斋月结束（移动）", "note": { "zh": "沿海穆斯林社区的重要节日", "en": "Key holiday for coastal Muslim communities" } },
+    { "name": { "zh": "圣诞节", "en": "Christmas" }, "date": "12/25", "note": { "zh": "基督徒占多数的团聚节日", "en": "Family holiday for the Christian majority" } },
+    { "name": { "zh": "劳动节", "en": "Labour Day" }, "date": "5/1", "note": { "zh": "向劳动者致敬的公共假日", "en": "Public holiday honoring workers" } }
+  ],
+  "ARG": [
+    { "name": { "zh": "五月革命纪念日", "en": "May Revolution Day" }, "date": "5/25", "note": { "zh": "纪念1810年迈向独立的革命", "en": "Marks the 1810 revolution toward independence" } },
+    { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "7/9", "note": { "zh": "纪念1816年正式宣布独立", "en": "Marks the 1816 declaration of independence" } },
+    { "name": { "zh": "国旗日", "en": "Flag Day" }, "date": "6/20", "note": { "zh": "纪念国旗设计者贝尔格拉诺", "en": "Honors flag creator Manuel Belgrano" } },
+    { "name": { "zh": "真相与正义纪念日", "en": "Day of Remembrance for Truth and Justice" }, "date": "3/24", "note": { "zh": "反思历史、倡导人权的纪念日", "en": "Reflects on history and human rights" } },
+    { "name": { "zh": "探戈之夜", "en": "Tango tradition" }, "date": "全年", "note": { "zh": "布宜诺斯艾利斯的街头探戈文化", "en": "Buenos Aires' beloved tango culture" } },
+    { "name": { "zh": "圣马丁纪念日", "en": "Day of José de San Martín" }, "date": "8月第三个周一", "note": { "zh": "纪念独立英雄圣马丁", "en": "Honors independence hero San Martín" } }
+  ],
+  "THA": [
+    { "name": { "zh": "泼水节", "en": "Songkran" }, "date": "4/13-4/15", "note": { "zh": "泰历新年，全国互相泼水祝福", "en": "Thai New Year with nationwide water splashing" } },
+    { "name": { "zh": "水灯节", "en": "Loy Krathong" }, "date": "泰历十二月满月（11月）", "note": { "zh": "在水面放漂花灯以祈福", "en": "Floating lantern baskets on water for blessings" } },
+    { "name": { "zh": "万佛节", "en": "Makha Bucha" }, "date": "泰历三月满月", "note": { "zh": "点烛绕行寺庙的佛教节日", "en": "Candlelit temple processions honoring Buddha" } },
+    { "name": { "zh": "父亲节/先王诞辰", "en": "Father's Day" }, "date": "12/5", "note": { "zh": "纪念已故普密蓬国王诞辰", "en": "Marks the late King Bhumibol's birthday" } },
+    { "name": { "zh": "母亲节", "en": "Mother's Day" }, "date": "8/12", "note": { "zh": "以王太后诞辰为母亲节", "en": "Celebrated on the Queen Mother's birthday" } },
+    { "name": { "zh": "守夏节", "en": "Asalha Bucha" }, "date": "泰历八月满月", "note": { "zh": "纪念佛陀首次说法", "en": "Marks the Buddha's first sermon" } }
+  ],
+  "VNM": [
+    { "name": { "zh": "春节", "en": "Tết" }, "date": "农历正月初一", "note": { "zh": "越南农历新年，最重要的团聚节日", "en": "Vietnamese Lunar New Year, the top family holiday" } },
+    { "name": { "zh": "中秋节", "en": "Tết Trung Thu" }, "date": "农历八月十五", "note": { "zh": "孩子提灯笼、舞狮的儿童团圆节", "en": "Children's festival with lanterns and lion dances" } },
+    { "name": { "zh": "雄王祭祖节", "en": "Hùng Kings' Festival" }, "date": "农历三月初十", "note": { "zh": "祭祀传说中的立国先祖", "en": "Honors the legendary founding ancestors" } },
+    { "name": { "zh": "国庆日", "en": "National Day" }, "date": "9/2", "note": { "zh": "纪念1945年独立宣言", "en": "Marks the 1945 declaration of independence" } },
+    { "name": { "zh": "解放日", "en": "Reunification Day" }, "date": "4/30", "note": { "zh": "纪念1975年国家统一", "en": "Marks the 1975 reunification" } },
+    { "name": { "zh": "盂兰盆节", "en": "Vu Lan" }, "date": "农历七月十五", "note": { "zh": "报答父母恩情的孝亲节", "en": "A day to honor parents and ancestors" } }
+  ],
+  "PHL": [
+    { "name": { "zh": "黑拿撒勒游行", "en": "Feast of the Black Nazarene" }, "date": "1/9", "note": { "zh": "马尼拉数百万信徒参与的巡游", "en": "Millions join the Manila procession" } },
+    { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "6/12", "note": { "zh": "纪念1898年宣布脱离西班牙独立", "en": "Marks the 1898 independence from Spain" } },
+    { "name": { "zh": "圣周", "en": "Holy Week" }, "date": "复活节前一周（移动）", "note": { "zh": "全国最庄重的天主教节期", "en": "The country's most solemn Catholic season" } },
+    { "name": { "zh": "亡人节", "en": "Undas" }, "date": "11/1-11/2", "note": { "zh": "扫墓与家人共守墓园的日子", "en": "Families gather at cemeteries to honor the dead" } },
+    { "name": { "zh": "人民力量纪念日", "en": "EDSA Anniversary" }, "date": "2/25", "note": { "zh": "纪念1986年和平的人民运动", "en": "Marks the 1986 peaceful people's movement" } },
+    { "name": { "zh": "圣诞黎明弥撒", "en": "Simbang Gabi" }, "date": "12/16-12/24", "note": { "zh": "圣诞前连续九天的黎明弥撒", "en": "Nine pre-dawn Masses before Christmas" } }
+  ],
+  "MYS": [
+    { "name": { "zh": "开斋节", "en": "Hari Raya Aidilfitri" }, "date": "斋月结束（移动）", "note": { "zh": "马来人开放门户互访的大节", "en": "Malays hold open houses to celebrate" } },
+    { "name": { "zh": "屠妖节", "en": "Deepavali" }, "date": "10月或11月（移动）", "note": { "zh": "印度裔庆祝的光明节", "en": "The festival of lights for the Indian community" } },
+    { "name": { "zh": "农历新年", "en": "Chinese New Year" }, "date": "农历正月初一", "note": { "zh": "华人社群的团聚与舞狮庆典", "en": "Reunion and lion dances for the Chinese community" } },
+    { "name": { "zh": "卫塞节", "en": "Wesak Day" }, "date": "农历四月十五前后", "note": { "zh": "佛教徒庆祝佛诞的节日", "en": "Buddhists mark the Buddha's birthday" } },
+    { "name": { "zh": "国庆日", "en": "Merdeka Day" }, "date": "8/31", "note": { "zh": "纪念1957年独立", "en": "Marks 1957 independence" } },
+    { "name": { "zh": "马来西亚日", "en": "Malaysia Day" }, "date": "9/16", "note": { "zh": "纪念1963年马来西亚联邦成立", "en": "Marks the 1963 formation of the federation" } }
+  ],
+  "SGP": [
+    { "name": { "zh": "国庆日", "en": "National Day" }, "date": "8/9", "note": { "zh": "纪念1965年建国的盛大庆典", "en": "Marks the 1965 founding with a grand parade" } },
+    { "name": { "zh": "农历新年", "en": "Chinese New Year" }, "date": "农历正月初一", "note": { "zh": "华人社群的团聚与捞鱼生传统", "en": "Chinese reunion with the 'lo hei' toss" } },
+    { "name": { "zh": "开斋节", "en": "Hari Raya Puasa" }, "date": "斋月结束（移动）", "note": { "zh": "马来社群欢庆斋月结束", "en": "Malays celebrate the end of Ramadan" } },
+    { "name": { "zh": "屠妖节", "en": "Deepavali" }, "date": "10月或11月（移动）", "note": { "zh": "印度社群的光明节", "en": "Festival of lights for the Indian community" } },
+    { "name": { "zh": "卫塞节", "en": "Vesak Day" }, "date": "农历四月十五前后", "note": { "zh": "佛教徒纪念佛诞的节日", "en": "Buddhists honor the Buddha's day" } },
+    { "name": { "zh": "圣诞节", "en": "Christmas" }, "date": "12/25", "note": { "zh": "乌节路灯饰璀璨的节日", "en": "Orchard Road lights up for the season" } }
+  ],
+  "PAK": [
+    { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "date": "斋月结束（移动）", "note": { "zh": "斋月结束后的团聚与家宴", "en": "Family feasting ends Ramadan" } },
+    { "name": { "zh": "宰牲节", "en": "Eid al-Adha" }, "date": "移动（伊斯兰历）", "note": { "zh": "宰牲分肉、周济他人的献祭节", "en": "Feast of sacrifice sharing meat" } },
+    { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "8/14", "note": { "zh": "纪念1947年建国", "en": "Marks the 1947 founding of the nation" } },
+    { "name": { "zh": "巴基斯坦日", "en": "Pakistan Day" }, "date": "3/23", "note": { "zh": "纪念1940年决议及首部宪法", "en": "Marks the 1940 resolution and first constitution" } },
+    { "name": { "zh": "先知诞辰", "en": "Eid Milad-un-Nabi" }, "date": "移动（伊斯兰历）", "note": { "zh": "纪念先知穆罕默德诞辰", "en": "Marks the Prophet Muhammad's birthday" } },
+    { "name": { "zh": "风筝节", "en": "Basant" }, "date": "早春", "note": { "zh": "旁遮普地区放风筝迎春的民俗节", "en": "Punjabi spring kite-flying festival" } }
+  ],
+  "BGD": [
+    { "name": { "zh": "孟加拉新年", "en": "Pohela Boishakh" }, "date": "4/14", "note": { "zh": "孟加拉历新年，盛装游行迎春", "en": "Bengali New Year with colorful processions" } },
+    { "name": { "zh": "国际母语日", "en": "International Mother Language Day" }, "date": "2/21", "note": { "zh": "源于此地的语言运动纪念日", "en": "Rooted in the local language movement" } },
+    { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "3/26", "note": { "zh": "纪念1971年宣布独立", "en": "Marks the 1971 declaration of independence" } },
+    { "name": { "zh": "胜利日", "en": "Victory Day" }, "date": "12/16", "note": { "zh": "纪念1971年解放战争胜利", "en": "Marks the 1971 liberation victory" } },
+    { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "date": "斋月结束（移动）", "note": { "zh": "斋月结束后的团聚大节", "en": "The big reunion feast ending Ramadan" } },
+    { "name": { "zh": "宰牲节", "en": "Eid al-Adha" }, "date": "移动（伊斯兰历）", "note": { "zh": "宰牲分肉的献祭节", "en": "Feast of sacrifice" } }
+  ],
+  "IRN": [
+    { "name": { "zh": "诺鲁孜节", "en": "Nowruz" }, "date": "3/20-3/21", "note": { "zh": "波斯历新年，庆祝春分与新生", "en": "Persian New Year at the spring equinox" } },
+    { "name": { "zh": "跳火节", "en": "Chaharshanbe Suri" }, "date": "诺鲁孜前的周三夜", "note": { "zh": "跳过篝火辞旧迎新的传统", "en": "Leaping over bonfires to greet the new year" } },
+    { "name": { "zh": "十三日出游", "en": "Sizdah Be-dar" }, "date": "波斯历正月十三", "note": { "zh": "新年第十三天全家户外野餐", "en": "Families picnic outdoors on the 13th day of the year" } },
+    { "name": { "zh": "冬至夜", "en": "Yalda Night" }, "date": "12/21前后", "note": { "zh": "冬至长夜吃石榴、读诗守夜", "en": "Winter solstice night of pomegranates and poetry" } },
+    { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "date": "斋月结束（移动）", "note": { "zh": "斋月结束后的欢庆", "en": "Celebration ending Ramadan" } },
+    { "name": { "zh": "宰牲节", "en": "Eid al-Adha" }, "date": "移动（伊斯兰历）", "note": { "zh": "宰牲分肉的献祭节", "en": "Feast of sacrifice" } }
+  ],
+  "IRQ": [
+    { "name": { "zh": "诺鲁孜节", "en": "Nowruz" }, "date": "3/21", "note": { "zh": "库尔德等族群庆祝春分新年", "en": "Spring New Year for Kurds and others" } },
+    { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "date": "斋月结束（移动）", "note": { "zh": "斋月结束后的家庭团聚", "en": "Family gathering ending Ramadan" } },
+    { "name": { "zh": "宰牲节", "en": "Eid al-Adha" }, "date": "移动（伊斯兰历）", "note": { "zh": "宰牲分肉的献祭节", "en": "Feast of sacrifice" } },
+    { "name": { "zh": "阿舒拉节", "en": "Ashura" }, "date": "移动（伊斯兰历）", "note": { "zh": "什叶派纪念侯赛因殉难的哀悼日", "en": "Shia day of mourning for Imam Husayn" } },
+    { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "10/3", "note": { "zh": "纪念1932年结束托管获得独立", "en": "Marks the 1932 end of the mandate" } },
+    { "name": { "zh": "先知诞辰", "en": "Mawlid al-Nabi" }, "date": "移动（伊斯兰历）", "note": { "zh": "纪念先知穆罕默德诞辰", "en": "Marks the Prophet Muhammad's birthday" } }
+  ],
+  "ISR": [
+    { "name": { "zh": "逾越节", "en": "Passover" }, "date": "犹太历尼散月（春季）", "note": { "zh": "吃无酵饼纪念出埃及的家宴", "en": "Seder meal recalling the Exodus with matzah" } },
+    { "name": { "zh": "光明节", "en": "Hanukkah" }, "date": "犹太历基斯流月（冬季）", "note": { "zh": "连续八晚点亮烛台的光明节", "en": "Eight nights of lighting the menorah" } },
+    { "name": { "zh": "赎罪日", "en": "Yom Kippur" }, "date": "犹太历提斯利月（秋季）", "note": { "zh": "禁食祈祷、反省的最庄严日子", "en": "The most solemn day of fasting and prayer" } },
+    { "name": { "zh": "犹太新年", "en": "Rosh Hashanah" }, "date": "犹太历提斯利月（秋季）", "note": { "zh": "吹羊角号、吃蘸蜜苹果迎新年", "en": "Shofar blasts and apples in honey greet the new year" } },
+    { "name": { "zh": "住棚节", "en": "Sukkot" }, "date": "犹太历提斯利月（秋季）", "note": { "zh": "搭棚居住纪念旷野漂泊", "en": "Dwelling in booths recalls the wilderness journey" } },
+    { "name": { "zh": "普珥节", "en": "Purim" }, "date": "犹太历亚达月（春前）", "note": { "zh": "化装、送食物包的欢乐节日", "en": "Costumes and gift baskets mark this joyful feast" } }
+  ],
+  "GRC": [
+    { "name": { "zh": "东正教复活节", "en": "Orthodox Easter" }, "date": "移动（春季）", "note": { "zh": "希腊最重要的宗教节日", "en": "Greece's most important religious festival" } },
+    { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "3/25", "note": { "zh": "纪念1821年反抗奥斯曼的起义", "en": "Marks the 1821 war of independence" } },
+    { "name": { "zh": "'不'日", "en": "Ohi Day" }, "date": "10/28", "note": { "zh": "纪念1940年拒绝最后通牒", "en": "Marks the 1940 refusal of an ultimatum" } },
+    { "name": { "zh": "清洁星期一", "en": "Clean Monday" }, "date": "大斋期首日（移动）", "note": { "zh": "斋期开始放风筝、郊游的日子", "en": "Kite-flying picnic day starting Lent" } },
+    { "name": { "zh": "主显节", "en": "Epiphany" }, "date": "1/6", "note": { "zh": "潜水寻回圣十字架的祝海仪式", "en": "Divers retrieve a cross in the blessing of the waters" } },
+    { "name": { "zh": "圣母安息节", "en": "Dormition of the Virgin" }, "date": "8/15", "note": { "zh": "夏季重要的圣母朝圣节", "en": "A major summer pilgrimage feast" } }
+  ],
+  "NLD": [
+    { "name": { "zh": "国王节", "en": "King's Day" }, "date": "4/27", "note": { "zh": "举国穿橙、办跳蚤市场的庆典", "en": "The nation wears orange for street markets" } },
+    { "name": { "zh": "圣尼古拉节", "en": "Sinterklaas" }, "date": "12/5", "note": { "zh": "孩子在鞋里收到糖果礼物", "en": "Children receive sweets and gifts" } },
+    { "name": { "zh": "解放日", "en": "Liberation Day" }, "date": "5/5", "note": { "zh": "纪念1945年二战解放", "en": "Marks the 1945 WWII liberation" } },
+    { "name": { "zh": "阵亡者纪念日", "en": "Remembrance of the Dead" }, "date": "5/4", "note": { "zh": "全国两分钟静默缅怀逝者", "en": "Two minutes of national silence" } },
+    { "name": { "zh": "郁金香花季", "en": "Tulip Season" }, "date": "4月至5月", "note": { "zh": "库肯霍夫花田盛开的赏花季", "en": "Fields bloom at Keukenhof gardens" } },
+    { "name": { "zh": "圣诞节", "en": "Christmas" }, "date": "12/25-12/26", "note": { "zh": "连放两天的家庭团聚节", "en": "A two-day family celebration" } }
+  ],
+  "BEL": [
+    { "name": { "zh": "国庆日", "en": "National Day" }, "date": "7/21", "note": { "zh": "纪念1831年首位国王即位", "en": "Marks the 1831 accession of the first king" } },
+    { "name": { "zh": "班什狂欢节", "en": "Binche Carnival" }, "date": "四旬斋前（2月）", "note": { "zh": "'吉尔'向人群抛掷橙子的古老狂欢", "en": "Gilles toss oranges in this ancient carnival" } },
+    { "name": { "zh": "圣尼古拉节", "en": "Saint Nicholas" }, "date": "12/6", "note": { "zh": "孩子收到糖果玩具的节日", "en": "Children receive sweets and toys" } },
+    { "name": { "zh": "两年一度花毯节", "en": "Flower Carpet" }, "date": "8月（双年）", "note": { "zh": "布鲁塞尔大广场铺满秋海棠花毯", "en": "A begonia carpet fills Brussels' Grand-Place" } },
+    { "name": { "zh": "停战纪念日", "en": "Armistice Day" }, "date": "11/11", "note": { "zh": "纪念一战停战的公共假日", "en": "Marks the WWI armistice" } },
+    { "name": { "zh": "圣母升天节", "en": "Assumption Day" }, "date": "8/15", "note": { "zh": "夏季的天主教公共假日", "en": "A summer Catholic public holiday" } }
+  ],
+  "SWE": [
+    { "name": { "zh": "仲夏节", "en": "Midsummer" }, "date": "6月下旬周五", "note": { "zh": "绕花柱跳舞庆祝夏至的重要节日", "en": "Maypole dancing celebrates the summer solstice" } },
+    { "name": { "zh": "露西亚节", "en": "Saint Lucia Day" }, "date": "12/13", "note": { "zh": "头戴烛冠的光明游行", "en": "Candlelit processions bring light to winter" } },
+    { "name": { "zh": "五朔节前夜", "en": "Walpurgis Night" }, "date": "4/30", "note": { "zh": "点篝火、唱歌迎接春天", "en": "Bonfires and songs welcome spring" } },
+    { "name": { "zh": "国庆日", "en": "National Day" }, "date": "6/6", "note": { "zh": "纪念1523年建国与宪法", "en": "Marks the 1523 founding and the constitution" } },
+    { "name": { "zh": "小龙虾派对", "en": "Crayfish Party" }, "date": "8月", "note": { "zh": "夏末户外吃小龙虾的欢聚传统", "en": "Late-summer outdoor crayfish feasts" } },
+    { "name": { "zh": "圣诞节", "en": "Christmas (Jul)" }, "date": "12/24", "note": { "zh": "以平安夜为核心的家庭团聚", "en": "Celebrated mainly on Christmas Eve" } }
+  ],
+  "NOR": [
+    { "name": { "zh": "宪法日", "en": "Constitution Day" }, "date": "5/17", "note": { "zh": "孩子游行、举国庆祝的国庆日", "en": "Children's parades mark the national day" } },
+    { "name": { "zh": "仲夏节", "en": "Sankthans" }, "date": "6/23", "note": { "zh": "海边点篝火庆祝仲夏夜", "en": "Bonfires light the midsummer night" } },
+    { "name": { "zh": "萨米民族日", "en": "Sami National Day" }, "date": "2/6", "note": { "zh": "庆祝北方原住民萨米人文化", "en": "Celebrates the indigenous Sami people" } },
+    { "name": { "zh": "复活节滑雪", "en": "Easter (Påske)" }, "date": "移动（春季）", "note": { "zh": "举家上山滑雪度假的长假", "en": "Families head to the mountains to ski" } },
+    { "name": { "zh": "圣诞节", "en": "Christmas (Jul)" }, "date": "12/24", "note": { "zh": "平安夜家庭团聚的核心节日", "en": "The family core is Christmas Eve" } },
+    { "name": { "zh": "劳动节", "en": "Labour Day" }, "date": "5/1", "note": { "zh": "向劳动者致敬的公共假日", "en": "Public holiday honoring workers" } }
+  ],
+  "DNK": [
+    { "name": { "zh": "仲夏节", "en": "Sankthans" }, "date": "6/23", "note": { "zh": "海边点篝火、唱歌的仲夏夜", "en": "Seaside bonfires and songs on midsummer eve" } },
+    { "name": { "zh": "四旬斋前狂欢", "en": "Fastelavn" }, "date": "四旬斋前（冬末）", "note": { "zh": "孩子化装、'打桶'的儿童狂欢节", "en": "Costumed children play 'hit the barrel'" } },
+    { "name": { "zh": "宪法日", "en": "Constitution Day" }, "date": "6/5", "note": { "zh": "纪念1849年首部宪法", "en": "Marks the 1849 first constitution" } },
+    { "name": { "zh": "祈祷日", "en": "Great Prayer Day" }, "date": "复活节后第四个周五", "note": { "zh": "传统上吃热小圆面包的宗教假日", "en": "A holiday traditionally marked with warm buns" } },
+    { "name": { "zh": "圣诞节", "en": "Christmas (Jul)" }, "date": "12/24", "note": { "zh": "平安夜围树跳舞的团聚节", "en": "Dancing around the tree on Christmas Eve" } },
+    { "name": { "zh": "圣马丁节晚宴", "en": "Mortensaften" }, "date": "11/10", "note": { "zh": "圣马丁前夜吃鹅或鸭的传统", "en": "Goose or duck dinner on St Martin's Eve" } }
+  ],
+  "FIN": [
+    { "name": { "zh": "仲夏节", "en": "Juhannus" }, "date": "6月下旬", "note": { "zh": "湖边桑拿、点篝火庆祝仲夏", "en": "Lakeside saunas and bonfires mark midsummer" } },
+    { "name": { "zh": "五一春节", "en": "Vappu" }, "date": "5/1", "note": { "zh": "学生戴白帽、野餐的迎春庆典", "en": "Students in white caps picnic to greet spring" } },
+    { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "12/6", "note": { "zh": "纪念1917年独立，点白烛致敬", "en": "Marks 1917 independence with white candles" } },
+    { "name": { "zh": "露西亚节", "en": "Saint Lucia Day" }, "date": "12/13", "note": { "zh": "光明游行点亮寒冬", "en": "Light processions brighten the winter" } },
+    { "name": { "zh": "圣诞节", "en": "Christmas (Joulu)" }, "date": "12/24", "note": { "zh": "圣诞老人故乡的平安夜团聚", "en": "Christmas Eve in Santa's homeland" } },
+    { "name": { "zh": "主显节", "en": "Epiphany" }, "date": "1/6", "note": { "zh": "圣诞季结束的公共假日", "en": "Public holiday closing the Christmas season" } }
+  ],
+  "POL": [
+    { "name": { "zh": "宪法日", "en": "Constitution Day" }, "date": "5/3", "note": { "zh": "纪念1791年欧洲首部成文宪法", "en": "Marks the 1791 first written constitution in Europe" } },
+    { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "11/11", "note": { "zh": "纪念1918年恢复独立", "en": "Marks the 1918 restoration of independence" } },
+    { "name": { "zh": "湿漉星期一", "en": "Śmigus-Dyngus" }, "date": "复活节次日", "note": { "zh": "复活节次日互相泼水的民俗", "en": "Easter Monday water-splashing custom" } },
+    { "name": { "zh": "圣诞前夜", "en": "Wigilia" }, "date": "12/24", "note": { "zh": "分享圣饼、备十二道菜的团圆夜", "en": "Sharing wafers over a twelve-dish supper" } },
+    { "name": { "zh": "圣体圣血节", "en": "Corpus Christi" }, "date": "6月（移动）", "note": { "zh": "花瓣铺路的天主教游行", "en": "Catholic processions over flower petals" } },
+    { "name": { "zh": "诸圣节", "en": "All Saints' Day" }, "date": "11/1", "note": { "zh": "墓园点满烛光缅怀先人", "en": "Cemeteries glow with candles for the dead" } }
+  ],
+  "PRT": [
+    { "name": { "zh": "圣安东尼节", "en": "Festas de Santo António" }, "date": "6/13", "note": { "zh": "里斯本烤沙丁鱼、游行的仲夏庆典", "en": "Lisbon's June sardine-grilling street party" } },
+    { "name": { "zh": "自由日", "en": "Freedom Day" }, "date": "4/25", "note": { "zh": "纪念1974年康乃馨革命", "en": "Marks the 1974 Carnation Revolution" } },
+    { "name": { "zh": "共和国日", "en": "Republic Day" }, "date": "10/5", "note": { "zh": "纪念1910年共和制建立", "en": "Marks the 1910 founding of the republic" } },
+    { "name": { "zh": "圣若昂节", "en": "Festa de São João" }, "date": "6/23", "note": { "zh": "波尔图通宵狂欢、放孔明灯", "en": "Porto's all-night festival with sky lanterns" } },
+    { "name": { "zh": "复辟日", "en": "Restoration of Independence" }, "date": "12/1", "note": { "zh": "纪念1640年恢复独立", "en": "Marks the 1640 restoration of independence" } },
+    { "name": { "zh": "圣母无原罪日", "en": "Immaculate Conception" }, "date": "12/8", "note": { "zh": "全国主保圣母的宗教假日", "en": "A holiday honoring the nation's patroness" } }
+  ],
+  "CHE": [
+    { "name": { "zh": "国庆日", "en": "Swiss National Day" }, "date": "8/1", "note": { "zh": "纪念1291年建国盟约，点篝火放烟花", "en": "Marks the 1291 founding pact with bonfires" } },
+    { "name": { "zh": "六钟鸣响节", "en": "Sechseläuten" }, "date": "4月", "note": { "zh": "苏黎世焚烧雪人送冬的春节", "en": "Zurich burns a snowman to bid winter farewell" } },
+    { "name": { "zh": "洋葱集市", "en": "Zibelemärit" }, "date": "11月第四个周一", "note": { "zh": "伯尔尼盛大的传统洋葱集市", "en": "Bern's grand traditional onion market" } },
+    { "name": { "zh": "巴塞尔狂欢节", "en": "Basler Fasnacht" }, "date": "四旬斋后（2月或3月）", "note": { "zh": "凌晨灯笼游行的三日狂欢", "en": "A three-day carnival opening with dawn lanterns" } },
+    { "name": { "zh": "埃斯卡拉德节", "en": "L'Escalade" }, "date": "12/12", "note": { "zh": "日内瓦纪念1602年守城胜利", "en": "Geneva marks its 1602 defense victory" } },
+    { "name": { "zh": "圣诞节", "en": "Christmas" }, "date": "12/25", "note": { "zh": "各州传统各异的团聚节日", "en": "A family holiday with region-specific customs" } }
+  ],
+  "AUT": [
+    { "name": { "zh": "国庆日", "en": "National Day" }, "date": "10/26", "note": { "zh": "纪念1955年宣布永久中立", "en": "Marks the 1955 declaration of neutrality" } },
+    { "name": { "zh": "圣尼古拉与克朗普斯", "en": "Krampus Night" }, "date": "12/5", "note": { "zh": "妖怪克朗普斯上街吓唬顽童", "en": "The beast Krampus roams to scare naughty children" } },
+    { "name": { "zh": "新年音乐会", "en": "New Year's Concert" }, "date": "1/1", "note": { "zh": "维也纳爱乐的世界闻名音乐会", "en": "The Vienna Philharmonic's famed concert" } },
+    { "name": { "zh": "圣体圣血节", "en": "Corpus Christi" }, "date": "6月（移动）", "note": { "zh": "湖上船只游行的天主教节日", "en": "Lake boat processions mark this feast" } },
+    { "name": { "zh": "圣诞前夜", "en": "Christmas Eve" }, "date": "12/24", "note": { "zh": "《平安夜》诞生地的团聚之夜", "en": "Reunion night in the home of 'Silent Night'" } },
+    { "name": { "zh": "圣母升天节", "en": "Assumption Day" }, "date": "8/15", "note": { "zh": "夏季的天主教公共假日", "en": "A summer Catholic public holiday" } }
+  ],
+  "IRL": [
+    { "name": { "zh": "圣帕特里克节", "en": "St Patrick's Day" }, "date": "3/17", "note": { "zh": "身着绿装、盛大游行的国庆节", "en": "Green-clad parades on the national day" } },
+    { "name": { "zh": "圣布里吉德节", "en": "St Brigid's Day" }, "date": "2/1", "note": { "zh": "编草十字迎接春天的传统", "en": "Weaving rush crosses to welcome spring" } },
+    { "name": { "zh": "萨温节", "en": "Samhain" }, "date": "10/31", "note": { "zh": "万圣节起源的古凯尔特迎冬节", "en": "The ancient Celtic root of Halloween" } },
+    { "name": { "zh": "圣斯德望节", "en": "St Stephen's Day" }, "date": "12/26", "note": { "zh": "'鹪鹩男孩'挨家唱歌的传统", "en": "The Wren Boys go door to door singing" } },
+    { "name": { "zh": "五月节", "en": "May Day (Bealtaine)" }, "date": "5月第一个周一", "note": { "zh": "凯尔特迎夏的公共假日", "en": "Celtic summer-welcoming public holiday" } },
+    { "name": { "zh": "布卢姆日", "en": "Bloomsday" }, "date": "6/16", "note": { "zh": "重走《尤利西斯》情节的文学节", "en": "A literary day retracing 'Ulysses'" } }
+  ],
+  "NZL": [
+    { "name": { "zh": "怀唐伊日", "en": "Waitangi Day" }, "date": "2/6", "note": { "zh": "纪念1840年建国条约的国庆日", "en": "Marks the 1840 founding treaty" } },
+    { "name": { "zh": "毛利新年", "en": "Matariki" }, "date": "6月或7月（移动）", "note": { "zh": "以昴星团升起为标志的毛利新年", "en": "Māori New Year marked by the Pleiades' rise" } },
+    { "name": { "zh": "澳新军团日", "en": "Anzac Day" }, "date": "4/25", "note": { "zh": "黎明仪式缅怀参战军人", "en": "Dawn services honor war veterans" } },
+    { "name": { "zh": "女王/国王生日", "en": "Monarch's Birthday" }, "date": "6月第一个周一", "note": { "zh": "君主官方生日的公共假日", "en": "Public holiday for the monarch's official birthday" } },
+    { "name": { "zh": "劳动节", "en": "Labour Day" }, "date": "10月第四个周一", "note": { "zh": "纪念争取八小时工作制", "en": "Marks the campaign for the eight-hour day" } },
+    { "name": { "zh": "节礼日", "en": "Boxing Day" }, "date": "12/26", "note": { "zh": "圣诞次日的休闲假日", "en": "A relaxed day after Christmas" } }
+  ],
+  "CHL": [
+    { "name": { "zh": "国庆节", "en": "Fiestas Patrias" }, "date": "9/18-9/19", "note": { "zh": "跳夸卡舞、办烧烤的独立庆典", "en": "Independence festivities with cueca dancing" } },
+    { "name": { "zh": "海军荣光日", "en": "Navy Day" }, "date": "5/21", "note": { "zh": "纪念1879年伊基克海战", "en": "Marks the 1879 naval Battle of Iquique" } },
+    { "name": { "zh": "圣周", "en": "Semana Santa" }, "date": "复活节前一周（移动）", "note": { "zh": "复活节前的宗教节期", "en": "The religious week before Easter" } },
+    { "name": { "zh": "圣佩德罗与圣巴勃罗节", "en": "Saints Peter and Paul" }, "date": "6/29", "note": { "zh": "渔民祈求平安的守护圣人节", "en": "Fishermen honor their patron saints" } },
+    { "name": { "zh": "万圣与万灵节", "en": "All Saints' Day" }, "date": "11/1", "note": { "zh": "扫墓缅怀先人的天主教节日", "en": "Families visit graves to honor the dead" } },
+    { "name": { "zh": "圣母无原罪日", "en": "Immaculate Conception" }, "date": "12/8", "note": { "zh": "大批信徒朝圣的宗教假日", "en": "A pilgrimage feast for many faithful" } }
+  ],
+  "COL": [
+    { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "7/20", "note": { "zh": "纪念1810年迈向独立", "en": "Marks the 1810 move toward independence" } },
+    { "name": { "zh": "巴兰基亚狂欢节", "en": "Barranquilla Carnival" }, "date": "四旬斋前（2月或3月）", "note": { "zh": "加勒比海岸盛大的民俗狂欢", "en": "A grand folk carnival on the Caribbean coast" } },
+    { "name": { "zh": "白花与银烛节", "en": "Feria de las Flores" }, "date": "8月", "note": { "zh": "麦德林花农背花板游行的花节", "en": "Medellín's flower festival with silletero parades" } },
+    { "name": { "zh": "黑白狂欢节", "en": "Blacks and Whites' Carnival" }, "date": "1/2-1/7", "note": { "zh": "帕斯托互涂颜料同乐的多元庆典", "en": "Pasto's inclusive festival of face paint" } },
+    { "name": { "zh": "小蜡烛之夜", "en": "Día de las Velitas" }, "date": "12/7", "note": { "zh": "点亮蜡烛与灯笼开启圣诞季", "en": "Candles and lanterns open the Christmas season" } },
+    { "name": { "zh": "波哥大自行车日", "en": "Ciclovía tradition" }, "date": "每周日", "note": { "zh": "周日封路供市民骑行漫步", "en": "Sundays close streets for cyclists and walkers" } }
+  ],
+  "PER": [
+    { "name": { "zh": "太阳节", "en": "Inti Raymi" }, "date": "6/24", "note": { "zh": "库斯科重现印加祭太阳仪式", "en": "Cusco reenacts the Inca sun-worship rite" } },
+    { "name": { "zh": "国庆节", "en": "Fiestas Patrias" }, "date": "7/28-7/29", "note": { "zh": "纪念1821年宣布独立", "en": "Marks the 1821 declaration of independence" } },
+    { "name": { "zh": "神迹之主节", "en": "Señor de los Milagros" }, "date": "10月", "note": { "zh": "利马身着紫衣的盛大宗教游行", "en": "Lima's vast purple-robed procession" } },
+    { "name": { "zh": "坎德拉里亚圣母节", "en": "Virgen de la Candelaria" }, "date": "2月", "note": { "zh": "普诺载歌载舞的民俗盛会", "en": "Puno's festival of music and folk dance" } },
+    { "name": { "zh": "圣罗莎节", "en": "Santa Rosa de Lima" }, "date": "8/30", "note": { "zh": "纪念美洲首位圣人的节日", "en": "Honors the Americas' first saint" } },
+    { "name": { "zh": "阿雷基帕日", "en": "Arequipa Day" }, "date": "8/15", "note": { "zh": "白城阿雷基帕的建城庆典", "en": "Founding celebration of the 'White City'" } }
+  ],
+  "CUB": [
+    { "name": { "zh": "解放日", "en": "Liberation Day" }, "date": "1/1", "note": { "zh": "纪念1959年革命胜利的元旦", "en": "New Year marking the 1959 revolution" } },
+    { "name": { "zh": "圣地亚哥狂欢节", "en": "Santiago Carnival" }, "date": "7月", "note": { "zh": "康加鼓乐游行的加勒比狂欢", "en": "Conga drums drive this Caribbean carnival" } },
+    { "name": { "zh": "帕兰达灯火节", "en": "Parrandas de Remedios" }, "date": "12月下旬", "note": { "zh": "小镇烟花与彩车竞演的圣诞民俗", "en": "A town's fireworks-and-floats Christmas contest" } },
+    { "name": { "zh": "劳动节", "en": "Labour Day" }, "date": "5/1", "note": { "zh": "革命广场大游行的劳动节", "en": "Labour Day with big Revolution Square rallies" } },
+    { "name": { "zh": "慈悲圣母节", "en": "Virgen de la Caridad" }, "date": "9/8", "note": { "zh": "纪念全国主保圣母的节日", "en": "Honors the island's patron saint" } },
+    { "name": { "zh": "圣诞节", "en": "Christmas" }, "date": "12/25", "note": { "zh": "家庭团聚的宗教节日", "en": "A family religious holiday" } }
+  ],
+  "MAR": [
+    { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "date": "斋月结束（移动）", "note": { "zh": "斋月结束后的家庭欢庆", "en": "Family celebration ending Ramadan" } },
+    { "name": { "zh": "宰牲节", "en": "Eid al-Adha" }, "date": "移动（伊斯兰历）", "note": { "zh": "宰牲分肉的献祭节", "en": "Feast of sacrifice" } },
+    { "name": { "zh": "登基日", "en": "Throne Day" }, "date": "7/30", "note": { "zh": "纪念国王登基的国家节日", "en": "National day marking the king's accession" } },
+    { "name": { "zh": "绿色进军日", "en": "Green March Day" }, "date": "11/6", "note": { "zh": "纪念1975年的和平进军", "en": "Marks the peaceful 1975 march" } },
+    { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "11/18", "note": { "zh": "纪念1956年脱离保护国独立", "en": "Marks 1956 independence" } },
+    { "name": { "zh": "阿舒拉节", "en": "Ashura" }, "date": "移动（伊斯兰历）", "note": { "zh": "孩子收礼、点火庆祝的日子", "en": "Children receive gifts amid bonfires" } }
+  ],
+  "ETH": [
+    { "name": { "zh": "埃塞新年", "en": "Enkutatash" }, "date": "9/11", "note": { "zh": "埃塞俄比亚历新年，献黄雏菊", "en": "Ethiopian New Year with yellow daisies" } },
+    { "name": { "zh": "主显节", "en": "Timkat" }, "date": "1/19", "note": { "zh": "盛大彩袍游行庆祝耶稣受洗", "en": "Colorful processions celebrate the Epiphany" } },
+    { "name": { "zh": "寻找真十字架节", "en": "Meskel" }, "date": "9/27", "note": { "zh": "点燃巨型篝火纪念真十字架", "en": "Great bonfires mark the finding of the True Cross" } },
+    { "name": { "zh": "阿杜瓦大捷日", "en": "Adwa Victory Day" }, "date": "3/2", "note": { "zh": "纪念1896年阿杜瓦战役胜利", "en": "Marks the 1896 victory at Adwa" } },
+    { "name": { "zh": "埃塞圣诞节", "en": "Genna" }, "date": "1/7", "note": { "zh": "东方教会的圣诞节，常伴曲棍球赛", "en": "Orthodox Christmas, often with a hockey-like game" } },
+    { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "date": "斋月结束（移动）", "note": { "zh": "穆斯林社群的重要节日", "en": "A key festival for the Muslim community" } }
+  ],
+  "GHA": [
+    { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "3/6", "note": { "zh": "纪念1957年撒哈拉以南首个独立国", "en": "Marks 1957, the first sub-Saharan nation freed" } },
+    { "name": { "zh": "丰收节", "en": "Homowo" }, "date": "8月至9月", "note": { "zh": "加族'嘲笑饥饿'的丰收庆典", "en": "The Ga festival that 'hoots at hunger'" } },
+    { "name": { "zh": "泛非艺术节", "en": "Panafest" }, "date": "双年（夏季）", "note": { "zh": "庆祝非洲文化与团结的艺术节", "en": "A festival celebrating African culture and unity" } },
+    { "name": { "zh": "共和国日", "en": "Republic Day" }, "date": "7/1", "note": { "zh": "纪念1960年成为共和国", "en": "Marks becoming a republic in 1960" } },
+    { "name": { "zh": "农民节", "en": "Farmers' Day" }, "date": "12月第一个周五", "note": { "zh": "表彰农民贡献的国家节日", "en": "Honors the contribution of farmers" } },
+    { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "date": "斋月结束（移动）", "note": { "zh": "北部穆斯林社群的重要节日", "en": "A key festival for northern Muslims" } }
+  ],
+  "UKR": [
+    { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "8/24", "note": { "zh": "纪念1991年宣布独立", "en": "Marks the 1991 declaration of independence" } },
+    { "name": { "zh": "圣诞节", "en": "Christmas" }, "date": "12/25", "note": { "zh": "唱颂歌、备十二道素菜的团聚节", "en": "Carols and a twelve-dish meatless supper" } },
+    { "name": { "zh": "伊万·库帕拉节", "en": "Ivana Kupala" }, "date": "7月上旬", "note": { "zh": "跳篝火、编花环的仲夏民俗节", "en": "Midsummer fires and flower wreaths" } },
+    { "name": { "zh": "复活节", "en": "Easter (Velykden)" }, "date": "移动（春季）", "note": { "zh": "绘制彩蛋、烤圆面包的重要节日", "en": "Painted eggs and sweet bread mark this feast" } },
+    { "name": { "zh": "宪法日", "en": "Constitution Day" }, "date": "6/28", "note": { "zh": "纪念1996年通过宪法", "en": "Marks the 1996 adoption of the constitution" } },
+    { "name": { "zh": "刺绣衫日", "en": "Vyshyvanka Day" }, "date": "5月第三个周四", "note": { "zh": "穿传统刺绣衫展示民族服饰", "en": "People wear embroidered traditional shirts" } }
+  ],
+  "CZE": [
+    { "name": { "zh": "圣尼古拉之夜", "en": "St Nicholas Eve" }, "date": "12/5", "note": { "zh": "圣人、天使与魔鬼结伴探访孩童", "en": "A saint, angel and devil visit children" } },
+    { "name": { "zh": "焚巫之夜", "en": "Burning of the Witches" }, "date": "4/30", "note": { "zh": "点篝火烧稻草人送冬迎春", "en": "Bonfires burn effigies to end winter" } },
+    { "name": { "zh": "复活节鞭打礼", "en": "Easter Monday (Pomlázka)" }, "date": "复活节次日", "note": { "zh": "以柳条轻打祈福健康的民俗", "en": "Gentle willow-whip custom wishing health" } },
+    { "name": { "zh": "圣瓦茨拉夫日", "en": "St Wenceslas Day" }, "date": "9/28", "note": { "zh": "纪念主保圣人的建国日", "en": "Statehood day honoring the patron saint" } },
+    { "name": { "zh": "圣诞前夜", "en": "Christmas Eve (Štědrý den)" }, "date": "12/24", "note": { "zh": "吃炸鲤鱼、由'小耶稣'送礼", "en": "Fried carp dinner; gifts from 'Baby Jesus'" } },
+    { "name": { "zh": "建国日", "en": "Independent State Day" }, "date": "10/28", "note": { "zh": "纪念1918年捷克斯洛伐克成立", "en": "Marks the 1918 founding of Czechoslovakia" } }
+  ],
+  "HUN": [
+    { "name": { "zh": "国庆日", "en": "St Stephen's Day" }, "date": "8/20", "note": { "zh": "纪念建国之王，办烟花与面包节", "en": "Honors the founding king with fireworks" } },
+    { "name": { "zh": "布绍狂欢节", "en": "Busójárás" }, "date": "四旬斋前（2月）", "note": { "zh": "戴恶魔面具吓走寒冬的民俗", "en": "Horned masks chase away winter" } },
+    { "name": { "zh": "1848革命纪念日", "en": "Revolution Day" }, "date": "3/15", "note": { "zh": "纪念1848年革命，佩戴红白绿花结", "en": "Marks the 1848 revolution with cockades" } },
+    { "name": { "zh": "共和国日", "en": "Republic Day" }, "date": "10/23", "note": { "zh": "纪念1956年起义与1989年立国", "en": "Marks the 1956 uprising and 1989 republic" } },
+    { "name": { "zh": "复活节泼水礼", "en": "Easter Sprinkling" }, "date": "复活节次日", "note": { "zh": "男孩向女孩洒水或香水祈福", "en": "Boys sprinkle girls with water or perfume" } },
+    { "name": { "zh": "圣诞前夜", "en": "Christmas Eve" }, "date": "12/24", "note": { "zh": "布置圣诞树、家庭团聚之夜", "en": "Tree-trimming and family reunion night" } }
+  ],
+  "ROU": [
+    { "name": { "zh": "马丁尼绍节", "en": "Mărțișor" }, "date": "3/1", "note": { "zh": "互赠红白丝线小饰品迎接春天", "en": "Red-and-white charms welcome spring" } },
+    { "name": { "zh": "大团结日", "en": "Great Union Day" }, "date": "12/1", "note": { "zh": "纪念1918年国家统一的国庆日", "en": "National day marking the 1918 unification" } },
+    { "name": { "zh": "东正教复活节", "en": "Orthodox Easter" }, "date": "移动（春季）", "note": { "zh": "碰红蛋、守夜礼的重要节日", "en": "Egg-tapping and vigils mark this feast" } },
+    { "name": { "zh": "圣诞唱颂", "en": "Christmas Caroling" }, "date": "12/24-12/25", "note": { "zh": "孩子挨家唱颂歌、跳'山羊舞'", "en": "Children carol door to door with 'goat' dances" } },
+    { "name": { "zh": "圣安德烈日", "en": "St Andrew's Day" }, "date": "11/30", "note": { "zh": "主保圣人节，伴随诸多民间习俗", "en": "Patron saint's day rich in folk customs" } },
+    { "name": { "zh": "圣母安息节", "en": "Dormition of the Mother of God" }, "date": "8/15", "note": { "zh": "夏季重要的东正教朝圣节", "en": "A major summer Orthodox pilgrimage" } }
+  ],
+  "LKA": [
+    { "name": { "zh": "僧伽罗与泰米尔新年", "en": "Sinhala & Tamil New Year" }, "date": "4/13-4/14", "note": { "zh": "两大族群共庆的传统新年", "en": "Traditional New Year shared by two communities" } },
+    { "name": { "zh": "康提佛牙节", "en": "Esala Perahera" }, "date": "7月或8月", "note": { "zh": "康提盛装大象巡游供奉佛牙", "en": "Kandy's grand procession of caparisoned elephants" } },
+    { "name": { "zh": "卫塞满月节", "en": "Vesak Poya" }, "date": "5月满月", "note": { "zh": "彩灯与免费茶点庆祝佛陀一生", "en": "Lanterns and free food mark the Buddha's life" } },
+    { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "2/4", "note": { "zh": "纪念1948年脱离英国独立", "en": "Marks 1948 independence from Britain" } },
+    { "name": { "zh": "屠妖节", "en": "Deepavali" }, "date": "10月或11月（移动）", "note": { "zh": "泰米尔印度教徒的光明节", "en": "Festival of lights for Tamil Hindus" } },
+    { "name": { "zh": "波松满月节", "en": "Poson Poya" }, "date": "6月满月", "note": { "zh": "纪念佛教传入斯里兰卡", "en": "Marks the arrival of Buddhism on the island" } }
+  ],
+  "NPL": [
+    { "name": { "zh": "德赛节", "en": "Dashain" }, "date": "9月或10月（移动）", "note": { "zh": "全国最长的返乡祈福大节", "en": "The longest festival, with mass homecomings" } },
+    { "name": { "zh": "提哈节", "en": "Tihar" }, "date": "10月或11月（移动）", "note": { "zh": "点灯敬拜、还向乌鸦狗牛致敬的光明节", "en": "Festival of lights honoring crows, dogs and cows" } },
+    { "name": { "zh": "洒红节", "en": "Holi" }, "date": "3月（移动）", "note": { "zh": "互撒彩粉的春季色彩节", "en": "Spring festival of colored powders" } },
+    { "name": { "zh": "因陀罗节", "en": "Indra Jatra" }, "date": "9月", "note": { "zh": "加德满都的活女神库玛丽巡游", "en": "Kathmandu's chariot festival of the living goddess" } },
+    { "name": { "zh": "佛诞日", "en": "Buddha Jayanti" }, "date": "5月满月", "note": { "zh": "在佛陀诞生地纪念其生平", "en": "Honors the Buddha in his birthplace nation" } },
+    { "name": { "zh": "妇女节泰吉节", "en": "Teej" }, "date": "8月或9月", "note": { "zh": "妇女着红衣、歌舞禁食祈福", "en": "Women in red fast, sing and dance" } }
+  ],
+  "MMR": [
+    { "name": { "zh": "泼水节", "en": "Thingyan" }, "date": "4月中旬", "note": { "zh": "缅历新年，全国互相泼水", "en": "Burmese New Year with nationwide water splashing" } },
+    { "name": { "zh": "点灯节", "en": "Thadingyut" }, "date": "缅历七月满月（10月）", "note": { "zh": "点满灯火迎接佛陀归来", "en": "Lights welcome the Buddha's return from heaven" } },
+    { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "1/4", "note": { "zh": "纪念1948年脱离英国独立", "en": "Marks 1948 independence from Britain" } },
+    { "name": { "zh": "点塔灯节", "en": "Tazaungdaing" }, "date": "缅历八月满月（11月）", "note": { "zh": "放热气球、织僧袍的灯火节", "en": "Hot-air balloons and robe-weaving light festival" } },
+    { "name": { "zh": "联邦日", "en": "Union Day" }, "date": "2/12", "note": { "zh": "庆祝各民族团结的国家节日", "en": "Celebrates unity among the nation's peoples" } },
+    { "name": { "zh": "传统赛船节", "en": "Phaung Daw Oo Festival" }, "date": "10月", "note": { "zh": "茵莱湖单腿划船巡游佛像", "en": "Inle Lake's leg-rowers parade Buddha images" } }
+  ]
+}

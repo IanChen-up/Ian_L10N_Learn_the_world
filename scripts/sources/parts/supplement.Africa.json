@@ -1,0 +1,498 @@
+{
+  "DZA": {
+    "capitalZh": "阿尔及尔",
+    "religions": [{ "key": "islam", "share": 99 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "革命纪念日", "en": "Revolution Day" }, "date": "11-01", "note": { "zh": "纪念1954年反法独立战争打响", "en": "Marks the start of the 1954 war of independence against France" } },
+      { "name": { "zh": "亚南节（柏柏尔新年）", "en": "Yennayer (Amazigh New Year)" }, "date": "01-12", "note": { "zh": "柏柏尔历新年，2018年起成为法定假日", "en": "Berber calendar New Year, an official holiday since 2018" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "07-05", "note": { "zh": "纪念1962年脱离法国独立", "en": "Commemorates independence from France in 1962" } }
+    ]
+  },
+  "AGO": {
+    "capitalZh": "罗安达",
+    "religions": [{ "key": "catholicism", "share": 41 }, { "key": "protestantism", "share": 38 }, { "key": "indigenous" }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "11-11", "note": { "zh": "纪念1975年脱离葡萄牙独立", "en": "Marks independence from Portugal in 1975" } },
+      { "name": { "zh": "民族英雄日", "en": "National Hero's Day" }, "date": "09-17", "note": { "zh": "纪念首任总统阿戈斯蒂纽·内图诞辰", "en": "Honors founding president Agostinho Neto's birthday" } }
+    ]
+  },
+  "BEN": {
+    "capitalZh": "波多诺伏",
+    "religions": [{ "key": "christianity", "share": 49 }, { "key": "islam", "share": 28 }, { "key": "folk", "share": 12 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "伏都教节", "en": "Vodun Festival" }, "date": "01-10", "note": { "zh": "贝宁是伏都教发源地，全国性传统宗教庆典", "en": "Benin is the birthplace of Vodun; a nationwide traditional religious celebration" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "08-01", "note": { "zh": "纪念1960年脱离法国独立", "en": "Marks independence from France in 1960" } }
+    ]
+  },
+  "BWA": {
+    "capitalZh": "哈博罗内",
+    "religions": [{ "key": "christianity", "share": 79 }, { "key": "indigenous" }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "博茨瓦纳日", "en": "Botswana Day" }, "date": "09-30", "note": { "zh": "纪念1966年脱离英国独立", "en": "Independence Day, marking freedom from Britain in 1966" } },
+      { "name": { "zh": "总统日", "en": "President's Day" }, "date": "7 月第三个周一", "note": { "zh": "全国公共假日，通常连休两天", "en": "A national public holiday, usually observed over two days" } }
+    ]
+  },
+  "BFA": {
+    "capitalZh": "瓦加杜古",
+    "religions": [{ "key": "islam", "share": 63 }, { "key": "catholicism", "share": 20 }, { "key": "indigenous" }],
+    "government": "military",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "08-05", "note": { "zh": "纪念1960年脱离法国独立", "en": "Marks independence from France in 1960" } },
+      { "name": { "zh": "泛非电影电视节（FESPACO）", "en": "FESPACO Film Festival" }, "date": "2 月至 3 月（双年）", "note": { "zh": "非洲最大电影节，每两年在瓦加杜古举办", "en": "Africa's largest film festival, held biennially in Ouagadougou" } }
+    ]
+  },
+  "BDI": {
+    "capitalZh": "基特加",
+    "religions": [{ "key": "catholicism", "share": 62 }, { "key": "protestantism", "share": 24 }, { "key": "islam" }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "07-01", "note": { "zh": "纪念1962年脱离比利时独立", "en": "Marks independence from Belgium in 1962" } },
+      { "name": { "zh": "鲁瓦加索雷王子纪念日", "en": "Prince Louis Rwagasore Day" }, "date": "10-13", "note": { "zh": "纪念被暗杀的独立运动民族英雄", "en": "Honors the assassinated national independence hero" } }
+    ]
+  },
+  "CMR": {
+    "capitalZh": "雅温得",
+    "religions": [{ "key": "catholicism", "share": 38 }, { "key": "protestantism", "share": 26 }, { "key": "islam", "share": 24 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "国庆日（统一日）", "en": "National Day (Unity Day)" }, "date": "05-20", "note": { "zh": "纪念1972年建立统一国家", "en": "Marks the establishment of the unitary state in 1972" } },
+      { "name": { "zh": "青年节", "en": "Youth Day" }, "date": "02-11", "note": { "zh": "全国性庆祝青年的节日，有学生游行", "en": "A national celebration of youth featuring student parades" } }
+    ]
+  },
+  "CPV": {
+    "capitalZh": "普拉亚",
+    "religions": [{ "key": "catholicism", "share": 77 }, { "key": "protestantism", "share": 10 }],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "07-05", "note": { "zh": "纪念1975年脱离葡萄牙独立", "en": "Marks independence from Portugal in 1975" } },
+      { "name": { "zh": "明德卢狂欢节", "en": "Mindelo Carnival" }, "date": "2 月至 3 月", "note": { "zh": "被誉为“小巴西”的盛大狂欢节游行", "en": "A grand carnival parade earning the city the nickname 'little Brazil'" } }
+    ]
+  },
+  "CAF": {
+    "capitalZh": "班吉",
+    "religions": [{ "key": "protestantism", "share": 51 }, { "key": "catholicism", "share": 29 }, { "key": "islam", "share": 10 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "08-13", "note": { "zh": "纪念1960年脱离法国独立", "en": "Marks independence from France in 1960" } },
+      { "name": { "zh": "博冈达日", "en": "Boganda Day" }, "date": "03-29", "note": { "zh": "纪念国父巴泰勒米·博冈达", "en": "Honors founding father Barthélemy Boganda" } }
+    ]
+  },
+  "TCD": {
+    "capitalZh": "恩贾梅纳",
+    "religions": [{ "key": "islam", "share": 52 }, { "key": "christianity", "share": 44 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "08-11", "note": { "zh": "纪念1960年脱离法国独立", "en": "Marks independence from France in 1960" } },
+      { "name": { "zh": "共和国日", "en": "Republic Day" }, "date": "11-28", "note": { "zh": "纪念1958年成立自治共和国", "en": "Marks the proclamation of the autonomous republic in 1958" } }
+    ]
+  },
+  "COM": {
+    "capitalZh": "莫罗尼",
+    "religions": [{ "key": "islam", "share": 98 }],
+    "government": "federal_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "07-06", "note": { "zh": "纪念1975年脱离法国独立", "en": "Marks independence from France in 1975" } },
+      { "name": { "zh": "大婚礼（Grand Mariage）", "en": "Grand Mariage" }, "note": { "zh": "科摩罗盛大传统婚礼习俗，是社会地位的象征", "en": "An elaborate traditional wedding custom signifying social status" } }
+    ]
+  },
+  "DJI": {
+    "capitalZh": "吉布提市",
+    "religions": [{ "key": "islam", "share": 94 }, { "key": "christianity" }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "06-27", "note": { "zh": "纪念1977年脱离法国独立", "en": "Marks independence from France in 1977" } },
+      { "name": { "zh": "开斋节", "en": "Eid al-Fitr" }, "date": "伊斯兰历斋月结束", "note": { "zh": "穆斯林结束斋月的重要节日", "en": "A major festival marking the end of Ramadan fasting" } }
+    ]
+  },
+  "COD": {
+    "capitalZh": "金沙萨",
+    "religions": [{ "key": "catholicism", "share": 30 }, { "key": "protestantism", "share": 27 }, { "key": "christianity", "share": 20 }],
+    "government": "semi_presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "06-30", "note": { "zh": "纪念1960年脱离比利时独立", "en": "Marks independence from Belgium in 1960" } },
+      { "name": { "zh": "独立烈士日", "en": "Martyrs of Independence Day" }, "date": "01-04", "note": { "zh": "纪念1959年争取独立中牺牲者", "en": "Honors those killed in the 1959 struggle for independence" } }
+    ]
+  },
+  "EGY": {
+    "capitalZh": "开罗",
+    "religions": [{ "key": "islam", "share": 90 }, { "key": "orthodoxy", "share": 10 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "革命日", "en": "Revolution Day" }, "date": "07-23", "note": { "zh": "纪念1952年推翻君主制的革命", "en": "Marks the 1952 revolution that ended the monarchy" } },
+      { "name": { "zh": "闻风节", "en": "Sham El-Nessim" }, "date": "东正教复活节次日", "note": { "zh": "源自古埃及的春季节日，全民踏青", "en": "A spring festival with ancient Egyptian roots celebrated by all Egyptians" } },
+      { "name": { "zh": "科普特圣诞节", "en": "Coptic Christmas" }, "date": "01-07", "note": { "zh": "科普特东正教徒庆祝耶稣诞生", "en": "Nativity celebrated by Coptic Orthodox Christians" } }
+    ]
+  },
+  "GNQ": {
+    "capitalZh": "马拉博",
+    "religions": [{ "key": "catholicism", "share": 88 }, { "key": "protestantism" }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "10-12", "note": { "zh": "纪念1968年脱离西班牙独立", "en": "Marks independence from Spain in 1968" } },
+      { "name": { "zh": "自由日", "en": "Freedom Day" }, "date": "08-03", "note": { "zh": "纪念1979年政权更迭", "en": "Marks the 1979 change of government" } }
+    ]
+  },
+  "ERI": {
+    "capitalZh": "阿斯马拉",
+    "religions": [{ "key": "orthodoxy", "share": 50 }, { "key": "islam", "share": 48 }],
+    "government": "one_party_state",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "05-24", "note": { "zh": "纪念1991年从埃塞俄比亚获得事实独立", "en": "Marks de facto independence from Ethiopia in 1991" } },
+      { "name": { "zh": "烈士日", "en": "Martyrs' Day" }, "date": "06-20", "note": { "zh": "缅怀独立战争中牺牲者", "en": "Commemorates those who died in the war of independence" } }
+    ]
+  },
+  "SWZ": {
+    "capitalZh": "洛班巴",
+    "religions": [{ "key": "christianity", "share": 90 }, { "key": "indigenous" }],
+    "government": "absolute_monarchy",
+    "holidays": [
+      { "name": { "zh": "因克瓦拉节（初果节）", "en": "Incwala (Kingship Ceremony)" }, "date": "12 月至 1 月", "note": { "zh": "国王主持的圣年与尝新仪式，最神圣的传统节日", "en": "The sacred first-fruits and kingship ceremony led by the King" } },
+      { "name": { "zh": "芦苇舞节", "en": "Umhlanga (Reed Dance)" }, "date": "8 月至 9 月", "note": { "zh": "少女向王太后敬献芦苇的盛大传统仪式", "en": "A grand ceremony where maidens present reeds to the Queen Mother" } },
+      { "name": { "zh": "独立日（索姆霍洛日）", "en": "Independence Day (Somhlolo Day)" }, "date": "09-06", "note": { "zh": "纪念1968年脱离英国独立", "en": "Marks independence from Britain in 1968" } }
+    ]
+  },
+  "ETH": {
+    "capitalZh": "亚的斯亚贝巴",
+    "religions": [{ "key": "orthodoxy", "share": 43 }, { "key": "islam", "share": 34 }, { "key": "protestantism", "share": 19 }],
+    "government": "federal_republic",
+    "holidays": [
+      { "name": { "zh": "主显节（Timkat）", "en": "Timkat (Epiphany)" }, "date": "01-19", "note": { "zh": "埃塞正教纪念耶稣受洗的盛大游行节日", "en": "Orthodox celebration of Jesus's baptism with grand processions" } },
+      { "name": { "zh": "埃塞俄比亚新年（Enkutatash）", "en": "Enkutatash (New Year)" }, "date": "09-11", "note": { "zh": "埃塞俄比亚历新年", "en": "New Year in the Ethiopian calendar" } },
+      { "name": { "zh": "寻十字架节（Meskel）", "en": "Meskel" }, "date": "09-27", "note": { "zh": "纪念发现真十字架，点燃篝火庆祝", "en": "Commemorates the finding of the True Cross with bonfires" } }
+    ]
+  },
+  "GAB": {
+    "capitalZh": "利伯维尔",
+    "religions": [{ "key": "catholicism", "share": 42 }, { "key": "protestantism", "share": 12 }, { "key": "islam" }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "08-17", "note": { "zh": "纪念1960年脱离法国独立", "en": "Marks independence from France in 1960" } },
+      { "name": { "zh": "布维提仪式", "en": "Bwiti Rites" }, "note": { "zh": "加蓬传统灵性宗教的成人礼与仪式", "en": "Initiation rites of Gabon's traditional Bwiti spirituality" } }
+    ]
+  },
+  "GMB": {
+    "capitalZh": "班珠尔",
+    "religions": [{ "key": "islam", "share": 96 }, { "key": "christianity" }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "02-18", "note": { "zh": "纪念1965年脱离英国独立", "en": "Marks independence from Britain in 1965" } },
+      { "name": { "zh": "宰牲节（Tobaski）", "en": "Tobaski (Eid al-Adha)" }, "date": "伊斯兰历十二月", "note": { "zh": "当地对宰牲节的称呼，最重要的穆斯林节日之一", "en": "The local name for Eid al-Adha, a major Muslim festival" } }
+    ]
+  },
+  "GHA": {
+    "capitalZh": "阿克拉",
+    "religions": [{ "key": "christianity", "share": 71 }, { "key": "islam", "share": 20 }, { "key": "indigenous" }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "03-06", "note": { "zh": "1957年成为撒哈拉以南非洲首个独立国家", "en": "In 1957 became the first sub-Saharan African nation to gain independence" } },
+      { "name": { "zh": "霍莫沃丰收节", "en": "Homowo Festival" }, "date": "8 月至 9 月", "note": { "zh": "加族的传统丰收节，寓意“羞辱饥饿”", "en": "The Ga people's harvest festival meaning 'hooting at hunger'" } }
+    ]
+  },
+  "GIN": {
+    "capitalZh": "科纳克里",
+    "religions": [{ "key": "islam", "share": 89 }, { "key": "christianity", "share": 7 }],
+    "government": "military",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "10-02", "note": { "zh": "1958年成为唯一拒绝加入法兰西共同体而独立的殖民地", "en": "In 1958 uniquely rejected the French Community to gain independence" } },
+      { "name": { "zh": "宰牲节", "en": "Eid al-Adha" }, "date": "伊斯兰历十二月", "note": { "zh": "穆斯林重要节日", "en": "A major Muslim festival" } }
+    ]
+  },
+  "GNB": {
+    "capitalZh": "比绍",
+    "religions": [{ "key": "islam", "share": 46 }, { "key": "folk", "share": 31 }, { "key": "christianity", "share": 19 }],
+    "government": "semi_presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "09-24", "note": { "zh": "纪念1973年单方面宣布脱离葡萄牙独立", "en": "Marks the 1973 unilateral declaration of independence from Portugal" } },
+      { "name": { "zh": "民族英雄日", "en": "National Heroes' Day" }, "date": "01-20", "note": { "zh": "纪念独立领袖阿米尔卡·卡布拉尔遇刺", "en": "Honors the assassinated independence leader Amílcar Cabral" } }
+    ]
+  },
+  "CIV": {
+    "capitalZh": "亚穆苏克罗",
+    "religions": [{ "key": "islam", "share": 42 }, { "key": "christianity", "share": 34 }, { "key": "indigenous" }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "08-07", "note": { "zh": "纪念1960年脱离法国独立", "en": "Marks independence from France in 1960" } },
+      { "name": { "zh": "阿比萨节", "en": "Abissa Festival" }, "date": "10 月至 11 月", "note": { "zh": "恩济马族的传统净化与和解庆典", "en": "The N'Zima people's traditional festival of purification and reconciliation" } }
+    ]
+  },
+  "KEN": {
+    "capitalZh": "内罗毕",
+    "religions": [{ "key": "christianity", "share": 85 }, { "key": "islam", "share": 11 }, { "key": "indigenous" }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "共和国日（Jamhuri Day）", "en": "Jamhuri Day" }, "date": "12-12", "note": { "zh": "纪念1963年独立并成立共和国", "en": "Marks independence and the founding of the republic in 1963" } },
+      { "name": { "zh": "自治日（Madaraka Day）", "en": "Madaraka Day" }, "date": "06-01", "note": { "zh": "纪念1963年实现内部自治", "en": "Marks the attainment of internal self-rule in 1963" } },
+      { "name": { "zh": "英雄日（Mashujaa Day）", "en": "Mashujaa Day" }, "date": "10-20", "note": { "zh": "缅怀为国家做出贡献的英雄", "en": "Honors heroes who contributed to the nation" } }
+    ]
+  },
+  "LSO": {
+    "capitalZh": "马塞卢",
+    "religions": [{ "key": "christianity", "share": 90 }, { "key": "indigenous" }],
+    "government": "parliamentary_monarchy",
+    "holidays": [
+      { "name": { "zh": "莫舒舒日", "en": "Moshoeshoe Day" }, "date": "03-11", "note": { "zh": "纪念建国国王莫舒舒一世", "en": "Honors King Moshoeshoe I, founder of the nation" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "10-04", "note": { "zh": "纪念1966年脱离英国独立", "en": "Marks independence from Britain in 1966" } }
+    ]
+  },
+  "LBR": {
+    "capitalZh": "蒙罗维亚",
+    "religions": [{ "key": "christianity", "share": 85 }, { "key": "islam", "share": 12 }, { "key": "indigenous" }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "07-26", "note": { "zh": "1847年独立，非洲最古老的共和国", "en": "Independent since 1847, Africa's oldest republic" } },
+      { "name": { "zh": "感恩节", "en": "Thanksgiving Day" }, "date": "11 月第一个周四", "note": { "zh": "承袭美国移民传统的独特节日", "en": "A distinctive holiday inherited from American settler traditions" } }
+    ]
+  },
+  "LBY": {
+    "capitalZh": "的黎波里",
+    "religions": [{ "key": "islam", "share": 97 }],
+    "government": "provisional",
+    "holidays": [
+      { "name": { "zh": "革命日", "en": "Revolution Day" }, "date": "02-17", "note": { "zh": "纪念2011年推翻卡扎菲政权的起义", "en": "Marks the 2011 uprising that overthrew Gaddafi" } },
+      { "name": { "zh": "解放日", "en": "Liberation Day" }, "date": "10-23", "note": { "zh": "纪念2011年内战正式结束", "en": "Marks the official end of the 2011 civil war" } }
+    ]
+  },
+  "MDG": {
+    "capitalZh": "塔那那利佛",
+    "religions": [{ "key": "christianity", "share": 85 }, { "key": "indigenous" }, { "key": "islam" }],
+    "government": "semi_presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "06-26", "note": { "zh": "纪念1960年脱离法国独立", "en": "Marks independence from France in 1960" } },
+      { "name": { "zh": "翻尸节（Famadihana）", "en": "Famadihana (Turning of the Bones)" }, "note": { "zh": "定期重葬祖先遗骨的独特祭祖传统", "en": "A unique ancestor-veneration custom of reburying the dead" } }
+    ]
+  },
+  "MWI": {
+    "capitalZh": "利隆圭",
+    "religions": [{ "key": "christianity", "share": 82 }, { "key": "islam", "share": 13 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "07-06", "note": { "zh": "纪念1964年脱离英国独立", "en": "Marks independence from Britain in 1964" } },
+      { "name": { "zh": "奇伦布韦日", "en": "John Chilembwe Day" }, "date": "01-15", "note": { "zh": "纪念反殖民起义领袖约翰·奇伦布韦", "en": "Honors anti-colonial uprising leader John Chilembwe" } }
+    ]
+  },
+  "MLI": {
+    "capitalZh": "巴马科",
+    "religions": [{ "key": "islam", "share": 94 }, { "key": "indigenous" }, { "key": "christianity" }],
+    "government": "military",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "09-22", "note": { "zh": "纪念1960年脱离法国独立", "en": "Marks independence from France in 1960" } },
+      { "name": { "zh": "杰内大清真寺抹泥节", "en": "Djenné Mud Mosque Replastering" }, "note": { "zh": "全城合力为世界最大泥砖清真寺重新抹泥的年度节庆", "en": "An annual festival to re-plaster the world's largest mud-brick mosque" } }
+    ]
+  },
+  "MRT": {
+    "capitalZh": "努瓦克肖特",
+    "religions": [{ "key": "islam", "share": 100 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "11-28", "note": { "zh": "纪念1960年脱离法国独立", "en": "Marks independence from France in 1960" } },
+      { "name": { "zh": "宰牲节", "en": "Eid al-Adha" }, "date": "伊斯兰历十二月", "note": { "zh": "伊斯兰共和国最重要的节日之一", "en": "A major festival in this Islamic republic" } }
+    ]
+  },
+  "MUS": {
+    "capitalZh": "路易港",
+    "religions": [{ "key": "hinduism", "share": 48 }, { "key": "catholicism", "share": 26 }, { "key": "islam", "share": 17 }],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "大宝森节（Cavadee）", "en": "Thaipusam Cavadee" }, "date": "1 月至 2 月", "note": { "zh": "泰米尔印度教徒的苦行赎罪节", "en": "A Tamil Hindu festival of penance and devotion" } },
+      { "name": { "zh": "湿婆节（Maha Shivaratree）", "en": "Maha Shivaratree" }, "date": "2 月至 3 月", "note": { "zh": "印度教徒赴圣湖朝圣的重大节日", "en": "A major Hindu festival with pilgrimage to a sacred lake" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "03-12", "note": { "zh": "纪念1968年脱离英国独立", "en": "Marks independence from Britain in 1968" } }
+    ]
+  },
+  "MAR": {
+    "capitalZh": "拉巴特",
+    "religions": [{ "key": "islam", "share": 99 }],
+    "government": "constitutional_monarchy",
+    "holidays": [
+      { "name": { "zh": "登基日（宝座日）", "en": "Throne Day" }, "date": "07-30", "note": { "zh": "纪念国王登基，最重要的国家节日", "en": "Marks the King's accession, the most important national holiday" } },
+      { "name": { "zh": "绿色进军日", "en": "Green March Day" }, "date": "11-06", "note": { "zh": "纪念1975年和平进军收回西撒哈拉", "en": "Marks the 1975 peaceful march to reclaim Western Sahara" } }
+    ]
+  },
+  "MOZ": {
+    "capitalZh": "马普托",
+    "religions": [{ "key": "christianity", "share": 56 }, { "key": "islam", "share": 19 }, { "key": "indigenous" }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "06-25", "note": { "zh": "纪念1975年脱离葡萄牙独立", "en": "Marks independence from Portugal in 1975" } },
+      { "name": { "zh": "英雄日", "en": "Heroes' Day" }, "date": "02-03", "note": { "zh": "纪念独立运动领袖蒙德拉内", "en": "Honors independence leader Eduardo Mondlane" } }
+    ]
+  },
+  "NAM": {
+    "capitalZh": "温得和克",
+    "religions": [{ "key": "protestantism", "share": 55 }, { "key": "catholicism", "share": 18 }, { "key": "indigenous" }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "03-21", "note": { "zh": "纪念1990年脱离南非独立", "en": "Marks independence from South African rule in 1990" } },
+      { "name": { "zh": "卡辛加日", "en": "Cassinga Day" }, "date": "05-04", "note": { "zh": "缅怀1978年卡辛加惨案遇难者", "en": "Commemorates victims of the 1978 Cassinga massacre" } }
+    ]
+  },
+  "NER": {
+    "capitalZh": "尼亚美",
+    "religions": [{ "key": "islam", "share": 99 }, { "key": "indigenous" }],
+    "government": "military",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "08-03", "note": { "zh": "纪念1960年脱离法国独立", "en": "Marks independence from France in 1960" } },
+      { "name": { "zh": "盐市节（Cure Salée）", "en": "Cure Salée Festival" }, "date": "9 月", "note": { "zh": "图阿雷格与沃达贝游牧民的年度聚会，含格雷沃尔选美", "en": "An annual Tuareg and Wodaabe nomad gathering with the Gerewol courtship ritual" } }
+    ]
+  },
+  "NGA": {
+    "capitalZh": "阿布贾",
+    "religions": [{ "key": "islam", "share": 50 }, { "key": "christianity", "share": 48 }],
+    "government": "federal_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "10-01", "note": { "zh": "纪念1960年脱离英国独立", "en": "Marks independence from Britain in 1960" } },
+      { "name": { "zh": "阿尔贡古捕鱼节", "en": "Argungu Fishing Festival" }, "date": "2 月至 3 月", "note": { "zh": "数千人徒手下河竞捕大鱼的传统盛会", "en": "A traditional event where thousands compete to catch fish by hand" } },
+      { "name": { "zh": "民主日", "en": "Democracy Day" }, "date": "06-12", "note": { "zh": "纪念1999年恢复民主统治", "en": "Marks the 1999 return to democratic rule" } }
+    ]
+  },
+  "COG": {
+    "capitalZh": "布拉柴维尔",
+    "religions": [{ "key": "catholicism", "share": 33 }, { "key": "protestantism", "share": 20 }, { "key": "christianity", "share": 22 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "08-15", "note": { "zh": "纪念1960年脱离法国独立", "en": "Marks independence from France in 1960" } },
+      { "name": { "zh": "共和国日", "en": "Republic Day" }, "date": "11-28", "note": { "zh": "纪念1958年成立共和国", "en": "Marks the proclamation of the republic in 1958" } }
+    ]
+  },
+  "RWA": {
+    "capitalZh": "基加利",
+    "religions": [{ "key": "catholicism", "share": 44 }, { "key": "protestantism", "share": 38 }, { "key": "islam" }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "解放日", "en": "Liberation Day" }, "date": "07-04", "note": { "zh": "纪念1994年结束种族大屠杀", "en": "Marks the 1994 end of the genocide" } },
+      { "name": { "zh": "大屠杀纪念日（Kwibuka）", "en": "Genocide Memorial Day (Kwibuka)" }, "date": "04-07", "note": { "zh": "全国哀悼1994年图西族大屠杀遇难者", "en": "National mourning for victims of the 1994 genocide against the Tutsi" } },
+      { "name": { "zh": "丰收感恩节（Umuganura）", "en": "Umuganura (Harvest Day)" }, "date": "8 月", "note": { "zh": "复兴的传统丰收感恩节", "en": "A revived traditional harvest thanksgiving festival" } }
+    ]
+  },
+  "STP": {
+    "capitalZh": "圣多美",
+    "religions": [{ "key": "catholicism", "share": 55 }, { "key": "protestantism", "share": 17 }],
+    "government": "semi_presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "07-12", "note": { "zh": "纪念1975年脱离葡萄牙独立", "en": "Marks independence from Portugal in 1975" } },
+      { "name": { "zh": "弗洛里佩剧（Auto de Floripes）", "en": "Auto de Floripes" }, "date": "08-15", "note": { "zh": "普林西比岛全民参与的传统露天戏剧", "en": "A traditional community street play performed on Príncipe island" } }
+    ]
+  },
+  "SEN": {
+    "capitalZh": "达喀尔",
+    "religions": [{ "key": "islam", "share": 95 }, { "key": "catholicism", "share": 4 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "04-04", "note": { "zh": "纪念1960年脱离法国独立", "en": "Marks independence from France in 1960" } },
+      { "name": { "zh": "图巴大朝觐（Grand Magal）", "en": "Grand Magal of Touba" }, "note": { "zh": "穆里德兄弟会数百万信徒赴图巴的大朝圣", "en": "A mass Mouride Sufi pilgrimage to the holy city of Touba" } }
+    ]
+  },
+  "SYC": {
+    "capitalZh": "维多利亚",
+    "religions": [{ "key": "catholicism", "share": 76 }, { "key": "protestantism", "share": 10 }, { "key": "hinduism" }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "国庆日", "en": "National Day" }, "date": "06-29", "note": { "zh": "纪念1976年脱离英国独立", "en": "Marks independence from Britain in 1976" } },
+      { "name": { "zh": "克里奥尔文化节", "en": "Creole Festival (Festival Kreol)" }, "date": "10 月", "note": { "zh": "庆祝克里奥尔语言、音乐与美食的文化盛会", "en": "A festival celebrating Creole language, music and cuisine" } }
+    ]
+  },
+  "SLE": {
+    "capitalZh": "弗里敦",
+    "religions": [{ "key": "islam", "share": 78 }, { "key": "christianity", "share": 21 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "04-27", "note": { "zh": "纪念1961年脱离英国独立", "en": "Marks independence from Britain in 1961" } },
+      { "name": { "zh": "花灯节", "en": "Lantern Festival" }, "date": "开斋节前夜", "note": { "zh": "弗里敦在开斋节前举行的巨型花灯游行", "en": "A giant lantern parade in Freetown at the end of Ramadan" } }
+    ]
+  },
+  "SOM": {
+    "capitalZh": "摩加迪沙",
+    "religions": [{ "key": "islam", "share": 100 }],
+    "government": "federal_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "06-26", "note": { "zh": "纪念1960年英属索马里兰获得独立", "en": "Marks British Somaliland's independence in 1960" } },
+      { "name": { "zh": "共和国日（统一日）", "en": "Republic Day (Union Day)" }, "date": "07-01", "note": { "zh": "纪念1960年南北索马里合并建国", "en": "Marks the 1960 union forming the Somali Republic" } }
+    ]
+  },
+  "ZAF": {
+    "capitalZh": "比勒陀利亚",
+    "religions": [{ "key": "christianity", "share": 78 }, { "key": "indigenous" }, { "key": "islam" }],
+    "government": "parliamentary_republic",
+    "holidays": [
+      { "name": { "zh": "自由日", "en": "Freedom Day" }, "date": "04-27", "note": { "zh": "纪念1994年首次不分种族的民主选举", "en": "Marks the first non-racial democratic elections in 1994" } },
+      { "name": { "zh": "传统文化遗产日", "en": "Heritage Day" }, "date": "09-24", "note": { "zh": "庆祝多元文化，民间又称“国家烤肉日”", "en": "Celebrates cultural diversity, popularly known as 'Braai Day'" } },
+      { "name": { "zh": "青年节", "en": "Youth Day" }, "date": "06-16", "note": { "zh": "纪念1976年索韦托学生起义", "en": "Commemorates the 1976 Soweto student uprising" } }
+    ]
+  },
+  "SSD": {
+    "capitalZh": "朱巴",
+    "religions": [{ "key": "christianity", "share": 60 }, { "key": "animism" }, { "key": "islam" }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "07-09", "note": { "zh": "2011年脱离苏丹独立，世界最年轻国家", "en": "Split from Sudan in 2011, the world's youngest nation" } },
+      { "name": { "zh": "烈士日", "en": "Martyrs' Day" }, "date": "07-30", "note": { "zh": "纪念解放运动领袖加朗", "en": "Honors liberation leader John Garang" } }
+    ]
+  },
+  "SDN": {
+    "capitalZh": "喀土穆",
+    "religions": [{ "key": "islam", "share": 91 }, { "key": "christianity" }],
+    "government": "military",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "01-01", "note": { "zh": "纪念1956年脱离英埃共管独立", "en": "Marks independence from Anglo-Egyptian rule in 1956" } },
+      { "name": { "zh": "革命日", "en": "Revolution Day" }, "date": "12-19", "note": { "zh": "纪念2018年推翻巴希尔的革命", "en": "Marks the 2018 revolution that toppled al-Bashir" } }
+    ]
+  },
+  "TZA": {
+    "capitalZh": "多多马",
+    "religions": [{ "key": "christianity", "share": 63 }, { "key": "islam", "share": 34 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "联合日", "en": "Union Day" }, "date": "04-26", "note": { "zh": "纪念1964年坦噶尼喀与桑给巴尔合并", "en": "Marks the 1964 union of Tanganyika and Zanzibar" } },
+      { "name": { "zh": "桑给巴尔革命日", "en": "Zanzibar Revolution Day" }, "date": "01-12", "note": { "zh": "纪念1964年桑给巴尔革命", "en": "Marks the 1964 Zanzibar Revolution" } },
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "12-09", "note": { "zh": "纪念1961年坦噶尼喀脱离英国独立", "en": "Marks Tanganyika's independence from Britain in 1961" } }
+    ]
+  },
+  "TGO": {
+    "capitalZh": "洛美",
+    "religions": [{ "key": "christianity", "share": 48 }, { "key": "folk", "share": 33 }, { "key": "islam", "share": 14 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "04-27", "note": { "zh": "纪念1960年脱离法国独立", "en": "Marks independence from France in 1960" } },
+      { "name": { "zh": "埃瓦拉摔跤节（Evala）", "en": "Evala Wrestling Festival" }, "date": "7 月", "note": { "zh": "卡比耶族青年成人礼的传统摔跤比赛", "en": "Traditional wrestling marking the coming-of-age of Kabye youth" } }
+    ]
+  },
+  "TUN": {
+    "capitalZh": "突尼斯市",
+    "religions": [{ "key": "islam", "share": 99 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "03-20", "note": { "zh": "纪念1956年脱离法国独立", "en": "Marks independence from France in 1956" } },
+      { "name": { "zh": "革命与青年节", "en": "Revolution and Youth Day" }, "date": "01-14", "note": { "zh": "纪念2011年茉莉花革命，阿拉伯之春开端", "en": "Marks the 2011 Jasmine Revolution that began the Arab Spring" } }
+    ]
+  },
+  "UGA": {
+    "capitalZh": "坎帕拉",
+    "religions": [{ "key": "christianity", "share": 84 }, { "key": "islam", "share": 14 }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "10-09", "note": { "zh": "纪念1962年脱离英国独立", "en": "Marks independence from Britain in 1962" } },
+      { "name": { "zh": "殉道者日", "en": "Martyrs' Day" }, "date": "06-03", "note": { "zh": "缅怀19世纪殉教的乌干达基督徒，吸引大批朝圣者", "en": "Honors 19th-century Christian martyrs, drawing many pilgrims" } }
+    ]
+  },
+  "ZMB": {
+    "capitalZh": "卢萨卡",
+    "religions": [{ "key": "christianity", "share": 95 }, { "key": "indigenous" }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "10-24", "note": { "zh": "纪念1964年脱离英国独立", "en": "Marks independence from Britain in 1964" } },
+      { "name": { "zh": "库翁博卡迁徙节", "en": "Kuomboka Ceremony" }, "date": "3 月至 4 月", "note": { "zh": "洛齐族国王在洪水季乘船迁往高地的盛大传统仪式", "en": "A grand Lozi ceremony as the king moves to higher ground during floods" } }
+    ]
+  },
+  "ZWE": {
+    "capitalZh": "哈拉雷",
+    "religions": [{ "key": "christianity", "share": 84 }, { "key": "indigenous" }],
+    "government": "presidential_republic",
+    "holidays": [
+      { "name": { "zh": "独立日", "en": "Independence Day" }, "date": "04-18", "note": { "zh": "纪念1980年脱离英国独立", "en": "Marks independence from Britain in 1980" } },
+      { "name": { "zh": "英雄日", "en": "Heroes' Day" }, "date": "8 月第二个周一", "note": { "zh": "缅怀解放战争中牺牲的民族英雄", "en": "Honors national heroes who died in the liberation war" } }
+    ]
+  }
+}

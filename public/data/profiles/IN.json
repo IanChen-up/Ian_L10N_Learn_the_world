@@ -1,0 +1,61 @@
+{
+  "iso": "IN",
+  "overview": {
+    "zh": "印度位于南亚，是世界上人口最多的国家之一，拥有悠久的文明史与多元的宗教、语言和民族。经济快速增长，在信息技术、软件服务与制药等领域具有全球影响力。",
+    "en": "India lies in South Asia and is one of the world's most populous countries, with an ancient civilization and great diversity of religions, languages and ethnic groups. Its economy is growing rapidly, with global influence in information technology, software services and pharmaceuticals."
+  },
+  "capitalHistory": {
+    "zh": "新德里由英国殖民时期规划兴建，1911年确定为首都、1931年正式启用，与历史悠久的旧德里共同构成今日的德里都会区。",
+    "en": "New Delhi was planned and built during the British colonial period, designated capital in 1911 and inaugurated in 1931; together with historic Old Delhi it forms today's Delhi metropolitan area."
+  },
+  "climate": {
+    "zh": "以热带季风气候为主，分为凉季、热季与雨季；北部山区偏温带，季风带来大部分年降水。",
+    "en": "Predominantly a tropical monsoon climate with cool, hot and rainy seasons; the northern mountains are more temperate, and the monsoon delivers most of the annual rainfall."
+  },
+  "phrases": [
+    { "key": "hello", "text": "नमस्ते", "romanization": "Namaste", "langTag": "hi-IN" },
+    { "key": "thanks", "text": "धन्यवाद", "romanization": "Dhanyavād", "langTag": "hi-IN" },
+    { "key": "goodbye", "text": "अलविदा", "romanization": "Alvidā", "langTag": "hi-IN" },
+    { "key": "cheers", "text": "चियर्स", "romanization": "Chiyars", "langTag": "hi-IN" }
+  ],
+  "anthem": {
+    "name": { "zh": "《人民的意志》", "en": "Jana Gana Mana" },
+    "note": { "zh": "由诗人泰戈尔创作，1950年被定为国歌，歌词赞颂国家山河与人民。", "en": "Written by the poet Rabindranath Tagore and adopted as the national anthem in 1950, its lyrics praise the land and its people." }
+  },
+  "symbols": [
+    { "key": "bird", "name": { "zh": "蓝孔雀（国鸟）", "en": "Indian peafowl (national bird)" } },
+    { "key": "flower", "name": { "zh": "莲花（国花）", "en": "Lotus (national flower)" } }
+  ],
+  "alphabetCount": null,
+  "qsTop100": 0,
+  "unescoSites": 43,
+  "football": {
+    "fifaRank": 126,
+    "worldCupTitles": 0,
+    "note": { "zh": "板球在印度更为普及，足球运动近年持续发展。", "en": "Cricket is more popular in India, while football has been steadily developing in recent years." }
+  },
+  "localization": {
+    "direction": "ltr",
+    "grammaticalGender": true,
+    "colorNotes": [
+      { "zh": "藏红花色（橙）、白、绿为国旗色；红色与黄色在婚庆等场合象征喜庆吉祥。", "en": "Saffron, white and green are the flag colors; red and yellow signify celebration and auspiciousness at weddings and festivals." },
+      { "zh": "白色在部分传统语境中与哀悼相关，需结合场合使用。", "en": "White can be linked with mourning in some traditional contexts—use according to occasion." }
+    ],
+    "culturalTaboos": [
+      { "zh": "以右手取食与递物为礼，左手被视为不洁；多样的宗教习俗需予以尊重。", "en": "Use the right hand for eating and passing items, as the left is considered unclean; diverse religious customs should be respected." }
+    ],
+    "formatting": [
+      { "zh": "印地语以天城文书写、属元音附标文字；官方语言众多，本地化常需英语并行。", "en": "Hindi is written in the Devanagari abugida; with many official languages, localization often runs alongside English." },
+      { "zh": "大数常用'千万（crore）''十万（lakh）'计数单位，数字分节方式与国际习惯不同。", "en": "Large numbers often use the 'crore' and 'lakh' units, with digit grouping that differs from international convention." }
+    ]
+  },
+  "funFacts": [
+    { "zh": "印度宪法承认多种在册语言，纸币上并列印有多种文字。", "en": "India's constitution recognizes many scheduled languages, and its banknotes display several scripts side by side." },
+    { "zh": "印度是数字'零'与十进制记数法发展史上的重要贡献者。", "en": "India made key contributions to the history of the numeral zero and the decimal system." }
+  ],
+  "sources": {
+    "overview": { "label": { "zh": "维基百科", "en": "Wikipedia" }, "url": "https://en.wikipedia.org/wiki/India" },
+    "metrics": { "label": { "zh": "联合国教科文组织世界遗产名录", "en": "UNESCO World Heritage List" }, "url": "https://whc.unesco.org/en/statesparties/in", "year": "2024" },
+    "football": { "label": { "zh": "国际足联世界排名", "en": "FIFA World Ranking" }, "url": "https://www.fifa.com/fifa-world-ranking" }
+  }
+}
