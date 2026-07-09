@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "check": "tsc -b --noEmit",
-    "data": "node scripts/merge-supplement.mjs && node scripts/build-data.mjs && node scripts/merge-provinces.mjs && node scripts/fix-china-geo.mjs && node scripts/build-us-states.mjs && node scripts/build-profiles-index.mjs"
+    "data": "node scripts/merge-supplement.mjs && node scripts/build-data.mjs && node scripts/merge-provinces.mjs && node scripts/fix-china-geo.mjs && node scripts/build-us-states.mjs && node scripts/build-china-gdp-history.mjs && node scripts/build-profiles-index.mjs"
   },
   "dependencies": {
     "@types/leaflet": "^1.9.12",
